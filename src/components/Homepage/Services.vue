@@ -67,7 +67,7 @@
             class="flex flex-col max-w-sm p-6 background-card custom-shadow-card"
           >
             <div class="self-center md:self-start">
-              <img src="/assets/img/Academy.png" class="mb-4" />
+              <img src="/assets/img/academy.png" class="mb-4" />
             </div>
 
             <a href="#">
