@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.backgrund-product {
+  background-color: #ffe5e5;
+}
+
+.background-custom-misi {
+  background-color: #eeebe5;
+}
+
+.background-color-card {
+  background-color: #eeebe5;
+}
+
+.center {
+  text-align: -webkit-center;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.background-footer {
+  background-color: #191919;
+}
+
+.custom-shadow-card {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}

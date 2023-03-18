@@ -1,0 +1,82 @@
+<template>
+  <!-- Introduction -->
+  <div v-if="loading" class="h-screen flex items-center justify-center">
+    <div class="spinner w-12 h-12 mx-auto text-gray-600 animate-spin"></div>
+  </div>
+  <div class="app-container" v-if="!loading">
+    <app-header />
+    <router-view v-slot="{ Component, route }">
+      <transition name="fade" mode="out-in">
+        <div :key="route.name">
+          <component :is="Component"></component>
+        </div>
+      </transition>
+    </router-view>
+    <app-footer />
+  </div>
+
+  <!-- Main Content -->
+</template>
+
+<script>
+import AppHeader from "@/components/Header.vue";
+import AppFooter from "@/components/Footer.vue";
+
+export default {
+  name: "App",
+  components: {
+    AppHeader,
+    AppFooter,
+  },
+  data() {
+    return {
+      loading: true,
+    };
+  },
+  created() {
+    setTimeout(() => {
+      if (this.loading) {
+        this.loading = false;
+      }
+    }, 3000);
+  },
+};
+</script>
+
+<style>
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.router-view {
+  flex: 1;
+}
+
+.app-footer {
+  margin-top: auto;
+}
+.slideFade-enter-active,
+.slideFade-leave-active {
+  transition: opacity 0.5s;
+}
+
+.slideFade-enter,
+.slideFade-leave-to {
+  opacity: 0;
+}
+
+.spinner {
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #3490dc;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+</style>
