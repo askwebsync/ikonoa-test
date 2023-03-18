@@ -19,7 +19,7 @@
             class="flex flex-col max-w-sm p-6 background-card custom-shadow-card"
           >
             <div class="self-center md:self-start">
-              <img src="/assets/img/risk-consulting.png" class="mb-4" />
+              <img src="/assets/img/consulting.png" class="mb-4" />
             </div>
             <a href="#">
               <h1 class="mb-2 text-2xl">Ikonoa Risk Consulting</h1>
