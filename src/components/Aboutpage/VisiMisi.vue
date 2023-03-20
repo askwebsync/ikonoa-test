@@ -45,12 +45,7 @@
           <div class="p-6 background-custom-misi">
             <ul class="pl-5 space-y-3 list-disc marker:text-red-600">
               <li class="">
-                <h6>Providing risk advisory and transfer</h6>
-              </li>
-              <li>
-                <h6>
-                  Providing effective and efficient claim management solutions
-                </h6>
+                <h6>The most trusted risk and management consulting in Asia</h6>
               </li>
             </ul>
           </div>

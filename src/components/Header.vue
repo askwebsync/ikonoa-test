@@ -2,7 +2,7 @@
 <template>
   <header>
     <nav
-      class="container p-4 mx-auto border-b md:flex md:justify-between md:items-center xl:px-10"
+      class="container px-2 py-4 mx-auto border-b md:flex md:justify-between md:items-center xl:px-6"
     >
       <div class="flex items-center justify-between">
         <router-link :to="{ name: 'home' }" class="">
@@ -43,7 +43,7 @@
       <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
       <ul
         :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col mt-8 gap-y-3 items-center text-center md:flex md:gap-y-0 md:flex-row md:gap-x-6 lg:gap-x-8 md:mt-0 cursor-pointer"
+        class="flex-col mt-8 gap-y-3 items-center text-center md:flex md:gap-y-0 md:flex-row md:gap-x-4 lg:gap-x-8 md:mt-0 cursor-pointer"
       >
         <li
           @click="showMenu = !showMenu"
@@ -57,7 +57,7 @@
           @click="showMenu = !showMenu"
           class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
         >
-          <a class="font-medium">Services</a>
+          <a class="font-medium">Services & Solutions</a>
         </li>
         <li
           @click="showMenu = !showMenu"

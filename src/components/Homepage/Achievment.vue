@@ -1,40 +1,34 @@
 <template>
   <section>
     <div class="container mx-auto px-4 py-14 md:px-8 lg:px-12">
-      <div class="flex flex-col md:flex-row gap-12">
-        <div
-          class="flex flex-col self-center text-center md:self-start gap-y-6 md:gap-y-12"
-        >
-          <div class="flex flex-col gap-2 mb-6">
-            <h3 class="text-xl md:text-2xl lg:text-3xl">Achievment</h3>
-            <h2 class="text-xl md:text-2xl lg:text-3xl">
-              Provide Client With The Best Experience
-            </h2>
-            <p class="text-sm md:text-lg tracking-tight">
-              We are committed to providing the best experience to our clients
-              by prioritizing friendly, responsive service and hiding client
-              needs and satisfaction.
-            </p>
-          </div>
+      <div class="text-center">
+        <div class="flex flex-col gap-2 mb-6">
+          <h3 class="text-xl md:text-2xl lg:text-3xl">Achievment</h3>
+          <h2 class="text-xl md:text-2xl lg:text-3xl">
+            Provide Client With The Best Experience
+          </h2>
+          <p class="text-sm md:text-lg tracking-tight">
+            We are committed to providing the best experience to our clients by
+            prioritizing friendly, responsive service and finding client needs
+            and satisfaction.
+          </p>
         </div>
       </div>
     </div>
     <div class="backgrund-product">
-      <div
-        class="flex justify-between gap-4 px-12 py-10 xl:px-12 container mx-auto"
-      >
+      <div class="flex justify-between gap-4 px-4 py-10 xl:px-12 mx-auto">
         <div class="flex flex-col">
-          <h1 class="text-xsl md:text-2xl lg:text-3xl text-black">98%</h1>
+          <h1 class="text-xl md:text-2xl lg:text-3xl text-black">98%</h1>
           <p class="text-sm">Satisfied Client</p>
         </div>
         <div class="flex flex-col">
-          <h1 class="text-xsl md:text-2xl lg:text-3xl text-black">
+          <h1 class="text-xl md:text-2xl lg:text-3xl text-black">
             USD 250 + M
           </h1>
           <p class="text-sm">Claim Paid</p>
         </div>
         <div class="flex flex-col">
-          <h1 class="text-xsl md:text-2xl lg:text-3xl text-black">7,500 +</h1>
+          <h1 class="text-xl md:text-2xl lg:text-3xl text-black">7,500 +</h1>
           <p class="text-sm">Claim Handle</p>
         </div>
       </div>

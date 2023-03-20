@@ -1,6 +1,8 @@
 <template>
   <section>
-    <div class="container mx-auto px-4 py-7 md:px-8 lg:px-12 md:py-12 lg:py-16">
+    <div
+      class="container mx-auto px-4 py-10 md:px-8 lg:px-12 md:py-12 lg:py-16"
+    >
       <div class="flex flex-col gap-2 mb-6 items-center text-center">
         <h3 class="text-xl md:text-2xl lg:text-3xl">Training</h3>
         <p class="text-sm md:text-lg tracking-tight max-w-xs lg:max-w-lg">
@@ -10,107 +12,55 @@
       </div>
       <div class="flex justify-center my-12">
         <div
-          class="flex flex-wrap justify-center md:flex-row gap-8 md:gap-12 space-y-4 px-2 lg:px-3 md:grid md:grid-cols-2 lg:grid-cols-3 md:space-y-0"
+          class="flex flex-wrap justify-center md:flex-row gap-8 md:gap-12 space-y-4 px-2 lg:px-3 md:grid md:grid-cols-2 md:space-y-0"
         >
           <div
-            class="max-w-md background-custom-misi px-5 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
+            class="custom-shadow-box-academy max-w-md px-4 py-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
           >
             <div class="relative">
-              <img
-                class="w-full rounded-xl"
-                src="/assets/img/academy1.png"
-                alt="Colors"
-              />
+              <img class="w-full" src="/assets/img/academy1.png" alt="Colors" />
             </div>
-            <h6 class="mt-4 text-2xl cursor-pointer">Health Insurance</h6>
-            <div class="flex flex-col gap-6 my-6">
-              <p class="text-sm sm:text-base md:text-lg text-gray-500">
-                Health insurance training will help you to understand better
-                about the benefits and conditions of health insurance.
+            <h6 class="mt-4 text-2xl cursor-pointer text-center">
+              Online Training
+            </h6>
+            <div class="my-6 p-3">
+              <p
+                class="text-sm sm:text-base md:text-lg text-gray-600 font-medium"
+              >
+                We provide online webinars on insurance for both Insurance
+                Officers and Non-Insurance Officers. Our webinars cover policy
+                options, claims processes, and risk management strategies.
+                Expert instructors lead each session and answer your questions.
               </p>
-              <hr />
-              <div class="flex justify-between gap-2">
-                <div class="flex gap-2">
-                  <p class="custom-p-color">Platform:</p>
-                  <p class="cursor-pointer text-red-600 hover:text-red-700">
-                    Zoom
-                  </p>
-                </div>
-                <div class="flex gap-2">
-                  <p class="custom-p-color">Time:</p>
-                  <p class="text-red-600">01/01/2023</p>
-                </div>
-              </div>
             </div>
           </div>
           <div
-            class="max-w-md background-custom-misi px-5 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
+            class="custom-shadow-box-academy max-w-md px-4 py-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
           >
             <div class="relative">
-              <img
-                class="w-full rounded-xl"
-                src="/assets/img/academy1.png"
-                alt="Colors"
-              />
+              <img class="w-full" src="/assets/img/academy1.png" alt="Colors" />
             </div>
-            <h6 class="mt-4 text-2xl cursor-pointer">Health Insurance</h6>
-            <div class="flex flex-col gap-6 my-6">
-              <p class="text-sm sm:text-base md:text-lg text-gray-500">
-                Health insurance training will help you to understand better
-                about the benefits and conditions of health insurance.
+            <h6 class="mt-4 text-2xl cursor-pointer text-center">
+              Inhouse Training
+            </h6>
+            <div class="my-6 p-3">
+              <p
+                class="text-sm sm:text-base md:text-lg text-gray-600 font-medium"
+              >
+                We offer customized in-house insurance training for companies,
+                addressing their unique challenges and opportunities. Our expert
+                instructors work with you to develop a tailored program covering
+                relevant topics, such as policy changes and risk management.
+                Contact us to learn more about our in-house training options.
               </p>
-              <hr />
-              <div class="flex justify-between gap-2">
-                <div class="flex gap-2">
-                  <p class="custom-p-color">Platform:</p>
-                  <p class="cursor-pointer text-red-600 hover:text-red-700">
-                    Zoom
-                  </p>
-                </div>
-                <div class="flex gap-2">
-                  <p class="custom-p-color">Time:</p>
-                  <p class="text-red-600">01/01/2023</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="max-w-md background-custom-misi px-5 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
-          >
-            <div class="relative">
-              <img
-                class="w-full rounded-xl"
-                src="/assets/img/academy1.png"
-                alt="Colors"
-              />
-            </div>
-            <h6 class="mt-4 text-2xl cursor-pointer">Health Insurance</h6>
-            <div class="flex flex-col gap-6 my-6">
-              <p class="text-sm sm:text-base md:text-lg text-gray-500">
-                Health insurance training will help you to understand better
-                about the benefits and conditions of health insurance.
-              </p>
-              <hr />
-              <div class="flex justify-between gap-2">
-                <div class="flex gap-2">
-                  <p class="custom-p-color">Platform:</p>
-                  <p class="cursor-pointer text-red-600 hover:text-red-700">
-                    Zoom
-                  </p>
-                </div>
-                <div class="flex gap-2">
-                  <p class="custom-p-color">Time:</p>
-                  <p class="text-red-600">01/01/2023</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="text-center mt-12">
+      <div class="text-center my-12">
         <a
           href="#_"
-          class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-red-500 rounded-full shadow-md group"
+          class="inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-red-500 rounded-full shadow-md group"
         >
           <span
             class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-red-500 group-hover:translate-x-0 ease"
@@ -134,7 +84,7 @@
             class="absolute flex items-center justify-center w-full h-full text-red-500 transition-all duration-300 transform group-hover:translate-x-full ease"
             >Learn More</span
           >
-          <span class="relative invisible">Learn More</span>
+          <span class="invisible">Learn More</span>
         </a>
       </div>
     </div>
@@ -176,10 +126,9 @@ h6 {
 p {
   font-family: "Roboto";
 }
-.custom-p-color {
-  color: #17171f;
-}
-hr {
-  border: 1px solid black;
+
+.custom-shadow-box-academy {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
 }
 </style>

@@ -24,7 +24,7 @@
             <h2
               class="text-sm md:text-base hover:text-yellow-300 max-w-xs md:max-w-lg"
             >
-              "Claims Easily and Safely"
+              "We provide services and solutions that assist you"
             </h2>
           </div>
         </div>
