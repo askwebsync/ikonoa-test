@@ -1,10 +1,10 @@
 <template>
   <section class="">
-    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-12">
+    <div class="container mx-auto px-4 md:px-8 lg:px-12">
       <div class="flex flex-col md:flex-row gap-12">
         <div class="w-full md:w-1/2 mission">
-          <div class="flex flex-col gap-2 mb-6 items-center text-center">
-            <h3 class="text-xl md:text-2xl">Our Mission</h3>
+          <div class="flex flex-col gap-1 mb-6 items-center text-center">
+            <h3 class="text-xl md:text-2xl">Mission</h3>
             <h2 class="md:text-xl max-w-md">
               Managing & Claiming Customer Insurance Policy
             </h2>
@@ -36,8 +36,8 @@
           </div>
         </div>
         <div class="w-full md:w-1/2 vision">
-          <div class="flex flex-col gap-2 mb-6 items-center text-center">
-            <h3 class="text-xl md:text-2xl">Our Vision</h3>
+          <div class="flex flex-col gap-1 mb-6 items-center text-center">
+            <h3 class="text-xl md:text-2xl">Vision</h3>
             <h2 class="md:text-xl max-w-md">
               Sevices With Honesty, Speed, and Security
             </h2>

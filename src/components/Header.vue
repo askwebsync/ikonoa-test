@@ -2,7 +2,7 @@
 <template>
   <header>
     <nav
-      class="container px-2 py-4 mx-auto border-b md:flex md:justify-between md:items-center xl:px-6"
+      class="container p-4 mx-auto border-b md:flex md:justify-between md:items-center xl:px-6"
     >
       <div class="flex items-center justify-between">
         <router-link :to="{ name: 'home' }" class="">

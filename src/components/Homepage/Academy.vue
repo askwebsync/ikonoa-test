@@ -4,11 +4,11 @@
       class="container mx-auto px-4 py-10 md:px-8 lg:px-12 md:py-12 lg:py-16"
     >
       <div class="flex flex-col gap-2 mb-6 items-center text-center">
-        <h3 class="text-xl md:text-2xl lg:text-3xl">Training</h3>
-        <p class="text-sm md:text-lg tracking-tight max-w-xs lg:max-w-lg">
+        <h3 class="text-xl md:text-2xl lg:text-3xl">Academy</h3>
+        <h2 class="text-xl md:text-2xl lg:text-3xl tracking-tighter max-w-xl">
           Ikonoa will provide better knowledge and understanding of the types of
           insurance, benefits and conditions of each type of insurance.
-        </p>
+        </h2>
       </div>
       <div class="flex justify-center my-12">
         <div
@@ -18,14 +18,18 @@
             class="custom-shadow-box-academy max-w-md px-4 py-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
           >
             <div class="relative">
-              <img class="w-full" src="/assets/img/academy1.png" alt="Colors" />
+              <img
+                class="w-full"
+                src="../../../public/assets/img/seminar.jpg"
+                alt="Colors"
+              />
             </div>
             <h6 class="mt-4 text-2xl cursor-pointer text-center">
               Online Training
             </h6>
             <div class="my-6 p-3">
               <p
-                class="text-sm sm:text-base md:text-lg text-gray-600 font-medium"
+                class="text-sm sm:text-base md:text-lg text-gray-600 font-medium text-justify"
               >
                 We provide online webinars on insurance for both Insurance
                 Officers and Non-Insurance Officers. Our webinars cover policy
@@ -38,14 +42,18 @@
             class="custom-shadow-box-academy max-w-md px-4 py-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
           >
             <div class="relative">
-              <img class="w-full" src="/assets/img/academy1.png" alt="Colors" />
+              <img
+                class="w-full"
+                src="../../../public/assets/img/webinar.jpg"
+                alt="Colors"
+              />
             </div>
             <h6 class="mt-4 text-2xl cursor-pointer text-center">
               Inhouse Training
             </h6>
             <div class="my-6 p-3">
               <p
-                class="text-sm sm:text-base md:text-lg text-gray-600 font-medium"
+                class="text-sm sm:text-base md:text-lg text-gray-600 font-medium text-justify"
               >
                 We offer customized in-house insurance training for companies,
                 addressing their unique challenges and opportunities. Our expert
@@ -57,7 +65,7 @@
           </div>
         </div>
       </div>
-      <div class="text-center my-12">
+      <!-- <div class="text-center my-12">
         <a
           href="#_"
           class="inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-red-500 rounded-full shadow-md group"
@@ -86,7 +94,7 @@
           >
           <span class="invisible">Learn More</span>
         </a>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
@@ -107,7 +115,6 @@ h2 {
   font-style: normal;
   font-weight: 700;
   color: #17171f;
-  letter-spacing: 0.1px;
 }
 h3 {
   font-family: "Roboto";

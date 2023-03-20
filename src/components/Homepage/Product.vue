@@ -15,7 +15,7 @@
             <h6 class="text-white text-base md:text-xl lg:text-2xl">
               Liability Insurance
             </h6>
-            <p class="text-sm md:text-lg tracking-tight">
+            <p class="text-black text-sm md:text-lg tracking-tight">
               Liability insurance is an insurance product that provides
               protection to the insured against claims resulting from injury and
               damage to other people or property. Liability insurance policies
@@ -28,10 +28,8 @@
           <div
             class="flex flex-col gap-4 text-left absolute bottom-0 left-0 p-3"
           >
-            <h6 class="text-white text-lg md:text-2xl">
-              Engineering Insurance
-            </h6>
-            <p class="text-sm md:text-lg tracking-tight">
+            <h6 class="text-lg md:text-2xl">Engineering Insurance</h6>
+            <p class="text-black text-sm md:text-lg tracking-tight">
               Protect physical assets from hazards and risks that may occur in
               projects or buildings such as fire, damage due to extreme weather,
               or damage due to human error.
@@ -42,10 +40,8 @@
           <div
             class="flex flex-col gap-4 text-left absolute bottom-0 left-0 p-3"
           >
-            <h6 class="text-white text-lg md:text-2xl">
-              Miscellaneous Insurance
-            </h6>
-            <p class="text-sm md:text-lg tracking-tight">
+            <h6 class="text-lg md:text-2xl">Miscellaneous Insurance</h6>
+            <p class="text-black text-sm md:text-lg tracking-tight">
               Type of insurance that provides protection against various
               unexpected risks such as unexpected financial or legal losses.
             </p>
@@ -113,31 +109,30 @@ h6 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  color: #fdfdff;
+  color: #17171f;
 }
 p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  color: #fdfdff;
 }
 .backgrund-product {
   background-color: #ffe5e5;
 }
 .bg-gray-1 {
-  background-image: url(/assets/img/background-contoh.jpg);
+  background-image: url(/assets/img/liability.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg-gray-2 {
-  background-image: url(/assets/img/background-contoh.jpg);
+  background-image: url(/assets/img/engineer.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg-gray-3 {
-  background-image: url(/assets/img/background-contoh.jpg);
+  background-image: url(/assets/img/missce.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

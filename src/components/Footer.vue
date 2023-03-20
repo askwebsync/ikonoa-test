@@ -68,13 +68,16 @@
             </li>
             <li class="mb-2">
               <a class="text-sm font-medium" href="#"
-                >Registration Office : Graha Mampang 3rd Floor, Suite 305, Jl.
-                Mampang Prapatan Raya Kav. 100, Jakarta 12760</a
+                >Registration Office:
+                <span
+                  >Graha Mampang 3rd Floor, Suite 305, Jl. Mampang Prapatan Raya
+                  Kav. 100, Jakarta 12760</span
+                ></a
               >
             </li>
             <li class="mb-2">
               <a class="text-sm font-medium" href="#"
-                >Operational Office : Graha Sentana, Jl. Warung Buncit Raya,
+                >Operational Office: Graha Sentana, Jl. Warung Buncit Raya,
                 Jakarta 12740</a
               >
             </li>

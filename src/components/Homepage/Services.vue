@@ -18,9 +18,9 @@
             insurance policy
           </p> -->
         </div>
-        <div class="flex flex-col mt-4 gap-8 md:gap-10 md:mt-8">
+        <div class="flex flex-col mt-4 px-2 gap-8 md:gap-10 md:mt-8">
           <div
-            class="flex flex-col max-w-sm p-6 background-card custom-shadow-card"
+            class="flex flex-col max-w-sm p-4 md:p-6 background-card custom-shadow-card"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/consulting.png" class="w-12 h-12 mb-4" />
@@ -37,7 +37,7 @@
             </h6>
           </div>
           <div
-            class="flex flex-col max-w-sm p-6 background-card custom-shadow-card"
+            class="flex flex-col max-w-sm p-4 md:p-6 background-card custom-shadow-card"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/insurance.png" class="w-12 h-12 mb-4" />
@@ -53,9 +53,9 @@
             </h6>
           </div>
         </div>
-        <div class="flex flex-col gap-8 md:gap-10">
+        <div class="flex flex-col px-2 gap-8 md:gap-10">
           <div
-            class="flex flex-col max-w-sm p-6 background-card custom-shadow-card"
+            class="flex flex-col max-w-sm p-4 md:p-6 background-card custom-shadow-card"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/warning.png" class="w-12 h-12 mb-4" />
@@ -71,9 +71,8 @@
               the financial impact of the risks involved.
             </h6>
           </div>
-
           <div
-            class="flex flex-col max-w-sm p-6 background-card custom-shadow-card"
+            class="flex flex-col max-w-sm p-4 md:p-6 background-card custom-shadow-card"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/academy.png" class="w-12 h-12 mb-4" />

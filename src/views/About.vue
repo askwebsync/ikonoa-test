@@ -1,7 +1,9 @@
 <template>
   <HeroSection />
-  <VisiMisiSection />
-  <TeamSection />
+  <div class="space-y-12 py-12">
+    <VisiMisiSection />
+    <TeamSection />
+  </div>
 </template>
 
 <script>
