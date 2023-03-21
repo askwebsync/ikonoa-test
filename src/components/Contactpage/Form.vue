@@ -53,12 +53,9 @@
         </div>
 
         <div class="flex flex-wrap mt-auto py-3">
-          <a
-            href="#"
-            class="text-base md:text-lg font-semibold text-red-600 hover:underline"
-          >
+          <p class="text-base md:text-lg font-semibold text-red-600">
             Graha Sentana - Jl. Warung Buncit Raya No. 2
-          </a>
+          </p>
         </div>
       </div>
     </div>

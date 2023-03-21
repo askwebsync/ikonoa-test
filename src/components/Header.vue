@@ -7,7 +7,7 @@
       <div class="flex items-center justify-between">
         <router-link :to="{ name: 'home' }" class="">
           <img
-            src="/assets/img/Image.png"
+            src="/assets/img/logo.png"
             class="w-28 h-12 lg:w-32 lg:h-16 object-contain focus:outline-none"
             alt="logo"
           />
@@ -106,7 +106,7 @@ export default {
     return {
       showMenu: false,
       language: "ENG",
-      flagImage: "../src/assets/eng.png",
+      flagImage: "/assets/img/eng.png",
       flagAltText: "Nation Flag",
     };
   },
@@ -119,12 +119,12 @@ export default {
     changeLanguage() {
       if (this.language === "ENG") {
         this.language = "IND";
-        this.flagImage = "../src/assets/ind.png";
-        this.flagAltText = "Nation Flag of India";
+        this.flagImage = "/assets/img/ind.png";
+        this.flagAltText = "Indo Flag";
       } else {
         this.language = "ENG";
-        this.flagImage = "../src/assets/eng.png";
-        this.flagAltText = "Nation Flag";
+        this.flagImage = "/assets/img/eng.png";
+        this.flagAltText = "Eng flag";
       }
     },
   },

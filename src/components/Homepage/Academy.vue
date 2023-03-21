@@ -18,11 +18,7 @@
             class="custom-shadow-box-academy max-w-md px-4 py-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
           >
             <div class="relative">
-              <img
-                class="w-full"
-                src="../../../public/assets/img/seminar.jpg"
-                alt="Colors"
-              />
+              <img class="w-full" src="/assets/img/seminar.jpg" alt="seminar" />
             </div>
             <h6 class="mt-4 text-2xl cursor-pointer text-center">
               Online Training
@@ -42,11 +38,7 @@
             class="custom-shadow-box-academy max-w-md px-4 py-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
           >
             <div class="relative">
-              <img
-                class="w-full"
-                src="../../../public/assets/img/webinar.jpg"
-                alt="Colors"
-              />
+              <img class="w-full" src="/assets/img/webinar.jpg" alt="webinar" />
             </div>
             <h6 class="mt-4 text-2xl cursor-pointer text-center">
               Inhouse Training

@@ -17,15 +17,17 @@
         </div>
       </div>
       <div
-        class="grid grid-cols-2 text-sm mt-2 md:mt-0 gap-x-3 gap-y-10 lg:w-2/3 sm:grid-cols-3 lg:ml-3"
+        class="grid grid-cols-2 text-sm mt-2 grid-flow-row-dense md:mt-0 gap-x-3 gap-y-12 lg:w-2/3 lg:ml-3"
       >
-        <div class="space-y-4">
+        <div class="space-y-4 col-span-1">
           <h3 class="tracking-wide text-lg uppercase text-gray-300">
             Quicklinks
           </h3>
           <ul class="space-y-2 text-white">
             <li class="mb-2">
-              <a class="text-sm font-medium" href="#">About</a>
+              <router-link :to="{ name: 'about' }" class="text-sm font-medium"
+                >About</router-link
+              >
             </li>
             <li class="mb-2">
               <a class="text-sm font-medium" href="#">Services & Solutions</a>
@@ -36,12 +38,14 @@
             <li class="mb-2">
               <a class="text-sm font-medium" href="#">Claims Experience</a>
             </li>
-            <li class="mb-2">
-              <a class="text-sm font-medium" href="#">Contact</a>
+            <li class="">
+              <router-link :to="{ name: 'contact' }" class="text-sm font-medium"
+                >Contact</router-link
+              >
             </li>
           </ul>
         </div>
-        <div class="space-y-4">
+        <div class="space-y-4 col-span-1">
           <h3 class="tracking-wide text-lg uppercase text-gray-300">
             Services & Solutions
           </h3>
@@ -60,29 +64,31 @@
             </li>
           </ul>
         </div>
-        <div class="space-y-4">
+        <div class="space-y-4 col-span-3">
           <h3 class="text-lg uppercase text-gray-300">Get In Touch</h3>
-          <ul class="space-y-2 text-white">
+          <ul class="space-y-3 text-white px-2">
             <li class="mb-2">
-              <a class="text-sm font-medium" href="#">(+62) 811 963754</a>
-            </li>
-            <li class="mb-2">
-              <a class="text-sm font-medium" href="#"
-                >Registration Office:
-                <span
-                  >Graha Mampang 3rd Floor, Suite 305, Jl. Mampang Prapatan Raya
-                  Kav. 100, Jakarta 12760</span
-                ></a
-              >
-            </li>
-            <li class="mb-2">
-              <a class="text-sm font-medium" href="#"
-                >Operational Office: Graha Sentana, Jl. Warung Buncit Raya,
-                Jakarta 12740</a
-              >
+              <a class="text-sm font-medium" href="#">(+62) 811-963754</a>
             </li>
             <li class="mb-2">
               <a class="text-sm font-medium" href="#">hallo@ikonoa.com</a>
+            </li>
+            <li class="mb-2">
+              <p class="text-sm font-medium">
+                Registration Office:
+                <span
+                  >Graha Mampang 3rd Floor, Suite 305, Jl. Mampang Prapatan Raya
+                  Kav. 100, Jakarta 12760</span
+                >
+              </p>
+            </li>
+            <li class="mb-2">
+              <p class="text-sm font-medium">
+                Operational Office:
+                <span
+                  >Graha Sentana, Jl. Warung Buncit Raya, Jakarta 12740
+                </span>
+              </p>
             </li>
           </ul>
         </div>

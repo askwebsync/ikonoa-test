@@ -40,7 +40,6 @@ h1 {
 h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  letter-spacing: -0.03px;
 }
 p {
   font-family: "Roboto", sans-serif;

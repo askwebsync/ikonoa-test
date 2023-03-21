@@ -15,12 +15,13 @@
                   :src="slide.image"
                   class="w-32 h-32 rounded-md object-cover transition duration-200 hover:scale-110"
                 />
+                <div>
+                  <h2 class="text-gray-900 text-lg font-bold">
+                    {{ slide.name }}
+                  </h2>
 
-                <div class="text-gray-900 text-lg font-bold">
-                  {{ slide.name }}
+                  <div class="text-black">{{ slide.title }}</div>
                 </div>
-
-                <div class="text-black">{{ slide.title }}</div>
 
                 <div
                   class="flex items-center justify-center gap-3 mt-2 w-auto h-5 text-gray-600"

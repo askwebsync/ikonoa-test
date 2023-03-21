@@ -12,9 +12,8 @@
           <div
             class="flex flex-col gap-4 text-left absolute bottom-0 left-0 p-3"
           >
-            <h6 class="text-white text-base md:text-xl lg:text-2xl">
-              Liability Insurance
-            </h6>
+            <h6 class="text-lg md:text-2xl">Liability Insurance</h6>
+            <hr />
             <p class="text-black text-sm md:text-lg tracking-tight">
               Liability insurance is an insurance product that provides
               protection to the insured against claims resulting from injury and
@@ -24,11 +23,12 @@
             </p>
           </div>
         </div>
-        <div class="relative bg-gray-2 p-6 h-64 w-full">
+        <div class="relative bg-gray-2 p-6 h-72 w-full">
           <div
             class="flex flex-col gap-4 text-left absolute bottom-0 left-0 p-3"
           >
             <h6 class="text-lg md:text-2xl">Engineering Insurance</h6>
+            <hr />
             <p class="text-black text-sm md:text-lg tracking-tight">
               Protect physical assets from hazards and risks that may occur in
               projects or buildings such as fire, damage due to extreme weather,
@@ -36,11 +36,12 @@
             </p>
           </div>
         </div>
-        <div class="relative bg-gray-3 p-6 h-64 w-full">
+        <div class="relative bg-gray-3 p-6 h-72 w-full">
           <div
             class="flex flex-col gap-4 text-left absolute bottom-0 left-0 p-3"
           >
             <h6 class="text-lg md:text-2xl">Miscellaneous Insurance</h6>
+            <hr />
             <p class="text-black text-sm md:text-lg tracking-tight">
               Type of insurance that provides protection against various
               unexpected risks such as unexpected financial or legal losses.
@@ -114,13 +115,13 @@ h6 {
 p {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
 }
 .backgrund-product {
   background-color: #ffe5e5;
 }
 .bg-gray-1 {
-  background-image: url(/assets/img/liability.jpg);
+  background-image: url(/assets/img/liability.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -132,9 +133,16 @@ p {
   background-size: cover;
 }
 .bg-gray-3 {
-  background-image: url(/assets/img/missce.png);
+  background-image: url(/assets/img/misce.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+hr {
+  width: 100%;
+  height: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #b7d0e2;
 }
 </style>
