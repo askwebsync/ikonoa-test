@@ -1,12 +1,12 @@
 <template>
   <section>
-    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-12 lg:py-16">
+    <div class="container mx-auto px-4 py-12 lg:py-16">
       <div
         class="grid md:grid-cols-3 gap-8 justify-items-center text-center md:justify-items-start md:text-left"
       >
         <div class="flex flex-col gap-1 md:self-center max-w-lg">
           <h3 class="text-xl md:text-2xl lg:text-3xl uppercase mb-1">
-            Services & Solution
+            Services & Solutions
           </h3>
           <h2 class="text-xl md:text-2xl lg:text-3xl tracking-tight">
             We will assist you in managing your assets, risks and insurance
@@ -20,71 +20,108 @@
         </div>
         <div class="flex flex-col mt-4 px-2 gap-8 md:gap-10 md:mt-8">
           <div
-            class="flex flex-col max-w-sm p-4 md:p-6 background-card custom-shadow-card"
+            class="flex flex-col w-80 md:w-64 lg:w-80 p-4 md:p-6 background-card custom-shadow-card"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/consulting.png" class="w-12 h-12 mb-4" />
             </div>
-            <a href="#">
+            <div>
               <h1 class="text-xl md:text-2xl lg:text-3xl mb-2">
                 Risk Consulting
               </h1>
-            </a>
-            <h6 class="my-3 text-base sm:text-base md:text-lg tracking-tight">
-              We can carry out a risk survey according to your needs, including
-              unusual and complex risks. Our team can work and conduct surveys
-              wherever these risks are located.
-            </h6>
+            </div>
+            <ul
+              class="list-decimal list-inside my-2 px-2 lg:px-3 py-2 space-y-2"
+            >
+              <li class="text-base sm:text-base md:text-lg tracking-tight">
+                Claim consultant to expedite claim settlement.
+              </li>
+              <li class="text-base sm:text-base md:text-lg tracking-tight">
+                Review insurance gaps to identify coverage gaps/overlaps, reduce
+                premiums, and assess risk exposure.
+              </li>
+              <li class="text-base sm:text-base md:text-lg tracking-tight">
+                Support bid management by selecting brokers/insurance companies
+                and analyzing insurance proposals.
+              </li>
+              <li class="text-base sm:text-base md:text-lg tracking-tight">
+                Manage insurance program and advise on renewal process.
+              </li>
+            </ul>
           </div>
           <div
-            class="flex flex-col max-w-sm p-4 md:p-6 background-card custom-shadow-card"
+            class="flex flex-col w-80 md:w-64 lg:w-80 p-4 md:p-6 background-card custom-shadow-card"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/insurance.png" class="w-12 h-12 mb-4" />
             </div>
-            <a href="#">
+            <div>
               <h1 class="text-xl md:text-2xl lg:text-3xl mb-2">
                 Insurance Policy
               </h1>
-            </a>
-            <h6 class="my-3 text-base sm:text-base md:text-lg tracking-tight">
-              We provide the best and most trusted insurance companies with the
-              right premiums as well support the insurance claim process.
-            </h6>
+            </div>
+            <ul
+              class="list-decimal list-inside my-2 px-2 lg:px-3 py-2 space-y-2"
+            >
+              <li class="text-base sm:text-base md:text-lg tracking-tight">
+                Provide the best and trusted Insurance Company
+              </li>
+              <li class="text-base sm:text-base md:text-lg tracking-tight">
+                Provide the best terms and conditions at the right premium
+              </li>
+              <li class="text-base sm:text-base md:text-lg tracking-tight">
+                Support claim process and settlement
+              </li>
+            </ul>
           </div>
         </div>
         <div class="flex flex-col px-2 gap-8 md:gap-10">
           <div
-            class="flex flex-col max-w-sm p-4 md:p-6 background-card custom-shadow-card"
+            class="flex flex-col w-80 md:w-64 lg:w-80 p-4 md:p-6 background-card custom-shadow-card"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/warning.png" class="w-12 h-12 mb-4" />
             </div>
 
-            <a href="#">
+            <div>
               <h1 class="text-xl md:text-2xl lg:text-3xl mb-2">
                 Risk Management
               </h1>
-            </a>
-            <h6 class="my-3 text-base sm:text-base md:text-lg tracking-tight">
-              We identify and analyze loss exposures and take steps to minimize
-              the financial impact of the risks involved.
-            </h6>
+            </div>
+            <ul
+              class="list-decimal list-inside my-2 px-2 lg:px-3 py-2 space-y-2"
+            >
+              <li class="text-base sm:text-base md:text-lg tracking-tight">
+                Risk Survey
+              </li>
+              <li class="text-base sm:text-base md:text-lg tracking-tight">
+                Risk improvement and recommendation
+              </li>
+            </ul>
           </div>
           <div
-            class="flex flex-col max-w-sm p-4 md:p-6 background-card custom-shadow-card"
+            class="flex flex-col w-80 md:w-64 lg:w-80 p-4 md:p-6 background-card custom-shadow-card"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/academy.png" class="w-12 h-12 mb-4" />
             </div>
 
-            <a href="#">
+            <div>
               <h1 class="text-xl md:text-2xl lg:text-3xl mb-2">Academy</h1>
-            </a>
-            <h6 class="my-3 text-base sm:text-base md:text-lg tracking-tight">
-              We have training programs aimed at enhancing the skills and
-              knowledge of professionals in the insurance industry.
-            </h6>
+            </div>
+            <ul
+              class="list-decimal list-inside my-2 px-2 lg:px-3 py-2 space-y-2"
+            >
+              <li class="text-base sm:text-base md:text-lg tracking-tight">
+                Insurance for Insurance Officer
+              </li>
+              <li class="text-base sm:text-base md:text-lg tracking-tight">
+                Insurance for Non-Insurance Officer
+              </li>
+              <li class="text-base sm:text-base md:text-lg tracking-tight">
+                Inhouse Insurance Training
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -123,7 +160,7 @@ h1 {
   color: #17171f;
 }
 
-h6 {
+li {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
