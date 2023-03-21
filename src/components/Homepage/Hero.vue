@@ -15,14 +15,14 @@
         <div class="flex justify-center items-center h-full gap-12 py-2">
           <div class="text-center center px-6">
             <h1
-              class="text-2xl sm:text-3xl md:text-5xl xl:text-6xl mb-5 md:mb-10 hover:text-red-600 max-w-3xl uppercase leading-8"
+              class="text-2xl sm:text-3xl md:text-5xl xl:text-6xl mb-5 md:mb-7 hover:text-red-600 max-w-5xl uppercase leading-8"
             >
               Maintain Your Peace of Mind by Resolving Insurance <br /><span
                 >Claims Easily and Safely</span
               >
             </h1>
             <h2
-              class="text-sm md:text-base max-w-xs md:max-w-lg capitalize hover:text-yellow-300"
+              class="md:text-lg max-w-xs md:max-w-lg capitalize hover:text-yellow-300 tracking-tight"
             >
               “Claim is the moment of truth when you buy an insurance policy”
             </h2>
@@ -53,7 +53,6 @@ h1 {
 h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  letter-spacing: 0.1px;
   color: #ffff00;
 }
 /* .background-custom-hero {

@@ -44,9 +44,6 @@ export default {
 </script>
 
 <style scoped>
-.center {
-  text-align: -webkit-center;
-}
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -57,7 +54,6 @@ h1 {
 h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-
   color: #ffff00;
 }
 p {

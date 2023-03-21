@@ -12,10 +12,11 @@
             <h3 class="text-xl md:text-2xl lg:text-3xl">ABOUT</h3>
             <h2 class="text-xl md:text-2xl lg:text-3xl">What is IKONOA</h2>
             <p class="text-sm md:text-lg tracking-tight">
-              We provide services that assist you in managing and claiming your
-              insurance policy. Our services cover various types of insurance
-              policies, such as life insurance, health insurance, vehicle
-              insurance, and property insurance
+              We provide services & solutions that assist you in managing and
+              claiming your insurance policy. Our services cover various types
+              of insurance policies, such as health insurance, vehicle
+              insurance, property insurance, engineering insurance, marine
+              insurance
             </p>
           </div>
 
