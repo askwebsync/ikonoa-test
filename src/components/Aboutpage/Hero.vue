@@ -17,12 +17,12 @@
         >
           <div class="text-center center">
             <h1
-              class="text-2xl sm:text-3xl md:text-5xl xl:text-6xl mb-2 hover:text-red-600 max-w-3xl"
+              class="text-2xl sm:text-3xl md:text-5xl xl:text-6xl mb-5 md:mb-7 hover:text-red-600 max-w-5xl uppercase leading-8"
             >
               ABOUT IKONOA
             </h1>
             <h2
-              class="text-sm md:text-base max-w-xs md:max-w-lg capitalize hover:text-yellow-300 tracking-tighter"
+              class="md:text-lg max-w-xs md:max-w-lg capitalize hover:text-yellow-300 tracking-tighter"
             >
               "We provide services and solutions that assist you"
             </h2>

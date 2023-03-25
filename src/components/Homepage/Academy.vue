@@ -18,14 +18,14 @@
             class="custom-shadow-box-academy max-w-md px-4 py-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
           >
             <div class="relative">
-              <img class="w-full" src="/assets/img/seminar.jpg" alt="seminar" />
+              <img class="w-full" src="/assets/img/webinar.jpg" alt="webinar" />
             </div>
             <h6 class="mt-4 text-2xl cursor-pointer text-center">
               Online Training
             </h6>
             <div class="my-6 p-3">
               <p
-                class="text-sm sm:text-base md:text-lg text-gray-600 font-medium text-justify"
+                class="text-sm sm:text-base md:text-lg text-gray-600 font-medium text-justify tracking-tighter"
               >
                 We provide online webinars on insurance for both Insurance
                 Officers and Non-Insurance Officers. Our webinars cover policy
@@ -38,14 +38,14 @@
             class="custom-shadow-box-academy max-w-md px-4 py-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
           >
             <div class="relative">
-              <img class="w-full" src="/assets/img/webinar.jpg" alt="webinar" />
+              <img class="w-full" src="/assets/img/seminar.jpg" alt="seminar" />
             </div>
             <h6 class="mt-4 text-2xl cursor-pointer text-center">
               Inhouse Training
             </h6>
             <div class="my-6 p-3">
               <p
-                class="text-sm sm:text-base md:text-lg text-gray-600 font-medium text-justify"
+                class="text-sm sm:text-base md:text-lg text-gray-600 font-medium text-justify tracking-tighter"
               >
                 We offer customized in-house insurance training for companies,
                 addressing their unique challenges and opportunities. Our expert
@@ -118,7 +118,6 @@ h6 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  letter-spacing: 0.5px;
   color: #17171f;
 }
 

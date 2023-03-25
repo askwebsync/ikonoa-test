@@ -20,7 +20,7 @@
         </div>
         <div class="flex flex-col mt-4 px-2 gap-8 md:gap-10 md:mt-8">
           <div
-            class="flex flex-col w-80 md:w-64 lg:w-80 p-4 md:p-6 background-card custom-shadow-card"
+            class="flex flex-col w-80 md:w-56 lg:w-full p-4 md:p-6 background-card custom-shadow-card"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/consulting.png" class="w-12 h-12 mb-4" />
@@ -30,9 +30,7 @@
                 Risk Consulting
               </h1>
             </div>
-            <ul
-              class="list-decimal list-inside my-2 px-2 lg:px-3 py-2 space-y-2"
-            >
+            <ul class="list-decimal list-inside m-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
                 Claim consultant to expedite claim settlement.
               </li>
@@ -50,7 +48,7 @@
             </ul>
           </div>
           <div
-            class="flex flex-col w-80 md:w-64 lg:w-80 p-4 md:p-6 background-card custom-shadow-card"
+            class="flex flex-col w-80 md:w-56 lg:w-full p-4 md:p-6 background-card custom-shadow-card"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/insurance.png" class="w-12 h-12 mb-4" />
@@ -60,9 +58,7 @@
                 Insurance Policy
               </h1>
             </div>
-            <ul
-              class="list-decimal list-inside my-2 px-2 lg:px-3 py-2 space-y-2"
-            >
+            <ul class="list-decimal list-inside m-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
                 Provide the best and trusted Insurance Company
               </li>
@@ -77,7 +73,7 @@
         </div>
         <div class="flex flex-col px-2 gap-8 md:gap-10">
           <div
-            class="flex flex-col w-80 md:w-64 lg:w-80 p-4 md:p-6 background-card custom-shadow-card"
+            class="flex flex-col w-80 md:w-56 lg:w-full p-4 md:p-6 background-card custom-shadow-card"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/warning.png" class="w-12 h-12 mb-4" />
@@ -88,9 +84,7 @@
                 Risk Management
               </h1>
             </div>
-            <ul
-              class="list-decimal list-inside my-2 px-2 lg:px-3 py-2 space-y-2"
-            >
+            <ul class="list-decimal list-inside m-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
                 Risk Survey
               </li>
@@ -100,7 +94,7 @@
             </ul>
           </div>
           <div
-            class="flex flex-col w-80 md:w-64 lg:w-80 p-4 md:p-6 background-card custom-shadow-card"
+            class="flex flex-col w-80 md:w-56 lg:w-full p-4 md:p-6 background-card custom-shadow-card"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/academy.png" class="w-12 h-12 mb-4" />
@@ -109,9 +103,7 @@
             <div>
               <h1 class="text-xl md:text-2xl lg:text-3xl mb-2">Academy</h1>
             </div>
-            <ul
-              class="list-decimal list-inside my-2 px-2 lg:px-3 py-2 space-y-2"
-            >
+            <ul class="list-decimal list-inside m-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
                 Insurance for Insurance Officer
               </li>

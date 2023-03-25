@@ -66,7 +66,7 @@
         </div>
         <div class="space-y-4 col-span-3">
           <h3 class="text-lg uppercase text-gray-300">Get In Touch</h3>
-          <ul class="space-y-3 text-white px-2">
+          <ul class="space-y-3 text-white">
             <li class="mb-2">
               <a class="text-sm font-medium" href="#">(+62) 811-963754</a>
             </li>
