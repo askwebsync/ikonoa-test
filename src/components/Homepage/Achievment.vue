@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="backgrund-product">
-      <div class="flex justify-between gap-4 px-4 py-10 xl:px-12 mx-auto">
+      <div class="flex justify-evenly gap-4 py-10">
         <div class="flex flex-col">
           <h1 class="text-xl md:text-2xl lg:text-3xl text-black">98%</h1>
           <p class="text-sm">Satisfied Client</p>

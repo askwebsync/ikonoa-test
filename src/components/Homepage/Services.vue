@@ -20,17 +20,17 @@
         </div>
         <div class="flex flex-col mt-4 px-2 gap-8 md:gap-10 md:mt-8">
           <div
-            class="flex flex-col w-80 md:w-56 lg:w-full p-4 md:p-6 background-card custom-shadow-card"
+            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card custom-shadow-card"
           >
-            <div class="self-center md:self-start">
-              <img src="/assets/img/consulting.png" class="w-12 h-12 mb-4" />
+            <div class="self-center md:self-start mb-5 mt-2">
+              <img src="/assets/img/analysis.png" class="\" />
             </div>
-            <div>
-              <h1 class="text-xl md:text-2xl lg:text-3xl mb-2">
-                Risk Consulting
-              </h1>
-            </div>
-            <ul class="list-decimal list-inside m-2 space-y-2">
+
+            <h1 class="text-xl md:text-2xl lg:text-3xl mb-2 mb-4">
+              Risk Consulting
+            </h1>
+
+            <ul class="list-decimal list-inside my-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
                 Claim consultant to expedite claim settlement.
               </li>
@@ -48,17 +48,17 @@
             </ul>
           </div>
           <div
-            class="flex flex-col w-80 md:w-56 lg:w-full p-4 md:p-6 background-card custom-shadow-card"
+            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card custom-shadow-card"
           >
-            <div class="self-center md:self-start">
-              <img src="/assets/img/insurance.png" class="w-12 h-12 mb-4" />
+            <div class="self-center md:self-start mb-5 mt-2">
+              <img src="/assets/img/insurance.png" class="\" />
             </div>
-            <div>
-              <h1 class="text-xl md:text-2xl lg:text-3xl mb-2">
-                Insurance Policy
-              </h1>
-            </div>
-            <ul class="list-decimal list-inside m-2 space-y-2">
+
+            <h1 class="text-xl md:text-2xl lg:text-3xl mb-4">
+              Insurance Policy
+            </h1>
+
+            <ul class="list-decimal list-inside my-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
                 Provide the best and trusted Insurance Company
               </li>
@@ -73,20 +73,19 @@
         </div>
         <div class="flex flex-col px-2 gap-8 md:gap-10">
           <div
-            class="flex flex-col w-80 md:w-56 lg:w-full p-4 md:p-6 background-card custom-shadow-card"
+            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card custom-shadow-card"
           >
-            <div class="self-center md:self-start">
-              <img src="/assets/img/warning.png" class="w-12 h-12 mb-4" />
+            <div class="self-center md:self-start mb-5 mt-2">
+              <img src="/assets/img/risk.png" class="w-full" />
             </div>
 
-            <div>
-              <h1 class="text-xl md:text-2xl lg:text-3xl mb-2">
-                Risk Management
-              </h1>
-            </div>
-            <ul class="list-decimal list-inside m-2 space-y-2">
+            <h1 class="text-xl md:text-2xl lg:text-3xl mb-2 mb-4">
+              Risk Management
+            </h1>
+
+            <ul class="list-decimal list-inside my-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
-                Risk Survey
+                Risk survey
               </li>
               <li class="text-base sm:text-base md:text-lg tracking-tight">
                 Risk improvement and recommendation
@@ -94,16 +93,15 @@
             </ul>
           </div>
           <div
-            class="flex flex-col w-80 md:w-56 lg:w-full p-4 md:p-6 background-card custom-shadow-card"
+            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card custom-shadow-card"
           >
-            <div class="self-center md:self-start">
-              <img src="/assets/img/academy.png" class="w-12 h-12 mb-4" />
+            <div class="self-center md:self-start mb-5 mt-2">
+              <img src="/assets/img/academy.png" class="\" />
             </div>
 
-            <div>
-              <h1 class="text-xl md:text-2xl lg:text-3xl mb-2">Academy</h1>
-            </div>
-            <ul class="list-decimal list-inside m-2 space-y-2">
+            <h1 class="text-xl md:text-2xl lg:text-3xl mb-2 mb-4">Academy</h1>
+
+            <ul class="list-decimal list-inside my-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
                 Insurance for Insurance Officer
               </li>
@@ -147,7 +145,7 @@ h2 {
 h1 {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
 
   color: #17171f;
 }
