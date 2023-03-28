@@ -2,7 +2,7 @@
   <section class="backgrund-product">
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-12 lg:py-16">
       <div class="flex flex-col gap-1 items-center mb-12 text-center">
-        <h3 class="text-xl md:text-2xl lg:text-3xl">Product</h3>
+        <h3 class="text-xl md:text-2xl lg:text-3xl">PRODUCTS</h3>
         <h2 class="text-xl md:text-2xl lg:text-3xl">
           Get reliable insurance policy for your company
         </h2>
@@ -99,12 +99,14 @@ h2 {
   font-style: normal;
   font-weight: 700;
   color: #17171f;
+  letter-spacing: 0.5px;
 }
 h3 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   color: #d50000;
+  letter-spacing: 1.5px;
 }
 h6 {
   font-family: "Roboto";

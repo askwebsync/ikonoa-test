@@ -5,10 +5,8 @@
         class="grid md:grid-cols-3 gap-8 justify-items-center text-center md:justify-items-start md:text-left"
       >
         <div class="flex flex-col gap-1 md:self-center max-w-lg">
-          <h3 class="text-xl md:text-2xl lg:text-3xl uppercase mb-1">
-            Services & Solutions
-          </h3>
-          <h2 class="text-xl md:text-2xl lg:text-3xl tracking-tight">
+          <h3 class="text-xl md:text-2xl lg:text-3xl">SERVICES & SOLUTIONS</h3>
+          <h2 class="text-xl md:text-2xl lg:text-3xl">
             We will assist you in managing your assets, risks and insurance
             needs, including in claim settlements to be faster, precise and
             accurate
@@ -135,18 +133,19 @@ h3 {
   font-style: normal;
   font-weight: 700;
   color: #d50000;
+  letter-spacing: 1.5px;
 }
 h2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   color: #17171f;
+  letter-spacing: 0.5px;
 }
 h1 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
-
   color: #17171f;
 }
 

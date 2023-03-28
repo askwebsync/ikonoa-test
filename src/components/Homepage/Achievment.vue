@@ -7,6 +7,11 @@
           <h2 class="text-xl md:text-2xl lg:text-3xl">
             Provide client with the best experience
           </h2>
+          <p class="text-sm md:text-lg tracking-tight">
+            We are committed to providing the best experience to our clients by
+            prioritizing friendly, responsive service and finding client needs
+            and satisfaction.
+          </p>
         </div>
       </div>
     </div>
@@ -51,12 +56,14 @@ h2 {
   font-style: normal;
   font-weight: 700;
   color: #17171f;
+  letter-spacing: 0.5px;
 }
 h3 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   color: #d50000;
+  letter-spacing: 1.5px;
 }
 .backgrund-product {
   background-color: #ffe5e5;

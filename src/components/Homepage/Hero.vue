@@ -21,7 +21,7 @@
               <br /><span> Easily and Safely</span>
             </h1>
             <h2
-              class="md:text-lg max-w-xxs md:max-w-lg hover:text-yellow-300 tracking-tight"
+              class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-2xl lg:max-w-3xl"
             >
               “Claim is the moment of truth when you buy an insurance policy”
             </h2>

@@ -9,7 +9,7 @@
           class="w-1/2 flex flex-col gap-6 md:gap-12 self-center md:self-start md:ml-6"
         >
           <div class="flex flex-col gap-1 max-w-lg">
-            <h3 class="text-xl md:text-2xl lg:text-3xl">ABOUT</h3>
+            <h3 class="text-xl md:text-2xl lg:text-3xl">ABOUT US</h3>
             <h2 class="text-xl md:text-2xl lg:text-3xl">What is IKONOA</h2>
             <p class="text-sm md:text-lg tracking-tight">
               We provide services & solutions that assist you in managing and
@@ -108,6 +108,7 @@ h3 {
   font-style: normal;
   font-weight: 700;
   color: #d50000;
+  letter-spacing: 1.5px;
 }
 h2 {
   font-family: "Roboto";
