@@ -15,7 +15,7 @@
           class="flex flex-wrap justify-center md:flex-row gap-8 md:gap-10 space-y-4 px-2 lg:px-3 md:grid md:grid-cols-2 md:space-y-0"
         >
           <div
-            class="bg-custom-academy custom-shadow-box-academy max-w-md px-4 py-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
+            class="bg-custom-academy custom-shadow-box-academy max-w-md px-6 py-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
           >
             <div class="relative">
               <img class="w-full" src="/assets/img/webinar.jpg" alt="webinar" />
@@ -35,7 +35,7 @@
             </div>
           </div>
           <div
-            class="bg-custom-academy custom-shadow-box-academy max-w-md px-4 py-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
+            class="bg-custom-academy custom-shadow-box-academy max-w-md px-6 py-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
           >
             <div class="relative">
               <img class="w-full" src="/assets/img/seminar.jpg" alt="seminar" />

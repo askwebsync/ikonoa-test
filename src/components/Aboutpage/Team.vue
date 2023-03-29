@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/valid-v-for -->
 <template>
   <section class="">
-    <div class="container mx-auto">
+    <div class="container mx-auto px-4 md:px-8 lg:px-12">
       <div class="flex flex-col">
         <div class="flex mb-6 self-center items-center text-center">
           <h3 class="text-xl md:text-2xl">Our Team</h3>
@@ -88,7 +88,7 @@ export default {
         },
         // 1024 and up
         1024: {
-          itemsToShow: 3,
+          itemsToShow: 2,
           snapAlign: "start",
         },
       },

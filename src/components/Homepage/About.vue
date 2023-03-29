@@ -1,17 +1,21 @@
 <template>
   <section class="backgrund-product">
-    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-12 lg:py-16">
+    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-12">
       <div class="flex flex-col md:flex-row gap-12 items-center">
         <div class="w-1/2">
-          <img src="/assets/img/gambar2.png" alt="gambar" class="" />
+          <img
+            src="/assets/img/gambar2.png"
+            alt="gambar"
+            class="h-auto object-contain"
+          />
         </div>
         <div
-          class="w-1/2 flex flex-col gap-6 md:gap-12 self-center md:self-start md:ml-6"
+          class="w-1/2 flex flex-col gap-9 self-center md:self-start md:ml-6"
         >
-          <div class="flex flex-col gap-1 max-w-lg">
+          <div class="flex flex-col gap-2">
             <h3 class="text-xl md:text-2xl lg:text-3xl">ABOUT US</h3>
             <h2 class="text-xl md:text-2xl lg:text-3xl">What is IKONOA</h2>
-            <p class="text-sm md:text-lg tracking-tight">
+            <p class="text-sm md:text-lg">
               We provide services & solutions that assist you in managing and
               claiming your insurance policy. Our services cover various types
               of insurance policies, such as health insurance, vehicle
@@ -20,39 +24,31 @@
             </p>
           </div>
 
-          <div class="my-5 lg:my-6">
-            <ul class="list-none">
-              <li class="flex items-center mb-3 md: mb-4">
+          <div class="my-5">
+            <ul class="list-none space-y-5">
+              <li class="flex items-center">
                 <img src="/assets/img/check-mark.png" class="mr-2 md:mr-3" />
-                <p class="flex-1 font-semibold text-sm md:text-base">
-                  Integrity
-                </p>
+                <p class="flex-1 font-semibold text-lg">Integrity</p>
               </li>
-              <li class="flex items-center mb-3 md: mb-4">
+              <li class="flex items-center">
                 <img src="/assets/img/check-mark.png" class="mr-2 md:mr-3" />
-                <p class="flex-1 font-semibold text-sm md:text-base">
-                  Knowledgeable
-                </p>
+                <p class="flex-1 font-semibold text-lg">Knowledgeable</p>
               </li>
-              <li class="flex items-center mb-3 md: mb-4">
+              <li class="flex items-center">
                 <img src="/assets/img/check-mark.png" class="mr-2 md:mr-3" />
-                <p class="flex-1 font-semibold text-sm md:text-base">
-                  Professional
-                </p>
+                <p class="flex-1 font-semibold text-lg">Professional</p>
               </li>
-              <li class="flex items-center mb-3 md: mb-4">
+              <li class="flex items-center">
                 <img src="/assets/img/check-mark.png" class="mr-2 md:mr-3" />
-                <p class="flex-1 font-semibold text-sm md:text-base">Honesty</p>
+                <p class="flex-1 font-semibold text-lg">Honesty</p>
               </li>
-              <li class="flex items-center mb-3 md: mb-4">
+              <li class="flex items-center">
                 <img src="/assets/img/check-mark.png" class="mr-2 md:mr-3" />
-                <p class="flex-1 font-semibold text-sm md:text-base">Focus</p>
+                <p class="flex-1 font-semibold text-lg">Focus</p>
               </li>
-              <li class="flex items-center mb-3 md: mb-4">
+              <li class="flex items-center">
                 <img src="/assets/img/check-mark.png" class="mr-2 md:mr-3" />
-                <p class="flex-1 font-semibold text-sm md:text-base">
-                  Partnership
-                </p>
+                <p class="flex-1 font-semibold text-lg">Partnership</p>
               </li>
             </ul>
           </div>
@@ -115,10 +111,12 @@ h2 {
   font-style: normal;
   font-weight: 700;
   color: #17171f;
+  letter-spacing: 0.5px;
 }
 p {
   font-family: "Roboto";
   font-style: normal;
   color: #000000;
+  letter-spacing: 0.5px;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <section class="">
     <div
-      class="relative overflow-hidden bg-no-repeat bg-cover pb-2"
+      class="relative overflow-hidden bg-no-repeat bg-cover"
       style="
         background-position: 50%;
         background-image: url('/assets/img/about-hero.jpg');
@@ -12,9 +12,7 @@
         class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
         style="background-color: rgba(0, 0, 0, 0.75)"
       >
-        <div
-          class="flex flex-col justify-center items-center h-full gap-4 py-2"
-        >
+        <div class="flex flex-col justify-center items-center h-full gap-4">
           <div class="text-center center">
             <h1
               class="text-2xl sm:text-3xl md:text-5xl xl:text-6xl mb-5 md:mb-7 hover:text-red-600 max-w-5xl uppercase leading-8"
