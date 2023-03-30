@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container mx-auto px-4 py-12 lg:py-16">
+    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div
         class="grid md:grid-cols-3 gap-8 justify-items-center text-center md:justify-items-start md:text-left"
       >
@@ -16,9 +16,9 @@
             insurance policy
           </p> -->
         </div>
-        <div class="flex flex-col mt-4 px-2 gap-8 md:gap-10 md:mt-8">
+        <div class="flex flex-col px-2 gap-8 md:gap-10">
           <div
-            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card custom-shadow-card"
+            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card"
           >
             <div class="self-center md:self-start mb-5 mt-2">
               <img src="/assets/img/analysis.png" class="\" />
@@ -28,7 +28,7 @@
               Risk Consulting
             </h1>
 
-            <ul class="list-decimal list-inside my-2 space-y-2">
+            <ul class="list-decimal list-outside px-4 py-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
                 Claim consultant to expedite claim settlement.
               </li>
@@ -46,7 +46,7 @@
             </ul>
           </div>
           <div
-            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card custom-shadow-card"
+            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card"
           >
             <div class="self-center md:self-start mb-5 mt-2">
               <img src="/assets/img/insurance.png" class="\" />
@@ -56,7 +56,7 @@
               Insurance Policy
             </h1>
 
-            <ul class="list-decimal list-inside my-2 space-y-2">
+            <ul class="list-decimal list-outside px-4 py-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
                 Provide the best and trusted Insurance Company
               </li>
@@ -69,9 +69,9 @@
             </ul>
           </div>
         </div>
-        <div class="flex flex-col px-2 gap-8 md:gap-10">
+        <div class="flex flex-col mt-5 px-2 gap-8 md:gap-10 md:mt-10">
           <div
-            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card custom-shadow-card"
+            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card"
           >
             <div class="self-center md:self-start mb-5 mt-2">
               <img src="/assets/img/risk.png" class="w-full" />
@@ -81,7 +81,7 @@
               Risk Management
             </h1>
 
-            <ul class="list-decimal list-inside my-2 space-y-2">
+            <ul class="list-decimal list-outside px-4 py-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
                 Risk survey
               </li>
@@ -91,7 +91,7 @@
             </ul>
           </div>
           <div
-            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card custom-shadow-card"
+            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card"
           >
             <div class="self-center md:self-start mb-5 mt-2">
               <img src="/assets/img/academy.png" class="\" />
@@ -99,7 +99,7 @@
 
             <h1 class="text-xl md:text-2xl lg:text-3xl mb-2 mb-4">Academy</h1>
 
-            <ul class="list-decimal list-inside my-2 space-y-2">
+            <ul class="list-decimal list-outside px-4 py-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
                 Insurance for Insurance Officer
               </li>

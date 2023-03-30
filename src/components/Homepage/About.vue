@@ -1,10 +1,11 @@
 <template>
   <section class="backgrund-product">
-    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-12">
+    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col md:flex-row gap-12 items-center">
         <div class="w-1/2">
           <img
             src="/assets/img/gambar2.png"
+            style="max-height: 575px"
             alt="gambar"
             class="h-auto object-contain"
           />

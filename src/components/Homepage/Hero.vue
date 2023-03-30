@@ -10,22 +10,22 @@
     >
       <div
         class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-        style="background-color: rgba(0, 0, 0, 0.75)"
+        style="background-color: rgba(0, 0, 0, 0.65)"
       >
-        <div class="flex justify-center items-center h-full gap-12">
-          <div class="text-center center px-6">
-            <h1
-              class="text-2xl sm:text-3xl md:text-5xl xl:text-6xl mb-5 md:mb-7 hover:text-red-600 max-w-5xl uppercase leading-2"
-            >
-              Maintain Your Peace of Mind by Resolving Insurance Claims
-              <br /><span> Easily and Safely</span>
-            </h1>
-            <h2
-              class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-2xl lg:max-w-3xl"
-            >
-              “Claim is the moment of truth when you buy an insurance policy”
-            </h2>
-          </div>
+        <div
+          class="flex flex-col justify-center items-center h-full text-center center px-6"
+        >
+          <h1
+            class="text-2xl sm:text-3xl md:text-5xl mb-5 md:mb-7 hover:text-red-600 max-w-5xl uppercase"
+          >
+            Maintain Your Peace of Mind by Resolving Insurance Claims
+            <br /><span> Easily and Safely</span>
+          </h1>
+          <h2
+            class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-2xl lg:max-w-3xl"
+          >
+            “Claim is the moment of truth when you buy an insurance policy”
+          </h2>
         </div>
       </div>
     </div>
@@ -45,13 +45,15 @@ export default {
 <style scoped>
 h1 {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   color: #fdfdff;
+  letter-spacing: 1.5px;
 }
 h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #ffff00;
+  letter-spacing: 0.5px;
 }
 p {
   font-family: "Roboto", sans-serif;

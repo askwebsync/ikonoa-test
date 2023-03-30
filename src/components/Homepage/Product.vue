@@ -1,6 +1,6 @@
 <template>
   <section class="backgrund-product">
-    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-12 lg:py-16">
+    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col gap-1 items-center mb-12 text-center">
         <h3 class="text-xl md:text-2xl lg:text-3xl">PRODUCTS</h3>
         <h2 class="text-xl md:text-2xl lg:text-3xl">
