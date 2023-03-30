@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/valid-v-for -->
 <template>
-  <section class="">
-    <div class="container mx-auto px-4 md:px-8 lg:px-12">
+  <section>
+    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col">
         <div class="flex mb-6 self-center items-center text-center">
           <h3 class="text-xl md:text-2xl">Our Team</h3>
@@ -13,7 +13,7 @@
               <div class="flex flex-col gap-5 items-center justify-center">
                 <img
                   :src="slide.image"
-                  class="w-32 h-32 rounded-md object-cover transition duration-200 hover:scale-110"
+                  class="w-44 h-44 rounded-md object-cover transition duration-200 hover:scale-110"
                 />
                 <div>
                   <h2 class="text-gray-900 text-lg font-bold">
@@ -125,7 +125,7 @@ h3 {
   color: #d50000;
 }
 .carousel__item {
-  min-height: 300px;
+  min-height: 345px;
   width: 80%;
   background-color: #f2f2f2;
   color: var(--vc-clr-white);
@@ -133,15 +133,5 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.carousel__slide {
-  padding: 4px;
-}
-
-.carousel__prev,
-.carousel__next {
-  box-sizing: content-box;
-  border: 5px solid white;
 }
 </style>

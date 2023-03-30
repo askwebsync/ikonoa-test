@@ -1,6 +1,6 @@
 <template>
-  <section class="">
-    <div class="container mx-auto px-4 md:px-8 lg:px-12">
+  <section>
+    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col md:flex-row gap-12">
         <div class="w-full md:w-1/2 mission">
           <div class="flex flex-col gap-1 mb-6 items-center text-center">
