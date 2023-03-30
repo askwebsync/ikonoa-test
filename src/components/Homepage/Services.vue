@@ -11,10 +11,6 @@
             needs, including in claim settlements to be faster, precise and
             accurate
           </h2>
-          <!-- <p class="text-sm md:text-lg tracking-tight max-w-xs lg:max-w-lg">
-            We provide services that assist you in managing and claiming your
-            insurance policy
-          </p> -->
         </div>
         <div class="flex flex-col px-2 gap-8 md:gap-10">
           <div
@@ -28,7 +24,7 @@
               Risk Consulting
             </h1>
 
-            <ul class="list-decimal list-outside px-4 py-2 space-y-2">
+            <ul class="list-decimal list-outside px-6 py-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
                 Claim consultant to expedite claim settlement.
               </li>
@@ -56,7 +52,7 @@
               Insurance Policy
             </h1>
 
-            <ul class="list-decimal list-outside px-4 py-2 space-y-2">
+            <ul class="list-decimal list-outside px-6 py-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
                 Provide the best and trusted Insurance Company
               </li>
@@ -81,7 +77,7 @@
               Risk Management
             </h1>
 
-            <ul class="list-decimal list-outside px-4 py-2 space-y-2">
+            <ul class="list-decimal list-outside px-6 py-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
                 Risk survey
               </li>
@@ -99,7 +95,7 @@
 
             <h1 class="text-xl md:text-2xl lg:text-3xl mb-2 mb-4">Academy</h1>
 
-            <ul class="list-decimal list-outside px-4 py-2 space-y-2">
+            <ul class="list-decimal list-outside px-6 py-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
                 Insurance for Insurance Officer
               </li>

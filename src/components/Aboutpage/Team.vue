@@ -127,7 +127,7 @@ h3 {
 .carousel__item {
   min-height: 300px;
   width: 80%;
-  background-color: #eeebe5;
+  background-color: #f2f2f2;
   color: var(--vc-clr-white);
   border-radius: 8px;
   display: flex;

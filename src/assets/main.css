@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 .backgrund-product {
-  background-color: #ffe5e5;
+  background-color: #F2F2F2;
 }
 
 .background-custom-misi {
-  background-color: #eeebe5;
+  background-color: #F2F2F2;
 }
 
 .background-color-card {
-  background-color: #eeebe5;
+  background-color: #F2F2F2;
 }
 
 .background-card {
-  background: #F9F9F9;
+  background: #F2F2F2;
 }
 
 .center {
@@ -37,4 +37,9 @@ a:hover {
 
 .custom-shadow-card {
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.border-button-custom {
+  border: 1px solid #D50000;
+  border-radius: 5px;
 }

@@ -65,9 +65,7 @@ h3 {
   color: #d50000;
   letter-spacing: 1.5px;
 }
-.backgrund-product {
-  background-color: #ffe5e5;
-}
+
 p {
   font-family: "Roboto";
   font-style: normal;

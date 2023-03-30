@@ -55,6 +55,11 @@
           </div>
         </div>
       </div>
+      <div class="text-center mt-12">
+        <button class="px-8 py-3 border-button-custom font-medium">
+          Learn More
+        </button>
+      </div>
       <!-- <div class="text-center my-12">
         <a
           href="#_"

@@ -5,7 +5,7 @@
         <div class="w-1/2">
           <img
             src="/assets/img/gambar2.png"
-            style="max-height: 575px"
+            style="max-height: 600px"
             alt="gambar"
             class="h-auto object-contain"
           />
@@ -26,7 +26,7 @@
           </div>
 
           <div class="my-5">
-            <ul class="list-none space-y-5">
+            <ul class="list-none space-y-4">
               <li class="flex items-center">
                 <img src="/assets/img/check-mark.png" class="mr-2 md:mr-3" />
                 <p class="flex-1 font-semibold text-lg">Integrity</p>
