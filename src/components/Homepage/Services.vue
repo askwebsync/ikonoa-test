@@ -14,14 +14,14 @@
         </div>
         <div class="flex flex-col px-2 gap-8 md:gap-10">
           <div
-            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card"
+            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start mb-5 mt-2">
               <img src="/assets/img/analysis.png" class="\" />
             </div>
 
             <h1 class="text-xl md:text-2xl lg:text-3xl mb-2 mb-4">
-              Risk Consulting
+              <a href="hover:text-red-600">Risk Consulting</a>
             </h1>
 
             <ul class="list-decimal list-outside px-6 py-2 space-y-2">
@@ -42,14 +42,14 @@
             </ul>
           </div>
           <div
-            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card"
+            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start mb-5 mt-2">
               <img src="/assets/img/insurance.png" class="\" />
             </div>
 
             <h1 class="text-xl md:text-2xl lg:text-3xl mb-4">
-              Insurance Policy
+              <a href="">Insurance Policy</a>
             </h1>
 
             <ul class="list-decimal list-outside px-6 py-2 space-y-2">
@@ -65,16 +65,16 @@
             </ul>
           </div>
         </div>
-        <div class="flex flex-col mt-5 px-2 gap-8 md:gap-10 md:mt-10">
+        <div class="flex flex-col mt-6 px-2 gap-8 md:gap-10 md:mt-12">
           <div
-            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card"
+            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start mb-5 mt-2">
               <img src="/assets/img/risk.png" class="w-full" />
             </div>
 
             <h1 class="text-xl md:text-2xl lg:text-3xl mb-2 mb-4">
-              Risk Management
+              <a href="">Risk Management</a>
             </h1>
 
             <ul class="list-decimal list-outside px-6 py-2 space-y-2">
@@ -87,13 +87,15 @@
             </ul>
           </div>
           <div
-            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card"
+            class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start mb-5 mt-2">
               <img src="/assets/img/academy.png" class="\" />
             </div>
 
-            <h1 class="text-xl md:text-2xl lg:text-3xl mb-2 mb-4">Academy</h1>
+            <h1 class="text-xl md:text-2xl lg:text-3xl mb-2 mb-4">
+              <a href="">Academy</a>
+            </h1>
 
             <ul class="list-decimal list-outside px-6 py-2 space-y-2">
               <li class="text-base sm:text-base md:text-lg tracking-tight">
@@ -145,10 +147,13 @@ h1 {
   color: #17171f;
 }
 
-li {
+ul li {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   color: #787878;
+  font-weight: 400;
+}
+ul li.hover {
+  color: #17171f;
 }
 </style>

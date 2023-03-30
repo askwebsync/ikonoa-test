@@ -48,7 +48,7 @@
         </div>
       </div>
       <div class="text-center mt-12">
-        <button class="px-8 py-3 border-button-custom font-medium">
+        <button class="px-10 py-4 border-button-custom font-medium">
           Learn More
         </button>
       </div>
