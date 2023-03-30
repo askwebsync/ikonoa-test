@@ -9,10 +9,10 @@
       </div>
       <div class="grid grid-cols-2 gap-4">
         <div class="relative col-span-2 bg-gray-1 p-6 h-80 w-full">
-          <div class="absolute bottom-0">
+          <div class="absolute bottom-0 left-0">
             <div class="flex flex-col gap-4 px-2 py-4">
               <h6 class="text-lg md:text-2xl">Liability Insurance</h6>
-              <p class="text-white text-sm md:text-lg">
+              <p class="text-white text-xs md:text-lg">
                 Liability insurance is an insurance product that provides
                 protection to the insured against claims resulting from injury
                 and damage to other people or property. Liability insurance
@@ -24,10 +24,10 @@
           </div>
         </div>
         <div class="relative bg-gray-2 p-6 h-72 w-full">
-          <div class="absolute bottom-0">
+          <div class="absolute bottom-0 left-0">
             <div class="flex flex-col gap-4 px-2 py-4">
               <h6 class="text-lg md:text-2xl">Engineering Insurance</h6>
-              <p class="text-white text-sm md:text-lg">
+              <p class="text-white text-xs md:text-lg">
                 Protect physical assets from hazards and risks that may occur in
                 projects or buildings such as fire, damage due to extreme
                 weather, or damage due to human error.
@@ -36,10 +36,10 @@
           </div>
         </div>
         <div class="relative bg-gray-3 p-6 h-72 w-full">
-          <div class="absolute bottom-0">
+          <div class="absolute bottom-0 left-0">
             <div class="flex flex-col gap-4 px-2 py-4">
               <h6 class="text-lg md:text-2xl">Miscellaneous Insurance</h6>
-              <p class="text-white text-sm md:text-lg">
+              <p class="text-white text-xs md:text-lg">
                 Type of insurance that provides protection against various
                 unexpected risks such as unexpected financial or legal losses.
               </p>
@@ -94,9 +94,7 @@ p {
   font-weight: 400;
   letter-spacing: 0.5px;
 }
-.backgrund-product {
-  background-color: #ffe5e5;
-}
+
 .bg-gray-1 {
   background-image: url(/assets/img/liability.png);
   background-position: center;
