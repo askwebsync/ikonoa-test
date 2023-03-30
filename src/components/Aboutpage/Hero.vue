@@ -12,15 +12,15 @@
         class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
         style="background-color: rgba(0, 0, 0, 0.75)"
       >
-        <div class="flex flex-col justify-center items-center h-full gap-4">
-          <div class="text-center center">
+        <div class="flex flex-col justify-center items-center h-full">
+          <div class="text-center center flex flex-col gap-6">
             <h1
-              class="text-2xl sm:text-3xl md:text-5xl xl:text-6xl mb-5 md:mb-7 hover:text-red-600 max-w-5xl uppercase leading-8"
+              class="text-2xl sm:text-3xl md:text-5xl hover:text-red-600 max-w-5xl uppercase"
             >
               ABOUT IKONOA
             </h1>
             <h2
-              class="md:text-lg max-w-xs md:max-w-lg capitalize hover:text-yellow-300 tracking-tighter"
+              class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-2xl lg:max-w-3xl"
             >
               "We provide services and solutions that assist you"
             </h2>
@@ -53,6 +53,7 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #ffff00;
+  letter-spacing: 0, 5px;
 }
 p {
   font-family: "Roboto", sans-serif;

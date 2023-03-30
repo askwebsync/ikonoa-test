@@ -2,10 +2,10 @@
   <section>
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col md:flex-row gap-12">
-        <div class="w-full md:w-1/2 mission">
-          <div class="flex flex-col gap-1 mb-6 items-center text-center">
+        <div class="w-full md:w-1/2 flex flex-col gap-10 mission">
+          <div class="flex flex-col gap-2 items-center text-center">
             <h3 class="text-xl md:text-2xl">Mission</h3>
-            <h2 class="md:text-xl max-w-md">
+            <h2 class="md:text-xl">
               Managing & Claiming Customer Insurance Policy
             </h2>
           </div>
@@ -35,10 +35,10 @@
             </ul>
           </div>
         </div>
-        <div class="w-full md:w-1/2 vision">
-          <div class="flex flex-col gap-1 mb-6 items-center text-center">
+        <div class="w-full md:w-1/2 flex flex-col gap-10 vision">
+          <div class="flex flex-col gap-2 items-center text-center">
             <h3 class="text-xl md:text-2xl">Vision</h3>
-            <h2 class="md:text-xl max-w-md">
+            <h2 class="md:text-xl">
               Sevices With Honesty, Speed, and Security
             </h2>
           </div>
@@ -71,13 +71,14 @@ h2 {
   font-style: normal;
   font-weight: 500;
   color: #17171f;
-  letter-spacing: -0.25px;
+  letter-spacing: 0.5px;
 }
 h3 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   color: #d50000;
+  letter-spacing: 0.5px;
 }
 h6 {
   font-style: normal;
