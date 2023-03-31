@@ -102,7 +102,6 @@ h1 {
   color: #3b3b3b;
   letter-spacing: 0.5px;
 }
-
 p {
   font-family: "Roboto";
   font-style: normal;
