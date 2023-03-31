@@ -1,16 +1,31 @@
 <template>
-  <section class="backgrund-product">
+  <section class="">
     <div
-      class="relative overflow-hidden bg-no-repeat bg-cover pb-2"
-      style="background-position: 50%; height: 200px"
+      class="relative overflow-hidden bg-no-repeat bg-cover"
+      style="
+        background-position: 50%;
+        background-image: url('/assets/img/about-hero.jpg');
+        height: 300px;
+      "
     >
-      <div class="flex flex-col justify-center items-center h-full gap-4 py-2">
-        <div class="text-center center px-6 md:px-12">
-          <h1 class="text-xl md:text-2xl lg:text-3xl mb-1">Get in touch</h1>
-          <h2 class="text-lg text-black tracking-tighter max-w-lg md:max-w-xl">
-            Want to get in touch? We'd love to hear from you. Here's how you can
-            reach us..
-          </h2>
+      <div
+        class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+        style="background-color: rgba(0, 0, 0, 0.75)"
+      >
+        <div class="flex flex-col justify-center items-center h-full">
+          <div class="text-center center flex flex-col gap-6">
+            <h1
+              class="text-2xl sm:text-3xl md:text-5xl hover:text-red-600 max-w-5xl uppercase"
+            >
+              GET IN TOUCH
+            </h1>
+            <h2
+              class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-3xl"
+            >
+              " Want to get in touch? We'd love to hear from you. Here's how you
+              can reach us"
+            </h2>
+          </div>
         </div>
       </div>
     </div>
@@ -39,7 +54,9 @@ h1 {
 }
 h2 {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
+  color: #ffff00;
+  letter-spacing: 0, 5px;
 }
 p {
   font-family: "Roboto", sans-serif;

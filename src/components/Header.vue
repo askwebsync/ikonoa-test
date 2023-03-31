@@ -1,4 +1,3 @@
-<!-- eslint-disable vue/require-v-for-key -->
 <template>
   <header>
     <nav
@@ -57,7 +56,9 @@
           @click="showMenu = !showMenu"
           class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
         >
-          <a class="font-medium">Services & Solutions</a>
+          <router-link :to="{ name: 'services' }" class="font-medium"
+            >Services & Solutions</router-link
+          >
         </li>
         <li
           @click="showMenu = !showMenu"
