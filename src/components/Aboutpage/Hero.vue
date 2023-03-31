@@ -20,7 +20,7 @@
               ABOUT IKONOA
             </h1>
             <h2
-              class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-2xl lg:max-w-3xl"
+              class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-3xl"
             >
               "We provide services and solutions that assist you"
             </h2>

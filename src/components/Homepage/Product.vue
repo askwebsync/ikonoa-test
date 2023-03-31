@@ -11,7 +11,7 @@
         <div class="relative col-span-2 bg-gray-1 p-6 h-80 w-full">
           <div class="absolute bottom-0 left-0">
             <div class="flex flex-col gap-4 px-4 py-2">
-              <h6 class="text-lg md:text-2xl">Liability Insurance</h6>
+              <h6 class="text-lg md:text-2xl">Property Insurance</h6>
               <p class="text-white text-xs md:text-lg">
                 Liability insurance is an insurance product that provides
                 protection to the insured against claims resulting from injury
@@ -38,7 +38,7 @@
         <div class="relative bg-gray-3 p-6 h-72 w-full">
           <div class="absolute bottom-0 left-0">
             <div class="flex flex-col gap-4 px-4 py-2">
-              <h6 class="text-lg md:text-2xl">Miscellaneous Insurance</h6>
+              <h6 class="text-lg md:text-2xl">Health Insurance</h6>
               <p class="text-white text-xs md:text-lg">
                 Type of insurance that provides protection against various
                 unexpected risks such as unexpected financial or legal losses.

@@ -2,7 +2,7 @@
 <template>
   <section>
     <div
-      class="container mx-auto px-4 lg:px-6 py-12 grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8"
+      class="container mx-auto px-4 py-12 md:px-8 lg:px-24 grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-10"
     >
       <div
         class="col-span-1 flex flex-col background-custom-misi p-4 items-center text-center custom-shadow-card"

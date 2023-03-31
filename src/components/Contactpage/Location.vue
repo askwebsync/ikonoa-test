@@ -1,12 +1,11 @@
 <template>
-  <section class="">
-    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-12">
-      <div class="rounded-lg p-6 space-y-2 md:p-8">
-        <h2 class="text-2xl font-bold mb-5 text-center">
-          Find Us on Google Map
-        </h2>
+  <section>
+    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
+      <div class="flex flex-col gap-2 text-center">
+        <h3 class="text-xl md:text-2xl lg:text-3xl">LOCATION</h3>
+        <h2 class="text-xl md:text-2xl lg:text-3xl">Find Us on Google Map</h2>
 
-        <div class="google-map my-2">
+        <div class="google-map my-2 rounded">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.025742450736!2d106.82690381452953!3d-6.260339363033278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f22d79f5dec7%3A0x4e7478b43056d766!2sGraha%20Sentana!5e0!3m2!1sen!2sid!4v1679370838375!5m2!1sen!2sid"
             width="600"

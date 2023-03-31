@@ -47,7 +47,7 @@
               />
             </div>
             <h6 class="mt-4 mb-3 text-2xl cursor-pointer text-center">
-              Inhouse Training
+              Offline Training
             </h6>
             <div class="p-3">
               <p

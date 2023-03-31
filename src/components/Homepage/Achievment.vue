@@ -1,33 +1,37 @@
 <template>
   <section>
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
-      <div class="text-center">
-        <div class="flex flex-col gap-2 my-6">
-          <h3 class="text-xl md:text-2xl lg:text-3xl">Achievment</h3>
-          <h2 class="text-xl md:text-2xl lg:text-3xl">
-            Provide client with the best experience
-          </h2>
-          <p class="text-sm md:text-lg tracking-tight">
-            We are committed to providing the best experience to our clients by
-            prioritizing friendly, responsive service and finding client needs
-            and satisfaction.
-          </p>
+      <div class="flex flex-col gap-12">
+        <div class="text-center">
+          <div class="flex flex-col gap-2 my-6">
+            <h3 class="text-xl md:text-2xl lg:text-3xl">
+              WHY YOUR COMPANY NEED THE RISK & CLAIM INSURANCE
+            </h3>
+            <h2 class="text-xl md:text-2xl lg:text-3xl">
+              By working with a claims management service, your business can
+              more effectively manage and resolve claims in a timely manner.
+              Your business may also be able to minimize the potential for an
+              unexpected incident to disrupt day-to-day business operations
+            </h2>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="backgrund-product">
-      <div class="flex justify-evenly gap-4 py-10">
-        <div class="flex flex-col">
-          <h1 class="text-xl md:text-2xl lg:text-3xl text-black">98%</h1>
-          <p class="text-sm">Satisfied Client</p>
-        </div>
-        <div class="flex flex-col">
-          <h1 class="text-xl md:text-2xl lg:text-3xl text-black">USD 250+M</h1>
-          <p class="text-sm">Claim Paid</p>
-        </div>
-        <div class="flex flex-col">
-          <h1 class="text-xl md:text-2xl lg:text-3xl text-black">7,500+</h1>
-          <p class="text-sm">Claim Handle</p>
+        <div class="backgrund-product">
+          <div class="flex justify-evenly gap-4 py-10">
+            <div class="flex flex-col">
+              <h1 class="text-xl md:text-2xl lg:text-3xl text-black">98%</h1>
+              <p class="text-sm">Satisfied Client</p>
+            </div>
+            <div class="flex flex-col">
+              <h1 class="text-xl md:text-2xl lg:text-3xl text-black">
+                USD 250+M
+              </h1>
+              <p class="text-sm">Claim Paid</p>
+            </div>
+            <div class="flex flex-col">
+              <h1 class="text-xl md:text-2xl lg:text-3xl text-black">7,500+</h1>
+              <p class="text-sm">Claim Handle</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
