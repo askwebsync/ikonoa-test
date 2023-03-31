@@ -18,7 +18,7 @@
           </div>
         </div>
         <div
-          class="grid grid-cols-2 text-sm mt-2 grid-flow-row-dense md:mt-0 gap-x-3 gap-y-12 lg:w-2/3 lg:ml-3"
+          class="grid grid-cols-2 text-sm mt-3 grid-flow-row-dense md:mt-0 gap-x-2 gap-y-20 md:gap-x-3 lg:w-2/3 lg:ml-3"
         >
           <div class="space-y-4 col-span-1">
             <h3 class="tracking-wide text-lg uppercase text-gray-300">

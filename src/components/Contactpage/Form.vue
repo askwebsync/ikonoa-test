@@ -2,10 +2,10 @@
 <template>
   <section>
     <div
-      class="container mx-auto px-4 py-12 md:px-8 lg:px-24 grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-10"
+      class="container mx-auto px-4 py-12 md:px-8 lg:px-24 grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-10"
     >
       <div
-        class="col-span-1 flex flex-col background-custom-misi p-4 items-center text-center custom-shadow-card"
+        class="col-span-1 flex flex-col background-custom-misi p-4 items-center text-center shadow-md"
       >
         <i
           class="fas fa-headset text-gray-600 text-2xl smtext-3xl md:text-4xl lg:text-5xl my-2 md:my-3"
@@ -24,7 +24,7 @@
         </div>
       </div>
       <div
-        class="col-span-1 flex flex-col background-custom-misi p-4 items-center text-center custom-shadow-card"
+        class="col-span-1 flex flex-col background-custom-misi p-4 items-center text-center shadow-md"
       >
         <i
           class="fas fa-envelope-open-text text-gray-600 text-2xl smtext-3xl md:text-4xl lg:text-5xl my-2 md:my-3"
@@ -43,7 +43,7 @@
         </div>
       </div>
       <div
-        class="col-span-1 flex flex-col background-custom-misi p-4 items-center text-center custom-shadow-card"
+        class="col-span-2 md:col-span-1 flex flex-col background-custom-misi p-4 items-center text-center shadow-md"
       >
         <i
           class="fas fa-building text-gray-600 text-2xl smtext-3xl md:text-4xl lg:text-5xl my-2 md:my-3"

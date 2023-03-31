@@ -17,26 +17,26 @@
             class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start mb-5 mt-2">
-              <img src="/assets/img/analysis.png" class="\" />
+              <img src="/assets/img/analysis.png" class="" />
             </div>
 
             <h1 class="text-xl md:text-2xl lg:text-3xl mb-2 mb-4">
               <a href="hover:text-red-600">Risk Consulting</a>
             </h1>
 
-            <ul class="list-decimal list-outside px-6 py-2 space-y-2">
-              <li class="text-base sm:text-base md:text-lg tracking-tight">
+            <ul class="list-decimal list-inside px-3 py-2 space-y-2">
+              <li class="text-base sm:text-base md:text-lg tracking-tighter">
                 Claim consultant to expedite claim settlement.
               </li>
-              <li class="text-base sm:text-base md:text-lg tracking-tight">
+              <li class="text-base sm:text-base md:text-lg tracking-tighter">
                 Review insurance gaps to identify coverage gaps/overlaps, reduce
                 premiums, and assess risk exposure.
               </li>
-              <li class="text-base sm:text-base md:text-lg tracking-tight">
+              <li class="text-base sm:text-base md:text-lg tracking-tighter">
                 Support bid management by selecting brokers/insurance companies
                 and analyzing insurance proposals.
               </li>
-              <li class="text-base sm:text-base md:text-lg tracking-tight">
+              <li class="text-base sm:text-base md:text-lg tracking-tighter">
                 Manage insurance program and advise on renewal process.
               </li>
             </ul>
@@ -52,14 +52,14 @@
               <a href="">Insurance Policy</a>
             </h1>
 
-            <ul class="list-decimal list-outside px-6 py-2 space-y-2">
-              <li class="text-base sm:text-base md:text-lg tracking-tight">
+            <ul class="list-decimal list-inside px-3 py-2 space-y-2">
+              <li class="text-base sm:text-base md:text-lg tracking-tighter">
                 Provide the best and trusted Insurance Company
               </li>
-              <li class="text-base sm:text-base md:text-lg tracking-tight">
+              <li class="text-base sm:text-base md:text-lg tracking-tighter">
                 Provide the best terms and conditions at the right premium
               </li>
-              <li class="text-base sm:text-base md:text-lg tracking-tight">
+              <li class="text-base sm:text-base md:text-lg tracking-tighter">
                 Support claim process and settlement
               </li>
             </ul>
@@ -77,11 +77,11 @@
               <a href="">Risk Management</a>
             </h1>
 
-            <ul class="list-decimal list-outside px-6 py-2 space-y-2">
-              <li class="text-base sm:text-base md:text-lg tracking-tight">
+            <ul class="list-decimal list-inside px-3 py-2 space-y-2">
+              <li class="text-base sm:text-base md:text-lg tracking-tighter">
                 Risk survey
               </li>
-              <li class="text-base sm:text-base md:text-lg tracking-tight">
+              <li class="text-base sm:text-base md:text-lg tracking-tighter">
                 Risk improvement and recommendation
               </li>
             </ul>
@@ -97,14 +97,14 @@
               <a href="">Academy</a>
             </h1>
 
-            <ul class="list-decimal list-outside px-6 py-2 space-y-2">
-              <li class="text-base sm:text-base md:text-lg tracking-tight">
+            <ul class="list-decimal list-inside px-3 py-2 space-y-2">
+              <li class="text-base sm:text-base md:text-lg tracking-tighter">
                 Insurance for Insurance Officer
               </li>
-              <li class="text-base sm:text-base md:text-lg tracking-tight">
+              <li class="text-base sm:text-base md:text-lg tracking-tighter">
                 Insurance for Non-Insurance Officer
               </li>
-              <li class="text-base sm:text-base md:text-lg tracking-tight">
+              <li class="text-base sm:text-base md:text-lg tracking-tighter">
                 Inhouse Insurance Training
               </li>
             </ul>
@@ -152,8 +152,5 @@ ul li {
   font-style: normal;
   color: #787878;
   font-weight: 400;
-}
-ul li.hover {
-  color: #17171f;
 }
 </style>
