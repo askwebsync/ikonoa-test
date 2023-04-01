@@ -96,7 +96,7 @@ p {
 }
 
 .bg-gray-1 {
-  background-image: url(/assets/img/liability.png);
+  background-image: url(/assets/img/property.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

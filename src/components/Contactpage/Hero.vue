@@ -50,7 +50,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   letter-spacing: 1.5px;
-  color: #d50000;
+  color: #fdfdff;
 }
 h2 {
   font-family: "Roboto", sans-serif;
