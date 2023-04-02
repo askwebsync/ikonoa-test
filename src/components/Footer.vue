@@ -12,7 +12,7 @@
               alt="logo"
             />
 
-            <a class="text-base max-w-xs text-gray-300"
+            <a class="text-lg font-medium max-w-xs text-white"
               >Ikonoa is trusted and secure insurance platform</a
             >
           </div>
@@ -21,7 +21,7 @@
           class="grid grid-cols-2 text-sm mt-3 grid-flow-row-dense md:mt-0 gap-x-2 gap-y-20 md:gap-x-3 lg:w-2/3 lg:ml-3"
         >
           <div class="space-y-4 col-span-1">
-            <h3 class="tracking-wide text-lg uppercase text-gray-300">
+            <h3 class="tracking-wide text-lg uppercase text-gray-400">
               Quicklinks
             </h3>
             <ul class="space-y-2 text-white">
@@ -49,7 +49,7 @@
             </ul>
           </div>
           <div class="space-y-4 col-span-1">
-            <h3 class="tracking-wide text-lg uppercase text-gray-300">
+            <h3 class="tracking-wide text-lg uppercase text-gray-400">
               Services & Solutions
             </h3>
             <ul class="space-y-2 text-white">
@@ -68,7 +68,9 @@
             </ul>
           </div>
           <div class="space-y-4 col-span-3">
-            <h3 class="text-lg uppercase text-gray-300">Get In Touch</h3>
+            <h3 class="tracking-wide text-lg uppercase text-gray-400">
+              Get In Touch
+            </h3>
             <ul class="space-y-3 text-white">
               <li class="mb-2">
                 <a class="text-lg font-medium" href="#">(+62) 811-963754</a>
@@ -103,3 +105,13 @@
     </div>
   </footer>
 </template>
+
+<script>
+export default {
+  name: "Foot",
+  components: {},
+  data() {
+    return {};
+  },
+};
+</script>

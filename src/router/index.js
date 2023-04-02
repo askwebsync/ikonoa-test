@@ -25,6 +25,9 @@ const router = createRouter({
       component: () => import("../views/Services.vue"),
     },
   ],
+  scrollBehavior() {
+    window.scrollTo(0, 0);
+  },
 });
 
 export default router;

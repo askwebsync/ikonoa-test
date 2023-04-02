@@ -40,8 +40,10 @@
             <div class="flex flex-col gap-4 px-4 py-2">
               <h6 class="text-lg md:text-2xl">Health Insurance</h6>
               <p class="text-white text-xs md:text-lg">
-                Type of insurance that provides protection against various
-                unexpected risks such as unexpected financial or legal losses.
+                Health insurance is an insurance product that covers an insured
+                individual's medical and surgical expenses. It reimburses the
+                expenses incurred due to illness or injury or pays the care
+                provider of the insured individual directly.
               </p>
             </div>
           </div>
@@ -67,20 +69,6 @@ export default {
 </script>
 
 <style scoped>
-h2 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  color: #17171f;
-  letter-spacing: 0.5px;
-}
-h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  color: #d50000;
-  letter-spacing: 1.5px;
-}
 h6 {
   font-family: "Roboto";
   font-style: normal;
@@ -94,7 +82,6 @@ p {
   font-weight: 400;
   letter-spacing: 0.5px;
 }
-
 .bg-gray-1 {
   background-image: url(/assets/img/property.png);
   background-position: center;

@@ -21,11 +21,11 @@
             Maintain Your Peace of Mind by Resolving Insurance Claims
             <br /><span> Easily and Safely</span>
           </h1>
-          <h2
+          <h4
             class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-3xl"
           >
             “Claim is the moment of truth when you buy an insurance policy”
-          </h2>
+          </h4>
         </div>
       </div>
     </div>
@@ -41,23 +41,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 800;
-  color: #fdfdff;
-  letter-spacing: 1.5px;
-}
-h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: #ffff00;
-  letter-spacing: 0.5px;
-}
-p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: #17171f;
-}
-</style>

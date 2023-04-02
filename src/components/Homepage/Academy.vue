@@ -83,36 +83,10 @@ export default {
 </script>
 
 <style scoped>
-h2 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  color: #17171f;
-  letter-spacing: 0.5px;
-}
-h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  color: #d50000;
-  letter-spacing: 1.5px;
-}
 h6 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   color: #17171f;
-}
-
-p {
-  font-family: "Roboto";
-}
-
-.custom-shadow-box-academy {
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
-    rgb(209, 213, 219) 0px 0px 0px 1px inset;
-}
-.bg-custom-academy {
-  background: #fdfdff;
 }
 </style>

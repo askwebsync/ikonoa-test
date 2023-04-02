@@ -15,23 +15,21 @@
             </h2>
           </div>
         </div>
-        <div class="backgrund-product">
-          <div class="flex justify-evenly gap-4 py-10">
-            <div class="flex flex-col">
-              <h1 class="text-xl md:text-2xl lg:text-3xl text-black">98%</h1>
-              <p class="text-sm">Satisfied Client</p>
-            </div>
-            <div class="flex flex-col">
-              <h1 class="text-xl md:text-2xl lg:text-3xl text-black">
-                USD 250+M
-              </h1>
-              <p class="text-sm">Claim Paid</p>
-            </div>
-            <div class="flex flex-col">
-              <h1 class="text-xl md:text-2xl lg:text-3xl text-black">7,500+</h1>
-              <p class="text-sm">Claim Handle</p>
-            </div>
-          </div>
+      </div>
+    </div>
+    <div class="backgrund-product py-4">
+      <div class="flex justify-evenly gap-5 py-10">
+        <div class="flex flex-col">
+          <h1 class="text-lg md:text-2xl lg:text-3xl text-black">98%</h1>
+          <p class="text-sm">Satisfied Client</p>
+        </div>
+        <div class="flex flex-col">
+          <h1 class="text-lg md:text-2xl lg:text-3xl text-black">USD 250+M</h1>
+          <p class="text-sm">Claim Paid</p>
+        </div>
+        <div class="flex flex-col">
+          <h1 class="text-lg md:text-2xl lg:text-3xl text-black">7,500+</h1>
+          <p class="text-sm">Claim Handle</p>
         </div>
       </div>
     </div>
@@ -55,21 +53,6 @@ h1 {
   font-weight: 700;
   color: #17171f;
 }
-h2 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  color: #17171f;
-  letter-spacing: 0.5px;
-}
-h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  color: #d50000;
-  letter-spacing: 1.5px;
-}
-
 p {
   font-family: "Roboto";
   font-style: normal;

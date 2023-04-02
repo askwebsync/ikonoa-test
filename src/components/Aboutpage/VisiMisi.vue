@@ -45,18 +45,7 @@ export default {
 
 <style scoped>
 h2 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
-  color: #17171f;
-  letter-spacing: 0.5px;
-}
-h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  color: #d50000;
-  letter-spacing: 0.5px;
 }
 li {
   font-style: normal;

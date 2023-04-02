@@ -16,7 +16,7 @@
         <div class="flex flex-wrap mt-auto py-3">
           <a
             href="#"
-            class="text-base md:text-lg font-semibold text-red-600 tracking-tight hover:underline"
+            class="text-base md:text-lg text-red-600 tracking-tight hover:underline"
           >
             +62 82122064150
           </a>
@@ -34,7 +34,7 @@
         <div class="flex flex-wrap mt-auto py-3">
           <a
             href="#"
-            class="text-base md:text-lg font-semibold text-red-600 tracking-tight hover:underline"
+            class="text-base md:text-lg text-red-600 tracking-tight hover:underline"
           >
             hallo@ikonoa.com
           </a>
@@ -50,9 +50,7 @@
         <h2 class="text-xl md:text-2xl tracking-tight my-2">Office</h2>
 
         <div class="flex flex-wrap mt-auto py-3">
-          <p
-            class="text-base md:text-lg font-semibold text-red-600 tracking-tight"
-          >
+          <p class="text-base md:text-lg text-red-600 tracking-tight">
             Graha Sentana - Jl. Warung Buncit Raya No. 2, Jakarta Selatan
           </p>
         </div>
@@ -73,21 +71,6 @@ export default {
 
 <style scoped>
 h2 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
-  color: #17171f;
-  letter-spacing: -0.01px;
-}
-h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  color: #d50000;
-}
-p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  letter-spacing: -0.01px;
 }
 </style>

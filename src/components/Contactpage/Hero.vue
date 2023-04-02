@@ -5,7 +5,7 @@
       style="
         background-position: 50%;
         background-image: url('/assets/img/about-hero.jpg');
-        height: 300px;
+        height: 500px;
       "
     >
       <div
@@ -19,12 +19,12 @@
             >
               GET IN TOUCH
             </h1>
-            <h2
+            <h4
               class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-3xl"
             >
               " Want to get in touch? We'd love to hear from you. Here's how you
               can reach us"
-            </h2>
+            </h4>
           </div>
         </div>
       </div>
@@ -41,27 +41,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.center {
-  text-align: -webkit-center;
-}
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  color: #fdfdff;
-}
-h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: #ffff00;
-  letter-spacing: 0, 5px;
-}
-p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: #17171f;
-  letter-spacing: 0.1px;
-}
-</style>

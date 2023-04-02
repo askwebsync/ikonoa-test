@@ -25,7 +25,7 @@
             </p>
           </div>
 
-          <div class="my-5">
+          <div class="my-3">
             <ul class="list-none space-y-4">
               <li class="flex items-center">
                 <img src="/assets/img/check-mark.png" class="mr-2 md:mr-3" />
@@ -74,25 +74,4 @@ export default {
 };
 </script>
 
-<style scoped>
-h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  color: #d50000;
-  letter-spacing: 1.5px;
-}
-h2 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  color: #17171f;
-  letter-spacing: 0.5px;
-}
-p {
-  font-family: "Roboto";
-  font-style: normal;
-  color: #000000;
-  letter-spacing: 0.5px;
-}
-</style>
+<style></style>

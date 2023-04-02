@@ -59,7 +59,7 @@ export default {
 }
 .slideFade-enter-active,
 .slideFade-leave-active {
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
 
 .slideFade-enter,

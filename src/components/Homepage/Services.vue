@@ -126,20 +126,6 @@ export default {
 </script>
 
 <style scoped>
-h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  color: #d50000;
-  letter-spacing: 1.5px;
-}
-h2 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  color: #17171f;
-  letter-spacing: 0.5px;
-}
 h1 {
   font-family: "Roboto";
   font-style: normal;

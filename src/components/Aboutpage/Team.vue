@@ -111,19 +111,6 @@ export default {
 </script>
 
 <style scoped>
-h2 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  color: #17171f;
-  letter-spacing: 0.1px;
-}
-h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  color: #d50000;
-}
 .carousel__item {
   min-height: 345px;
   width: 80%;
