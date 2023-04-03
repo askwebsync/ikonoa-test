@@ -18,7 +18,7 @@
             <div class="relative">
               <img
                 class="w-full rounded"
-                src="/assets/img/webinar.jpg"
+                src="/assets/img/homepage/webinar.jpg"
                 alt="webinar"
               />
             </div>
@@ -42,7 +42,7 @@
             <div class="relative">
               <img
                 class="w-full rounded"
-                src="/assets/img/seminar.jpg"
+                src="/assets/img/homepage/seminar.jpg"
                 alt="seminar"
               />
             </div>

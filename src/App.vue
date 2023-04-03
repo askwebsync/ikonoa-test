@@ -14,8 +14,6 @@
     </router-view>
     <app-footer />
   </div>
-
-  <!-- Main Content -->
 </template>
 
 <script>
@@ -38,7 +36,7 @@ export default {
       if (this.loading) {
         this.loading = false;
       }
-    }, 1300);
+    }, 1100);
   },
 };
 </script>

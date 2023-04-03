@@ -7,7 +7,12 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div class="background-services-card flex flex-col">
           <div class="flex flex-col gap-8 p-12 text-center">
-            <h1 class="text-lg md:text-xl lg:text-3xl">Risk Consulting</h1>
+            <router-link
+              :to="{ name: 'risk-consulting' }"
+              class="hover:text-red-600 focus:outline-none"
+            >
+              <h1 class="text-lg md:text-xl lg:text-3xl">Risk Consulting</h1>
+            </router-link>
             <p class="text-xs sm:text-sm md:text-base">
               We can carry out a risk survey according to your needs, including
               unusual and complex risks. Our team can work and conduct surveys

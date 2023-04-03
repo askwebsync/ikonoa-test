@@ -13,7 +13,7 @@
         style="background-color: rgba(0, 0, 0, 0.65)"
       >
         <div
-          class="flex flex-col justify-center items-center h-full text-center gap-10 p-6"
+          class="flex flex-col justify-center items-center h-full text-center gap-6 p-6"
         >
           <h1
             class="text-2xl sm:text-3xl md:text-5xl hover:text-red-600 max-w-5xl uppercase md:leading-snug"

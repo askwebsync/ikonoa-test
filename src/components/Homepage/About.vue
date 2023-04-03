@@ -4,7 +4,7 @@
       <div class="flex flex-col md:flex-row gap-12 items-center">
         <div class="w-1/2">
           <img
-            src="/assets/img/gambar2.png"
+            src="/assets/img/homepage/gambar2.png"
             style="max-height: 600px"
             alt="gambar"
             class="h-auto object-contain"
@@ -74,4 +74,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+p {
+  color: #17171f;
+}
+</style>

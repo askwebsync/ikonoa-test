@@ -115,3 +115,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+li p {
+  color: #fdfdff;
+}
+</style>

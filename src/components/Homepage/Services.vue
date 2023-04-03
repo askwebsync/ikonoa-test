@@ -17,7 +17,7 @@
             class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start mb-5 mt-2">
-              <img src="/assets/img/analysis.png" class="" />
+              <img src="/assets/img/homepage/analysis.png" class="" />
             </div>
 
             <h1 class="text-xl md:text-2xl lg:text-3xl mb-2 mb-4">
@@ -45,7 +45,7 @@
             class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start mb-5 mt-2">
-              <img src="/assets/img/insurance.png" class="\" />
+              <img src="/assets/img/homepage/insurance.png" class="\" />
             </div>
 
             <h1 class="text-xl md:text-2xl lg:text-3xl mb-4">
@@ -70,7 +70,7 @@
             class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start mb-5 mt-2">
-              <img src="/assets/img/risk.png" class="w-full" />
+              <img src="/assets/img/homepage/risk.png" class="w-full" />
             </div>
 
             <h1 class="text-xl md:text-2xl lg:text-3xl mb-2 mb-4">
@@ -90,7 +90,7 @@
             class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start mb-5 mt-2">
-              <img src="/assets/img/academy.png" class="\" />
+              <img src="/assets/img/homepage/academy.png" class="\" />
             </div>
 
             <h1 class="text-xl md:text-2xl lg:text-3xl mb-2 mb-4">
