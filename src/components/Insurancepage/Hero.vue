@@ -16,12 +16,12 @@
           class="flex flex-col justify-center items-center h-full text-center center px-6"
         >
           <h1
-            class="text-2xl sm:text-3xl md:text-5xl mb-5 md:mb-7 hover:text-red-600 max-w-5xl uppercase"
+            class="text-2xl sm:text-3xl md:text-5xl hover:text-red-600 max-w-5xl uppercase md:leading-snug"
           >
             OUR SERVICE & SOLUTIONS
           </h1>
           <h4
-            class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-3xl"
+            class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-5xl"
           >
             “We can help you choose the type of insurance policy that suits your
             needs”

@@ -65,7 +65,7 @@
             </ul>
           </div>
         </div>
-        <div class="flex flex-col mt-6 px-2 gap-8 md:gap-10 md:mt-12">
+        <div class="flex flex-col mt-8 px-2 gap-8 md:gap-10 md:mt-12">
           <div
             class="flex flex-col w-80 md:w-56 lg:w-full px-5 py-6 background-card hover:bg-white hover:shadow-md"
           >

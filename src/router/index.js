@@ -25,9 +25,13 @@ const router = createRouter({
       component: () => import("../views/Services.vue"),
     },
   ],
-  scrollBehavior() {
-    window.scrollTo(0, 0);
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { top: 0 };
+    }
   },
 });
-
+window.addEventListener("wheel", () => {}, { passive: true });
 export default router;

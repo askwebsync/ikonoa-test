@@ -13,16 +13,16 @@
         style="background-color: rgba(0, 0, 0, 0.65)"
       >
         <div
-          class="flex flex-col justify-center items-center h-full text-center center px-6"
+          class="flex flex-col justify-center items-center h-full text-center gap-10 p-6"
         >
           <h1
-            class="text-2xl sm:text-3xl md:text-5xl mb-5 md:mb-7 hover:text-red-600 max-w-5xl uppercase"
+            class="text-2xl sm:text-3xl md:text-5xl hover:text-red-600 max-w-5xl uppercase md:leading-snug"
           >
             Maintain Your Peace of Mind by Resolving Insurance Claims
             <br /><span> Easily and Safely</span>
           </h1>
           <h4
-            class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-3xl"
+            class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-5xl"
           >
             “Claim is the moment of truth when you buy an insurance policy”
           </h4>
