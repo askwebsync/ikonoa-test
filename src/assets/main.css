@@ -22,6 +22,10 @@
   background-color: #F9F9F9;
 }
 
+.background-services-card:hover {
+  background-color: #FFE5E5;
+}
+
 .background-color-card {
   background-color: #F2F2F2;
 }
@@ -37,7 +41,7 @@
 h4 {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   color: #ffff00;
   letter-spacing: 0.5px;
 }
@@ -88,4 +92,17 @@ a:hover {
 .border-button-custom {
   border: 1px solid #D50000;
   border-radius: 5px;
+}
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
 }

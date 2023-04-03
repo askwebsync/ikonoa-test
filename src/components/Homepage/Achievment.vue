@@ -56,6 +56,5 @@ h1 {
 p {
   font-family: "Roboto";
   font-style: normal;
-  color: #000000;
 }
 </style>

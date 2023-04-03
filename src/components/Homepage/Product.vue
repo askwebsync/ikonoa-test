@@ -77,7 +77,6 @@ h6 {
   letter-spacing: 0.5px;
 }
 p {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.5px;

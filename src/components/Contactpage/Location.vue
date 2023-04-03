@@ -30,16 +30,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.google-map {
-  padding-bottom: 50%;
-  position: relative;
-}
-.google-map iframe {
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  position: absolute;
-}
-</style>
+<style scoped></style>

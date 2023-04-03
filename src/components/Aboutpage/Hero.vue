@@ -1,5 +1,5 @@
 <template>
-  <section class="">
+  <section>
     <div
       class="relative overflow-hidden bg-no-repeat bg-cover"
       style="

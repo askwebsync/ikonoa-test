@@ -2,7 +2,7 @@
 <template>
   <section>
     <div
-      class="container mx-auto px-4 py-12 md:px-8 lg:px-24 flex flex-col gap-5"
+      class="container mx-auto px-4 py-12 md:px-8 lg:px-24 flex flex-col gap-10"
     >
       <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div class="background-services-card flex flex-col">
@@ -16,7 +16,7 @@
           </div>
           <div>
             <img
-              src="../../../public/assets/img/risk-consulting.png"
+              src="/assets/img/risk-consulting.png"
               alt="risk-consulting"
               class="w-full rounded-lg"
             />
@@ -25,16 +25,16 @@
 
         <div class="background-services-card flex flex-col">
           <div class="flex flex-col gap-8 p-12 text-center">
-            <h1 class="text-lg md:text-xl lg:text-3xl">Risk Consulting</h1>
+            <h1 class="text-lg md:text-xl lg:text-3xl">Risk Management</h1>
             <p class="text-xs sm:text-sm md:text-base">
-              We can carry out a risk survey according to your needs, including
-              unusual and complex risks. Our team can work and conduct surveys
-              wherever these risks are located.
+              Assist our customers in identifying, evaluating, and managing the
+              risks associated with their business, thereby reducing potential
+              losses and increasing business success.
             </p>
           </div>
           <div>
             <img
-              src="../../../public/assets/img/risk-consulting.png"
+              src="/assets/img/risk-consulting.png"
               alt="risk-consulting"
               class="w-full rounded-lg"
             />
@@ -44,16 +44,16 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div class="background-services-card flex flex-col">
           <div class="flex flex-col gap-8 p-12 text-center">
-            <h1 class="text-lg md:text-xl lg:text-3xl">Risk Consulting</h1>
+            <h1 class="text-lg md:text-xl lg:text-3xl">Insurance Policy</h1>
             <p class="text-xs sm:text-sm md:text-base">
-              We can carry out a risk survey according to your needs, including
-              unusual and complex risks. Our team can work and conduct surveys
-              wherever these risks are located.
+              We provide consultative services and work with clients including
+              business owners and benefits decision-makers to develop the right
+              coverage plans for each client's needs.
             </p>
           </div>
           <div>
             <img
-              src="../../../public/assets/img/risk-consulting.png"
+              src="/assets/img/risk-consulting.png"
               alt="risk-consulting"
               class="w-full rounded-lg"
             />
@@ -62,16 +62,17 @@
 
         <div class="background-services-card flex flex-col">
           <div class="flex flex-col gap-8 p-12 text-center">
-            <h1 class="text-lg md:text-xl lg:text-3xl">Risk Consulting</h1>
+            <h1 class="text-lg md:text-xl lg:text-3xl">Academy</h1>
             <p class="text-xs sm:text-sm md:text-base">
-              We can carry out a risk survey according to your needs, including
-              unusual and complex risks. Our team can work and conduct surveys
-              wherever these risks are located.
+              We provide insurance training that suits to your needs, either
+              directly provided by our experienced Staff or in collaboration
+              with third parties. We named it Insurance for Insurance Staff and
+              Insurance for Non-Insurance Staff
             </p>
           </div>
           <div>
             <img
-              src="../../../public/assets/img/risk-consulting.png"
+              src="/assets/img/risk-consulting.png"
               alt="risk-consulting"
               class="w-full rounded-lg"
             />
