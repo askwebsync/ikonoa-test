@@ -80,21 +80,22 @@
             >Contact</router-link
           >
         </li>
-
-        <div
-          @click="changeLanguage"
-          class="flex flex-row items-center place-content-center mt-2 ml-0 md:ml-6 md:mt-0 lg:ml-10 focus:outline-none"
-        >
-          <img
-            class="w-6 h-6 mr-1 focus:outline-none"
-            :src="flagImage"
-            :alt="flagAltText"
-          />
-          <a
-            class="md:py-2 py-3 text-sm lg:text-base hover:text-red-600 focus:outline-none font-bold text-gray-600"
-            href="#"
-            >{{ language }}</a
+        <div>
+          <div
+            @click="changeLanguage"
+            class="flex flex-row items-center place-content-center mt-2 ml-0 md:ml-6 md:mt-0 lg:ml-10 focus:outline-none"
           >
+            <img
+              class="w-6 h-6 mr-1 focus:outline-none"
+              :src="flagImage"
+              :alt="flagAltText"
+            />
+            <a
+              class="md:py-2 py-3 text-sm lg:text-base hover:text-red-600 focus:outline-none font-bold text-gray-600"
+              href="#"
+              >{{ language }}</a
+            >
+          </div>
         </div>
       </ul>
     </nav>

@@ -1,5 +1,5 @@
 <template>
-  <section class="backgrund-product">
+  <section class="background-product">
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col gap-12">
         <div class="flex flex-col gap-2 self-center text-center max-w-2xl">

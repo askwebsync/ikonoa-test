@@ -1,5 +1,5 @@
 <template>
-  <section class="backgrund-product">
+  <section class="background-product">
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col gap-10">
         <div class="flex flex-col gap-2 text-center">
@@ -53,9 +53,9 @@
           </div>
           <div class="text-center mt-5">
             <button
-              class="px-14 py-3 border-button-custom font-medium button-shadow"
+              class="px-10 py-3 md:px-14 border-button-custom font-medium button-shadow"
             >
-              Learn More
+              <router-link :to="{ name: 'about' }">Learn More</router-link>
             </button>
           </div>
         </div>

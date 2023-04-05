@@ -1,15 +1,15 @@
 <template>
-  <section>
+  <section class="background-product">
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
-      <div class="background-custom-misi flex flex-col p-6">
-        <div class="text-center mb-1">
-          <h3 class="text-xl md:text-2xl">Vision</h3>
+      <div class="flex flex-col gap-8 text-center">
+        <div class="flex flex-col gap-4">
+          <h3 class="text-xl md:text-3xl">Vision</h3>
           <ul class="px-3 py-2 list-disc list-inside marker:text-red-600">
             <li>The most trusted risk and management consulting in Asia</li>
           </ul>
         </div>
-        <div class="text-center my-3">
-          <h3 class="text-xl md:text-2xl">Mission</h3>
+        <div class="flex flex-col gap-4">
+          <h3 class="text-xl md:text-3xl">Mission</h3>
           <ul
             class="px-3 py-2 space-y-3 list-disc list-inside marker:text-red-600"
           >
@@ -48,9 +48,10 @@ h2 {
   font-weight: 500;
 }
 li {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
+  letter-spacing: 0.5px;
   color: #17171f;
-  letter-spacing: 0.2px;
 }
 </style>

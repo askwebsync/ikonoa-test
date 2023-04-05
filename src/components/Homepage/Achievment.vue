@@ -2,7 +2,7 @@
   <section>
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col gap-14">
-        <div class="flex flex-col gap-2 text-center">
+        <div class="flex flex-col gap-4 md:gap-2 text-center">
           <h3 class="text-xl md:text-2xl lg:text-3xl">
             WHY YOUR COMPANY NEED THE RISK & CLAIM INSURANCE
           </h3>
@@ -14,7 +14,7 @@
           </h2>
         </div>
         <div class="pb-6">
-          <div class="backgrund-product py-3">
+          <div class="background-product py-3">
             <div class="flex justify-evenly gap-5 py-10">
               <div class="flex flex-col">
                 <h1 class="text-lg md:text-2xl lg:text-3xl">98%</h1>

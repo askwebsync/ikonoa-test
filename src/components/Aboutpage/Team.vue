@@ -2,9 +2,9 @@
 <template>
   <section>
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
-      <div class="flex flex-col">
-        <div class="flex mb-6 self-center items-center text-center">
-          <h3 class="text-xl md:text-2xl">Our Team</h3>
+      <div class="flex flex-col gap-10">
+        <div class="flex self-center items-center text-center">
+          <h3 class="text-xl md:text-3xl">Our Team</h3>
         </div>
 
         <Carousel :settings="settings" :breakpoints="breakpoints">
@@ -15,23 +15,23 @@
                   :src="slide.image"
                   class="w-44 h-44 rounded-md object-cover transition duration-200 hover:scale-110"
                 />
-                <div>
-                  <h2 class="text-gray-900 text-lg font-bold">
-                    {{ slide.name }}
-                  </h2>
-
-                  <div class="text-black">{{ slide.title }}</div>
-                </div>
-
-                <div
-                  class="flex items-center justify-center gap-3 mt-2 w-auto h-5 text-gray-600"
-                >
-                  <i
-                    class="fab fa-twitter fa-lg cursor-pointer transition duration-200 hover:text-gray-400"
-                  ></i>
-                  <i
-                    class="fab fa-linkedin fa-lg cursor-pointer transition duration-200 hover:text-gray-400"
-                  ></i>
+                <div class="flex flex-col gap-6">
+                  <div>
+                    <h2 class="text-xl">
+                      {{ slide.name }}
+                    </h2>
+                    <p class="text-gray-400">{{ slide.title }}</p>
+                  </div>
+                  <div
+                    class="flex items-center justify-center gap-3 w-auto h-5 text-gray-600"
+                  >
+                    <i
+                      class="fab fa-twitter fa-lg cursor-pointer transition duration-200 text-black hover:text-gray-400"
+                    ></i>
+                    <i
+                      class="fab fa-linkedin fa-lg cursor-pointer transition duration-200 text-black hover:text-gray-400"
+                    ></i>
+                  </div>
                 </div>
               </div>
             </div>
