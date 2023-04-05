@@ -1,5 +1,4 @@
 <template>
-  <!-- Introduction -->
   <div v-if="loading" class="h-screen flex items-center justify-center">
     <div class="spinner w-12 h-12 mx-auto text-gray-600 animate-spin"></div>
   </div>

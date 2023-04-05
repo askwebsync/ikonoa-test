@@ -1,19 +1,18 @@
 <template>
-  <section>
+  <section class="backgrund-product">
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
-      <div class="flex flex-col gap-2 mb-6 items-center text-center">
-        <h3 class="text-xl md:text-2xl lg:text-3xl">Academy</h3>
-        <h2 class="text-xl md:text-2xl lg:text-3xl">
-          Ikonoa will provide better knowledge and understanding of the types of
-          insurance, benefits and conditions of each type of insurance.
-        </h2>
-      </div>
-      <div class="flex justify-center my-12">
-        <div
-          class="flex flex-wrap justify-center md:flex-row gap-8 md:gap-10 space-y-4 px-2 lg:px-3 md:grid md:grid-cols-2 md:space-y-0"
-        >
+      <div class="flex flex-col gap-12">
+        <div class="flex flex-col gap-2 self-center text-center max-w-2xl">
+          <h3 class="text-xl md:text-2xl lg:text-3xl">Academy</h3>
+          <h2 class="text-xl md:text-2xl lg:text-3xl">
+            Ikonoa will provide better knowledge and understanding of the types
+            of insurance, benefits and conditions of each type of insurance.
+          </h2>
+        </div>
+
+        <div class="flex flex-col justify-center md:flex-row gap-10">
           <div
-            class="bg-custom-academy custom-shadow-box-academy max-w-md px-6 py-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
+            class="bg-custom-academy flex flex-col max-w-md px-6 py-4 gap-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
           >
             <div class="relative">
               <img
@@ -22,12 +21,10 @@
                 alt="webinar"
               />
             </div>
-            <h6 class="mt-4 mb-3 text-2xl cursor-pointer text-center">
-              Online Training
-            </h6>
-            <div class="p-3">
+            <div class="flex flex-col gap-6 text-center">
+              <h6 class="text-2xl">Online Training</h6>
               <p
-                class="text-sm sm:text-base md:text-lg text-gray-600 font-medium text-justify tracking-tighter"
+                class="text-sm sm:text-base md:text-lg text-gray-600 text-justify"
               >
                 We provide online webinars on insurance for both Insurance
                 Officers and Non-Insurance Officers. Our webinars cover policy
@@ -37,7 +34,7 @@
             </div>
           </div>
           <div
-            class="bg-custom-academy custom-shadow-box-academy max-w-md px-6 py-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
+            class="bg-custom-academy max-w-md px-6 py-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
           >
             <div class="relative">
               <img
@@ -51,7 +48,7 @@
             </h6>
             <div class="p-3">
               <p
-                class="text-sm sm:text-base md:text-lg text-gray-600 font-medium text-justify tracking-tighter"
+                class="text-sm sm:text-base md:text-lg text-gray-600 text-justify"
               >
                 We offer customized in-house insurance training for companies,
                 addressing their unique challenges and opportunities. Our expert
@@ -62,11 +59,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="text-center mt-6">
-        <button class="px-10 py-4 border-button-custom font-medium">
-          Learn More
-        </button>
       </div>
     </div>
   </section>
@@ -83,10 +75,8 @@ export default {
 </script>
 
 <style scoped>
-h6 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  color: #17171f;
+p {
+  font-weight: 400;
+  letter-spacing: -1px;
 }
 </style>

@@ -7,7 +7,7 @@
         <div class="lg:w-1/3">
           <div class="flex flex-col items-center lg:items-start gap-2">
             <img
-              src="../assets/Image.png"
+              src="/assets/img/Icon/logo.png"
               class="w-28 h-12 object-contain"
               alt="logo"
             />
@@ -21,9 +21,7 @@
           class="grid grid-cols-2 text-sm mt-3 grid-flow-row-dense md:mt-0 gap-x-2 gap-y-20 md:gap-x-3 lg:w-2/3 lg:ml-3"
         >
           <div class="space-y-4 col-span-1">
-            <h3 class="tracking-wide text-lg uppercase text-gray-400">
-              Quicklinks
-            </h3>
+            <h3 class="text-lg">Quicklinks</h3>
             <ul class="space-y-2 text-white">
               <li class="mb-2">
                 <router-link :to="{ name: 'about' }" class="text-lg font-medium"
@@ -49,9 +47,7 @@
             </ul>
           </div>
           <div class="space-y-4 col-span-1">
-            <h3 class="tracking-wide text-lg uppercase text-gray-400">
-              Services & Solutions
-            </h3>
+            <h3 class="text-lg">Services & Solutions</h3>
             <ul class="space-y-2 text-white">
               <li class="mb-2">
                 <a class="text-lg font-medium" href="#">Risk Consulting</a>
@@ -68,9 +64,7 @@
             </ul>
           </div>
           <div class="space-y-4 col-span-3">
-            <h3 class="tracking-wide text-lg uppercase text-gray-400">
-              Get In Touch
-            </h3>
+            <h3 class="text-lg">Get In Touch</h3>
             <ul class="space-y-3 text-white">
               <li class="mb-2">
                 <a class="text-lg font-medium" href="#">(+62) 811-963754</a>
@@ -100,7 +94,7 @@
         </div>
       </div>
     </div>
-    <div class="py-6 text-sm text-center dark:text-gray-400 border-t">
+    <div class="py-6 text-sm text-center text-white border-t">
       © 1968 PT.Ikonoa Solusindo Asia. All rights reserved.
     </div>
   </footer>
@@ -119,5 +113,8 @@ export default {
 <style scoped>
 li p {
   color: #fdfdff;
+}
+h3 {
+  color: #ffff00;
 }
 </style>

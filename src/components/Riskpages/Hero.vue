@@ -2,11 +2,7 @@
   <section>
     <div
       class="relative overflow-hidden bg-no-repeat bg-cover"
-      style="
-        background-position: 50%;
-        background-color: whitesmoke;
-        height: 500px;
-      "
+      style="height: 500px"
     >
       <div
         class="flex flex-col justify-center items-center h-full text-center gap-10 p-12"

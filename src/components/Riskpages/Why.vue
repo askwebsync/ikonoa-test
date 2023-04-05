@@ -2,14 +2,10 @@
   <section class="backgrund-product">
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div
-        class="flex flex-col flex-start items-center gap-11 md:flex-row md:p-24"
+        class="flex flex-col flex-start items-center gap-11 md:flex-row md:p-12 lg:p-24"
       >
         <div class="md:w-1/2">
-          <img
-            src="/assets/img/risk-consulting/why.png"
-            alt="why u need"
-            class=" "
-          />
+          <img src="/assets/img/risk-consulting/why.png" alt="Why" class="" />
         </div>
         <div class="md:w-1/2 md:self-start">
           <h2 class="text-4xl mb-3 uppercase">Why u need a consultant?</h2>
@@ -49,7 +45,7 @@ h2 {
 }
 p {
   color: #3b3b3b;
-  letter-spacing: -0.05px;
+  letter-spacing: -0.15px;
 }
 hr {
   width: 120px;

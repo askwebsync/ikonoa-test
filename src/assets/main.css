@@ -10,36 +10,11 @@
   box-sizing: border-box;
 }
 
-.backgrund-product {
-  background-color: #F2F2F2;
-}
-
-.background-custom-misi {
-  background-color: #F2F2F2;
-}
-
-.background-services-card {
-  background-color: #F9F9F9;
-}
-
-.background-services-card:hover {
-  background-color: #FFE5E5;
-}
-
-.background-color-card {
-  background-color: #F2F2F2;
-}
-
-.background-card {
-  background: #F2F2F2;
-}
-
-.background-custom-category {
-  background: #FFE5E5;
-}
-
-.center {
-  text-align: -webkit-center;
+h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  color: #17171f;
 }
 
 h4 {
@@ -76,9 +51,50 @@ h1 {
 
 p {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
+
 }
 
+.button-shadow {
+  filter: drop-shadow(0px 4px 4px rgba(50, 50, 71, 0.08)) drop-shadow(0px 4px 8px rgba(50, 50, 71, 0.06));
+}
+
+.backgrund-product {
+  background-color: #F2F2F2;
+}
+
+.background-custom-misi {
+  background-color: #F2F2F2;
+}
+
+.background-services-card {
+  background-color: #F9F9F9;
+}
+
+.background-services-card:hover {
+  background-color: #FFE5E5;
+}
+
+.background-color-card {
+  background-color: #F2F2F2;
+}
+
+.background-card {
+  background: #F2F2F2;
+}
+
+.background-custom-category {
+  background: #FFE5E5;
+}
+
+.bg-custom-academy {
+  background: #FDFDFF
+}
+
+.center {
+  text-align: -webkit-center;
+}
 
 a:hover {
   color: red;

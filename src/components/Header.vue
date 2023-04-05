@@ -6,7 +6,7 @@
       <div class="flex items-center justify-between">
         <router-link :to="{ name: 'home' }" class="">
           <img
-            src="/assets/img/logo.png"
+            src="/assets/img/icon/logo.png"
             class="w-28 h-12 lg:w-32 lg:h-16 object-contain focus:outline-none"
             alt="logo"
           />
@@ -80,22 +80,21 @@
             >Contact</router-link
           >
         </li>
-        <div class="">
-          <div
-            @click="changeLanguage"
-            class="flex flex-row items-center place-content-center mt-2 ml-0 md:ml-6 md:mt-0 lg:ml-10 focus:outline-none"
+
+        <div
+          @click="changeLanguage"
+          class="flex flex-row items-center place-content-center mt-2 ml-0 md:ml-6 md:mt-0 lg:ml-10 focus:outline-none"
+        >
+          <img
+            class="w-6 h-6 mr-1 focus:outline-none"
+            :src="flagImage"
+            :alt="flagAltText"
+          />
+          <a
+            class="md:py-2 py-3 text-sm lg:text-base hover:text-red-600 focus:outline-none font-bold text-gray-600"
+            href="#"
+            >{{ language }}</a
           >
-            <img
-              class="w-6 h-6 mr-1 focus:outline-none"
-              :src="flagImage"
-              :alt="flagAltText"
-            />
-            <a
-              class="md:py-2 py-3 text-sm lg:text-base hover:text-red-600 focus:outline-none font-bold text-gray-600"
-              href="#"
-              >{{ language }}</a
-            >
-          </div>
         </div>
       </ul>
     </nav>
@@ -107,7 +106,7 @@ export default {
     return {
       showMenu: false,
       language: "ENG",
-      flagImage: "/assets/img/eng.png",
+      flagImage: "/assets/img/icon/eng.png",
       flagAltText: "Nation Flag",
     };
   },
@@ -120,11 +119,11 @@ export default {
     changeLanguage() {
       if (this.language === "ENG") {
         this.language = "IND";
-        this.flagImage = "/assets/img/ind.png";
+        this.flagImage = "/assets/img/icon/ind.png";
         this.flagAltText = "Indo Flag";
       } else {
         this.language = "ENG";
-        this.flagImage = "/assets/img/eng.png";
+        this.flagImage = "/assets/img/icon/eng.png";
         this.flagAltText = "Eng flag";
       }
     },

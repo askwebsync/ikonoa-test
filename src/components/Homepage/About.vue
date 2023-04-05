@@ -4,9 +4,9 @@
       <div class="flex flex-col md:flex-row gap-12 items-center">
         <div class="w-1/2">
           <img
-            src="/assets/img/homepage/gambar2.png"
+            src="/assets/img/Homepage/about.png"
             style="max-height: 600px"
-            alt="gambar"
+            alt="about-us"
             class="h-auto object-contain"
           />
         </div>
@@ -25,38 +25,76 @@
             </p>
           </div>
 
-          <div class="my-3">
-            <ul class="list-none space-y-4">
-              <li class="flex items-center">
-                <img src="/assets/img/check-mark.png" class="mr-2 md:mr-3" />
-                <p class="flex-1 font-semibold text-lg">Integrity</p>
+          <div class="flex flex-col gap-11">
+            <ul class="list-none space-y-5">
+              <li class="flex items-center gap-4">
+                <img
+                  src="/assets/img/Homepage/check-mark.png"
+                  alt="check-mark"
+                  class=""
+                />
+                <p class="flex-1 font-semibold text-lg">
+                  <span class="text-red-600">I</span>ntegrity
+                </p>
               </li>
-              <li class="flex items-center">
-                <img src="/assets/img/check-mark.png" class="mr-2 md:mr-3" />
-                <p class="flex-1 font-semibold text-lg">Knowledgeable</p>
+              <li class="flex items-center gap-4">
+                <img
+                  src="/assets/img/Homepage/check-mark.png"
+                  alt="check-mark"
+                  class=""
+                />
+                <p class="flex-1 font-semibold text-lg">
+                  <span class="text-red-600">K</span>nowledgeable
+                </p>
               </li>
-              <li class="flex items-center">
-                <img src="/assets/img/check-mark.png" class="mr-2 md:mr-3" />
-                <p class="flex-1 font-semibold text-lg">Professional</p>
+              <li class="flex items-center gap-4">
+                <img
+                  src="/assets/img/Homepage/check-mark.png"
+                  alt="check-mark"
+                  class=""
+                />
+                <p class="flex-1 font-semibold text-lg">
+                  Pr<span class="text-red-600">o</span>fessional
+                </p>
               </li>
-              <li class="flex items-center">
-                <img src="/assets/img/check-mark.png" class="mr-2 md:mr-3" />
-                <p class="flex-1 font-semibold text-lg">Honesty</p>
+              <li class="flex items-center gap-4">
+                <img
+                  src="/assets/img/Homepage/check-mark.png"
+                  alt="check-mark"
+                  class=""
+                />
+                <p class="flex-1 font-semibold text-lg">
+                  Ho<span class="text-red-600">n</span>esty
+                </p>
               </li>
-              <li class="flex items-center">
-                <img src="/assets/img/check-mark.png" class="mr-2 md:mr-3" />
-                <p class="flex-1 font-semibold text-lg">Focus</p>
+              <li class="flex items-center gap-4">
+                <img
+                  src="/assets/img/Homepage/check-mark.png"
+                  alt="check-mark"
+                  class=""
+                />
+                <p class="flex-1 font-semibold text-lg">
+                  F<span class="text-red-600">o</span>cus
+                </p>
               </li>
-              <li class="flex items-center">
-                <img src="/assets/img/check-mark.png" class="mr-2 md:mr-3" />
-                <p class="flex-1 font-semibold text-lg">Partnership</p>
+              <li class="flex items-center gap-4">
+                <img
+                  src="/assets/img/Homepage/check-mark.png"
+                  alt="check-mark"
+                  class=""
+                />
+                <p class="flex-1 font-semibold text-lg">
+                  P<span class="text-red-600">a</span>rtnership
+                </p>
               </li>
             </ul>
-          </div>
-          <div class="text-left">
-            <button class="px-10 py-4 border-button-custom font-medium">
-              Learn More
-            </button>
+            <div class="text-left">
+              <button
+                class="px-14 py-3 border-button-custom font-medium button-shadow"
+              >
+                Learn More
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -77,5 +115,6 @@ export default {
 <style scoped>
 p {
   color: #17171f;
+  letter-spacing: 0.5px;
 }
 </style>
