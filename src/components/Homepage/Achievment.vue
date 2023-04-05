@@ -48,7 +48,6 @@ export default {
 
 <style scoped>
 h1 {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   color: #17171f;

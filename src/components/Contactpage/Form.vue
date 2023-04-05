@@ -5,7 +5,7 @@
       class="container mx-auto px-4 py-12 md:px-8 lg:px-24 grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-10"
     >
       <div
-        class="col-span-1 flex flex-col background-custom-misi p-4 items-center text-center shadow-md"
+        class="col-span-1 flex flex-col background-card p-4 items-center text-center shadow-md"
       >
         <i
           class="fas fa-headset text-red-600 text-2xl smtext-3xl md:text-4xl lg:text-5xl my-2 md:my-3"
@@ -15,15 +15,15 @@
 
         <div class="flex flex-wrap mt-auto py-3">
           <a
-            href="#"
+            href="tel:+628119637541"
             class="text-base md:text-lg text-red-600 tracking-tight hover:underline"
           >
-            +62 82122064150
+            (+62) 811-963-7541
           </a>
         </div>
       </div>
       <div
-        class="col-span-1 flex flex-col background-custom-misi p-4 items-center text-center shadow-md"
+        class="col-span-1 flex flex-col background-card p-4 items-center text-center shadow-md"
       >
         <i
           class="fas fa-envelope-open-text text-red-600 text-2xl smtext-3xl md:text-4xl lg:text-5xl my-2 md:my-3"
@@ -33,7 +33,7 @@
 
         <div class="flex flex-wrap mt-auto py-3">
           <a
-            href="#"
+            href="mailto:hallo@ikonoa.com"
             class="text-base md:text-lg text-red-600 tracking-tight hover:underline"
           >
             hallo@ikonoa.com
@@ -41,7 +41,7 @@
         </div>
       </div>
       <div
-        class="col-span-2 md:col-span-1 flex flex-col background-custom-misi p-4 items-center text-center shadow-md"
+        class="col-span-2 md:col-span-1 flex flex-col background-card p-4 items-center text-center shadow-md"
       >
         <i
           class="fas fa-building text-red-600 text-2xl smtext-3xl md:text-4xl lg:text-5xl my-2 md:my-3"
@@ -50,9 +50,12 @@
         <h2 class="text-xl md:text-2xl tracking-tight my-2">Office</h2>
 
         <div class="flex flex-wrap mt-auto py-3">
-          <p class="text-base md:text-lg text-red-600 tracking-tight">
+          <a
+            href="https://goo.gl/maps/KrHKqrzFiZTRauon8"
+            class="text-base md:text-lg text-red-600 tracking-tight"
+          >
             Graha Sentana - Jl. Warung Buncit Raya No. 2, Jakarta Selatan
-          </p>
+          </a>
         </div>
       </div>
     </div>

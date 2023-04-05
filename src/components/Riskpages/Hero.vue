@@ -2,7 +2,7 @@
   <section>
     <div
       class="relative overflow-hidden bg-no-repeat bg-cover"
-      style="height: 500px"
+      style="height: 380px"
     >
       <div
         class="flex flex-col justify-center items-center h-full text-center gap-10 p-12"
@@ -45,6 +45,7 @@ h4 {
 }
 h1 {
   color: #3b3b3b;
+  line-height: normal;
 }
 hr {
   width: 150px;

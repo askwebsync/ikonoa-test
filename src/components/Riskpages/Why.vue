@@ -5,12 +5,12 @@
         class="flex flex-col flex-start items-center gap-11 md:flex-row md:p-12 lg:p-24"
       >
         <div class="md:w-1/2">
-          <img src="/assets/img/risk-consulting/why.png" alt="Why" class="" />
+          <img src="/assets/img/Detail-Services/why.png" alt="Why" class="" />
         </div>
-        <div class="md:w-1/2 md:self-start">
+        <div class="p-2 self-center md:w-1/2 md:self-start">
           <h2 class="text-4xl mb-3 uppercase">Why u need a consultant?</h2>
           <hr />
-          <p class="mt-12">
+          <p class="mt-10 md:mt-12">
             When something unexpected damages your assets, filing an insurance
             claim can help you get compensation. But if you've never done it
             before, the process can be really tough. That's where an insurance

@@ -22,7 +22,7 @@
                 alt="Risk Consulting"
               />
             </div>
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-6">
               <h1 class="text-xl md:text-2xl lg:text-3xl uppercase">
                 <a href=" hover:text-red-600">Risk Consulting </a>
               </h1>
@@ -53,7 +53,7 @@
                 alt="Insurance Policy"
               />
             </div>
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-6">
               <h1 class="text-xl md:text-2xl lg:text-3xl uppercase">
                 <a href=" ">Insurance Policy</a>
               </h1>
@@ -78,7 +78,7 @@
             <div class="self-center md:self-start">
               <img src="/assets/img/homepage/risk.png" alt="Risk Management" />
             </div>
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-6">
               <h1 class="text-xl md:text-2xl lg:text-3xl uppercase">
                 <a href="">Risk Management</a>
               </h1>
@@ -99,7 +99,7 @@
             <div class="self-center md:self-start">
               <img src="/assets/img/homepage/academy.png" alt="Academy" />
             </div>
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-6">
               <h1 class="text-xl md:text-2xl lg:text-3xl uppercase">
                 <a href="">Academy</a>
               </h1>

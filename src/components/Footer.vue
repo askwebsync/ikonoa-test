@@ -1,8 +1,8 @@
 <template>
   <footer class="background-footer">
-    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
+    <div class="container mx-auto px-4 py-14 md:px-8 lg:px-24">
       <div
-        class="gap-y-12 flex flex-col justify-between text-center lg:text-left md:gap-x-6 lg:flex-row lg:gap-y-0"
+        class="gap-y-16 flex flex-col justify-between text-center lg:text-left md:gap-x-6 lg:flex-row lg:gap-y-0"
       >
         <div class="lg:w-1/3">
           <div class="flex flex-col items-center lg:items-start gap-2">
@@ -18,7 +18,7 @@
           </div>
         </div>
         <div
-          class="grid grid-cols-2 text-sm mt-3 grid-flow-row-dense md:mt-0 gap-x-2 gap-y-20 md:gap-x-3 lg:w-2/3 lg:ml-3"
+          class="grid grid-cols-2 text-sm mt-3 grid-flow-row-dense md:mt-0 gap-x-2 gap-y-24 md:gap-x-3 lg:w-2/3 lg:ml-3"
         >
           <div class="space-y-4 col-span-1">
             <h3 class="text-lg">Quicklinks</h3>
@@ -94,7 +94,7 @@
         </div>
       </div>
     </div>
-    <div class="py-6 text-sm text-center text-white border-t">
+    <div class="py-8 text-sm text-center text-white border-t">
       © 1968 PT.Ikonoa Solusindo Asia. All rights reserved.
     </div>
   </footer>
