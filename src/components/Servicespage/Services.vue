@@ -20,7 +20,7 @@
             </div>
             <div>
               <img
-                src="/assets/img/LP_Services/Risk Consulting.png"
+                src="/assets/img/LP_Services/risk-consulting.png"
                 alt="risk-consulting"
                 class="w-full rounded-lg"
               />
@@ -37,7 +37,7 @@
             </div>
             <div>
               <img
-                src="/assets/img/LP_Services/Risk Management.png"
+                src="/assets/img/LP_Services/risk-management.png"
                 alt="risk-management"
                 class="w-full rounded-lg"
               />
@@ -56,7 +56,7 @@
             </div>
             <div>
               <img
-                src="/assets/img/LP_Services/Insurance Policy.png"
+                src="/assets/img/LP_Services/insurance-policy.png"
                 alt="insurance-policy"
                 class="w-full rounded-lg"
               />
@@ -75,7 +75,7 @@
             </div>
             <div>
               <img
-                src="/assets/img/LP_Services/Academy.png"
+                src="/assets/img/LP_Services/academy.png"
                 alt="academy"
                 class="w-full rounded-lg"
               />

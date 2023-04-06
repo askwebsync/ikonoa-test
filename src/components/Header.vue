@@ -1,12 +1,12 @@
 <template>
   <header>
     <nav
-      class="container px-4 py-5 mx-auto border-b md:flex md:justify-between md:items-center xl:px-6"
+      class="container p-4 mx-auto border-b md:flex md:justify-between md:items-center xl:px-6"
     >
       <div class="flex items-center justify-between">
         <router-link :to="{ name: 'home' }" class="">
           <img
-            src="/assets/img/icon/logo.png"
+            src="/assets/img/Icon/logo.png"
             class="w-28 h-12 lg:w-32 lg:h-16 object-contain focus:outline-none"
             alt="logo"
           />
