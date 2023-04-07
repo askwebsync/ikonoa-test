@@ -3,21 +3,28 @@
   <section>
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col gap-10">
-        <div class="flex self-center items-center text-center">
-          <h2 class="text-2xl md:text-3xl">Claim Process</h2>
+        <div class="flex flex-col gap-2 text-center">
+          <h3 class="text-xl md:text-2xl lg:text-3xl">HOW TO CLAIM</h3>
+          <h2 class="text-lg md:text-xl lg:text-2xl text-gray-300">
+            Steps to claim your insurances
+          </h2>
         </div>
 
         <Carousel :settings="settings" :breakpoints="breakpoints">
           <Slide v-for="slide in slides" :key="slide">
             <div class="carousel__item">
-              <div class="flex flex-col gap-8 p-8 items-center justify-center">
-                <h3 class="text-xl">Step 1 - Report & Survey</h3>
+              <div
+                class="flex flex-col gap-8 px-6 py-8 items-center justify-center"
+              >
+                <h3 class="text-xl">{{ slide.title }}</h3>
                 <div class="flex items-center justify-center p-4 border-step">
-                  <img src="/assets/img/Detail-Services/step-1.png" alt="xx" />
+                  <img
+                    :src="`/assets/img/Detail-Services/${slide.image}`"
+                    alt="xx"
+                  />
                 </div>
-                <p class="text-lg max-w-xs">
-                  The first step involves reporting your claim. You can report
-                  your claim online through whatsapp application
+                <p class="text-lg max-w-xs mt-5">
+                  {{ slide.description }}
                 </p>
               </div>
             </div>
@@ -47,19 +54,34 @@ export default {
     return {
       slides: [
         {
-          name: "John Doe",
-          title: "CEO",
-          image: "https://via.placeholder.com/150",
+          title: "1. Report & Survey",
+          image: "step-1.png",
+          description:
+            "The first step involves reporting your claim. You can report your claim online through whatsapp application",
         },
         {
-          name: "Jane Smith",
-          title: "CTO",
+          title: "2. Documentation",
           image: "https://via.placeholder.com/150",
+          description:
+            "Complete supporting documents as evidence to verify claims submitted by policy holders.",
         },
         {
-          name: "Bob Johnson",
-          title: "CFO",
+          title: "3. Evaluation",
           image: "https://via.placeholder.com/150",
+          description:
+            "Ensure that claims are processed correctly and compensation provided is in accordance with the provisions of the policy.",
+        },
+        {
+          title: "4. Policy Adjusment",
+          image: "https://via.placeholder.com/150",
+          description:
+            "determine whether the losses experienced by the policyholder can be covered by the policy that has been purchased or not.",
+        },
+        {
+          title: "5. Settlement",
+          image: "https://via.placeholder.com/150",
+          description:
+            "Payments made by insurance companies to policyholders as compensation for losses that have been suffered in accordance with the provisions of the policy.",
         },
       ],
       settings: {

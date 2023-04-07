@@ -9,8 +9,10 @@
           </h2>
         </div>
         <div class="flex flex-col gap-5">
-          <div class="grid grid-cols-2 gap-4">
-            <div class="relative col-span-2 bg-gray-1 p-6 h-80 w-full">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div
+              class="relative col-span-1 md:col-span-2 bg-gray-1 p-6 h-80 w-full"
+            >
               <div class="absolute bottom-0 left-0">
                 <div class="flex flex-col gap-4 px-4 py-2">
                   <h6 class="text-lg md:text-2xl">Property Insurance</h6>
