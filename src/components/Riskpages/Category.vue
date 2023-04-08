@@ -9,7 +9,7 @@
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
             <img
-              src="/assets/img/detail-services/life.png"
+              src="/assets/img/Services/life.png"
               alt="logo life insurance"
               class="w-auto h-auto"
             />
@@ -21,7 +21,7 @@
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
             <img
-              src="/assets/img/detail-services/car.png"
+              src="/assets/img/Services/car.png"
               alt="logo car insurance"
               class="w-auto h-auto"
             />
@@ -33,7 +33,7 @@
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
             <img
-              src="/assets/img/detail-services/job.png"
+              src="/assets/img/Services/job.png"
               alt="logo job insurance"
               class="w-auto h-auto"
             />
@@ -45,7 +45,7 @@
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
             <img
-              src="/assets/img/detail-services/home.png"
+              src="/assets/img/Services/home.png"
               alt="logo home insurance"
               class="w-auto h-auto"
             />
@@ -57,7 +57,7 @@
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
             <img
-              src="/assets/img/detail-services/health.png"
+              src="/assets/img/Services/health.png"
               alt="logo health insurance"
               class="w-auto h-auto"
             />
@@ -69,7 +69,7 @@
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
             <img
-              src="/assets/img/detail-services/wedding.png"
+              src="/assets/img/Services/wedding.png"
               alt="logo wedding insurance"
               class="w-auto h-auto"
             />
