@@ -5,7 +5,7 @@
         class="flex flex-col flex-start items-center gap-11 md:flex-row md:p-12 lg:p-24"
       >
         <div class="md:w-1/2">
-          <img src="/assets/img/Services/why.png" alt="Why" />
+          <img src="/assets/img/Services/reason.png" alt="why" />
         </div>
         <div class="p-2 self-center md:w-1/2 md:self-start">
           <h2 class="text-4xl mb-3 uppercase">
