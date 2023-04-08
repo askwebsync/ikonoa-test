@@ -9,7 +9,7 @@
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
             <img
-              src="/assets/img/Detail-Services/life-insurance.png"
+              src="/assets/img/detail-services/life-insurance.png"
               alt="logo life insurance"
               class="w-auto h-auto"
             />
@@ -21,7 +21,7 @@
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
             <img
-              src="/assets/img/Detail-Services/car-insurance.png"
+              src="/assets/img/detail-services/car-insurance.png"
               alt="logo car insurance"
               class="w-auto h-auto"
             />
@@ -33,7 +33,7 @@
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
             <img
-              src="/assets/img/Detail-Services/job-insurance.png"
+              src="/assets/img/detail-services/job-insurance.png"
               alt="logo job insurance"
               class="w-auto h-auto"
             />
@@ -45,7 +45,7 @@
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
             <img
-              src="/assets/img/Detail-Services/home-insurance.png"
+              src="/assets/img/detail-services/home-insurance.png"
               alt="logo home insurance"
               class="w-auto h-auto"
             />
@@ -57,7 +57,7 @@
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
             <img
-              src="/assets/img/Detail-Services/health-insurance.png"
+              src="/assets/img/detail-services/health-insurance.png"
               alt="logo health insurance"
               class="w-auto h-auto"
             />
@@ -69,7 +69,7 @@
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
             <img
-              src="/assets/img/Detail-Services/wedding-insurance.png"
+              src="/assets/img/detail-services/wedding-insurance.png"
               alt="logo wedding insurance"
               class="w-auto h-auto"
             />
