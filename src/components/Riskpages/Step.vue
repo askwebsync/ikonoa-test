@@ -18,7 +18,7 @@
                   class="flex items-center justify-center px-6 py-5 border-step"
                 >
                   <img
-                    :src="`/assets/img/detail-services/${slide.image}`"
+                    :src="`/assets/img/Services/${slide.image}`"
                     alt="step-step"
                   />
                 </div>
