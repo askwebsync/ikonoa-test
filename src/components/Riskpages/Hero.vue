@@ -8,7 +8,7 @@
         class="flex flex-col justify-center items-center h-full text-center gap-10 p-12"
       >
         <h1
-          class="text-2xl sm:text-3xl md:text-5xl hover:text-red-600 max-w-5xl uppercase md:leading-snug"
+          class="text-3xl sm:text-3xl md:text-5xl hover:text-red-600 max-w-5xl uppercase md:leading-snug"
         >
           RISK CONSULTING
         </h1>
@@ -17,9 +17,9 @@
           <h4
             class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-6xl"
           >
-            We provide advisory on not only conventional insurance, but also on
-            topics like self-insurance, claims management, loss prevention and
-            project advisory.
+            "Our experienced team offers comprehensive advisory services,
+            including unconventional insurance topics like self-insurance,
+            claims management, loss prevention, and project advisory.""
           </h4>
           <hr />
         </div>

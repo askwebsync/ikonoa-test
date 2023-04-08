@@ -23,8 +23,9 @@
           <h4
             class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-6xl"
           >
-            “We can help you choose the type of insurance policy that suits your
-            needs”
+            "Let us guide you to the insurance policy that perfectly fits your
+            unique needs. We offer a wide range of insurance solutions that
+            provide maximum protection for you and your assets.""
           </h4>
         </div>
       </div>

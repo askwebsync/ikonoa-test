@@ -1,6 +1,6 @@
 <template>
   <section class="background-product">
-    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
+    <div class="container mx-auto px-4 py-14 md:px-8">
       <div
         class="flex flex-col flex-start items-center gap-11 md:flex-row md:p-12 lg:p-24"
       >
@@ -8,7 +8,9 @@
           <img src="/assets/img/Detail-Services/why.png" alt="Why" class="" />
         </div>
         <div class="p-2 self-center md:w-1/2 md:self-start">
-          <h2 class="text-4xl mb-3 uppercase">Why u need a consultant?</h2>
+          <h2 class="text-4xl mb-3 uppercase">
+            Expert Insurance Advice and Support
+          </h2>
           <hr />
           <p class="mt-10 md:mt-12">
             When something unexpected damages your assets, filing an insurance
@@ -45,7 +47,7 @@ h2 {
 }
 p {
   color: #3b3b3b;
-  letter-spacing: -0.15px;
+  letter-spacing: -0.1px;
 }
 hr {
   width: 120px;
