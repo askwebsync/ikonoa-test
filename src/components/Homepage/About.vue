@@ -4,7 +4,7 @@
       <div class="flex flex-col md:flex-row gap-12 items-center">
         <div class="w-1/2">
           <img
-            src="/assets/img/Homepage/about.png"
+            src="/assets/img/Home/about.png"
             style="max-height: 600px"
             alt="about-us"
             class="h-auto object-contain"
@@ -29,7 +29,7 @@
             <ul class="list-none space-y-5">
               <li class="flex items-center gap-4">
                 <img
-                  src="/assets/img/Homepage/check-mark.png"
+                  src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
                   class=""
                 />
@@ -39,7 +39,7 @@
               </li>
               <li class="flex items-center gap-4">
                 <img
-                  src="/assets/img/Homepage/check-mark.png"
+                  src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
                   class=""
                 />
@@ -49,7 +49,7 @@
               </li>
               <li class="flex items-center gap-4">
                 <img
-                  src="/assets/img/Homepage/check-mark.png"
+                  src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
                   class=""
                 />
@@ -59,7 +59,7 @@
               </li>
               <li class="flex items-center gap-4">
                 <img
-                  src="/assets/img/Homepage/check-mark.png"
+                  src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
                   class=""
                 />
@@ -69,7 +69,7 @@
               </li>
               <li class="flex items-center gap-4">
                 <img
-                  src="/assets/img/Homepage/check-mark.png"
+                  src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
                   class=""
                 />
@@ -79,7 +79,7 @@
               </li>
               <li class="flex items-center gap-4">
                 <img
-                  src="/assets/img/Homepage/check-mark.png"
+                  src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
                   class=""
                 />

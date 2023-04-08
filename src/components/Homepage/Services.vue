@@ -17,10 +17,7 @@
             class="flex flex-col w-80 md:w-56 lg:w-full px-4 py-6 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
-              <img
-                src="/assets/img/homepage/analysis.png"
-                alt="Risk Consulting"
-              />
+              <img src="/assets/img/Home/analysis.png" alt="Risk Consulting" />
             </div>
             <div class="flex flex-col gap-6">
               <h1 class="text-xl md:text-2xl lg:text-3xl uppercase">
@@ -49,7 +46,7 @@
           >
             <div class="self-center md:self-start">
               <img
-                src="/assets/img/homepage/insurance.png"
+                src="/assets/img/Home/insurance.png"
                 alt="Insurance Policy"
               />
             </div>
@@ -76,7 +73,7 @@
             class="flex flex-col w-80 md:w-56 lg:w-full px-4 py-6 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
-              <img src="/assets/img/homepage/risk.png" alt="Risk Management" />
+              <img src="/assets/img/Home/risk.png" alt="Risk Management" />
             </div>
             <div class="flex flex-col gap-6">
               <h1 class="text-xl md:text-2xl lg:text-3xl uppercase">
@@ -97,7 +94,7 @@
             class="flex flex-col w-80 md:w-56 lg:w-full px-4 py-6 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
-              <img src="/assets/img/homepage/academy.png" alt="Academy" />
+              <img src="/assets/img/Home/academy.png" alt="Academy" />
             </div>
             <div class="flex flex-col gap-6">
               <h1 class="text-xl md:text-2xl lg:text-3xl uppercase">
