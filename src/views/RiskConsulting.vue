@@ -6,10 +6,10 @@
 </template>
 
 <script>
-import HeroSection from "@/components/Riskpages/Hero.vue";
-import CategorySection from "@/components/Riskpages/Category.vue";
-import WhySection from "@/components/Riskpages/Why.vue";
-import StepSection from "@/components/Riskpages/Step.vue";
+import HeroSection from "@/components/RiskConsultingPages/Hero.vue";
+import CategorySection from "@/components/RiskConsultingPages/Category.vue";
+import WhySection from "@/components/RiskConsultingPages/Why.vue";
+import StepSection from "@/components/RiskConsultingPages/Step.vue";
 
 export default {
   name: "Risk Consulting",

@@ -12,7 +12,7 @@
 
         <div class="flex flex-col justify-center md:flex-row gap-10">
           <div
-            class="bg-custom-academy flex flex-col max-w-md px-6 py-4 gap-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
+            class="bg-custom-academy flex flex-col max-w-md px-6 py-4 gap-4 rounded-xl shadow-card transform hover:scale-105 transition duration-500"
           >
             <div class="relative">
               <img
@@ -34,7 +34,7 @@
             </div>
           </div>
           <div
-            class="bg-custom-academy max-w-md px-6 py-4 rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
+            class="bg-custom-academy max-w-md px-6 py-4 rounded-xl shadow-card transform hover:scale-105 transition duration-500"
           >
             <div class="relative">
               <img

@@ -1,4 +1,3 @@
-<!-- eslint-disable vue/valid-v-for -->
 <template>
   <section>
     <div class="container mx-auto px-4 py-12 md:px-8 lg:p-24">
@@ -29,7 +28,13 @@
           </div>
           <div class="background-card flex flex-col rounded-lg">
             <div class="flex flex-col gap-8 p-12 text-center">
-              <h1 class="text-lg md:text-xl lg:text-3xl">Risk Management</h1>
+              <router-link :to="{ name: 'risk-management' }">
+                <h1
+                  class="text-lg md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
+                >
+                  Risk Management
+                </h1>
+              </router-link>
               <p class="text-xs sm:text-sm md:text-base">
                 Assist our customers in identifying, evaluating, and managing
                 the risks associated with their business, thereby reducing
@@ -66,7 +71,13 @@
 
           <div class="background-card flex flex-col rounded-lg">
             <div class="flex flex-col gap-8 p-12 text-center">
-              <h1 class="text-lg md:text-xl lg:text-3xl">Academy</h1>
+              <router-link :to="{ name: 'academy' }">
+                <h1
+                  class="text-lg md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
+                >
+                  Academy
+                </h1>
+              </router-link>
               <p class="text-xs sm:text-sm md:text-base">
                 We provide insurance training that suits to your needs, either
                 directly provided by our experienced Staff or in collaboration
@@ -102,14 +113,12 @@ export default {
 
 <style scoped>
 h1 {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   color: #3b3b3b;
   letter-spacing: 0.5px;
 }
 p {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   color: #787878;

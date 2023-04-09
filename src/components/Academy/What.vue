@@ -1,0 +1,59 @@
+<template>
+  <section class="background-product">
+    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 divide-x-4 divide-black gap-2"
+      >
+        <div class="flex flex-col items-center px-6 py-4 gap-6">
+          <div class="flex flex-col items-center gap-5">
+            <img src="/assets/img/Services/offline.png" alt="w-auto h-auto" />
+            <h5 class="text-xl md:text-2xl lg:text-3xl">Offline Training</h5>
+          </div>
+          <p class="text-center">
+            Training course offline is carried out face to face at a
+            predetermined place, usually in the form of a class or seminar. This
+            training allows participants to interact directly with instructors
+            and other participants.
+          </p>
+        </div>
+        <div class="flex flex-col items-center px-6 py-4 gap-6">
+          <div class="flex flex-col items-center gap-5">
+            <img src="/assets/img/Services/online.png" alt="w-auto h-auto" />
+            <h5 class="text-xl md:text-2xl lg:text-3xl">Online Training</h5>
+          </div>
+          <p class="text-center">
+            This training is conducted via the internet and allows participants
+            to attend training from anywhere and at any time only as long as
+            connected to the internet. Online training can also be done live or
+            on-demand.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+export default {
+  name: "What",
+  components: {},
+  data() {
+    return {};
+  },
+};
+</script>
+
+<style scoped>
+p {
+  color: #4f4f4f;
+  letter-spacing: 0.5px;
+}
+
+h5 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  color: #17171f;
+}
+</style>

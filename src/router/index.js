@@ -29,6 +29,16 @@ const router = createRouter({
       name: "risk-consulting",
       component: () => import("../views/RiskConsulting.vue"),
     },
+    {
+      path: "/services/risk-management",
+      name: "risk-management",
+      component: () => import("../views/RiskManagement.vue"),
+    },
+    {
+      path: "/services/academy",
+      name: "academy",
+      component: () => import("../views/Academy.vue"),
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {

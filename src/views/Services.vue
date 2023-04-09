@@ -4,8 +4,8 @@
 </template>
 
 <script>
-import HeroSection from "@/components/Servicespage/Hero.vue";
-import ServicesSection from "@/components/Servicespage/Services.vue";
+import HeroSection from "@/components/ServicesPages/Hero.vue";
+import ServicesSection from "@/components/ServicesPages/Services.vue";
 
 export default {
   name: "Services",

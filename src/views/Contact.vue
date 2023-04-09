@@ -5,9 +5,9 @@
 </template>
 
 <script>
-import HeroSection from "@/components/Contactpage/Hero.vue";
-import FormSection from "@/components/Contactpage/Form.vue";
-import LocationSection from "@/components/Contactpage/Location.vue";
+import HeroSection from "@/components/ContactPages/Hero.vue";
+import FormSection from "@/components/ContactPages/Form.vue";
+import LocationSection from "@/components/ContactPages/Location.vue";
 
 export default {
   name: "Home",

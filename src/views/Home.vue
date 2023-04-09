@@ -8,12 +8,12 @@
 </template>
 
 <script>
-import HeroSection from "@/components/Homepage/Hero.vue";
-import ServiceSection from "@/components/Homepage/Services.vue";
-import ProductSection from "@/components/Homepage/Product.vue";
-import AchievmentSection from "@/components/Homepage/Achievment.vue";
-import AboutSection from "@/components/Homepage/About.vue";
-import AcademySection from "@/components/Homepage/Academy.vue";
+import HeroSection from "@/components/Homepages/Hero.vue";
+import ServiceSection from "@/components/Homepages/Services.vue";
+import ProductSection from "@/components/Homepages/Product.vue";
+import AchievmentSection from "@/components/Homepages/Achievment.vue";
+import AboutSection from "@/components/Homepages/About.vue";
+import AcademySection from "@/components/Homepages/Academy.vue";
 
 export default {
   name: "Home",

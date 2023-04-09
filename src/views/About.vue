@@ -5,9 +5,9 @@
 </template>
 
 <script>
-import HeroSection from "@/components/Aboutpage/Hero.vue";
-import TeamSection from "@/components/Aboutpage/Team.vue";
-import VisiMisiSection from "@/components/Aboutpage/VisiMisi.vue";
+import HeroSection from "@/components/AboutPages/Hero.vue";
+import TeamSection from "@/components/AboutPages/Team.vue";
+import VisiMisiSection from "@/components/AboutPages/VisiMisi.vue";
 
 export default {
   name: "Home",

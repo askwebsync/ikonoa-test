@@ -1,7 +1,7 @@
 <template>
-  <header>
+  <header class="border-b-2">
     <nav
-      class="container p-4 mx-auto border-b md:flex md:justify-between md:items-center xl:px-6"
+      class="container p-4 mx-auto md:flex md:justify-between md:items-center xl:px-6"
     >
       <div class="flex items-center justify-between">
         <router-link :to="{ name: 'home' }" class="">
@@ -107,7 +107,7 @@ export default {
     return {
       showMenu: false,
       language: "ENG",
-      flagImage: "/assets/img/icon/eng.png",
+      flagImage: "/assets/img/Icon/eng.png",
       flagAltText: "Nation Flag",
     };
   },
@@ -120,11 +120,11 @@ export default {
     changeLanguage() {
       if (this.language === "ENG") {
         this.language = "IND";
-        this.flagImage = "/assets/img/icon/ind.png";
+        this.flagImage = "/assets/img/Icon/ind.png";
         this.flagAltText = "Indo Flag";
       } else {
         this.language = "ENG";
-        this.flagImage = "/assets/img/icon/eng.png";
+        this.flagImage = "/assets/img/Icon/eng.png";
         this.flagAltText = "Eng flag";
       }
     },
