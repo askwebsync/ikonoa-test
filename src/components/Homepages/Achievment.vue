@@ -15,7 +15,9 @@
     </div>
     <div class="pt-6 pb-8">
       <div class="background-product py-3">
-        <div class="flex justify-evenly gap-5 py-10">
+        <div
+          class="flex flex-wrap items-center justify-evenly lg:flex-row gap-5 py-8"
+        >
           <div class="flex flex-col">
             <h1 class="text-lg md:text-2xl lg:text-5xl">98%</h1>
             <p class="text-sm">Satisfied Client</p>
