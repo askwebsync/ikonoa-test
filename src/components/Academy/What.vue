@@ -2,7 +2,7 @@
   <section class="background-product">
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div
-        class="grid grid-cols-1 md:grid-cols-2 divide-x-4 divide-black gap-2"
+        class="grid grid-cols-1 md:grid-cols-2 divide-y-2 md:divide-x-2 md:divide-y-0 divide-black gap-2"
       >
         <div class="flex flex-col items-center px-6 py-4 gap-6">
           <div class="flex flex-col items-center gap-5">
