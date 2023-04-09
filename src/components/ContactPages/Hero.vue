@@ -4,7 +4,7 @@
       class="relative overflow-hidden bg-no-repeat bg-cover"
       style="
         background-position: 50%;
-        background-image: url('/assets/img/Lp_About/about-hero.jpg');
+        background-image: url('/assets/img/Lp_About/abouthero.jpg');
         height: 500px;
       "
     >
