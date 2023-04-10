@@ -35,7 +35,7 @@ export default {
       if (this.loading) {
         this.loading = false;
       }
-    }, 1100);
+    }, 1000);
   },
 };
 </script>
