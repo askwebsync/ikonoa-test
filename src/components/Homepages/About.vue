@@ -11,7 +11,7 @@
           />
         </div>
         <div
-          class="w-1/2 flex flex-col gap-9 self-center md:self-start md:ml-6"
+          class="w-1/2 flex flex-col gap-12 md:gap-9 self-center md:self-start md:ml-6"
         >
           <div class="flex flex-col gap-2">
             <h3 class="text-xl md:text-2xl lg:text-3xl">ABOUT US</h3>
@@ -25,13 +25,13 @@
             </p>
           </div>
 
-          <div class="flex flex-col gap-11">
+          <div class="flex flex-col gap-12 md:gap-11">
             <ul class="list-none space-y-5">
               <li class="flex items-center gap-4">
                 <img
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
-                  class=""
+                  class="w-8 h-8 lg:w-9 lg:h-9"
                 />
                 <p class="flex-1 font-semibold text-lg">
                   <span class="text-red-600">I</span>ntegrity
@@ -41,7 +41,7 @@
                 <img
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
-                  class=""
+                  class="w-8 h-8 lg:w-9 lg:h-9"
                 />
                 <p class="flex-1 font-semibold text-lg">
                   <span class="text-red-600">K</span>nowledgeable
@@ -51,7 +51,7 @@
                 <img
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
-                  class=""
+                  class="w-8 h-8 lg:w-9 lg:h-9"
                 />
                 <p class="flex-1 font-semibold text-lg">
                   Pr<span class="text-red-600">o</span>fessional
@@ -61,7 +61,7 @@
                 <img
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
-                  class=""
+                  class="w-8 h-8 lg:w-9 lg:h-9"
                 />
                 <p class="flex-1 font-semibold text-lg">
                   Ho<span class="text-red-600">n</span>esty
@@ -71,7 +71,7 @@
                 <img
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
-                  class=""
+                  class="w-8 h-8 lg:w-9 lg:h-9"
                 />
                 <p class="flex-1 font-semibold text-lg">
                   F<span class="text-red-600">o</span>cus
@@ -81,7 +81,7 @@
                 <img
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
-                  class=""
+                  class="w-8 h-8 lg:w-9 lg:h-9"
                 />
                 <p class="flex-1 font-semibold text-lg">
                   P<span class="text-red-600">a</span>rtnership
