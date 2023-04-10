@@ -64,7 +64,11 @@
           <button
             class="px-10 py-3 md:px-14 border-button-custom font-medium button-shadow"
           >
-            <router-link :to="{ name: 'academy' }">Learn More</router-link>
+            <router-link
+              :to="{ name: 'academy' }"
+              aria-label="Learn More about our company academy"
+              >Learn More</router-link
+            >
           </button>
         </div>
       </div>

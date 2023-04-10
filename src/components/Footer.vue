@@ -12,9 +12,9 @@
               alt="logo"
             />
 
-            <a class="text-lg font-medium max-w-xs text-white"
-              >Ikonoa is trusted and secure insurance platform</a
-            >
+            <p class="text-lg font-medium max-w-xs text-white">
+              Ikonoa is trusted and secure insurance platform
+            </p>
           </div>
         </div>
         <div

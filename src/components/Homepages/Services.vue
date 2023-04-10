@@ -20,8 +20,12 @@
               <img src="/assets/img/Home/analysis.png" alt="Risk Consulting" />
             </div>
             <div class="flex flex-col gap-6">
-              <h1 class="text-xl md:text-2xl lg:text-3xl uppercase">
-                <a href=" hover:text-red-600">Risk Consulting </a>
+              <h1
+                class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
+              >
+                <router-link :to="{ name: 'risk-consulting' }"
+                  >Risk-Consulting
+                </router-link>
               </h1>
               <ul class="list-decimal list-inside space-y-3">
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
@@ -76,8 +80,12 @@
               <img src="/assets/img/Home/risk.png" alt="Risk Management" />
             </div>
             <div class="flex flex-col gap-6">
-              <h1 class="text-xl md:text-2xl lg:text-3xl uppercase">
-                <a href="">Risk Management</a>
+              <h1
+                class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
+              >
+                <router-link :to="{ name: 'risk-management' }"
+                  >Risk-Management
+                </router-link>
               </h1>
               <ul class="list-decimal list-inside space-y-3">
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
@@ -97,8 +105,10 @@
               <img src="/assets/img/Home/academy.png" alt="Academy" />
             </div>
             <div class="flex flex-col gap-6">
-              <h1 class="text-xl md:text-2xl lg:text-3xl uppercase">
-                <a href="">Academy</a>
+              <h1
+                class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
+              >
+                <router-link :to="{ name: 'academy' }">Academy </router-link>
               </h1>
               <ul class="list-decimal list-inside space-y-3">
                 <li class="text-base sm:text-base md:text-lg">
