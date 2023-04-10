@@ -64,7 +64,11 @@
                 >
               </li>
               <li class="mb-2">
-                <a class="text-lg font-medium" href="#">Insurance Policy</a>
+                <router-link
+                  :to="{ name: 'insurance-policy' }"
+                  class="text-lg font-medium"
+                  >Insurance Policy</router-link
+                >
               </li>
               <li class="mb-2">
                 <router-link

@@ -39,6 +39,11 @@ const router = createRouter({
       name: "academy",
       component: () => import("../views/Academy.vue"),
     },
+    {
+      path: "/services/insurance-policy",
+      name: "insurance-policy",
+      component: () => import("../views/InsurancePolicy.vue"),
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {

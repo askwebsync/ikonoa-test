@@ -53,7 +53,13 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div class="background-card flex flex-col rounded-lg">
             <div class="flex flex-col gap-8 p-12 text-center">
-              <h1 class="text-lg md:text-xl lg:text-3xl">Insurance Policy</h1>
+              <router-link :to="{ name: 'insurance-policy' }">
+                <h1
+                  class="text-lg md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
+                >
+                  Insurance Policy
+                </h1>
+              </router-link>
               <p class="text-xs sm:text-sm md:text-base">
                 We provide consultative services and work with clients including
                 business owners and benefits decision-makers to develop the

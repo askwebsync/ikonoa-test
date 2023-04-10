@@ -15,7 +15,11 @@
             >
               <div class="absolute bottom-0 left-0">
                 <div class="flex flex-col gap-4 px-4 py-2">
-                  <h6 class="text-lg md:text-2xl">Property Insurance</h6>
+                  <router-link :to="{ name: 'insurance-policy' }">
+                    <h6 class="text-lg md:text-2xl hover:text-red-600">
+                      Property Insurance
+                    </h6>
+                  </router-link>
                   <p class="text-white text-xs md:text-lg">
                     Liability insurance is an insurance product that provides
                     protection to the insured against claims resulting from
@@ -30,7 +34,11 @@
             <div class="relative bg-gray-2 p-6 h-72 w-full">
               <div class="absolute bottom-0 left-0">
                 <div class="flex flex-col gap-4 px-4 py-2">
-                  <h6 class="text-lg md:text-2xl">Engineering Insurance</h6>
+                  <router-link :to="{ name: 'insurance-policy' }">
+                    <h6 class="text-lg md:text-2xl hover:text-red-600">
+                      Engineering Insurance
+                    </h6>
+                  </router-link>
                   <p class="text-white text-xs md:text-lg">
                     Protect physical assets from hazards and risks that may
                     occur in projects or buildings such as fire, damage due to
@@ -42,7 +50,11 @@
             <div class="relative bg-gray-3 p-6 h-72 w-full">
               <div class="absolute bottom-0 left-0">
                 <div class="flex flex-col gap-4 px-4 py-2">
-                  <h6 class="text-lg md:text-2xl">Health Insurance</h6>
+                  <router-link :to="{ name: 'insurance-policy' }">
+                    <h6 class="text-lg md:text-2xl hover:text-red-600">
+                      Health Insurance
+                    </h6>
+                  </router-link>
                   <p class="text-white text-xs md:text-lg">
                     Health insurance is an insurance product that covers an
                     insured individual's medical and surgical expenses. It

@@ -64,7 +64,9 @@
           @click="showMenu = !showMenu"
           class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
         >
-          <a class="font-medium">Insurance Policy</a>
+          <router-link :to="{ name: 'insurance-policy' }" class="font-medium"
+            >Insurance Policy</router-link
+          >
         </li>
         <li
           @click="showMenu = !showMenu"
