@@ -50,16 +50,28 @@
             <h3 class="text-lg">Services & Solutions</h3>
             <ul class="space-y-2 text-white">
               <li class="mb-2">
-                <a class="text-lg font-medium" href="#">Risk Consulting</a>
+                <router-link
+                  :to="{ name: 'risk-consulting' }"
+                  class="text-lg font-medium"
+                  >Risk Consulting</router-link
+                >
               </li>
               <li class="mb-2">
-                <a class="text-lg font-medium" href="#">Risk Management</a>
+                <router-link
+                  :to="{ name: 'risk-management' }"
+                  class="text-lg font-medium"
+                  >Risk Management</router-link
+                >
               </li>
               <li class="mb-2">
                 <a class="text-lg font-medium" href="#">Insurance Policy</a>
               </li>
               <li class="mb-2">
-                <a class="text-lg font-medium" href="#">Academy</a>
+                <router-link
+                  :to="{ name: 'academy' }"
+                  class="text-lg font-medium"
+                  >Academy</router-link
+                >
               </li>
             </ul>
           </div>

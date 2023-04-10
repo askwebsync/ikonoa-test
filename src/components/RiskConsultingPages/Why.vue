@@ -1,18 +1,20 @@
 <template>
   <section class="background-product">
-    <div class="container mx-auto px-4 py-14 md:px-8">
-      <div
-        class="flex flex-col flex-start items-center gap-11 md:flex-row md:p-12 lg:p-24"
-      >
-        <div class="md:w-1/2">
-          <img src="/assets/img/Services/reason.png" alt="why" />
+    <div class="container mx-auto px-4 py-14 md:px-8 lg:px-12">
+      <div class="flex flex-col lg:flex-row gap-10 items-center">
+        <div class="flex w-full lg:w-1/2 self-start lg:justify-center">
+          <img
+            src="/assets/img/Services/reason.png"
+            alt="why"
+            class="object-contain"
+          />
         </div>
-        <div class="p-2 self-center md:w-1/2 md:self-start">
+        <div class="self-center w-full lg:w-1/2 md:self-start">
           <h2 class="text-4xl mb-3 uppercase">
             Expert Insurance Advice and Support
           </h2>
           <hr />
-          <p class="mt-10 md:mt-12">
+          <p class="mt-10 md:mt-12 md:text-lg max-w-xl">
             When something unexpected damages your assets, filing an insurance
             claim can help you get compensation. But if you've never done it
             before, the process can be really tough. That's where an insurance

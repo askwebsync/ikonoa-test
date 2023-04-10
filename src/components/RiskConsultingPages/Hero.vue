@@ -15,7 +15,7 @@
         <div class="flex flex-col gap-4 items-center">
           <hr />
           <h4
-            class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-6xl"
+            class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:max-w-6xl"
           >
             "Our experienced team offers comprehensive advisory services,
             including unconventional insurance topics like self-insurance,

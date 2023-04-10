@@ -2,7 +2,7 @@
   <section>
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div
-        class="grid md:grid-cols-3 gap-10 justify-items-center text-center md:justify-items-start md:text-left"
+        class="grid md:grid-cols-3 gap-8 md:gap-10 justify-items-center text-center md:justify-items-start md:text-left"
       >
         <div class="flex flex-col gap-2 md:self-center max-w-lg">
           <h3 class="text-xl md:text-2xl lg:text-3xl">SERVICES & SOLUTIONS</h3>
@@ -14,7 +14,7 @@
         </div>
         <div class="flex flex-col gap-10">
           <div
-            class="flex flex-col w-80 md:w-56 lg:w-full px-4 py-6 gap-6 background-card hover:bg-white hover:shadow-md"
+            class="flex flex-col w-96 md:w-56 lg:w-full px-5 py-6 md:px-4 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/Home/analysis.png" alt="Risk Consulting" />
@@ -27,7 +27,7 @@
                   >Risk-Consulting
                 </router-link>
               </h1>
-              <ul class="list-decimal list-inside space-y-3">
+              <ul class="list-decimal list-inside space-y-2 md:space-y-3">
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
                   Claim consultant to expedite claim settlement.
                 </li>
@@ -46,7 +46,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col w-80 md:w-56 lg:w-full px-4 py-6 gap-6 background-card hover:bg-white hover:shadow-md"
+            class="flex flex-col w-96 md:w-56 lg:w-full px-5 py-6 md:px-4 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
               <img
@@ -58,7 +58,7 @@
               <h1 class="text-xl md:text-2xl lg:text-3xl uppercase">
                 <a href=" ">Insurance Policy</a>
               </h1>
-              <ul class="list-decimal list-inside space-y-3">
+              <ul class="list-decimal list-inside space-y-2 md:space-y-3">
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
                   Provide the best and trusted Insurance Company
                 </li>
@@ -74,7 +74,7 @@
         </div>
         <div class="flex flex-col gap-10 mt-6 md:mt-20">
           <div
-            class="flex flex-col w-80 md:w-56 lg:w-full px-4 py-6 gap-6 background-card hover:bg-white hover:shadow-md"
+            class="flex flex-col w-96 md:w-56 lg:w-full px-5 py-6 md:px-4 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/Home/risk.png" alt="Risk Management" />
@@ -87,7 +87,7 @@
                   >Risk-Management
                 </router-link>
               </h1>
-              <ul class="list-decimal list-inside space-y-3">
+              <ul class="list-decimal list-inside space-y-2 md:space-y-3">
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
                   Risk survey
                 </li>
@@ -99,7 +99,7 @@
           </div>
 
           <div
-            class="flex flex-col w-80 md:w-56 lg:w-full px-4 py-6 gap-6 background-card hover:bg-white hover:shadow-md"
+            class="flex flex-col w-96 md:w-56 lg:w-full px-5 py-6 md:px-4 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/Home/academy.png" alt="Academy" />
@@ -110,7 +110,7 @@
               >
                 <router-link :to="{ name: 'academy' }">Academy </router-link>
               </h1>
-              <ul class="list-decimal list-inside space-y-3">
+              <ul class="list-decimal list-inside space-y-2 md:space-y-3">
                 <li class="text-base sm:text-base md:text-lg">
                   Insurance for Insurance Officer
                 </li>

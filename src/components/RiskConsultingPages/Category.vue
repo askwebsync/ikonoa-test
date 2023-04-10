@@ -4,7 +4,7 @@
       <div
         class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-6 gap-12 lg:gap-16"
       >
-        <div class="flex flex-col items-center text-center gap-5 py-2 px-4">
+        <div class="flex flex-col items-center text-center gap-5 p-2">
           <div
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
@@ -16,7 +16,7 @@
           </div>
           <p class="text-lg hover:text-red-600">Life Insurance</p>
         </div>
-        <div class="flex flex-col items-center text-center gap-5 py-2 px-4">
+        <div class="flex flex-col items-center text-center gap-5 p-2">
           <div
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
@@ -28,7 +28,7 @@
           </div>
           <p class="text-lg hover:text-red-600">Car Insurance</p>
         </div>
-        <div class="flex flex-col items-center text-center gap-5 py-2 px-4">
+        <div class="flex flex-col items-center text-center gap-5 p-2">
           <div
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
@@ -40,7 +40,7 @@
           </div>
           <p class="text-lg hover:text-red-600">Job Insurance</p>
         </div>
-        <div class="flex flex-col items-center text-center gap-5 py-2 px-4">
+        <div class="flex flex-col items-center text-center gap-5 p-2">
           <div
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
@@ -52,7 +52,7 @@
           </div>
           <p class="text-lg hover:text-red-600">Home Insurance</p>
         </div>
-        <div class="flex flex-col items-center text-center gap-5 py-2 px-4">
+        <div class="flex flex-col items-center text-center gap-5 p-2">
           <div
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
@@ -64,7 +64,7 @@
           </div>
           <p class="text-lg hover:text-red-600">Health Insurance</p>
         </div>
-        <div class="flex flex-col items-center text-center gap-5 py-2 px-4">
+        <div class="flex flex-col items-center text-center gap-5 p-2">
           <div
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
