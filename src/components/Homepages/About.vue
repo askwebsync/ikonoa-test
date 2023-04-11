@@ -118,6 +118,7 @@ export default {
 <style scoped>
 p {
   color: #17171f;
+  font-weight: 400;
   letter-spacing: 0.5px;
 }
 </style>

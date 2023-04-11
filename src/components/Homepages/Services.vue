@@ -27,7 +27,7 @@
                   Risk-Consulting
                 </h1>
               </router-link>
-              <ul class="list-decimal list-inside space-y-2 md:space-y-3">
+              <ul class="list-decimal list-outside space-y-2 md:space-y-1 px-6">
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
                   Claim consultant to expedite claim settlement.
                 </li>
@@ -60,7 +60,7 @@
                   Insurance Policy
                 </h1>
               </router-link>
-              <ul class="list-decimal list-inside space-y-2 md:space-y-3">
+              <ul class="list-decimal list-outside space-y-2 md:space-y-1 px-6">
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
                   Provide the best and trusted Insurance Company
                 </li>
@@ -89,7 +89,7 @@
                   Risk-Management
                 </h1>
               </router-link>
-              <ul class="list-decimal list-inside space-y-2 md:space-y-3">
+              <ul class="list-decimal list-outside space-y-2 md:space-y-1 px-6">
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
                   Risk survey
                 </li>
@@ -114,7 +114,7 @@
                   Academy
                 </h1>
               </router-link>
-              <ul class="list-decimal list-inside space-y-2 md:space-y-3">
+              <ul class="list-decimal list-outside space-y-2 md:space-y-1 px-6">
                 <li class="text-base sm:text-base md:text-lg">
                   Insurance for Insurance Officer
                 </li>

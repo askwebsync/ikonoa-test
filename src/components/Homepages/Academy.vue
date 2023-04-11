@@ -21,10 +21,10 @@
               />
             </div>
             <div
-              class="flex flex-col gap-8 p-10 text-center h-60 md:h-96 xl:h-80"
+              class="flex flex-col gap-8 p-6 text-center h-72 sm:h-64 md:h-96 xl:h-80"
             >
               <h6 class="text-2xl lg:text-3xl">Online Training</h6>
-              <p class="text-xs sm:text-sm md:text-base">
+              <p class="text-sm md:text-base lg:text-lg">
                 We provide online webinars on insurance for both Insurance
                 Officers and Non-Insurance Officers. Our webinars cover policy
                 options, claims processes, and risk management strategies.
@@ -43,10 +43,10 @@
               />
             </div>
             <div
-              class="flex flex-col gap-8 p-10 text-center h-60 md:h-80 lg:96 xl:h-80"
+              class="flex flex-col gap-8 py-12 px-6 text-center h-80 sm:h-64 md:h-80 lg:96 xl:h-80"
             >
               <h6 class="text-2xl lg:text-3xl">Offline Training</h6>
-              <p class="text-xs sm:text-sm md:text-base">
+              <p class="text-sm md:text-base lg:text-lg">
                 Elevate your team's insurance knowledge with our customized
                 in-house training solutions. Our expert instructors will work
                 with you to develop a tailored program covering relevant topics
@@ -89,6 +89,5 @@ export default {
 <style scoped>
 p {
   font-weight: 400;
-  letter-spacing: 0.15px;
 }
 </style>
