@@ -20,13 +20,13 @@
               <img src="/assets/img/Home/analysis.png" alt="Risk Consulting" />
             </div>
             <div class="flex flex-col gap-6">
-              <h1
-                class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
-              >
-                <router-link :to="{ name: 'risk-consulting' }"
-                  >Risk-Consulting
-                </router-link>
-              </h1>
+              <router-link :to="{ name: 'risk-consulting' }">
+                <h1
+                  class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
+                >
+                  Risk-Consulting
+                </h1>
+              </router-link>
               <ul class="list-decimal list-inside space-y-2 md:space-y-3">
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
                   Claim consultant to expedite claim settlement.
@@ -55,9 +55,11 @@
               />
             </div>
             <div class="flex flex-col gap-6">
-              <h1 class="text-xl md:text-2xl lg:text-3xl uppercase">
-                <a href=" ">Insurance Policy</a>
-              </h1>
+              <router-link :to="{ name: 'insurance-policy' }">
+                <h1 class="text-xl md:text-2xl lg:text-3xl uppercase">
+                  Insurance Policy
+                </h1>
+              </router-link>
               <ul class="list-decimal list-inside space-y-2 md:space-y-3">
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
                   Provide the best and trusted Insurance Company
@@ -80,13 +82,13 @@
               <img src="/assets/img/Home/risk.png" alt="Risk Management" />
             </div>
             <div class="flex flex-col gap-6">
-              <h1
-                class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
-              >
-                <router-link :to="{ name: 'risk-management' }"
-                  >Risk-Management
-                </router-link>
-              </h1>
+              <router-link :to="{ name: 'risk-management' }">
+                <h1
+                  class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
+                >
+                  Risk-Management
+                </h1>
+              </router-link>
               <ul class="list-decimal list-inside space-y-2 md:space-y-3">
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
                   Risk survey
@@ -105,11 +107,13 @@
               <img src="/assets/img/Home/academy.png" alt="Academy" />
             </div>
             <div class="flex flex-col gap-6">
-              <h1
-                class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
-              >
-                <router-link :to="{ name: 'academy' }">Academy </router-link>
-              </h1>
+              <router-link :to="{ name: 'academy' }">
+                <h1
+                  class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
+                >
+                  Academy
+                </h1>
+              </router-link>
               <ul class="list-decimal list-inside space-y-2 md:space-y-3">
                 <li class="text-base sm:text-base md:text-lg">
                   Insurance for Insurance Officer
