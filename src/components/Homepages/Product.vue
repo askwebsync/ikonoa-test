@@ -105,21 +105,21 @@ p {
   letter-spacing: 0.5px;
 }
 .bg-gray-1 {
-  background-image: url(/assets/img/Home/property.png);
+  background-image: url(/assets/img/Home/property.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 8px;
 }
 .bg-gray-2 {
-  background-image: url(/assets/img/Home/engineer.png);
+  background-image: url(/assets/img/Home/engineer.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 8px;
 }
 .bg-gray-3 {
-  background-image: url(/assets/img/Home/misce.png);
+  background-image: url(/assets/img/Home/misce.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
