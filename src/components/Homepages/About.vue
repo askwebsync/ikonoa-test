@@ -32,9 +32,9 @@
                   alt="check-mark"
                   class="w-6 h-6"
                 />
-                <p class="flex-1 font-semibold text-lg">
+                <div class="font-semibold text-lg">
                   <span class="text-red-600">I</span>ntegrity
-                </p>
+                </div>
               </li>
               <li class="flex items-center gap-4">
                 <img
@@ -42,9 +42,9 @@
                   alt="check-mark"
                   class="w-6 h-6"
                 />
-                <p class="flex-1 font-semibold text-lg">
+                <div class="flex-1 font-semibold text-lg">
                   <span class="text-red-600">K</span>nowledgeable
-                </p>
+                </div>
               </li>
               <li class="flex items-center gap-4">
                 <img
@@ -52,9 +52,9 @@
                   alt="check-mark"
                   class="w-6 h-6"
                 />
-                <p class="flex-1 font-semibold text-lg">
+                <div class="flex-1 font-semibold text-lg">
                   Pr<span class="text-red-600">o</span>fessional
-                </p>
+                </div>
               </li>
               <li class="flex items-center gap-4">
                 <img
@@ -62,9 +62,9 @@
                   alt="check-mark"
                   class="w-6 h-6"
                 />
-                <p class="flex-1 font-semibold text-lg">
+                <div class="flex-1 font-semibold text-lg">
                   Ho<span class="text-red-600">n</span>esty
-                </p>
+                </div>
               </li>
               <li class="flex items-center gap-4">
                 <img
@@ -72,9 +72,9 @@
                   alt="check-mark"
                   class="w-6 h-6"
                 />
-                <p class="flex-1 font-semibold text-lg">
+                <div class="flex-1 font-semibold text-lg">
                   F<span class="text-red-600">o</span>cus
-                </p>
+                </div>
               </li>
               <li class="flex items-center gap-4">
                 <img
@@ -82,9 +82,9 @@
                   alt="check-mark"
                   class="w-6 h-6"
                 />
-                <p class="flex-1 font-semibold text-lg">
+                <div class="flex-1 font-semibold text-lg">
                   P<span class="text-red-600">a</span>rtnership
-                </p>
+                </div>
               </li>
             </ul>
             <div class="text-left">
@@ -120,5 +120,11 @@ p {
   color: #17171f;
   font-weight: 400;
   letter-spacing: 0.5px;
+}
+
+li {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
 }
 </style>
