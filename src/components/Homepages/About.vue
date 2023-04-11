@@ -4,10 +4,9 @@
       <div class="flex flex-col md:flex-row gap-12 items-center">
         <div class="w-1/2">
           <img
-            src="/assets/img/Home/about.png"
-            style="height: 600px"
+            src="/assets/img/Home/about.webp"
+            style="max-height: 600px"
             alt="about-us"
-            class=""
           />
         </div>
         <div

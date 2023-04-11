@@ -3,19 +3,16 @@
     <nav
       class="container p-4 mx-auto md:flex md:justify-between md:items-center xl:px-6"
     >
-      <div class="flex items-center justify-between">
-        <router-link :to="{ name: 'home' }" class="">
+      <div class="flex items-center justify-between focus:outline-none">
+        <router-link :to="{ name: 'home' }">
           <img
             src="/assets/img/Icon/logo.png"
-            class="w-28 h-12 lg:w-32 lg:h-16 object-contain focus:outline-none"
+            class="w-28 h-12 lg:w-32 lg:h-16 object-contain"
             alt="logo"
           />
         </router-link>
         <!-- Mobile menu button -->
-        <div
-          @click="showMenu = !showMenu"
-          class="flex md:hidden focus:outline-none"
-        >
+        <div @click="showMenu = !showMenu" class="flex md:hidden">
           <button
             :class="{ opened: showMenu }"
             type="button"
