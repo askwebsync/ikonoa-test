@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
-      <div class="flex flex-col gap-10">
+      <div class="flex flex-col gap-12">
         <div class="flex flex-col gap-2 self-center text-center max-w-2xl">
           <h3 class="text-xl md:text-2xl lg:text-3xl lg:text-3xl">Academy</h3>
           <h2 class="text-xl md:text-2xl lg:text-3xl lg:text-3xl">
