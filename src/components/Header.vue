@@ -69,7 +69,9 @@
           @click="showMenu = !showMenu"
           class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
         >
-          <a class="font-medium">Claims Experience</a>
+          <router-link :to="{ name: 'about' }" class="font-medium"
+            >Claim Experience</router-link
+          >
         </li>
         <li
           @click="showMenu = !showMenu"

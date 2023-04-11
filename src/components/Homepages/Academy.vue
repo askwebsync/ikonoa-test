@@ -66,7 +66,7 @@
           >
             <router-link
               :to="{ name: 'academy' }"
-              aria-label="Contact Us For More Information"
+              aria-label="Check our services full explanation"
               >Learn More</router-link
             >
           </button>
