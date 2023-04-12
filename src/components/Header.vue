@@ -39,7 +39,7 @@
       <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
       <ul
         :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col mt-8 gap-y-3 items-center text-center md:flex md:gap-y-0 md:flex-row md:gap-x-4 lg:gap-x-8 md:mt-0 cursor-pointer"
+        class="flex-col mt-8 gap-y-3 items-center text-center md:flex md:gap-y-0 md:flex-row md:gap-x-4 lg:gap-x-4 xl:gap-x-8 md:mt-0 cursor-pointer"
       >
         <li
           @click="showMenu = !showMenu"
@@ -84,7 +84,7 @@
         <div>
           <div
             @click="changeLanguage"
-            class="flex flex-row items-center place-content-center mt-2 ml-0 md:ml-6 md:mt-0 lg:ml-10 focus:outline-none"
+            class="flex flex-row items-center place-content-center mt-2 ml-0 md:ml-1 md:mt-0 lg:ml-6 xl:ml-10 focus:outline-none"
           >
             <img
               class="w-6 h-6 mr-1 focus:outline-none"

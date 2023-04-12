@@ -121,9 +121,6 @@
                 <li class="text-base sm:text-base md:text-lg">
                   Insurance for Non-Insurance Officer
                 </li>
-                <li class="text-base sm:text-base md:text-lg">
-                  Inhouse Insurance Training
-                </li>
               </ul>
             </div>
           </div>

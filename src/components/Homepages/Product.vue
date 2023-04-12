@@ -56,9 +56,9 @@
                     </h6>
                   </router-link>
                   <p class="text-white text-xs lg:text-lg">
-                    Type of insurance that provides protection against various
-                    unexpected risks such as unexpected financial or legal
-                    losses.
+                    Protect from unexpected and expensive medical expenses, such
+                    as hospitalization costs, surgery costs, doctor
+                    consultations, medication, and medicines.
                   </p>
                 </div>
               </div>
