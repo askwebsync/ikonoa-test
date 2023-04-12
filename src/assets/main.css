@@ -189,7 +189,7 @@ a:hover {
 .carousel__icon {
   width: var(--vc-icn-width);
   height: var(--vc-icn-width);
-  fill: #D50000;
+  fill: #D50000 !important;
 }
 
 .carousel__slide {
