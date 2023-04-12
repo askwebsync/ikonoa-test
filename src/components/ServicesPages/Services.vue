@@ -26,7 +26,9 @@
             </div>
           </router-link>
           <router-link :to="{ name: 'risk-management' }">
-            <div class="background-card flex flex-col rounded-lg">
+            <div
+              class="background-card flex flex-col rounded-lg card-hover shadow-md"
+            >
               <div class="flex flex-col gap-8 py-10 px-12 text-center h-64">
                 <h1
                   class="text-lg md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
@@ -52,7 +54,9 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
           <router-link :to="{ name: 'insurance-policy' }">
-            <div class="background-card flex flex-col rounded-lg">
+            <div
+              class="background-card flex flex-col rounded-lg card-hover shadow-md"
+            >
               <div class="flex flex-col gap-8 py-10 px-12 text-center h-64">
                 <h1
                   class="text-lg md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
@@ -76,7 +80,9 @@
             </div>
           </router-link>
           <router-link :to="{ name: 'academy' }">
-            <div class="background-card flex flex-col rounded-lg">
+            <div
+              class="background-card flex flex-col rounded-lg card-hover shadow-md"
+            >
               <div class="flex flex-col gap-8 py-10 px-12 text-center h-64">
                 <h1
                   class="text-lg md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
