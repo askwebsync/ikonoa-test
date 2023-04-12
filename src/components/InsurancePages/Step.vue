@@ -1,7 +1,7 @@
 <template>
   <section class="background-product">
     <div class="container mx-auto px-4 py-14 md:px-8 lg:px-24">
-      <div class="flex flex-col gap-10 md:gap-12 lg:gap-12">
+      <div class="flex flex-col gap-10 md:gap-12 lg:gap-14">
         <div class="flex flex-col gap-2 text-center">
           <h3 class="text-xl md:text-2xl lg:text-3xl">HOW TO BUY</h3>
           <h2 class="text-lg md:text-xl lg:text-2xl text-gray-300">
@@ -22,8 +22,8 @@
                     alt="step-step"
                   />
                 </div>
-                <div class="w-full h-44">
-                  <p class="text-lg max-w-xs mt-5 px-3 md:max-w-md">
+                <div class="w-full h-54">
+                  <p class="text-lg max-w-xs mt-5 px-4 md:max-w-md">
                     {{ slide.description }}
                   </p>
                 </div>
@@ -120,7 +120,7 @@ export default {
 <style scoped>
 .carousel__item {
   height: 500px;
-  width: 85%;
+  width: 70% !important;
   background-color: white;
   color: var(--vc-clr-white);
   border: 1.5px solid #17171f;

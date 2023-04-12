@@ -3,9 +3,7 @@
     <div class="container mx-auto px-4 py-12 md:px-8 lg:p-24">
       <div class="flex flex-col gap-10 md:gap-12">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div
-            class="background-product custom-shadow-card flex flex-col rounded-lg"
-          >
+          <div class="background-product custom-shadow-card flex flex-col">
             <div class="flex flex-col gap-8 p-12 text-center h-72">
               <router-link :to="{ name: 'insurance-policy' }">
                 <h1
@@ -26,13 +24,11 @@
               <img
                 src="/assets/img/LP_Insurance/liability.png"
                 alt="liability"
-                class="w-full rounded-lg"
+                class="w-full"
               />
             </div>
           </div>
-          <div
-            class="background-product custom-shadow-card flex flex-col rounded-lg"
-          >
+          <div class="background-product custom-shadow-card flex flex-col">
             <div class="flex flex-col gap-8 p-12 text-center h-72">
               <router-link :to="{ name: 'insurance-policy' }">
                 <h1
@@ -51,15 +47,13 @@
               <img
                 src="/assets/img/LP_Insurance/engineering.png"
                 alt="engineering"
-                class="w-full rounded-lg"
+                class="w-full"
               />
             </div>
           </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div
-            class="background-product custom-shadow-card flex flex-col rounded-lg"
-          >
+          <div class="background-product custom-shadow-card flex flex-col">
             <div class="flex flex-col gap-8 p-12 text-center h-72">
               <router-link :to="{ name: 'insurance-policy' }">
                 <h1 class="text-lg md:text-xl lg:text-3xl">Health Insurance</h1>
@@ -75,14 +69,12 @@
               <img
                 src="/assets/img/LP_Insurance/health.png"
                 alt="health"
-                class="w-full rounded-lg"
+                class="w-full"
               />
             </div>
           </div>
 
-          <div
-            class="background-product custom-shadow-card flex flex-col rounded-lg"
-          >
+          <div class="background-product custom-shadow-card flex flex-col">
             <div class="flex flex-col gap-8 p-12 text-center h-72">
               <router-link :to="{ name: 'insurance-policy' }">
                 <h1
@@ -101,15 +93,13 @@
               <img
                 src="/assets/img/LP_Insurance/marine.png"
                 alt="marine"
-                class="w-full rounded-lg"
+                class="w-full"
               />
             </div>
           </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div
-            class="background-product custom-shadow-card flex flex-col rounded-lg"
-          >
+          <div class="background-product custom-shadow-card flex flex-col">
             <div class="flex flex-col gap-8 p-12 text-center h-72">
               <router-link :to="{ name: 'insurance-policy' }">
                 <h1 class="text-lg md:text-xl lg:text-3xl">
@@ -128,14 +118,12 @@
               <img
                 src="/assets/img/LP_Insurance/property.jpg"
                 alt="property"
-                class="w-full rounded-lg"
+                class="w-full"
               />
             </div>
           </div>
 
-          <div
-            class="background-product custom-shadow-card flex flex-col rounded-lg"
-          >
+          <div class="background-product custom-shadow-card flex flex-col">
             <div class="flex flex-col gap-8 p-12 text-center h-72">
               <router-link :to="{ name: 'insurance-policy' }">
                 <h1
@@ -153,7 +141,7 @@
               <img
                 src="/assets/img/LP_Insurance/mobile.jpg"
                 alt="mobile"
-                class="w-full rounded-lg"
+                class="w-full"
               />
             </div>
           </div>

@@ -11,7 +11,7 @@
             <img
               src="/assets/img/Services/life.png"
               alt="logo life insurance"
-              class="w-auto h-auto"
+              class="w-12 h-12"
             />
           </div>
           <p class="text-lg hover:text-red-600">Life Insurance</p>
@@ -23,7 +23,7 @@
             <img
               src="/assets/img/Services/car.png"
               alt="logo car insurance"
-              class="w-auto h-auto"
+              class="w-12 h-12"
             />
           </div>
           <p class="text-lg hover:text-red-600">Car Insurance</p>
@@ -35,7 +35,7 @@
             <img
               src="/assets/img/Services/job.png"
               alt="logo job insurance"
-              class="w-auto h-auto"
+              class="w-12 h-12"
             />
           </div>
           <p class="text-lg hover:text-red-600">Job Insurance</p>
@@ -47,7 +47,7 @@
             <img
               src="/assets/img/Services/home.png"
               alt="logo home insurance"
-              class="w-auto h-auto"
+              class="w-12 h-12"
             />
           </div>
           <p class="text-lg hover:text-red-600">Home Insurance</p>
@@ -59,7 +59,7 @@
             <img
               src="/assets/img/Services/health.png"
               alt="logo health insurance"
-              class="w-auto h-auto"
+              class="w-12 h-12"
             />
           </div>
           <p class="text-lg hover:text-red-600">Health Insurance</p>
@@ -71,7 +71,7 @@
             <img
               src="/assets/img/Services/wedding.png"
               alt="logo wedding insurance"
-              class="w-auto h-auto"
+              class="w-12 h-12"
             />
           </div>
           <p class="text-lg hover:text-red-600">Wedding Insurance</p>
@@ -95,7 +95,7 @@ export default {
 p {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   color: #d50000;
   letter-spacing: 0.5px;
 }
