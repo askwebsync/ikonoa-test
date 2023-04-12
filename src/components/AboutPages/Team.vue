@@ -110,15 +110,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.carousel__item {
-  min-height: 345px;
-  width: 80%;
-  background-color: #f2f2f2;
-  color: var(--vc-clr-white);
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-</style>
+<style></style>
