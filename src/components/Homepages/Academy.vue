@@ -9,7 +9,7 @@
             of insurance, benefits and conditions of each type of insurance.
           </h2>
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 self-center">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 self-center px-2">
           <div
             class="background-product custom-shadow-card flex flex-col rounded-lg max-h-md max-w-md"
           >

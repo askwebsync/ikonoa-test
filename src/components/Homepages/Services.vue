@@ -14,7 +14,7 @@
         </div>
         <div class="flex flex-col gap-10">
           <div
-            class="flex flex-col w-96 md:w-56 lg:w-full px-5 py-6 md:px-4 gap-6 background-card hover:bg-white hover:shadow-md"
+            class="flex flex-col w-auto px-5 py-6 md:px-5 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/Home/analysis.png" alt="Risk Consulting" />
@@ -46,7 +46,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col w-96 md:w-56 lg:w-full px-5 py-6 md:px-4 gap-6 background-card hover:bg-white hover:shadow-md"
+            class="flex flex-col w-auto px-5 py-6 md:px-5 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
               <img
@@ -76,7 +76,7 @@
         </div>
         <div class="flex flex-col gap-10 mt-6 md:mt-20">
           <div
-            class="flex flex-col w-96 md:w-56 lg:w-full px-5 py-6 md:px-4 gap-6 background-card hover:bg-white hover:shadow-md"
+            class="flex flex-col w-auto px-5 py-6 md:px-5 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/Home/risk.png" alt="Risk Management" />
@@ -91,17 +91,17 @@
               </router-link>
               <ul class="list-decimal list-outside space-y-2 md:space-y-1 px-6">
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
-                  Risk survey
+                  Risk improvement and recommendation
                 </li>
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
-                  Risk improvement and recommendation
+                  Risk survey
                 </li>
               </ul>
             </div>
           </div>
 
           <div
-            class="flex flex-col w-96 md:w-56 lg:w-full px-5 py-6 md:px-4 gap-6 background-card hover:bg-white hover:shadow-md"
+            class="flex flex-col w-auto px-5 py-6 md:px-5 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/Home/academy.png" alt="Academy" />
@@ -116,10 +116,10 @@
               </router-link>
               <ul class="list-decimal list-outside space-y-2 md:space-y-1 px-6">
                 <li class="text-base sm:text-base md:text-lg">
-                  Insurance for Insurance Officer
+                  Insurance for Non-Insurance Officer
                 </li>
                 <li class="text-base sm:text-base md:text-lg">
-                  Insurance for Non-Insurance Officer
+                  Insurance for Insurance Officer
                 </li>
               </ul>
             </div>
