@@ -4,10 +4,11 @@
       <div class="flex flex-col gap-14">
         <div class="flex flex-col gap-2 text-center">
           <h3 class="text-xl md:text-2xl lg:text-3xl">
-            Risk Management Process
+            Our Risk Management Process
           </h3>
           <h2 class="text-xl md:text-2xl">
-            Detailed Process for Identifying and Analyzing Risks
+            Our risk management process consists of two key components: risk
+            survey and risk improvement.
           </h2>
         </div>
         <div
