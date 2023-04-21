@@ -3,7 +3,9 @@
     <div class="container mx-auto px-4 py-12 md:px-8 lg:p-24">
       <div class="flex flex-col gap-10 md:gap-12">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div class="background-product custom-shadow-card flex flex-col">
+          <div
+            class="background-card flex flex-col rounded-lg card-hover shadow-md"
+          >
             <div class="flex flex-col gap-8 p-12 text-center h-72">
               <router-link :to="{ name: 'insurance-policy' }">
                 <h1
@@ -28,7 +30,9 @@
               />
             </div>
           </div>
-          <div class="background-product custom-shadow-card flex flex-col">
+          <div
+            class="background-card flex flex-col rounded-lg card-hover shadow-md"
+          >
             <div class="flex flex-col gap-8 p-12 text-center h-72">
               <router-link :to="{ name: 'insurance-policy' }">
                 <h1
@@ -53,7 +57,9 @@
           </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div class="background-product custom-shadow-card flex flex-col">
+          <div
+            class="background-card flex flex-col rounded-lg card-hover shadow-md"
+          >
             <div class="flex flex-col gap-8 p-12 text-center h-72">
               <router-link :to="{ name: 'insurance-policy' }">
                 <h1 class="text-lg md:text-xl lg:text-3xl">Health Insurance</h1>
@@ -74,7 +80,9 @@
             </div>
           </div>
 
-          <div class="background-product custom-shadow-card flex flex-col">
+          <div
+            class="background-card flex flex-col rounded-lg card-hover shadow-md"
+          >
             <div class="flex flex-col gap-8 p-12 text-center h-72">
               <router-link :to="{ name: 'insurance-policy' }">
                 <h1
@@ -99,7 +107,9 @@
           </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div class="background-product custom-shadow-card flex flex-col">
+          <div
+            class="background-card flex flex-col rounded-lg card-hover shadow-md"
+          >
             <div class="flex flex-col gap-8 p-12 text-center h-72">
               <router-link :to="{ name: 'insurance-policy' }">
                 <h1 class="text-lg md:text-xl lg:text-3xl">
@@ -123,7 +133,9 @@
             </div>
           </div>
 
-          <div class="background-product custom-shadow-card flex flex-col">
+          <div
+            class="background-card flex flex-col rounded-lg card-hover shadow-md"
+          >
             <div class="flex flex-col gap-8 p-12 text-center h-72">
               <router-link :to="{ name: 'insurance-policy' }">
                 <h1
