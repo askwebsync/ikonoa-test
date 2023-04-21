@@ -18,12 +18,12 @@
               <p class="text-lg">1</p>
             </div>
             <div
-              class="flex flex-col p-6 gap-8 lg:gap-12 bg-white rounded-xl border-custom h-56 md:h-80 lg:h-64"
+              class="flex flex-col p-6 gap-8 lg:gap-12 background-product rounded-xl border-custom h-56 md:h-80 lg:h-64"
             >
               <h2 class="text-black text-center text-xl md:text-3xl">
                 Risk Survey
               </h2>
-              <p class="text-md text-gray-500">
+              <p class="text-md text-gray-500 md:text-lg">
                 We can carry out a risk survey according to your needs,
                 including unusual and complex risks. Our team can work and
                 conduct surveys wherever these risks are located.
@@ -37,12 +37,12 @@
               <p class="text-lg">2</p>
             </div>
             <div
-              class="flex flex-col p-6 gap-8 lg:gap-12 bg-white rounded-xl border-custom h-56 md:h-80 lg:h-64"
+              class="flex flex-col p-6 gap-8 lg:gap-12 background-product rounded-xl border-custom h-56 md:h-80 lg:h-64"
             >
               <h2 class="text-black text-center text-xl md:text-3xl">
                 Risk Improvement
               </h2>
-              <p class="text-md text-gray-500">
+              <p class="text-md text-gray-500 md:text-lg">
                 One of the principles of risk management is continuous
                 improvement. Of course apart from conducting a risk survey, we
                 will also help you to get the best recommendations in the risk
