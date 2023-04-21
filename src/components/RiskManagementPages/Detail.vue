@@ -1,14 +1,11 @@
 <template>
-  <section class="background-product">
+  <section class="">
     <div class="container mx-auto px-4 py-14 md:px-8 lg:px-24">
       <div class="flex flex-col gap-14">
         <div class="flex flex-col gap-2 text-center">
-          <h3 class="text-xl md:text-2xl lg:text-3xl">
-            Our Risk Management Process
-          </h3>
+          <h3 class="text-2xl lg:text-3xl">Risk Management Process</h3>
           <h2 class="text-xl md:text-2xl">
-            Our risk management process consists of two key components: risk
-            survey and risk improvement.
+            Our risk management process consists of two key components
           </h2>
         </div>
         <div
@@ -21,12 +18,12 @@
               <p class="text-lg">1</p>
             </div>
             <div
-              class="flex flex-col p-6 gap-6 bg-white rounded-xl border-custom h-56 md:h-48"
+              class="flex flex-col p-6 gap-8 lg:gap-12 bg-white rounded-xl border-custom h-56 md:h-80 lg:h-64"
             >
               <h2 class="text-black text-center text-xl md:text-3xl">
                 Risk Survey
               </h2>
-              <p class="text-md">
+              <p class="text-md text-gray-500">
                 We can carry out a risk survey according to your needs,
                 including unusual and complex risks. Our team can work and
                 conduct surveys wherever these risks are located.
@@ -40,12 +37,12 @@
               <p class="text-lg">2</p>
             </div>
             <div
-              class="flex flex-col p-6 gap-6 bg-white rounded-xl border-custom h-56 md:h-48"
+              class="flex flex-col p-6 gap-8 lg:gap-12 bg-white rounded-xl border-custom h-56 md:h-80 lg:h-64"
             >
               <h2 class="text-black text-center text-xl md:text-3xl">
-                Risk Improvment
+                Risk Improvement
               </h2>
-              <p class="text-md">
+              <p class="text-md text-gray-500">
                 One of the principles of risk management is continuous
                 improvement. Of course apart from conducting a risk survey, we
                 will also help you to get the best recommendations in the risk
@@ -77,7 +74,7 @@ h2 {
   color: #3b3b3b;
 }
 p {
-  color: #3b3b3b;
+  font-weight: 400;
   letter-spacing: -0.1px;
 }
 hr {

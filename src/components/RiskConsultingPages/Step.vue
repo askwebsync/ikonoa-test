@@ -3,17 +3,18 @@
     <div class="container mx-auto px-4 py-14 md:px-8 lg:px-24">
       <div class="flex flex-col gap-10 md:gap-12 lg:gap-12">
         <div class="flex flex-col gap-2 text-center">
-          <h3 class="text-xl md:text-2xl lg:text-3xl">HOW TO CLAIM</h3>
-          <h2 class="text-lg md:text-xl lg:text-2xl text-gray-300">
+          <h3 class="text-2xl lg:text-3xl">HOW TO CLAIM</h3>
+          <h2 class="text-xl md:text-2xl">
             A step-by-step guide to making an insurance claim with ease
           </h2>
         </div>
-
         <Carousel :settings="settings" :breakpoints="breakpoints">
           <Slide v-for="slide in slides" :key="slide">
             <div class="carousel__item">
-              <div class="flex flex-col gap-8 py-8 items-center justify-center">
-                <h3 class="text-xl">{{ slide.title }}</h3>
+              <div class="flex flex-col gap-8 items-center justify-center">
+                <h3 class="text-xl lg:text-2xl xl:text-3xl">
+                  {{ slide.title }}
+                </h3>
                 <div
                   class="flex items-center justify-center px-6 py-5 border-step"
                 >
@@ -22,7 +23,7 @@
                     alt="step-step"
                   />
                 </div>
-                <p class="text-lg max-w-xs mt-5 px-3 md:max-w-md">
+                <p class="text-lg max-w-xs mt-5 px-5 md:max-w-md">
                   {{ slide.description }}
                 </p>
               </div>
@@ -132,8 +133,7 @@ export default {
 h2 {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 700;
-  letter-spacing: -0.25px;
+  font-weight: 500;
   color: #3b3b3b;
 }
 p {

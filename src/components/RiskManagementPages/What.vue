@@ -1,22 +1,21 @@
 <template>
-  <section class="container mx-auto px-4 py-10 md:px-8 lg:px-24">
-    <div class="bg-category py-8 px-6">
-      <div
-        class="max-w-screen-lg mx-auto flex flex-col lg:flex-row justify-between items-center gap-11"
-      >
-        <div class="lg:w-1/2">
-          <h2 class="text-4xl uppercase">Risk Management Solution</h2>
-          <hr class="w-16 h-1 mb-6 bg-primary" />
-          <p class="text-md md:text-lg">
-            Secure your business's future with Ikonoa's Risk Management
-            Solutions. Our experts use a two-step process to identify and
-            analyze potential loss exposures, then take proactive steps to
-            minimize any financial impact. Whether you're dealing with pure
-            risks or broader business risks, we have the knowledge and
-            experience to protect your business from potential losses.
+  <section class="background-product">
+    <div class="container mx-auto px-4 py-14 md:px-8 lg:px-24">
+      <div class="flex flex-col lg:flex-row gap-10 items-center">
+        <div class="self-center w-full lg:w-1/2 md:self-start">
+          <h2 class="text-4xl mb-3 uppercase">What is risk management ?</h2>
+          <hr />
+          <p class="mt-10 md:mt-12 md:text-lg max-w-xl">
+            Ikonoa risk management is divided into 2 processes is the practice
+            of identifying and analyzing loss exposures and taking steps to
+            minimize the financial impact of the risks that will arise.
+            traditional risk management, sometimes called "insurance risk
+            management", focuses on "pure risk" (that is, the probability of
+            loss incidental or accidental) but are not business risks (that is,
+            risks that could give rise to the possibility loss or gain).
           </p>
         </div>
-        <div class="lg:w-1/2">
+        <div class="flex w-full lg:w-1/2 self-start lg:justify-center">
           <img src="/assets/img/Services/solution.jpg" alt="solution" />
         </div>
       </div>
@@ -26,7 +25,7 @@
 
 <script>
 export default {
-  name: "Why",
+  name: "What",
   components: {},
   data() {
     return {};
@@ -39,10 +38,9 @@ h2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  color: #3b3b3b;
 }
 p {
-  color: #3b3b3b;
+  font-weight: 400;
   letter-spacing: -0.1px;
 }
 hr {
