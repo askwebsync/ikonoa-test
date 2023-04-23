@@ -86,8 +86,8 @@ export default {
 
 .float {
   position: fixed;
-  width: 70px;
-  height: 62px;
+  width: 60px;
+  height: 60px;
   bottom: 40px;
   right: 40px;
   background-color: #25d366;

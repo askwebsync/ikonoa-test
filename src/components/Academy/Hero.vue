@@ -14,9 +14,7 @@
         </h1>
         <div class="flex flex-col gap-4 items-center">
           <hr />
-          <h4
-            class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-xl lg:max-w-4xl"
-          >
+          <h4 class="text-lg max-w-xxs md:text-xl md:max-w-xl lg:max-w-4xl">
             "We provide insurance training that suits to your needs, either
             directly provided by our experienced Staff or in collaboration with
             third parties. We named it Insurance for Insurance Staff and

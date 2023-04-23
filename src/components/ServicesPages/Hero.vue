@@ -21,7 +21,7 @@
             OUR SERVICES & SOLUTIONS
           </h1>
           <h4
-            class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-6xl"
+            class="text-lg max-w-xxs md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-6xl"
           >
             "Let us guide you to the insurance policy that perfectly fits your
             unique needs. We offer a wide range of insurance solutions that

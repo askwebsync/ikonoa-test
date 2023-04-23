@@ -21,7 +21,7 @@
             GET IN TOUCH
           </h1>
           <h4
-            class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-5xl"
+            class="text-lg max-w-xxs md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-5xl"
           >
             "Let Us Know How We Can Help"
           </h4>

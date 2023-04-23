@@ -21,7 +21,7 @@
             INSURANCE POLICY
           </h1>
           <h4
-            class="text-lg max-w-xxs hover:text-yellow-300 md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-6xl"
+            class="text-lg max-w-xxs md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-6xl"
           >
             “We provide insurance solutions that suit your needs”
           </h4>
