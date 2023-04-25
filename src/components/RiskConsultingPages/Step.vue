@@ -15,12 +15,11 @@
                 <h3 class="text-xl lg:text-2xl xl:text-3xl">
                   {{ slide.title }}
                 </h3>
-                <div
-                  class="flex items-center justify-center px-6 py-5 border-step"
-                >
+                <div class="claim-card">
                   <img
                     :src="`/assets/img/Services/${slide.image}`"
                     alt="step-step"
+                    class="image-css"
                   />
                 </div>
                 <p class="text-lg max-w-xs mt-5 px-5 md:max-w-md">
@@ -144,5 +143,30 @@ p {
 .border-step {
   border: 2px solid #17171f;
   border-radius: 100px;
+}
+.claim-card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 140px;
+  height: 140px;
+  border: 2px solid #17171f;
+  border-radius: 100px;
+}
+.image-css {
+  width: 80px;
+  height: 80px;
+
+  background: url(image.png);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 </style>

@@ -89,7 +89,7 @@
             </ul>
             <div class="text-left">
               <button
-                class="px-10 py-3 md:px-14 border-button-custom font-medium button-shadow"
+                class="px-7 py-3 border-button-custom font-medium button-shadow"
               >
                 <router-link
                   :to="{ name: 'about' }"

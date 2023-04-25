@@ -18,7 +18,7 @@
           </div>
         </div>
         <div
-          class="grid grid-cols-2 text-sm mt-3 grid-flow-row-dense md:mt-0 gap-x-2 gap-y-24 md:gap-x-3 lg:w-2/3 lg:ml-3"
+          class="grid grid-cols-2 text-sm mt-3 grid-flow-row-dense md:mt-0 gap-x-2 gap-y-14 md:gap-x-3 lg:w-2/3 lg:ml-3"
         >
           <div class="space-y-4 col-span-1">
             <h3 class="text-lg">Quicklinks</h3>

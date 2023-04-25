@@ -1,12 +1,14 @@
 <template>
   <section>
     <div class="container mx-auto px-4 py-14 md:px-8 lg:px-24">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-        <div class="flex flex-col items-start p-5 gap-5 custom-shadow-card">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 justify-items-center">
+        <div
+          class="flex flex-col items-start p-5 gap-5 custom-shadow-card max-w-lg"
+        >
           <img src="/assets/img/Services/academy1.png" alt="w-auto h-auto" />
-          <div class="flex flex-col items-center gap-5">
+          <div class="flex flex-col items-center gap-7">
             <div class="flex self-start">
-              <h6 class="text-xl md:text-2xl lg:text-3xl">Health Insurance</h6>
+              <h6 class="text-2xl lg:text-3xl">Health Insurance</h6>
             </div>
 
             <div class="flex flex-col items-center gap-5">
@@ -32,11 +34,13 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col items-start p-5 gap-5 custom-shadow-card">
+        <div
+          class="flex flex-col items-start p-5 gap-5 custom-shadow-card max-w-lg"
+        >
           <img src="/assets/img/Services/academy1.png" alt="w-auto h-auto" />
-          <div class="flex flex-col items-center gap-5">
+          <div class="flex flex-col items-center gap-7">
             <div class="flex self-start">
-              <h6 class="text-xl md:text-2xl lg:text-3xl">Health Insurance</h6>
+              <h6 class="text-2xl lg:text-3xl">Health Insurance</h6>
             </div>
 
             <div class="flex flex-col items-center gap-5">

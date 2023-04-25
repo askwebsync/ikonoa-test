@@ -17,7 +17,7 @@
       <div class="background-product">
         <div class="container mx-auto px-4 py-6 md:px-8 lg:px-24">
           <div
-            class="grid grid-cols-1 md:grid-cols-3 justify-items-center divide-y-4 md:divide-x-4 md:divide-y-0 divide-black text-center"
+            class="grid grid-cols-1 md:grid-cols-3 justify-items-center divide-y-2 md:divide-x-2 md:divide-y-0 divide-black text-center"
           >
             <div
               class="flex flex-col justify-center items-center px-10 py-5 mb-3 md:mb-0 h-full w-full"
