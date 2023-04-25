@@ -14,7 +14,7 @@
         </h1>
         <div class="flex flex-col gap-4 items-center">
           <hr />
-          <h4 class="text-lg max-w-xxs md:text-xl md:max-w-xl lg:max-w-4xl">
+          <h4 class="text-lg max-w-xxs md:text-xl md:max-w-2xl lg:max-w-6xl">
             "We provide insurance training that suits to your needs, either
             directly provided by our experienced Staff or in collaboration with
             third parties. We named it Insurance for Insurance Staff and
@@ -40,7 +40,7 @@ export default {
 <style scoped>
 h4 {
   color: #787878;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.15px;
 }
 h1 {
   color: #3b3b3b;
