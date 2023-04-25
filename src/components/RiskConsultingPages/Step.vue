@@ -11,7 +11,9 @@
         <Carousel :settings="settings" :breakpoints="breakpoints">
           <Slide v-for="slide in slides" :key="slide">
             <div class="carousel__item">
-              <div class="flex flex-col gap-8 items-center justify-center">
+              <div
+                class="flex flex-col gap-8 items-center justify-center h-auto"
+              >
                 <h3 class="text-xl lg:text-2xl xl:text-3xl">
                   {{ slide.title }}
                 </h3>

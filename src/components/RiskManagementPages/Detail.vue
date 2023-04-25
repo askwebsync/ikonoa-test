@@ -11,38 +11,38 @@
         <div
           class="grid grid-cols-1 md:grid-cols-2 items-center gap-11 h-full w-full"
         >
-          <div class="flex flex-col items-center self-center gap-4">
+          <div class="flex flex-col items-center self-center gap-6">
             <div
               class="w-12 h-12 rounded-full flex justify-center items-center background-number"
             >
               <p class="text-lg">1</p>
             </div>
             <div
-              class="flex flex-col px-7 py-6 gap-8 md:gap-9 xl:gap-12 rounded-xl border-custom h-56 md:h-80"
+              class="flex flex-col p-7 gap-8 lg:gap-12 background-card-detail rounded-xl border-custom h-64 md:h-96 lg:h-80 xl:h-72"
             >
               <h2 class="text-black text-center text-xl md:text-3xl">
                 Risk Survey
               </h2>
-              <p class="text-md text-gray-500 md:text-lg xl:text-xl">
+              <p class="text-md text-gray-500 md:text-lg">
                 We can carry out a risk survey according to your needs,
                 including unusual and complex risks. Our team can work and
                 conduct surveys wherever these risks are located.
               </p>
             </div>
           </div>
-          <div class="flex flex-col items-center self-center gap-4">
+          <div class="flex flex-col items-center self-center gap-6">
             <div
               class="w-12 h-12 rounded-full flex justify-center items-center background-number"
             >
               <p class="text-lg">2</p>
             </div>
             <div
-              class="flex flex-col px-7 py-6 gap-8 md:gap-9 xl:gap-12 rounded-xl border-custom h-56 md:h-80"
+              class="flex flex-col p-7 gap-8 lg:gap-12 background-card-detail rounded-xl border-custom h-64 md:h-96 lg:h-80 xl:h-72"
             >
               <h2 class="text-black text-center text-xl md:text-3xl">
                 Risk Improvement
               </h2>
-              <p class="text-md text-gray-500 md:text-lg xl:text-xl">
+              <p class="text-md text-gray-500 md:text-lg">
                 One of the principles of risk management is continuous
                 improvement. Of course apart from conducting a risk survey, we
                 will also help you to get the best recommendations in the risk
@@ -87,7 +87,10 @@ hr {
   border: 1px solid #d50000;
 }
 .border-custom {
-  border: 1.5px solid #d50000;
+  border: 1.5px solid #17171f;
   border-radius: 8px;
+}
+.background-card-detail {
+  background-color: #f2f2f2;
 }
 </style>

@@ -12,7 +12,7 @@
             </div>
 
             <div class="flex flex-col items-center gap-5">
-              <p class="text-lg lg:text-xl xl:text-2xl text-gray-600">
+              <p class="text-lg lg:text-xl text-gray-600">
                 Health insurance training will help you to understand better
                 about the benefits and conditions of health insurance.
               </p>
@@ -44,7 +44,7 @@
             </div>
 
             <div class="flex flex-col items-center gap-5">
-              <p class="text-lg lg:text-xl xl:text-2xl text-gray-600">
+              <p class="text-lg lg:text-xl text-gray-600">
                 Health insurance training will help you to understand better
                 about the benefits and conditions of health insurance.
               </p>
