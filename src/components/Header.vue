@@ -81,7 +81,7 @@
             >Contact</router-link
           >
         </li>
-        <div>
+        <li>
           <div
             @click="changeLanguage"
             class="flex flex-row items-center place-content-center mt-2 ml-0 md:ml-1 md:mt-0 lg:ml-6 xl:ml-10 focus:outline-none"
@@ -97,7 +97,7 @@
               >{{ language }}</a
             >
           </div>
-        </div>
+        </li>
       </ul>
     </nav>
   </header>
