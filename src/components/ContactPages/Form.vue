@@ -11,7 +11,9 @@
           class="fas fa-headset text-red-600 text-2xl smtext-3xl md:text-4xl lg:text-5xl my-2 md:my-3"
         ></i>
 
-        <h2 class="text-xl md:text-2xl tracking-tight my-2">Call</h2>
+        <h2 class="text-xl md:text-2xl tracking-tight my-2">
+          {{ $t("contact.card1-header") }}
+        </h2>
 
         <div class="flex flex-wrap mt-auto py-3">
           <a
@@ -47,7 +49,9 @@
           class="fas fa-building text-red-600 text-2xl smtext-3xl md:text-4xl lg:text-5xl my-2 md:my-3"
         ></i>
 
-        <h2 class="text-xl md:text-2xl tracking-tight my-2">Office</h2>
+        <h2 class="text-xl md:text-2xl tracking-tight my-2">
+          {{ $t("contact.card3-header") }}
+        </h2>
 
         <div class="flex flex-wrap mt-auto py-3">
           <a

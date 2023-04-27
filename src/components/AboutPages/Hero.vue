@@ -18,12 +18,12 @@
           <h1
             class="text-2xl sm:text-3xl md:text-5xl hover:text-red-600 max-w-5xl uppercase md:leading-snug"
           >
-            ABOUT IKONOA
+            {{ $t("about.banner-header") }}
           </h1>
           <h4
             class="text-lg max-w-xxs md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-5xl"
           >
-            "We provide services and solutions that assist you"
+            {{ $t("about.banner-subheader") }}
           </h4>
         </div>
       </div>

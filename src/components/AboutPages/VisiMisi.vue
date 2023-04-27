@@ -3,28 +3,28 @@
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col gap-8 text-center">
         <div class="flex flex-col gap-4">
-          <h3 class="text-xl md:text-3xl">Vision</h3>
+          <h3 class="text-xl md:text-3xl">
+            {{ $t("about.visi-header") }}
+          </h3>
           <ul class="px-3 py-2 list-disc list-inside marker:text-red-600">
-            <li>The most trusted risk and management consulting in Asia</li>
+            <li>{{ $t("about.visi-text1") }}</li>
           </ul>
         </div>
         <div class="flex flex-col gap-4">
-          <h3 class="text-xl md:text-3xl">Mission</h3>
+          <h3 class="text-xl md:text-3xl">{{ $t("about.misi-header") }}</h3>
           <ul
             class="px-3 py-2 space-y-3 list-disc list-inside marker:text-red-600"
           >
-            <li>Providing risk advisory and transfer</li>
+            <li>{{ $t("about.misi-text1") }}</li>
             <li>
-              Providing effective and efficient claim management solutions
+              {{ $t("about.misi-text2") }}
             </li>
-            <li>Expanding insurance market share and premium</li>
+            <li>{{ $t("about.misi-text3") }}</li>
             <li>
-              Educate customer through insurance literation to increase
-              knowledge and trust
+              {{ $t("about.misi-text4") }}
             </li>
             <li>
-              Providing insurance services to stack-holders through human
-              resource development and digital solutions
+              {{ $t("about.misi-text5") }}
             </li>
           </ul>
         </div>

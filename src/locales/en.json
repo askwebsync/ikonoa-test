@@ -50,7 +50,23 @@
     "academy-card1-text": "We provide online webinars on insurance for both Insurance Officers and Non-Insurance Officers. Our webinars cover policy options, claims processes, and risk management strategies. Expert instructors lead each session and answer your questions.",
     "academy-card2-text": "We offer customized in-house insurance training for companies, addressing their unique challenges and opportunities. Our expert instructors work with you to develop a tailored program covering relevant topics, such as policy changes and risk management. Contact us to learn more about our in-house training options."
   },
-  "song": {
-    "comment_count": "No comments | 1 comment | {count} comments"
+  "about": {
+    "banner-header": "ABOUT IKONOA",
+    "banner-subheader": "We provide services and solutions that assist you",
+    "visi-header": "Vision",
+    "misi-header": "Mission",
+    "visi-text1": "The most trusted risk and management consulting in Asia",
+    "misi-text1": "Providing risk advisory and transfer",
+    "misi-text2": "Providing effective and efficient claim management solutions",
+    "misi-text3": "Expanding insurance market share and premium",
+    "misi-text4": "Educate customer through insurance literation to increase knowledge and trust",
+    "misi-text5": "Providing insurance services to stack-holders through human resource development and digital solutions"
+  },
+  "contact": {
+    "banner-header": "GET IN TOUCH",
+    "banner-subheader": "Let us know how we can help",
+    "card1-header": "Call",
+    "card2-header": "E-Mail",
+    "card3-header": "Office"
   }
 }
