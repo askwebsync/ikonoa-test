@@ -3,9 +3,11 @@
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col gap-10">
         <div class="flex flex-col gap-2 text-center">
-          <h3 class="text-xl md:text-2xl lg:text-3xl">product</h3>
+          <h3 class="text-xl md:text-2xl lg:text-3xl">
+            {{ $t("home.product-header") }}
+          </h3>
           <h2 class="text-xl md:text-2xl lg:text-3xl">
-            Get reliable insurance policy for your company
+            {{ $t("home.product-subheader") }}
           </h2>
         </div>
         <div class="flex flex-col gap-5">
@@ -17,16 +19,11 @@
                 <div class="flex flex-col gap-4 p-4">
                   <router-link :to="{ name: 'insurance-policy' }">
                     <h6 class="text-lg md:text-2xl hover:text-red-600">
-                      Property Insurance
+                      {{ $t("home.product-card1-header") }}
                     </h6>
                   </router-link>
                   <p class="text-white text-xs lg:text-lg">
-                    Liability insurance is an insurance product that provides
-                    protection to the insured against claims resulting from
-                    injury and damage to other people or property. Liability
-                    insurance policies cover all legal fees and payments that
-                    are the responsibility of the insured party if they are
-                    found to be legally liable.
+                    {{ $t("home.product-card1-text") }}
                   </p>
                 </div>
               </div>
@@ -36,13 +33,11 @@
                 <div class="flex flex-col gap-4 p-4">
                   <router-link :to="{ name: 'insurance-policy' }">
                     <h6 class="text-lg md:text-2xl hover:text-red-600">
-                      Engineering Insurance
+                      {{ $t("home.product-card2-header") }}
                     </h6>
                   </router-link>
                   <p class="text-white text-xs lg:text-lg">
-                    Protect physical assets from hazards and risks that may
-                    occur in projects or buildings such as fire, damage due to
-                    extreme weather, or damage due to human error.
+                    {{ $t("home.product-card2-text") }}
                   </p>
                 </div>
               </div>
@@ -52,13 +47,11 @@
                 <div class="flex flex-col gap-4 p-4">
                   <router-link :to="{ name: 'insurance-policy' }">
                     <h6 class="text-lg md:text-2xl hover:text-red-600">
-                      Health Insurance
+                      {{ $t("home.product-card3-header") }}
                     </h6>
                   </router-link>
                   <p class="text-white text-xs lg:text-lg">
-                    Protect from unexpected and expensive medical expenses, such
-                    as hospitalization costs, surgery costs, doctor
-                    consultations, medication, and medicines.
+                    {{ $t("home.product-card3-text") }}
                   </p>
                 </div>
               </div>
@@ -71,7 +64,8 @@
               <router-link
                 :to="{ name: 'about' }"
                 aria-label="Learn More about our company insurance product"
-                >Learn More</router-link
+              >
+                {{ $t("home.button") }}</router-link
               >
             </button>
           </div>

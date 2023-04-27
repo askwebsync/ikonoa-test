@@ -3,10 +3,11 @@
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col gap-12">
         <div class="flex flex-col gap-2 self-center text-center max-w-4xl">
-          <h3 class="text-xl md:text-2xl lg:text-3xl lg:text-3xl">Academy</h3>
+          <h3 class="text-xl md:text-2xl lg:text-3xl lg:text-3xl">
+            {{ $t("home.academy-header") }}
+          </h3>
           <h2 class="text-xl md:text-2xl lg:text-3xl lg:text-3xl">
-            Ikonoa will provide better knowledge and understanding of the types
-            of insurance, benefits and conditions of each type of insurance.
+            {{ $t("home.academy-subheader") }}
           </h2>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 self-center px-2">
@@ -21,14 +22,13 @@
               />
             </div>
             <div
-              class="flex flex-col gap-8 py-12 px-6 text-center h-80 sm:h-64 md:h-80 lg:96 xl:h-80"
+              class="flex flex-col gap-8 py-12 px-6 text-center h-80 sm:h-64 md:h-80 lg:96"
             >
-              <h6 class="text-2xl lg:text-3xl">Online Training</h6>
+              <h6 class="text-2xl lg:text-3xl">
+                {{ $t("home.academy-card1-header") }}
+              </h6>
               <p class="lg:text-lg">
-                We provide online webinars on insurance for both Insurance
-                Officers and Non-Insurance Officers. Our webinars cover policy
-                options, claims processes, and risk management strategies.
-                Expert instructors lead each session and answer your questions.
+                {{ $t("home.academy-card1-text") }}
               </p>
             </div>
           </div>
@@ -43,15 +43,13 @@
               />
             </div>
             <div
-              class="flex flex-col gap-8 py-12 px-6 text-center h-80 sm:h-64 md:h-80 lg:96 xl:h-80"
+              class="flex flex-col gap-8 py-12 px-6 text-center h-80 sm:h-64 md:h-80 lg:96"
             >
-              <h6 class="text-2xl lg:text-3xl">Offline Training</h6>
+              <h6 class="text-2xl lg:text-3xl">
+                {{ $t("home.academy-card2-header") }}
+              </h6>
               <p class="lg:text-lg">
-                We offer customized in-house insurance training for companies,
-                addressing their unique challenges and opportunities. Our expert
-                instructors work with you to develop a tailored program covering
-                relevant topics, such as policy changes and risk management.
-                Contact us to learn more about our in-house training options.
+                {{ $t("home.academy-card2-text") }}
               </p>
             </div>
           </div>
@@ -64,7 +62,8 @@
             <router-link
               :to="{ name: 'academy' }"
               aria-label="Check our services full explanation"
-              >Learn More</router-link
+            >
+              {{ $t("home.button") }}</router-link
             >
           </button>
         </div>

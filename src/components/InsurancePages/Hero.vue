@@ -4,7 +4,7 @@
       class="relative overflow-hidden bg-no-repeat bg-cover"
       style="
         background-position: 50%;
-        background-image: url('/assets/img/LP_Insurance/insurances.png');
+        background-image: url('/assets/img/LP_Insurance/insurance.png');
         height: 500px;
       "
     >

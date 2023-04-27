@@ -13,14 +13,14 @@
           class="w-1/2 flex flex-col gap-12 md:gap-9 self-center md:self-start md:ml-6"
         >
           <div class="flex flex-col gap-2">
-            <h3 class="text-xl md:text-2xl lg:text-3xl">ABOUT US</h3>
-            <h2 class="text-xl md:text-2xl lg:text-3xl">What is IKONOA</h2>
+            <h3 class="text-xl md:text-2xl lg:text-3xl">
+              {{ $t("home.about-header") }}
+            </h3>
+            <h2 class="text-xl md:text-2xl lg:text-3xl">
+              {{ $t("home.about-subheader") }}
+            </h2>
             <p class="text-sm md:text-lg">
-              We provide services & solutions that assist you in managing and
-              claiming your insurance policy. Our services cover various types
-              of insurance policies, such as health insurance, vehicle
-              insurance, property insurance, engineering insurance, marine
-              insurance
+              {{ $t("home.about-description") }}
             </p>
           </div>
 
@@ -33,7 +33,7 @@
                   class="w-6 h-6"
                 />
                 <div class="font-semibold text-lg">
-                  <span class="text-red-600">I</span>ntegrity
+                  {{ $t("home.about-icon1") }}
                 </div>
               </li>
               <li class="flex items-center gap-4">
@@ -43,7 +43,7 @@
                   class="w-6 h-6"
                 />
                 <div class="flex-1 font-semibold text-lg">
-                  <span class="text-red-600">K</span>nowledgeable
+                  {{ $t("home.about-icon2") }}
                 </div>
               </li>
               <li class="flex items-center gap-4">
@@ -53,7 +53,7 @@
                   class="w-6 h-6"
                 />
                 <div class="flex-1 font-semibold text-lg">
-                  Pr<span class="text-red-600">o</span>fessional
+                  {{ $t("home.about-icon3") }}
                 </div>
               </li>
               <li class="flex items-center gap-4">
@@ -63,7 +63,7 @@
                   class="w-6 h-6"
                 />
                 <div class="flex-1 font-semibold text-lg">
-                  Ho<span class="text-red-600">n</span>esty
+                  {{ $t("home.about-icon4") }}
                 </div>
               </li>
               <li class="flex items-center gap-4">
@@ -73,7 +73,7 @@
                   class="w-6 h-6"
                 />
                 <div class="flex-1 font-semibold text-lg">
-                  F<span class="text-red-600">o</span>cus
+                  {{ $t("home.about-icon5") }}
                 </div>
               </li>
               <li class="flex items-center gap-4">
@@ -83,7 +83,7 @@
                   class="w-6 h-6"
                 />
                 <div class="flex-1 font-semibold text-lg">
-                  P<span class="text-red-600">a</span>rtnership
+                  {{ $t("home.about-icon6") }}
                 </div>
               </li>
             </ul>
@@ -94,7 +94,8 @@
                 <router-link
                   :to="{ name: 'about' }"
                   aria-label="Learn More about our company"
-                  >Learn More</router-link
+                >
+                  {{ $t("home.button") }}</router-link
                 >
               </button>
             </div>

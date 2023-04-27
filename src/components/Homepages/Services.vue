@@ -5,11 +5,11 @@
         class="grid md:grid-cols-3 gap-8 md:gap-10 justify-items-center text-center md:justify-items-start md:text-left"
       >
         <div class="flex flex-col gap-2 md:self-center max-w-lg">
-          <h3 class="text-xl md:text-2xl lg:text-3xl">SERVICES & SOLUTIONS</h3>
+          <h3 class="text-xl md:text-2xl lg:text-3xl">
+            {{ $t("home.service-header") }}
+          </h3>
           <h2 class="text-xl md:text-2xl lg:text-3xl">
-            We will assist you in managing your assets, risks and insurance
-            needs, including in claim settlements to be faster, precise and
-            accurate
+            {{ $t("home.service-subheader") }}
           </h2>
         </div>
         <div class="flex flex-col gap-10">
@@ -24,23 +24,21 @@
                 <h1
                   class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
                 >
-                  Risk-Consulting
+                  {{ $t("home.service-card1-header") }}
                 </h1>
               </router-link>
               <ul class="list-decimal list-outside space-y-2 md:space-y-1 px-6">
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
-                  Claim consultant to expedite claim settlement.
+                  {{ $t("home.service-card1-text1") }}
                 </li>
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
-                  Review insurance gaps to identify coverage gaps/overlaps,
-                  reduce premiums, and assess risk exposure.
+                  {{ $t("home.service-card1-text2") }}
                 </li>
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
-                  Support bid management by selecting brokers/insurance
-                  companies and analyzing insurance proposals.
+                  {{ $t("home.service-card1-text3") }}
                 </li>
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
-                  Manage insurance program and advise on renewal process.
+                  {{ $t("home.service-card1-text4") }}
                 </li>
               </ul>
             </div>
@@ -57,18 +55,18 @@
             <div class="flex flex-col gap-6">
               <router-link :to="{ name: 'insurance-policy' }">
                 <h1 class="text-xl md:text-2xl lg:text-3xl uppercase">
-                  Insurance Policy
+                  {{ $t("home.service-card2-header") }}
                 </h1>
               </router-link>
               <ul class="list-decimal list-outside space-y-2 md:space-y-1 px-6">
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
-                  Provide the best and trusted Insurance Company
+                  {{ $t("home.service-card2-text1") }}
                 </li>
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
-                  Provide the best terms and conditions at the right premium
+                  {{ $t("home.service-card2-text2") }}
                 </li>
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
-                  Support claim process and settlement
+                  {{ $t("home.service-card2-text3") }}
                 </li>
               </ul>
             </div>
@@ -86,15 +84,15 @@
                 <h1
                   class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
                 >
-                  Risk-Management
+                  {{ $t("home.service-card3-header") }}
                 </h1>
               </router-link>
               <ul class="list-decimal list-outside space-y-2 md:space-y-1 px-6">
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
-                  Risk improvement and recommendation
+                  {{ $t("home.service-card3-text1") }}
                 </li>
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
-                  Risk survey
+                  {{ $t("home.service-card2-text2") }}
                 </li>
               </ul>
             </div>
@@ -111,15 +109,15 @@
                 <h1
                   class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
                 >
-                  Academy
+                  {{ $t("home.service-card4-header") }}
                 </h1>
               </router-link>
               <ul class="list-decimal list-outside space-y-2 md:space-y-1 px-6">
                 <li class="text-base sm:text-base md:text-lg">
-                  Insurance for Non-Insurance Officer
+                  {{ $t("home.service-card4-text1") }}
                 </li>
                 <li class="text-base sm:text-base md:text-lg">
-                  Insurance for Insurance Officer
+                  {{ $t("home.service-card4-text2") }}
                 </li>
               </ul>
             </div>

@@ -104,6 +104,12 @@
 </template>
 <script>
 export default {
+  name: "AppHeader",
+  computed: {
+    currentLocale() {
+      return this.$i18n.locale === "fr" ? "French" : "English";
+    },
+  },
   data() {
     return {
       showMenu: false,
@@ -120,13 +126,15 @@ export default {
   methods: {
     changeLanguage() {
       if (this.language === "ENG") {
-        this.language = "IND";
+        this.language = "ID";
+        this.$i18n.locale = "id";
         this.flagImage = "/assets/img/Icon/ind.png";
-        this.flagAltText = "Indo Flag";
+        this.flagAltText = "Indonesia Flag";
       } else {
         this.language = "ENG";
+        this.$i18n.locale = "en";
         this.flagImage = "/assets/img/Icon/eng.png";
-        this.flagAltText = "Eng flag";
+        this.flagAltText = "English Flag";
       }
     },
   },

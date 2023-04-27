@@ -18,13 +18,14 @@
           <h1
             class="text-2xl sm:text-3xl md:text-5xl hover:text-red-600 max-w-5xl uppercase md:leading-snug"
           >
-            Maintain Your Peace of Mind by Resolving Insurance Claims
-            <br /><span> Easily and Safely</span>
+            {{ $t("home.banner-header") }}<br /><span>{{
+              $t("home.banner-header-span")
+            }}</span>
           </h1>
           <h4
             class="text-lg max-w-xxs md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-5xl"
           >
-            “Claim is The Moment of Truth When We Buy an Insurance Policy”
+            {{ $t("home.banner-subheader") }}
           </h4>
         </div>
       </div>
