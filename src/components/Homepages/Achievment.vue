@@ -20,7 +20,7 @@
               class="flex flex-col justify-center items-center px-10 py-5 mb-3 md:mb-0 h-full w-full"
             >
               <h1 class="text-3xl lg:text-5xl">98%</h1>
-              <p class="text-sm text-gray-500">
+              <p class="text-sm card-text-color">
                 {{ $t("home.achievment-card1-text") }}
               </p>
             </div>
@@ -28,7 +28,7 @@
               class="flex flex-col justify-center items-center px-10 py-5 mb-3 md:mb-0 h-full w-full"
             >
               <h1 class="text-3xl lg:text-5xl">USD 250+M</h1>
-              <p class="text-sm text-gray-500">
+              <p class="text-sm card-text-color">
                 {{ $t("home.achievment-card2-text") }}
               </p>
             </div>
@@ -36,7 +36,7 @@
               class="flex flex-col justify-center items-center px-10 py-5 h-full w-full"
             >
               <h1 class="text-3xl lg:text-5xl">7,500+</h1>
-              <p class="text-sm text-gray-500">
+              <p class="text-sm card-text-color">
                 {{ $t("home.achievment-card3-text") }}
               </p>
             </div>

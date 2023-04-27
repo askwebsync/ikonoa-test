@@ -15,6 +15,7 @@
     <a
       href="https://wa.me/message/OSIGF5SRDOANJ1"
       class="float"
+      aria-label="Call US"
       target="_blank"
     >
       <i class="fab fa-whatsapp my-float"></i>
