@@ -4,13 +4,13 @@
       class="relative overflow-hidden bg-no-repeat bg-cover"
       style="
         background-position: 50%;
-        background-image: url('/assets/img/Lp_About/abouthero.jpg');
+        background-image: url('/assets/img/LP_About/about.png');
         height: 500px;
       "
     >
       <div
         class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-        style="background-color: rgba(0, 0, 0, 0.75)"
+        style="background-color: rgba(0, 0, 0, 0.65)"
       >
         <div
           class="flex flex-col justify-center items-center h-full text-center gap-6 p-6"

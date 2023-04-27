@@ -4,7 +4,7 @@
       class="relative overflow-hidden bg-no-repeat bg-cover"
       style="
         background-position: 50%;
-        background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp');
+        background-image: url('/assets/img/LP_Service/services.png');
         height: 500px;
       "
     >
