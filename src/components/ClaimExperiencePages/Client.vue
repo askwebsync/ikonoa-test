@@ -30,7 +30,7 @@
             class="flex justify-center items-center bg-white rounded-lg shadow-md p-4"
           >
             <img
-              src="/assets/img/LP_Claim/PT.KUANTAN GRAHA MARGA.png"
+              src="/assets/img/LP_Claim/PT.KUANTAN_GRAHA_INDO.png"
               alt="logo 3"
               class="h-16"
             />
