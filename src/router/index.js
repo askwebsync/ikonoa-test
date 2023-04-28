@@ -44,6 +44,11 @@ const router = createRouter({
       name: "insurance-policy",
       component: () => import("../views/InsurancePolicy.vue"),
     },
+    {
+      path: "/claim-experience",
+      name: "claim-experience",
+      component: () => import("../views/ClaimExperience.vue"),
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
