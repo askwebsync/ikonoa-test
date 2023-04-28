@@ -16,7 +16,132 @@
             >
               <span
                 class="text-white text-2xl font-bold uppercase bg-black bg-opacity-70 p-2"
-                >PROPERTY</span
+                >POWER PLAN</span
+              >
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="flex flex-col text-center">
+              <h3 class="text-xl">Claim Paid</h3>
+              <h2 class="mt-1 text-lg font-semibold text-gray-800">
+                GBP 427.004.91
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="overflow-hidden rounded-2xl background-product card">
+          <div class="relative h-[200px]">
+            <img
+              src="https://thumbnails.production.thenounproject.com/c4UZhX8RJFowtAoq8OZlUjIFmBg=/fit-in/1000x1000/photos.production.thenounproject.com/photos/D0EE41F3-3CB3-4F1E-B6E5-4CCE5B1DCB17.jpg"
+              alt="Hamburger"
+              class="object-cover w-full h-full"
+            />
+            <div
+              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
+            >
+              <span
+                class="text-white text-2xl font-bold uppercase bg-black bg-opacity-70 p-2"
+                >GAS POWER PLAN</span
+              >
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="flex flex-col text-center">
+              <h3 class="text-xl">Claim Paid</h3>
+              <h2 class="mt-1 text-lg font-semibold text-gray-800">
+                USD 18.000.000,00
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="overflow-hidden rounded-2xl background-product card">
+          <div class="relative h-[200px]">
+            <img
+              src="https://thumbnails.production.thenounproject.com/c4UZhX8RJFowtAoq8OZlUjIFmBg=/fit-in/1000x1000/photos.production.thenounproject.com/photos/D0EE41F3-3CB3-4F1E-B6E5-4CCE5B1DCB17.jpg"
+              alt="Hamburger"
+              class="object-cover w-full h-full"
+            />
+            <div
+              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
+            >
+              <span
+                class="text-white text-2xl font-bold uppercase bg-black bg-opacity-70 p-2"
+                >ERECTION ALL-RISK</span
+              >
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="flex flex-col text-center">
+              <h3 class="text-xl">Claim Paid</h3>
+              <h2 class="mt-1 text-lg font-semibold text-gray-800">
+                IDR 2.282.294.055,00
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="overflow-hidden rounded-2xl background-product card">
+          <div class="relative h-[200px]">
+            <img
+              src="https://thumbnails.production.thenounproject.com/c4UZhX8RJFowtAoq8OZlUjIFmBg=/fit-in/1000x1000/photos.production.thenounproject.com/photos/D0EE41F3-3CB3-4F1E-B6E5-4CCE5B1DCB17.jpg"
+              alt="Hamburger"
+              class="object-cover w-full h-full"
+            />
+            <div
+              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
+            >
+              <span
+                class="text-white text-2xl font-bold uppercase bg-black bg-opacity-70 p-2"
+                >MANUFACTURE (FIRE)</span
+              >
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="flex flex-col text-center">
+              <h3 class="text-xl">Claim Paid</h3>
+              <h2 class="mt-1 text-lg font-semibold text-gray-800">
+                USD 8.068.353,40
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="overflow-hidden rounded-2xl background-product card">
+          <div class="relative h-[200px]">
+            <img
+              src="https://thumbnails.production.thenounproject.com/c4UZhX8RJFowtAoq8OZlUjIFmBg=/fit-in/1000x1000/photos.production.thenounproject.com/photos/D0EE41F3-3CB3-4F1E-B6E5-4CCE5B1DCB17.jpg"
+              alt="Hamburger"
+              class="object-cover w-full h-full"
+            />
+            <div
+              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
+            >
+              <span
+                class="text-white text-2xl font-bold uppercase bg-black bg-opacity-70 p-2"
+                >SAWMILL (FIRE)</span
+              >
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="flex flex-col text-center">
+              <h3 class="text-xl">Claim Paid</h3>
+              <h2 class="mt-1 text-lg font-semibold text-gray-800">
+                USD 941.835.63
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="overflow-hidden rounded-2xl background-product card">
+          <div class="relative h-[200px]">
+            <img
+              src="https://thumbnails.production.thenounproject.com/c4UZhX8RJFowtAoq8OZlUjIFmBg=/fit-in/1000x1000/photos.production.thenounproject.com/photos/D0EE41F3-3CB3-4F1E-B6E5-4CCE5B1DCB17.jpg"
+              alt="Hamburger"
+              class="object-cover w-full h-full"
+            />
+            <div
+              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
+            >
+              <span
+                class="text-white text-2xl font-bold uppercase bg-black bg-opacity-70 p-2"
+                >GAS POWER PLAN</span
               >
             </div>
           </div>
@@ -41,7 +166,7 @@
             >
               <span
                 class="text-white text-2xl font-bold uppercase bg-black bg-opacity-70 p-2"
-                >PROPERTY</span
+                >MANUFACTURE (FIRE)</span
               >
             </div>
           </div>
@@ -66,132 +191,7 @@
             >
               <span
                 class="text-white text-2xl font-bold uppercase bg-black bg-opacity-70 p-2"
-                >PROPERTY</span
-              >
-            </div>
-          </div>
-          <div class="p-6">
-            <div class="flex flex-col text-center">
-              <h3 class="text-xl">Claim Paid</h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                IDR. 5891.5102838
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="https://thumbnails.production.thenounproject.com/c4UZhX8RJFowtAoq8OZlUjIFmBg=/fit-in/1000x1000/photos.production.thenounproject.com/photos/D0EE41F3-3CB3-4F1E-B6E5-4CCE5B1DCB17.jpg"
-              alt="Hamburger"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-2xl font-bold uppercase bg-black bg-opacity-70 p-2"
-                >PROPERTY</span
-              >
-            </div>
-          </div>
-          <div class="p-6">
-            <div class="flex flex-col text-center">
-              <h3 class="text-xl">Claim Paid</h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                IDR. 5891.5102838
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="https://thumbnails.production.thenounproject.com/c4UZhX8RJFowtAoq8OZlUjIFmBg=/fit-in/1000x1000/photos.production.thenounproject.com/photos/D0EE41F3-3CB3-4F1E-B6E5-4CCE5B1DCB17.jpg"
-              alt="Hamburger"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-2xl font-bold uppercase bg-black bg-opacity-70 p-2"
-                >PROPERTY</span
-              >
-            </div>
-          </div>
-          <div class="p-6">
-            <div class="flex flex-col text-center">
-              <h3 class="text-xl">Claim Paid</h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                IDR. 5891.5102838
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="https://thumbnails.production.thenounproject.com/c4UZhX8RJFowtAoq8OZlUjIFmBg=/fit-in/1000x1000/photos.production.thenounproject.com/photos/D0EE41F3-3CB3-4F1E-B6E5-4CCE5B1DCB17.jpg"
-              alt="Hamburger"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-2xl font-bold uppercase bg-black bg-opacity-70 p-2"
-                >PROPERTY</span
-              >
-            </div>
-          </div>
-          <div class="p-6">
-            <div class="flex flex-col text-center">
-              <h3 class="text-xl">Claim Paid</h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                IDR. 5891.5102838
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="https://thumbnails.production.thenounproject.com/c4UZhX8RJFowtAoq8OZlUjIFmBg=/fit-in/1000x1000/photos.production.thenounproject.com/photos/D0EE41F3-3CB3-4F1E-B6E5-4CCE5B1DCB17.jpg"
-              alt="Hamburger"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-2xl font-bold uppercase bg-black bg-opacity-70 p-2"
-                >PROPERTY</span
-              >
-            </div>
-          </div>
-          <div class="p-6">
-            <div class="flex flex-col text-center">
-              <h3 class="text-xl">Claim Paid</h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                IDR. 5891.5102838
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="https://thumbnails.production.thenounproject.com/c4UZhX8RJFowtAoq8OZlUjIFmBg=/fit-in/1000x1000/photos.production.thenounproject.com/photos/D0EE41F3-3CB3-4F1E-B6E5-4CCE5B1DCB17.jpg"
-              alt="Hamburger"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-2xl font-bold uppercase bg-black bg-opacity-70 p-2"
-                >PROPERTY</span
+                >WAREHOUSE (FIRE)</span
               >
             </div>
           </div>
