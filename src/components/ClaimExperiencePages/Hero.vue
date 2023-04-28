@@ -23,8 +23,8 @@
           <h4
             class="text-lg max-w-xxs md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-5xl"
           >
-            “Assists companies in determining the right premium price and
-            managing their financial risk.”
+            Assists companies in determining the right premium price and
+            managing their financial risk.
           </h4>
         </div>
       </div>
