@@ -41,25 +41,14 @@
           </button>
         </div>
 
-        <div class="mt-4" v-if="showDiv1">
-          <div class="">
+        <div v-if="showDiv1">
+          <div class="w-full">
             <div class="relative">
               <img
                 src="/assets/img/LP_Insurance/liability.png"
                 alt="liability"
                 class="object-cover w-full h-48 md:h-full"
               />
-              <div
-                class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-              >
-                <div class="card-category p-3 md:p-4">
-                  <p
-                    class="card-category-text text-white text-sm md:text-lg lg:text-2xl font-bold uppercase"
-                  >
-                    Liability Insurance
-                  </p>
-                </div>
-              </div>
             </div>
             <div class="py-8">
               <div class="flex flex-col gap-12">
@@ -74,7 +63,7 @@
                   liable.
                 </h4>
                 <ol
-                  class="space-y-3 md:space-y-1 list-decimal list-inside text-left leading-snug md:leading-normal"
+                  class="space-y-3 md:space-y-2 list-decimal list-inside text-left leading-snug md:leading-normal"
                 >
                   <li>
                     Public Liability / Comprehensive General Liability Protect
@@ -108,25 +97,14 @@
             </div>
           </div>
         </div>
-        <div class="mt-4" v-if="showDiv2">
-          <div class="">
+        <div v-if="showDiv2">
+          <div class="w-full">
             <div class="relative">
               <img
                 src="/assets/img/LP_Insurance/liability.png"
                 alt="liability"
                 class="object-cover w-full h-48 md:h-full"
               />
-              <div
-                class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-              >
-                <div class="card-category p-3 md:p-4">
-                  <p
-                    class="card-category-text text-white text-sm md:text-lg lg:text-2xl font-bold uppercase"
-                  >
-                    Engineering Insurance
-                  </p>
-                </div>
-              </div>
             </div>
             <div class="py-8">
               <div class="flex flex-col gap-12">
@@ -139,7 +117,7 @@
                   projects.
                 </h4>
                 <ol
-                  class="space-y-3 md:space-y-1 list-decimal list-inside text-left leading-snug md:leading-normal"
+                  class="space-y-3 md:space-y-2 list-decimal list-inside text-left leading-snug md:leading-normal"
                 >
                   <li>
                     Contractor’s All Risk is an insurance cover, which gives
@@ -170,25 +148,14 @@
             </div>
           </div>
         </div>
-        <div class="mt-4" v-if="showDiv3">
-          <div class="">
+        <div v-if="showDiv3">
+          <div class="w-full">
             <div class="relative">
               <img
                 src="/assets/img/LP_Insurance/liability.png"
                 alt="liability"
                 class="object-cover w-full h-48 md:h-full"
               />
-              <div
-                class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-              >
-                <div class="card-category p-3 md:p-4">
-                  <p
-                    class="card-category-text text-white text-sm md:text-lg lg:text-2xl font-bold uppercase"
-                  >
-                    Health Insurance
-                  </p>
-                </div>
-              </div>
             </div>
             <div class="py-8">
               <div class="flex flex-col gap-12">
@@ -201,7 +168,7 @@
                   diagnosis and tests suggested by the doctors.
                 </h4>
                 <ol
-                  class="space-y-3 md:space-y-1 list-decimal list-inside text-left leading-snug md:leading-normal"
+                  class="space-y-3 md:space-y-2 list-decimal list-inside text-left leading-snug md:leading-normal"
                 >
                   <li>
                     Contractor’s All Risk is an insurance cover, which gives
@@ -232,25 +199,14 @@
             </div>
           </div>
         </div>
-        <div class="mt-4" v-if="showDiv4">
-          <div class="">
+        <div v-if="showDiv4">
+          <div class="w-full">
             <div class="relative">
               <img
                 src="/assets/img/LP_Insurance/liability.png"
                 alt="liability"
                 class="object-cover w-full h-48 md:h-full"
               />
-              <div
-                class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-              >
-                <div class="card-category p-3 md:p-4">
-                  <p
-                    class="card-category-text text-white text-sm md:text-lg lg:text-2xl font-bold uppercase"
-                  >
-                    Marine Insurance
-                  </p>
-                </div>
-              </div>
             </div>
             <div class="py-8">
               <div class="flex flex-col gap-12">
@@ -262,7 +218,7 @@
                   shipping.
                 </h4>
                 <ol
-                  class="space-y-3 md:space-y-1 list-decimal list-inside text-left leading-snug md:leading-normal"
+                  class="space-y-3 md:space-y-2 list-decimal list-inside text-left leading-snug md:leading-normal"
                 >
                   <li>
                     Contractor’s All Risk is an insurance cover, which gives
@@ -293,25 +249,14 @@
             </div>
           </div>
         </div>
-        <div class="mt-4" v-if="showDiv5">
-          <div class="">
+        <div v-if="showDiv5">
+          <div class="w-full">
             <div class="relative">
               <img
                 src="/assets/img/LP_Insurance/liability.png"
                 alt="liability"
                 class="object-cover w-full h-48 md:h-full"
               />
-              <div
-                class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-              >
-                <div class="card-category p-3 md:p-4">
-                  <p
-                    class="card-category-text text-white text-sm md:text-lg lg:text-2xl font-bold uppercase"
-                  >
-                    Property Insurance
-                  </p>
-                </div>
-              </div>
             </div>
             <div class="py-8">
               <div class="flex flex-col gap-12">
@@ -325,7 +270,7 @@
                   actions of others and other risks.
                 </h4>
                 <ol
-                  class="space-y-3 md:space-y-1 list-decimal list-inside text-left leading-snug md:leading-normal"
+                  class="space-y-3 md:space-y-2 list-decimal list-inside text-left leading-snug md:leading-normal"
                 >
                   <li>
                     Contractor’s All Risk is an insurance cover, which gives
@@ -356,25 +301,14 @@
             </div>
           </div>
         </div>
-        <div class="mt-4" v-if="showDiv6">
-          <div class="">
+        <div v-if="showDiv6">
+          <div class="w-full">
             <div class="relative">
               <img
                 src="/assets/img/LP_Insurance/liability.png"
                 alt="liability"
                 class="object-cover w-full h-48 md:h-full"
               />
-              <div
-                class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-              >
-                <div class="card-category p-3 md:p-4">
-                  <p
-                    class="card-category-text text-white text-sm md:text-lg lg:text-2xl font-bold uppercase"
-                  >
-                    Automobile Insurance
-                  </p>
-                </div>
-              </div>
             </div>
             <div class="py-8">
               <div class="flex flex-col gap-12">
@@ -385,7 +319,7 @@
                   trucks, four-wheeled vehicles (cars).
                 </h4>
                 <ol
-                  class="space-y-3 md:space-y-1 list-decimal list-inside text-left leading-snug md:leading-normal"
+                  class="space-y-3 md:space-y-2 list-decimal list-inside text-left leading-snug md:leading-normal"
                 >
                   <li>
                     Contractor’s All Risk is an insurance cover, which gives
@@ -459,7 +393,7 @@ h4 {
   color: #3b3b3b;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
 }
 h1 {
   font-style: normal;
@@ -471,20 +405,6 @@ p {
   font-style: normal;
   font-weight: 400;
   color: #787878;
-}
-.card {
-  background: rgba(255, 255, 255, 0.8);
-  border-radius: 6px;
-}
-.card-category {
-  background: rgba(255, 255, 255, 0.8);
-  border: 2px solid #d50000;
-  border-radius: 8px;
-}
-.card-category-text {
-  letter-spacing: 0.5px;
-
-  color: #d50000;
 }
 li {
   color: #3b3b3b;
