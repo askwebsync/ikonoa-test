@@ -18,13 +18,12 @@
           <h1
             class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl hover:text-red-600 max-w-5xl uppercase md:leading-snug"
           >
-            CLAIM EXPERIENCE
+            {{ $t("claim-experience.banner-header") }}
           </h1>
           <h4
             class="text-lg max-w-xxs md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-5xl"
           >
-            Assists companies in determining the right premium price and
-            managing their financial risk.
+            {{ $t("claim-experience.banner-header-span") }}
           </h4>
         </div>
       </div>

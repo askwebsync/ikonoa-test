@@ -2,11 +2,13 @@
   <section>
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col gap-10 text-center">
-        <div class="">
-          <h3 class="text-xl md:text-3xl">Our Client</h3>
+        <div>
+          <h3 class="text-xl md:text-2xl lg:text-3xl">
+            {{ $t("claim-experience.client-header") }}
+          </h3>
         </div>
         <div
-          class="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
+          class="grid grid-cols-2 gap-10 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
         >
           <div
             class="flex justify-center items-center bg-white rounded-lg shadow-md p-4"
