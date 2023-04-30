@@ -7,12 +7,12 @@
             <div
               class="background-card flex flex-col rounded-lg card-hover shadow-md"
             >
-              <div class="flex flex-col gap-8 py-10 px-12 text-center h-64">
-                <h1 class="text-lg md:text-xl lg:text-3xl">
+              <div class="flex flex-col gap-10 py-8 px-12 text-center h-72">
+                <h1 class="text-xl md:text-xl lg:text-3xl">
                   {{ $t("services.card1-header") }}
                 </h1>
 
-                <p class="text-xs sm:text-sm md:text-base">
+                <p class="text-sm md:text-base xl:text-lg">
                   {{ $t("services.card1-subheader") }}
                 </p>
               </div>
@@ -29,14 +29,14 @@
             <div
               class="background-card flex flex-col rounded-lg card-hover shadow-md"
             >
-              <div class="flex flex-col gap-8 py-10 px-12 text-center h-64">
+              <div class="flex flex-col gap-10 py-8 px-12 text-center h-72">
                 <h1
-                  class="text-lg md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
+                  class="text-xl md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
                 >
                   {{ $t("services.card2-header") }}
                 </h1>
 
-                <p class="text-xs sm:text-sm md:text-base">
+                <p class="text-sm md:text-base xl:text-lg">
                   {{ $t("services.card2-subheader") }}
                 </p>
               </div>
@@ -55,14 +55,14 @@
             <div
               class="background-card flex flex-col rounded-lg card-hover shadow-md"
             >
-              <div class="flex flex-col gap-8 py-10 px-12 text-center h-64">
+              <div class="flex flex-col gap-10 py-8 px-12 text-center h-72">
                 <h1
-                  class="text-lg md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
+                  class="text-xl md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
                 >
                   {{ $t("services.card3-header") }}
                 </h1>
 
-                <p class="text-xs sm:text-sm md:text-base">
+                <p class="text-sm md:text-base xl:text-lg">
                   {{ $t("services.card2-subheader") }}
                 </p>
               </div>
@@ -79,13 +79,13 @@
             <div
               class="background-card flex flex-col rounded-lg card-hover shadow-md"
             >
-              <div class="flex flex-col gap-8 py-10 px-12 text-center h-64">
+              <div class="flex flex-col gap-10 py-8 px-12 text-center h-72">
                 <h1
-                  class="text-lg md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
+                  class="text-xl md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
                 >
                   {{ $t("services.card4-header") }}
                 </h1>
-                <p class="text-xs sm:text-sm md:text-base">
+                <p class="text-sm md:text-base xl:text-lg">
                   {{ $t("services.card4-subheader") }}
                 </p>
               </div>

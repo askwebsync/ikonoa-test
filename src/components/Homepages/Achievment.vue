@@ -5,7 +5,7 @@
         <h3 class="text-xl md:text-2xl lg:text-3xl">
           {{ $t("home.achievment-header") }}
         </h3>
-        <h2 class="text-lg md:text-xl lg:text-2xl">
+        <h2 class="text-xl md:text-2xl lg:text-3xl">
           {{ $t("home.achievment-subheader") }}
         </h2>
       </div>

@@ -10,7 +10,18 @@
     "card1-header": "Ikonoa is trusted and secure insurance platform",
     "card2-header": "Quicklinks",
     "card3-header": "Services & Solutions",
-    "card4-header": "Get In Touch"
+    "card4-header": "Get In Touch",
+    "card2-option1": "About",
+    "card2-option2": "Services & Solutions",
+    "card2-option3": "Insurance Policy",
+    "card2-option4": "Claims Experience",
+    "card2-option5": "Contact",
+    "card3-option1": "Risk Consulting",
+    "card3-option2": "Risk Management",
+    "card3-option3": "Insurance Policy",
+    "card3-option4": "Academy",
+    "card4-option1": " Registration Office:",
+    "card4-option2": "Operational Office:"
   },
   "home": {
     "button": "Learn More",

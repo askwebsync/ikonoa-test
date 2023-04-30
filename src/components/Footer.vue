@@ -13,7 +13,7 @@
             />
 
             <p class="text-lg font-medium max-w-xs text-white">
-              Ikonoa is trusted and secure insurance platform
+              {{ $t("footer.card1-header") }}
             </p>
           </div>
         </div>
@@ -21,66 +21,80 @@
           class="grid grid-cols-2 text-sm mt-3 grid-flow-row-dense md:mt-0 gap-x-2 gap-y-14 md:gap-x-3 lg:w-2/3 lg:ml-3"
         >
           <div class="space-y-4 col-span-1">
-            <h3 class="text-lg">Quicklinks</h3>
+            <h3 class="text-lg">{{ $t("footer.card2-header") }}</h3>
             <ul class="space-y-2 text-white">
               <li class="mb-2">
-                <router-link :to="{ name: 'about' }" class="text-lg font-medium"
-                  >About</router-link
+                <router-link
+                  :to="{ name: 'about' }"
+                  class="text-lg font-medium"
+                >
+                  {{ $t("footer.card2-option1") }}</router-link
                 >
               </li>
               <li class="mb-2">
-                <a class="text-lg font-medium" href="#">Services & Solutions</a>
+                <a class="text-lg font-medium" href="#">
+                  {{ $t("footer.card2-option2") }}</a
+                >
               </li>
               <li class="mb-2">
-                <a class="text-lg font-medium" href="#">Insurance Policy</a>
+                <a class="text-lg font-medium" href="#">
+                  {{ $t("footer.card2-option3") }}</a
+                >
               </li>
               <li class="mb-2">
-                <a class="text-lg font-medium" href="#">Claims Experience</a>
+                <a class="text-lg font-medium" href="#">
+                  {{ $t("footer.card2-option4") }}</a
+                >
               </li>
               <li class="">
                 <router-link
                   :to="{ name: 'contact' }"
                   class="text-lg font-medium"
-                  >Contact</router-link
+                >
+                  {{ $t("footer.card2-option5") }}</router-link
                 >
               </li>
             </ul>
           </div>
           <div class="space-y-4 col-span-1">
-            <h3 class="text-lg">Services & Solutions</h3>
+            <h3 class="text-lg">{{ $t("footer.card3-header") }}</h3>
             <ul class="space-y-2 text-white">
               <li class="mb-2">
                 <router-link
                   :to="{ name: 'risk-consulting' }"
                   class="text-lg font-medium"
-                  >Risk Consulting</router-link
+                >
+                  {{ $t("footer.card3-option1") }}</router-link
                 >
               </li>
               <li class="mb-2">
                 <router-link
                   :to="{ name: 'risk-management' }"
                   class="text-lg font-medium"
-                  >Risk Management</router-link
+                >
+                  {{ $t("footer.card3-option2") }}</router-link
                 >
               </li>
               <li class="mb-2">
                 <router-link
                   :to="{ name: 'insurance-policy' }"
                   class="text-lg font-medium"
-                  >Insurance Policy</router-link
+                >
+                  {{ $t("footer.card3-option3") }}</router-link
                 >
               </li>
               <li class="mb-2">
                 <router-link
                   :to="{ name: 'academy' }"
                   class="text-lg font-medium"
-                  >Academy</router-link
+                >
+                  {{ $t("footer.card3-option4") }}</router-link
                 >
               </li>
             </ul>
           </div>
           <div class="space-y-4 col-span-3">
-            <h3 class="text-lg">Get In Touch</h3>
+            <h3 class="text-lg">{{ $t("footer.card4-header") }}</h3>
             <ul class="space-y-3 text-white">
               <li class="mb-2">
                 <a class="text-lg font-medium" href="#">(+62) 811-963754</a>
@@ -90,7 +104,7 @@
               </li>
               <li class="mb-2">
                 <p class="text-lg font-medium">
-                  Registration Office:
+                  {{ $t("footer.card4-option1") }}
                   <span
                     >Graha Mampang 3rd Floor, Suite 305, Jl. Mampang Prapatan
                     Raya Kav. 100, Jakarta 12760</span
@@ -99,7 +113,7 @@
               </li>
               <li class="mb-2">
                 <p class="text-lg font-medium">
-                  Operational Office:
+                  {{ $t("footer.card4-option2") }}
                   <span
                     >Graha Sentana, Jl. Warung Buncit Raya, Jakarta 12740
                   </span>

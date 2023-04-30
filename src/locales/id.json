@@ -6,6 +6,23 @@
     "button4": "Pengalaman Klaim",
     "button5": "Hubungi Kami"
   },
+  "footer": {
+    "card1-header": "Iconoa adalah platform asuransi tepercaya dan aman",
+    "card2-header": "LINK",
+    "card3-header": "JASA & SOLUSI",
+    "card4-header": "HUBUNGI KAMI",
+    "card2-option1": "Tentang Kami",
+    "card2-option2": "Jasa & Solusi",
+    "card2-option3": "Polis Asuransi",
+    "card2-option4": "Pengalaman Klaim",
+    "card2-option5": "Hubungi Kami",
+    "card3-option1": "Konsultasi Risiko",
+    "card3-option2": "Manajemen Risiko",
+    "card3-option3": "Polis Asuransi",
+    "card3-option4": "Akademi",
+    "card4-option1": "Kantor Registrasi:",
+    "card4-option2": "Kantor Operasi:"
+  },
   "home": {
     "button": "Lihat Selengkapnya",
     "banner-header": "Jaga Ketenangan Pikiran Anda dengan Menyelesaikan Klaim Asuransi",

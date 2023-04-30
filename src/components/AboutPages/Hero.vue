@@ -16,7 +16,7 @@
           class="flex flex-col justify-center items-center h-full text-center gap-6 p-6"
         >
           <h1
-            class="text-2xl sm:text-3xl md:text-5xl hover:text-red-600 max-w-5xl uppercase md:leading-snug"
+            class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl hover:text-red-600 max-w-5xl uppercase md:leading-snug"
           >
             {{ $t("about.banner-header") }}
           </h1>

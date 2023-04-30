@@ -12,7 +12,7 @@
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 self-center">
           <div
-            class="background-product custom-shadow-card flex flex-col rounded-lg max-h-md max-w-md"
+            class="background-product custom-shadow-card flex flex-col rounded-lg max-w-md"
           >
             <div>
               <img
@@ -21,9 +21,7 @@
                 class="w-full rounded"
               />
             </div>
-            <div
-              class="flex flex-col gap-8 p-6 text-center h-80 sm:h-64 md:h-80 lg:96"
-            >
+            <div class="flex flex-col gap-8 md:gap-10 p-6 text-center h-80">
               <h6 class="text-2xl lg:text-3xl">
                 {{ $t("home.academy-card1-header") }}
               </h6>
@@ -33,7 +31,7 @@
             </div>
           </div>
           <div
-            class="background-product custom-shadow-card flex flex-col rounded-lg max-h-md max-w-md"
+            class="background-product custom-shadow-card flex flex-col rounded-lg max-w-md"
           >
             <div>
               <img
@@ -42,9 +40,7 @@
                 class="w-full rounded"
               />
             </div>
-            <div
-              class="flex flex-col gap-8 p-6 text-center h-80 sm:h-64 md:h-80 lg:96"
-            >
+            <div class="flex flex-col gap-8 md:gap-10 p-6 text-center h-80">
               <h6 class="text-2xl lg:text-3xl">
                 {{ $t("home.academy-card2-header") }}
               </h6>
