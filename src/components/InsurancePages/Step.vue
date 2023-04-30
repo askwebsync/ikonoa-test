@@ -12,7 +12,7 @@
         <Carousel :settings="settings" :breakpoints="breakpoints">
           <Slide v-for="slide in slides" :key="slide">
             <div class="carousel__item">
-              <div class="flex flex-col gap-8 py-8 items-center justify-center">
+              <div class="flex flex-col gap-8 px-4 items-center justify-center">
                 <h3 class="text-xl">{{ slide.title }}</h3>
                 <div
                   class="flex items-center justify-center px-6 py-5 border-step"
@@ -20,10 +20,11 @@
                   <img
                     :src="`/assets/img/Services/${slide.image}`"
                     alt="step-step"
+                    class="w-full h-12 w-12 object-cover object-center"
                   />
                 </div>
-                <div class="w-full h-54">
-                  <p class="text-lg max-w-xs mt-5 px-4 md:max-w-md">
+                <div class="md:mt-5 md:h-48">
+                  <p class="text-md md:text-lg lg:text-xl max-w-xs md:max-w-md">
                     {{ slide.description }}
                   </p>
                 </div>
@@ -119,8 +120,8 @@ export default {
 
 <style scoped>
 .carousel__item {
-  height: 500px;
-  width: 70% !important;
+  height: 580px;
+  width: 85% !important;
   background-color: white;
   color: var(--vc-clr-white);
   border: 1.5px solid #17171f;
