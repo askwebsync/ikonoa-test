@@ -2,7 +2,7 @@
   <section>
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div
-        class="grid md:grid-cols-3 gap-8 md:gap-10 justify-items-center text-center md:justify-items-start md:text-left"
+        class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 lg:gap-12 justify-items-center text-center md:justify-items-start md:text-left"
       >
         <div class="flex flex-col gap-2 md:self-center max-w-lg">
           <h3 class="text-xl md:text-2xl lg:text-3xl">
@@ -14,7 +14,7 @@
         </div>
         <div class="flex flex-col gap-10">
           <div
-            class="flex flex-col w-auto mx-auto px-5 py-6 md:px-5 gap-6 background-card hover:bg-white hover:shadow-md"
+            class="flex flex-col lg:w-72 w-80 xl:w-auto px-5 py-6 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/Home/analysis.png" alt="Risk Consulting" />
@@ -44,7 +44,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col w-auto mx-auto px-5 py-6 md:px-5 gap-6 background-card hover:bg-white hover:shadow-md"
+            class="flex flex-col lg:w-72 w-80 xl:w-auto px-5 py-6 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
               <img
@@ -72,9 +72,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col gap-10 mt-6 md:mt-20">
+        <div class="flex flex-col gap-10 mt-6 lg:mt-20">
           <div
-            class="flex flex-col w-auto mx-auto px-5 py-6 md:px-5 gap-6 background-card hover:bg-white hover:shadow-md"
+            class="flex flex-col lg:w-72 w-80 xl:w-auto px-5 py-6 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/Home/risk.png" alt="Risk Management" />
@@ -99,7 +99,7 @@
           </div>
 
           <div
-            class="flex flex-col w-auto mx-auto px-5 py-6 md:px-5 gap-6 background-card hover:bg-white hover:shadow-md"
+            class="flex flex-col lg:w-72 w-80 xl:w-auto px-5 py-6 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/Home/academy.png" alt="Academy" />

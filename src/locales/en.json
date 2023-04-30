@@ -1,4 +1,17 @@
 {
+  "navbar": {
+    "button1": "About",
+    "button2": "Services & Solutions",
+    "button3": "Insurance Policy",
+    "button4": "Claim Experience",
+    "button5": "Contact"
+  },
+  "footer": {
+    "card1-header": "Ikonoa is trusted and secure insurance platform",
+    "card2-header": "Quicklinks",
+    "card3-header": "Services & Solutions",
+    "card4-header": "Get In Touch"
+  },
   "home": {
     "button": "Learn More",
     "banner-header": "Maintain Your Peace of Mind by Resolving Insurance Claims",

@@ -3,7 +3,7 @@
     <nav
       class="container px-4 md:px-8 lg:px-24 py-2 mx-auto md:flex md:justify-between md:items-center"
     >
-      <div class="flex items-center justify-between focus:outline-none">
+      <div class="flex items-center justify-between focus:outline-none mr-2">
         <router-link :to="{ name: 'home' }">
           <img
             src="/assets/img/Icon/logo.png"
@@ -45,40 +45,40 @@
           @click="showMenu = !showMenu"
           class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
         >
-          <router-link :to="{ name: 'about' }" class="font-medium"
-            >About</router-link
+          <router-link :to="{ name: 'about' }" class="font-medium">
+            {{ $t("navbar.button1") }}</router-link
           >
         </li>
         <li
           @click="showMenu = !showMenu"
           class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
         >
-          <router-link :to="{ name: 'services' }" class="font-medium"
-            >Services & Solutions</router-link
+          <router-link :to="{ name: 'services' }" class="font-medium">
+            {{ $t("navbar.button2") }}</router-link
           >
         </li>
         <li
           @click="showMenu = !showMenu"
           class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
         >
-          <router-link :to="{ name: 'insurance-policy' }" class="font-medium"
-            >Insurance Policy</router-link
+          <router-link :to="{ name: 'insurance-policy' }" class="font-medium">
+            {{ $t("navbar.button3") }}</router-link
           >
         </li>
         <li
           @click="showMenu = !showMenu"
           class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
         >
-          <router-link :to="{ name: 'claim-experience' }" class="font-medium"
-            >Claim Experience</router-link
+          <router-link :to="{ name: 'claim-experience' }" class="font-medium">
+            {{ $t("navbar.button4") }}</router-link
           >
         </li>
         <li
           @click="showMenu = !showMenu"
           class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
         >
-          <router-link :to="{ name: 'contact' }" class="font-medium"
-            >Contact</router-link
+          <router-link :to="{ name: 'contact' }" class="font-medium">
+            {{ $t("navbar.button5") }}</router-link
           >
         </li>
         <li>

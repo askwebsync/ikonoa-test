@@ -1,4 +1,11 @@
 {
+  "navbar": {
+    "button1": "Tentang Kami",
+    "button2": "Jasa & Solusi",
+    "button3": "Polis Asuransi",
+    "button4": "Pengalaman Klaim",
+    "button5": "Hubungi Kami"
+  },
   "home": {
     "button": "Lihat Selengkapnya",
     "banner-header": "Jaga Ketenangan Pikiran Anda dengan Menyelesaikan Klaim Asuransi",
