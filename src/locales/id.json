@@ -68,5 +68,17 @@
     "card1-header": "Telfon",
     "card2-header": "E-Mail",
     "card3-header": "Kantor"
+  },
+  "services": {
+    "banner-header": "LAYANAN & SOLUSI KAMI",
+    "banner-subheader": "Biarkan kami memandu Anda ke polis asuransi yang sangat sesuai dengan kebutuhan unik Anda. Kami menawarkan berbagai solusi asuransi yang memberikan perlindungan maksimal bagi Anda dan aset Anda",
+    "card1-header": "Konsultasi Risiko",
+    "card2-header": "Manajemen Risiko",
+    "card3-header": "Polis Asuransi",
+    "card4-header": "Akademi",
+    "card1-subheader": "Kami dapat melakukan survei risiko sesuai dengan kebutuhan Anda, termasuk risiko yang tidak biasa dan kompleks. Tim kami dapat bekerja dan melakukan survei di mana pun risiko tersebut berada.",
+    "card2-subheader": "Membantu pelanggan kami dalam mengidentifikasi, mengevaluasi, dan mengelola risiko yang terkait dengan bisnis mereka, sehingga mengurangi potensi kerugian dan meningkatkan kesuksesan bisnis.",
+    "card3-subheader": "Kami menyediakan layanan konsultatif dan bekerja dengan klien termasuk pemilik bisnis dan pengambil keputusan manfaat untuk mengembangkan rencana cakupan yang tepat untuk kebutuhan setiap klien.",
+    "card4-subheader": "Kami memberikan pelatihan asuransi yang sesuai dengan kebutuhan Anda, baik yang diberikan langsung oleh Staff kami yang berpengalaman maupun bekerja sama dengan pihak ketiga. Kami menamakannya Asuransi untuk Staf Asuransi dan Asuransi untuk Staf Non-Asuransi."
   }
 }

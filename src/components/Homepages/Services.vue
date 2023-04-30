@@ -14,7 +14,7 @@
         </div>
         <div class="flex flex-col gap-10">
           <div
-            class="flex flex-col w-80 mx-auto px-5 py-6 md:px-5 gap-6 background-card hover:bg-white hover:shadow-md"
+            class="flex flex-col w-auto mx-auto px-5 py-6 md:px-5 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/Home/analysis.png" alt="Risk Consulting" />
@@ -44,7 +44,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col w-80 mx-auto px-5 py-6 md:px-5 gap-6 background-card hover:bg-white hover:shadow-md"
+            class="flex flex-col w-auto mx-auto px-5 py-6 md:px-5 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
               <img
@@ -74,7 +74,7 @@
         </div>
         <div class="flex flex-col gap-10 mt-6 md:mt-20">
           <div
-            class="flex flex-col w-80 mx-auto px-5 py-6 md:px-5 gap-6 background-card hover:bg-white hover:shadow-md"
+            class="flex flex-col w-auto mx-auto px-5 py-6 md:px-5 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/Home/risk.png" alt="Risk Management" />
@@ -99,7 +99,7 @@
           </div>
 
           <div
-            class="flex flex-col w-80 mx-auto px-5 py-6 md:px-5 gap-6 background-card hover:bg-white hover:shadow-md"
+            class="flex flex-col w-auto mx-auto px-5 py-6 md:px-5 gap-6 background-card hover:bg-white hover:shadow-md"
           >
             <div class="self-center md:self-start">
               <img src="/assets/img/Home/academy.png" alt="Academy" />

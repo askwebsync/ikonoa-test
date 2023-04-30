@@ -10,7 +10,7 @@
             {{ $t("home.academy-subheader") }}
           </h2>
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 self-center px-2">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 self-center">
           <div
             class="background-product custom-shadow-card flex flex-col rounded-lg max-h-md max-w-md"
           >
@@ -22,7 +22,7 @@
               />
             </div>
             <div
-              class="flex flex-col gap-8 py-12 px-6 text-center h-80 sm:h-64 md:h-80 lg:96"
+              class="flex flex-col gap-8 p-6 text-center h-80 sm:h-64 md:h-80 lg:96"
             >
               <h6 class="text-2xl lg:text-3xl">
                 {{ $t("home.academy-card1-header") }}
@@ -43,7 +43,7 @@
               />
             </div>
             <div
-              class="flex flex-col gap-8 py-12 px-6 text-center h-80 sm:h-64 md:h-80 lg:96"
+              class="flex flex-col gap-8 p-6 text-center h-80 sm:h-64 md:h-80 lg:96"
             >
               <h6 class="text-2xl lg:text-3xl">
                 {{ $t("home.academy-card2-header") }}

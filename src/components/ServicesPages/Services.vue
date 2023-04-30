@@ -8,12 +8,12 @@
               class="background-card flex flex-col rounded-lg card-hover shadow-md"
             >
               <div class="flex flex-col gap-8 py-10 px-12 text-center h-64">
-                <h1 class="text-lg md:text-xl lg:text-3xl">Risk Consulting</h1>
+                <h1 class="text-lg md:text-xl lg:text-3xl">
+                  {{ $t("services.card1-header") }}
+                </h1>
 
                 <p class="text-xs sm:text-sm md:text-base">
-                  We can carry out a risk survey according to your needs,
-                  including unusual and complex risks. Our team can work and
-                  conduct surveys wherever these risks are located.
+                  {{ $t("services.card1-subheader") }}
                 </p>
               </div>
               <div class="bg-white">
@@ -33,13 +33,11 @@
                 <h1
                   class="text-lg md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
                 >
-                  Risk Management
+                  {{ $t("services.card2-header") }}
                 </h1>
 
                 <p class="text-xs sm:text-sm md:text-base">
-                  Assist our customers in identifying, evaluating, and managing
-                  the risks associated with their business, thereby reducing
-                  potential losses and increasing business success.
+                  {{ $t("services.card2-subheader") }}
                 </p>
               </div>
               <div class="bg-white">
@@ -61,13 +59,11 @@
                 <h1
                   class="text-lg md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
                 >
-                  Insurance Policy
+                  {{ $t("services.card3-header") }}
                 </h1>
 
                 <p class="text-xs sm:text-sm md:text-base">
-                  We provide consultative services and work with clients
-                  including business owners and benefits decision-makers to
-                  develop the right coverage plans for each client's needs.
+                  {{ $t("services.card2-subheader") }}
                 </p>
               </div>
               <div class="bg-white">
@@ -87,13 +83,10 @@
                 <h1
                   class="text-lg md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
                 >
-                  Academy
+                  {{ $t("services.card4-header") }}
                 </h1>
                 <p class="text-xs sm:text-sm md:text-base">
-                  We provide insurance training that suits to your needs, either
-                  directly provided by our experienced Staff or in collaboration
-                  with third parties. We named it Insurance for Insurance Staff
-                  and Insurance for Non-Insurance Staff
+                  {{ $t("services.card4-subheader") }}
                 </p>
               </div>
               <div class="bg-white">

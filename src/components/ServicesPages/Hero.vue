@@ -18,14 +18,12 @@
           <h1
             class="text-2xl sm:text-3xl md:text-5xl hover:text-red-600 max-w-5xl uppercase md:leading-snug"
           >
-            OUR SERVICES & SOLUTIONS
+            {{ $t("services.banner-header") }}
           </h1>
           <h4
             class="text-lg max-w-xxs md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-6xl"
           >
-            "Let us guide you to the insurance policy that perfectly fits your
-            unique needs. We offer a wide range of insurance solutions that
-            provide maximum protection for you and your assets.""
+            {{ $t("services.banner-subheader") }}
           </h4>
         </div>
       </div>

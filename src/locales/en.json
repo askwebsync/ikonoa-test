@@ -68,5 +68,17 @@
     "card1-header": "Call",
     "card2-header": "E-Mail",
     "card3-header": "Office"
+  },
+  "services": {
+    "banner-header": "OUR SERVICES & SOLUTIONS",
+    "banner-subheader": "Let us guide you to the insurance policy that perfectly fits your unique needs. We offer a wide range of insurance solutions that provide maximum protection for you and your assets",
+    "card1-header": "Risk Consulting",
+    "card2-header": "Risk Management",
+    "card3-header": "Insurance Policy",
+    "card4-header": "Academy",
+    "card1-subheader": "We can carry out a risk survey according to your needs, including unusual and complex risks. Our team can work and conduct surveys wherever these risks are located.",
+    "card2-subheader": "Assist our customers in identifying, evaluating, and managing the risks associated with their business, thereby reducing potential losses and increasing business success.",
+    "card3-subheader": "We provide consultative services and work with clients including business owners and benefits decision-makers to develop the right coverage plans for each client's needs.",
+    "card4-subheader": "We provide insurance training that suits to your needs, either directly provided by our experienced Staff or in collaboration with third parties. We named it Insurance for Insurance Staff and Insurance for Non-Insurance Staff."
   }
 }
