@@ -92,6 +92,28 @@
     "misi-text4": "Mendidik nasabah melalui literasi asuransi untuk meningkatkan pengetahuan dan kepercayaan",
     "misi-text5": "Memberikan layanan asuransi kepada stack-holder melalui pengembangan sumber daya manusia dan solusi digital"
   },
+  "insurance": {
+    "banner-header": "POLIS ASURANSI",
+    "banner-subheader": "Kami menyediakan solusi asuransi yang sesuai dengan kebutuhan Anda",
+    "button1-header": "Tanggung Gugat",
+    "button2-header": "Mesin",
+    "button3-header": "Kesehatan",
+    "button4-header": "Kelautan",
+    "button5-header": "Properti",
+    "button6-header": "Kendaraan",
+    "product-card1-header": "Asuransi Tanggung Gugat",
+    "product-card2-header": "Asuransi Rekayasa",
+    "product-card3-header": "Asuransi Kesehatan",
+    "product-card4-header": "Asuransi Kelautan",
+    "product-card5-header": "Asuransi Properti",
+    "product-card6-header": "Asuransi Kendaraan",
+    "product-card1-subheader": "Asuransi kewajiban memberikan perlindungan terhadap klaim akibat cedera dan kerusakan pada orang lain atau properti. Ini mencakup semua biaya hukum dan pembayaran yang menjadi tanggung jawab pihak yang diasuransikan jika mereka ditemukan bertanggung jawab secara hukum.",
+    "product-card2-subheader": "Asuransi Rekayasa memberikan perlindungan kepada pengguna atau pemilik mesin produksi dan utilitas, peralatan elektronik, serta pemilik dan kontraktor proyek konstruksi dan instalasi.",
+    "product-card3-subheader": "Polis asuransi kesehatan menanggung biaya rawat inap, sebelum dan sesudah rawat inap, penitipan anak, dan perawatan di rumah. Anda juga dapat memanfaatkan pertanggungan keuangan untuk pengeluaran terhadap diagnosis dan tes yang disarankan oleh dokter.",
+    "product-card4-subheader": "Asuransi Kelautan adalah jenis asuransi yang melindungi kapal, kargo, dan kargo dari kehilangan atau kerusakan selama berada di laut atau selama pelayaran.",
+    "product-card5-subheader": "Memberikan perlindungan terhadap properti Anda terhadap segala kerusakan yang disebabkan oleh hal yang tidak disengaja seperti kebakaran, sambaran petir, ledakan, kecelakaan pesawat, asap (FLEXAS), angin topan, badai, banjir, tanah longsor, gempa bumi, pemogokan, huru-hara, huru-hara, tindakan jahat orang lain dan risiko lainnya.",
+    "product-card6-subheader": "Memberikan perlindungan untuk semua jenis kendaraan bermotor seperti truk, kendaraan roda empat (mobil)."
+  },
   "contact": {
     "banner-header": "HUBUNGI KAMI",
     "banner-subheader": "Beri tahu kami bagaimana kami dapat membantu",
@@ -110,5 +132,29 @@
     "card2-subheader": "Membantu pelanggan kami dalam mengidentifikasi, mengevaluasi, dan mengelola risiko yang terkait dengan bisnis mereka, sehingga mengurangi potensi kerugian dan meningkatkan kesuksesan bisnis.",
     "card3-subheader": "Kami menyediakan layanan konsultatif dan bekerja dengan klien termasuk pemilik bisnis dan pengambil keputusan manfaat untuk mengembangkan rencana cakupan yang tepat untuk kebutuhan setiap klien.",
     "card4-subheader": "Kami memberikan pelatihan asuransi yang sesuai dengan kebutuhan Anda, baik yang diberikan langsung oleh Staff kami yang berpengalaman maupun bekerja sama dengan pihak ketiga. Kami menamakannya Asuransi untuk Staf Asuransi dan Asuransi untuk Staf Non-Asuransi."
+  },
+  "risk-consulting": {
+    "banner-header": "KONSULTASI RISIKO",
+    "banner-subheader": "Tim kami yang berpengalaman menawarkan layanan konsultasi yang komprehensif, termasuk topik asuransi nonkonvensional seperti asuransi diri, manajemen klaim, pencegahan kerugian, dan konsultasi proyek.",
+    "card1-header": "Asuransi Jiwa",
+    "card2-header": "Asuransi Mobil",
+    "card3-header": "Asuransi Pekerjaan",
+    "card4-header": "Asuransi Rumah",
+    "card5-header": "Asuransi Kesehatan",
+    "card6-header": "Asuransi Pernikahan",
+    "explanation-header": "Nasihat dan Dukungan Ahli Asuransi",
+    "explanation-text": "Ketika sesuatu yang tidak terduga merusak aset Anda, mengajukan klaim asuransi dapat membantu Anda mendapatkan kompensasi. Tetapi jika Anda belum pernah melakukannya, prosesnya bisa sangat sulit. Di situlah peran konsultan klaim asuransi. Mereka akan membantu Anda mendapatkan semua dokumen yang benar, mencari tahu berapa banyak kerugian Anda, dan mengajukan klaim Anda dengan cepat dan akurat. Dengan bantuan mereka, Anda bisa mendapatkan uang yang layak Anda dapatkan dari polis asuransi Anda tanpa stres dan kebingungan melakukan semuanya sendiri.",
+    "claim-procces-header": "CARA KLAIM",
+    "claim-procces-subheader": "Panduan langkah demi langkah untuk membuat klaim asuransi dengan mudah",
+    "claim-procces-card1-header": "1. Laporan & Survei",
+    "claim-procces-card2-header": "2. Dokumentasi",
+    "claim-procces-card3-header": "3. Evaluasi",
+    "claim-procces-card4-header": "4. Penilaian Kewajiban Kebijakan",
+    "claim-procces-card5-header": "5. Penyelesaian Klaim",
+    "claim-procces-card1-explanation": "Langkah pertama dalam proses klaim adalah melaporkan klaim Anda. Anda dapat melaporkan klaim Anda dengan mudah melalui situs web atau WhatsApp kami. Tim kami kemudian akan melakukan survei untuk menilai kerusakan dan memberi Anda petunjuk lebih lanjut.",
+    "claim-procces-card2-explanation": "Selama langkah kedua proses klaim, tim kami akan bekerja sama dengan Anda untuk mengumpulkan semua dokumentasi yang diperlukan untuk mendukung klaim Anda. Dari foto hingga kwitansi dan dokumen terkait lainnya, kami akan memastikan bahwa Anda memiliki semua yang Anda butuhkan untuk mengajukan klaim yang berhasil.",
+    "claim-procces-card3-explanation": "Selama langkah ketiga proses klaim, tim kami akan meninjau dan mengevaluasi klaim Anda untuk memastikan bahwa klaim tersebut diproses secara akurat. Kami memahami bahwa kompensasi yang adil sangat penting, dan kami akan memastikan bahwa Anda menerima kompensasi yang menjadi hak Anda sesuai dengan ketentuan polis Anda.",
+    "claim-procces-card4-explanation": "Pada tahap keempat proses klaim, tim kami akan menyesuaikan klaim Anda untuk menentukan apakah kerugian yang dialami dapat ditanggung oleh polis yang Anda beli. Kami akan memberi Anda semua informasi yang diperlukan untuk membantu Anda memahami tanggung jawab polis Anda.",
+    "claim-procces-card5-explanation": "Langkah kelima dan terakhir dari proses klaim melibatkan penyelesaian klaim Anda dan memberi Anda kompensasi atas kerugian yang Anda derita. Tim kami akan memastikan bahwa penyelesaian dilakukan dengan cepat dan efisien sesuai dengan ketentuan polis Anda."
   }
 }

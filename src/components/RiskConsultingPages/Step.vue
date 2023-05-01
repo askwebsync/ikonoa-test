@@ -3,30 +3,36 @@
     <div class="container mx-auto px-4 py-14 md:px-8 lg:px-24">
       <div class="flex flex-col gap-10 md:gap-12 lg:gap-12">
         <div class="flex flex-col gap-2 text-center">
-          <h3 class="text-2xl lg:text-3xl">HOW TO CLAIM</h3>
+          <h3 class="text-2xl lg:text-3xl">
+            {{ $t("risk-consulting.claim-procces-header") }}
+          </h3>
           <h2 class="text-xl md:text-2xl">
-            A step-by-step guide to making an insurance claim with ease
+            {{ $t("risk-consulting.claim-procces-subheader") }}
           </h2>
         </div>
         <Carousel :settings="settings" :breakpoints="breakpoints">
-          <Slide v-for="slide in slides" :key="slide">
+          <Slide v-for="(slide, index) in slides" :key="index">
             <div class="carousel__item">
               <div
-                class="flex flex-col gap-8 items-center justify-center h-auto"
+                class="flex flex-col gap-8 lg:gap-10 xl:gap-12 px-4 items-center justify-center"
               >
-                <h3 class="text-xl lg:text-2xl xl:text-3xl">
-                  {{ slide.title }}
+                <h3 class="text-xl md:text-2xl lg:text-3xl">
+                  {{ getSlideTitle(index) }}
                 </h3>
-                <div class="claim-card">
+                <div
+                  class="flex items-center justify-center px-6 py-5 border-step"
+                >
                   <img
                     :src="`/assets/img/Services/${slide.image}`"
                     alt="step-step"
-                    class="image-css"
+                    class="w-full h-12 w-12 lg:h-14 lg:w-14 object-cover object-center"
                   />
                 </div>
-                <p class="text-lg max-w-xs mt-5 px-5 md:max-w-md">
-                  {{ slide.description }}
-                </p>
+                <div class="md:mt-5 md:h-48">
+                  <p class="text-md md:text-lg xl:text-xl max-w-xs md:max-w-md">
+                    {{ getSlideDescription(index) }}
+                  </p>
+                </div>
               </div>
             </div>
           </Slide>
@@ -54,34 +60,29 @@ export default {
     return {
       slides: [
         {
-          title: "1. Report & Survey",
+          title: "risk-consulting.claim-procces-card1-header",
           image: "step-1.png",
-          description:
-            "The first step in the claim process is reporting your claim. You can report your claim easily through our website or WhatsApp. Our team will then conduct a survey to assess the damage and provide you with further instructions.",
+          description: "risk-consulting.claim-procces-card1-explanation",
         },
         {
-          title: "2. Documentation",
+          title: "risk-consulting.claim-procces-card2-header",
           image: "step-2.png",
-          description:
-            "During the second step of the claims process, our team will work with you to gather all the necessary documentation to support your claim. From photographs to receipts and other relevant documents, we'll ensure that you have everything you need to file a successful claim.",
+          description: "risk-consulting.claim-procces-card2-explanation",
         },
         {
-          title: "3. Evaluation",
+          title: "risk-consulting.claim-procces-card3-header",
           image: "step-3.png",
-          description:
-            "During the third step of the claim process, our team will review and evaluate your claim to ensure that it is processed accurately. We understand that fair compensation is essential, and we will ensure that you receive the compensation you are entitled to according to the provisions of your policy.",
+          description: "risk-consulting.claim-procces-card3-explanation",
         },
         {
-          title: "4. Policy Liability Assessment",
+          title: "risk-consulting.claim-procces-card4-header",
           image: "step-4.png",
-          description:
-            "During the fourth step of the claim process, our team will adjust your claim to determine whether the losses experienced can be covered by the policy you have purchased. We will provide you with all the necessary information to help you understand your policy liability.",
+          description: "risk-consulting.claim-procces-card4-explanation",
         },
         {
-          title: "5. Claim Settlement",
+          title: "risk-consulting.claim-procces-card5-header",
           image: "step-5.png",
-          description:
-            "The fifth and final step of the claim process involves finalizing your claim and providing you with compensation for the losses you have suffered. Our team will ensure that the settlement is made promptly and efficiently in accordance with the provisions of your policy.",
+          description: "risk-consulting.claim-procces-card5-explanation",
         },
       ],
       settings: {
@@ -114,14 +115,20 @@ export default {
         this.teamMembers.length;
       this.offset -= 300;
     },
+    getSlideTitle(index) {
+      return this.$t(this.slides[index].title);
+    },
+    getSlideDescription(index) {
+      return this.$t(this.slides[index].description);
+    },
   },
 };
 </script>
 
 <style scoped>
 .carousel__item {
-  height: 500px;
-  width: 85%;
+  height: 580px;
+  width: 85% !important;
   background-color: white;
   color: var(--vc-clr-white);
   border: 1.5px solid #17171f;
@@ -146,7 +153,7 @@ p {
   border: 2px solid #17171f;
   border-radius: 100px;
 }
-.claim-card {
+/* .claim-card {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -158,17 +165,5 @@ p {
   height: 140px;
   border: 2px solid #17171f;
   border-radius: 100px;
-}
-.image-css {
-  width: 80px;
-  height: 80px;
-
-  background: url(image.png);
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
+} */
 </style>

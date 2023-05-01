@@ -11,18 +11,11 @@
         </div>
         <div class="self-center w-full lg:w-1/2 md:self-start">
           <h2 class="text-4xl mb-3 uppercase">
-            Expert Insurance Advice and Support
+            {{ $t("risk-consulting.explanation-header") }}
           </h2>
           <hr />
           <p class="mt-10 md:mt-12 md:text-lg max-w-xl">
-            When something unexpected damages your assets, filing an insurance
-            claim can help you get compensation. But if you've never done it
-            before, the process can be really tough. That's where an insurance
-            claims consultant comes in. They'll help you get all the right
-            documents, figure out how much you've lost, and submit your claim
-            quickly and accurately. With their help, you can get the money you
-            deserve from your insurance policy without the stress and confusion
-            of doing it all on your own.
+            {{ $t("risk-consulting.explanation-text") }}
           </p>
         </div>
       </div>

@@ -4,7 +4,7 @@
       class="relative overflow-hidden bg-no-repeat bg-cover"
       style="
         background-position: 50%;
-        background-image: url('/assets/img/LP_Insurance/insurance.png');
+        background-image: url('/assets/img/LP_Insurance/Background.png');
         height: 500px;
       "
     >
@@ -18,12 +18,12 @@
           <h1
             class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl hover:text-red-600 max-w-5xl uppercase md:leading-snug"
           >
-            INSURANCE POLICY
+            {{ $t("insurance.banner-header") }}
           </h1>
           <h4
             class="text-lg max-w-xxs md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-6xl"
           >
-            “We provide insurance solutions that suit your needs”
+            {{ $t("insurance.banner-subheader") }}
           </h4>
         </div>
       </div>

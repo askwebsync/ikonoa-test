@@ -12,15 +12,17 @@
         <Carousel :settings="settings" :breakpoints="breakpoints">
           <Slide v-for="slide in slides" :key="slide">
             <div class="carousel__item">
-              <div class="flex flex-col gap-8 px-4 items-center justify-center">
-                <h3 class="text-xl">{{ slide.title }}</h3>
+              <div
+                class="flex flex-col gap-8 lg:gap-10 xl:gap-12 px-4 items-center justify-center"
+              >
+                <h3 class="text-xl lg:text-2xl">{{ slide.title }}</h3>
                 <div
                   class="flex items-center justify-center px-6 py-5 border-step"
                 >
                   <img
                     :src="`/assets/img/Services/${slide.image}`"
                     alt="step-step"
-                    class="w-full h-12 w-12 object-cover object-center"
+                    class="w-full h-12 w-12 lg:h-14 lg:w-14 object-cover object-center"
                   />
                 </div>
                 <div class="md:mt-5 md:h-48">

@@ -14,7 +14,9 @@
               class="w-12 h-12"
             />
           </div>
-          <p class="text-lg hover:text-red-600">Life Insurance</p>
+          <p class="text-lg hover:text-red-600">
+            {{ $t("risk-consulting.card1-header") }}
+          </p>
         </div>
         <div class="flex flex-col items-center text-center gap-5 p-2">
           <div
@@ -26,7 +28,9 @@
               class="w-12 h-12"
             />
           </div>
-          <p class="text-lg hover:text-red-600">Car Insurance</p>
+          <p class="text-lg hover:text-red-600">
+            {{ $t("risk-consulting.card2-header") }}
+          </p>
         </div>
         <div class="flex flex-col items-center text-center gap-5 p-2">
           <div
@@ -38,7 +42,9 @@
               class="w-12 h-12"
             />
           </div>
-          <p class="text-lg hover:text-red-600">Job Insurance</p>
+          <p class="text-lg hover:text-red-600">
+            {{ $t("risk-consulting.card3-header") }}
+          </p>
         </div>
         <div class="flex flex-col items-center text-center gap-5 p-2">
           <div
@@ -50,7 +56,9 @@
               class="w-12 h-12"
             />
           </div>
-          <p class="text-lg hover:text-red-600">Home Insurance</p>
+          <p class="text-lg hover:text-red-600">
+            {{ $t("risk-consulting.card4-header") }}
+          </p>
         </div>
         <div class="flex flex-col items-center text-center gap-5 p-2">
           <div
@@ -62,7 +70,9 @@
               class="w-12 h-12"
             />
           </div>
-          <p class="text-lg hover:text-red-600">Health Insurance</p>
+          <p class="text-lg hover:text-red-600">
+            {{ $t("risk-consulting.card5-header") }}
+          </p>
         </div>
         <div class="flex flex-col items-center text-center gap-5 p-2">
           <div
@@ -74,7 +84,9 @@
               class="w-12 h-12"
             />
           </div>
-          <p class="text-lg hover:text-red-600">Wedding Insurance</p>
+          <p class="text-lg hover:text-red-600">
+            {{ $t("risk-consulting.card6-header") }}
+          </p>
         </div>
       </div>
     </div>

@@ -92,6 +92,28 @@
     "work-card-header": "Claim Paid",
     "client-header": "Our Client"
   },
+  "insurance": {
+    "banner-header": "INSURANCE POLICY",
+    "banner-subheader": "We provide insurance solutions that suit your needs",
+    "button1-header": "Liability",
+    "button2-header": "Engineering",
+    "button3-header": "Health",
+    "button4-header": "Marine",
+    "button5-header": "Property",
+    "button6-header": "Automobile",
+    "product-card1-header": "Liability Insurance",
+    "product-card2-header": "Engineering Insurance",
+    "product-card3-header": "Health Insurance",
+    "product-card4-header": "Marine Insurance",
+    "product-card5-header": "Property Insurance",
+    "product-card6-header": "Automobile Insurance",
+    "product-card1-subheader": "Liability insurance provides protection against claims resulting from injuries and damage to other people or property. It covers any legal costs and payouts an insured party is responsible for if they are found legally liable.",
+    "product-card2-subheader": "Engineering Insurance gives protection to users or owners of production machinery and utilities, electronic equipment, and owners and contractors of construction and also installation projects.",
+    "product-card3-subheader": "Health insurance policies cover hospitalisation, pre-and post-hospitalisation, daycare and home treatment expenses. You can also avail of financial coverage for expenses against diagnosis and tests suggested by the doctors.",
+    "product-card4-subheader": "Marine Insurance is a type of insurance that protects ships, cargo and cargo from loss or damage while at sea or during shipping.",
+    "product-card5-subheader": "Provides protection to your property against all damage from any fortuitous cause such as fire, lightning strike, explosion, plane crash, smoke (FLEXAS), hurricane, storm, flood, landslides, earthquakes, strikes, riots, riots, evil actions of others and other risks.",
+    "product-card6-subheader": "Provide protection for all types of motorized vehicles such as trucks, four-wheeled vehicles (cars)."
+  },
   "contact": {
     "banner-header": "GET IN TOUCH",
     "banner-subheader": "Let us know how we can help",
@@ -110,5 +132,29 @@
     "card2-subheader": "Assist our customers in identifying, evaluating, and managing the risks associated with their business, thereby reducing potential losses and increasing business success.",
     "card3-subheader": "We provide consultative services and work with clients including business owners and benefits decision-makers to develop the right coverage plans for each client's needs.",
     "card4-subheader": "We provide insurance training that suits to your needs, either directly provided by our experienced Staff or in collaboration with third parties. We named it Insurance for Insurance Staff and Insurance for Non-Insurance Staff."
+  },
+  "risk-consulting": {
+    "banner-header": "RISK CONSULTING",
+    "banner-subheader": "Our experienced team offers comprehensive advisory services, including unconventional insurance topics like self-insurance, claims management, loss prevention, and project advisory.",
+    "card1-header": "Life Insurance",
+    "card2-header": "Car Insurance",
+    "card3-header": "Job Insurance",
+    "card4-header": "Home Insurance",
+    "card5-header": "Health Insurance",
+    "card6-header": "Wedding Insurance",
+    "explanation-header": "Expert Insurance Advice and Support",
+    "explanation-text": "When something unexpected damages your assets, filing an insurance claim can help you get compensation. But if you've never done it before, the process can be really tough. That's where an insurance claims consultant comes in. They'll help you get all the right documents, figure out how much you've lost, and submit your claim quickly and accurately. With their help, you can get the money you deserve from your insurance policy without the stress and confusion of doing it all on your own.",
+    "claim-procces-header": "HOW TO CLAIM",
+    "claim-procces-subheader": "A step-by-step guide to making an insurance claim with ease",
+    "claim-procces-card1-header": "1. Report & Survey",
+    "claim-procces-card2-header": "2. Documentation",
+    "claim-procces-card3-header": "3. Evaluation",
+    "claim-procces-card4-header": "4. Policy Liability Assessment",
+    "claim-procces-card5-header": "5. Claim Settlement",
+    "claim-procces-card1-explanation": "The first step in the claim process is reporting your claim. You can report your claim easily through our website or WhatsApp. Our team will then conduct a survey to assess the damage and provide you with further instructions.",
+    "claim-procces-card2-explanation": "During the second step of the claims process, our team will work with you to gather all the necessary documentation to support your claim. From photographs to receipts and other relevant documents, we'll ensure that you have everything you need to file a successful claim.",
+    "claim-procces-card3-explanation": "During the third step of the claim process, our team will review and evaluate your claim to ensure that it is processed accurately. We understand that fair compensation is essential, and we will ensure that you receive the compensation you are entitled to according to the provisions of your policy.",
+    "claim-procces-card4-explanation": "During the fourth step of the claim process, our team will adjust your claim to determine whether the losses experienced can be covered by the policy you have purchased. We will provide you with all the necessary information to help you understand your policy liability.",
+    "claim-procces-card5-explanation": "The fifth and final step of the claim process involves finalizing your claim and providing you with compensation for the losses you have suffered. Our team will ensure that the settlement is made promptly and efficiently in accordance with the provisions of your policy."
   }
 }

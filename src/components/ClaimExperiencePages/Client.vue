@@ -16,7 +16,7 @@
             <img
               src="/assets/img/LP_Claim/CAREGUARD_INDO.png"
               alt="logo 1"
-              class="h-16"
+              class="w-auto h-auto md:w-full"
             />
           </div>
           <div
@@ -25,7 +25,7 @@
             <img
               src="/assets/img/LP_Claim/Kenso_INDO.jpeg"
               alt="logo 2"
-              class="h-16"
+              class="w-auto h-auto md:w-full"
             />
           </div>
           <div
@@ -34,7 +34,7 @@
             <img
               src="/assets/img/LP_Claim/PT.KUANTAN_GRAHA_INDO.png"
               alt="logo 3"
-              class="h-16"
+              class="w-auto h-auto md:w-full"
             />
           </div>
           <div
@@ -43,7 +43,7 @@
             <img
               src="/assets/img/LP_Claim/PT_8Property_INDO.jpeg"
               alt="logo 4"
-              class="h-16"
+              class="w-auto h-auto md:w-full"
             />
           </div>
           <div
@@ -52,7 +52,7 @@
             <img
               src="/assets/img/LP_Claim/PT_ARSA_INDO.jpeg"
               alt="logo 5"
-              class="h-16"
+              class="w-auto h-auto md:w-full"
             />
           </div>
           <div
@@ -61,7 +61,7 @@
             <img
               src="/assets/img/LP_Claim/PT_ASIASINERGISOLUSINDO_INDO.jpeg"
               alt="logo 6"
-              class="h-16"
+              class="w-auto h-auto md:w-full"
             />
           </div>
           <div
@@ -70,7 +70,7 @@
             <img
               src="/assets/img/LP_Claim/PT_Carefast_INDO.jpeg"
               alt="logo 7"
-              class="h-16"
+              class="w-auto h-auto md:w-full"
             />
           </div>
           <div
@@ -79,7 +79,7 @@
             <img
               src="/assets/img/LP_Claim/PT_DNX_INDO.jpeg"
               alt="logo 8"
-              class="h-16"
+              class="w-auto h-auto md:w-full"
             />
           </div>
           <div
@@ -88,7 +88,7 @@
             <img
               src="/assets/img/LP_Claim/PT_DUAPUTRA_INDO.jpeg"
               alt="logo 9"
-              class="h-16"
+              class="w-auto h-auto md:w-full"
             />
           </div>
           <div
@@ -97,7 +97,7 @@
             <img
               src="/assets/img/LP_Claim/PT_Errai_INDO.jpeg"
               alt="logo 10"
-              class="h-16"
+              class="w-auto h-auto md:w-full"
             />
           </div>
           <div
@@ -106,7 +106,7 @@
             <img
               src="/assets/img/LP_Claim/PT_NETIKA_INDO.jpeg"
               alt="logo 11"
-              class="h-16"
+              class="w-auto h-auto md:w-full"
             />
           </div>
           <div
@@ -115,7 +115,7 @@
             <img
               src="/assets/img/LP_Claim/PT_SHAMROCK_INDO.jpg"
               alt="logo 12"
-              class="h-16"
+              class="w-auto h-auto md:w-full"
             />
           </div>
           <div
@@ -124,7 +124,7 @@
             <img
               src="/assets/img/LP_Claim/PT_SWA_INDO.png"
               alt="logo 13"
-              class="h-16"
+              class="w-auto h-auto md:w-full"
             />
           </div>
           <div
@@ -133,7 +133,7 @@
             <img
               src="/assets/img/LP_Claim/PT_TIMURTERANG_INDO.jpeg"
               alt="logo 14"
-              class="h-16"
+              class="w-auto h-auto md:w-full"
             />
           </div>
           <div
@@ -142,7 +142,7 @@
             <img
               src="/assets/img/LP_Claim/PT_TOPGUARD_INDO.jpeg"
               alt="logo 15"
-              class="h-16"
+              class="w-auto h-auto md:w-full"
             />
           </div>
         </div>
@@ -161,9 +161,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.card {
-  height: 300px;
-  border-radius: 8px;
-}
-</style>
+<style scoped></style>
