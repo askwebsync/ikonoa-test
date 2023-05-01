@@ -2,7 +2,7 @@
   <section class="background-product">
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col md:flex-row gap-12 items-center">
-        <div class="flex md:self-start w-1/2">
+        <div class="flex md:self-start md:w-1/2">
           <img
             src="/assets/img/Home/about.webp"
             style="max-height: 600px"
@@ -10,7 +10,7 @@
           />
         </div>
         <div
-          class="w-1/2 flex flex-col gap-12 md:gap-9 self-center md:self-start md:ml-6"
+          class="md:w-1/2 flex flex-col gap-12 md:gap-9 self-center md:self-start md:ml-6"
         >
           <div class="flex flex-col gap-2">
             <h3 class="text-xl md:text-2xl lg:text-3xl">
