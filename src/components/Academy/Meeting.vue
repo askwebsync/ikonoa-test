@@ -1,60 +1,76 @@
 <template>
   <section>
     <div class="container mx-auto px-4 py-14 md:px-8 lg:px-24">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 justify-items-center">
+      <div class="flex flex-col gap-12">
+        <div class="flex flex-col gap-4 md:gap-2 text-center">
+          <h3 class="text-xl md:text-2xl lg:text-3xl">
+            {{ $t("academy.webinar-explanation-header") }}
+          </h3>
+          <h2 class="text-xl md:text-2xl lg:text-3xl">
+            {{ $t("academy.webinar-explanation-subheader") }}
+          </h2>
+        </div>
         <div
-          class="flex flex-col items-start p-5 gap-5 custom-shadow-card max-w-lg"
+          class="grid grid-cols-1 md:grid-cols-2 gap-12 justify-items-center"
         >
-          <img src="/assets/img/Services/academy1.png" alt="w-auto h-auto" />
-          <div class="flex flex-col items-center gap-7">
-            <div class="flex self-start">
-              <h6 class="text-2xl lg:text-3xl">Health Insurance</h6>
-            </div>
+          <div
+            class="flex flex-col items-start p-5 gap-5 custom-shadow-card max-w-lg"
+          >
+            <img src="/assets/img/Services/academy1.png" alt="w-auto h-auto" />
+            <div class="flex flex-col items-center gap-7">
+              <div class="flex self-start">
+                <h6 class="text-2xl lg:text-3xl">
+                  {{ $t("academy.webinar-card1-title") }}
+                </h6>
+              </div>
 
-            <div class="flex flex-col items-center gap-5">
-              <p class="text-lg lg:text-xl text-gray-600">
-                Health insurance training will help you to understand better
-                about the benefits and conditions of health insurance.
-              </p>
-              <hr />
-              <div class="w-full flex justify-between">
-                <div class="text-lg lg:text-xl font-semibold">
-                  Platform:
-                  <span class="text-lg lg:text-xl font-semibold text-red-600"
-                    >Zoom</span
-                  >
-                </div>
-                <div class="text-lg lg:text-xl font-semibold">
-                  Time:
-                  <span class="text-lg lg:text-xl font-semibold text-red-600"
-                    >01/01/2023</span
-                  >
+              <div class="flex flex-col items-center gap-5">
+                <p class="text-lg lg:text-xl text-gray-600">
+                  {{ $t("academy.webinar-card1-text") }}
+                </p>
+                <hr />
+                <div class="w-full flex justify-between">
+                  <div class="text-lg lg:text-xl font-semibold">
+                    {{ $t("academy.webinar-card1-platform") }}
+                    <span class="text-lg lg:text-xl font-semibold text-red-600"
+                      >Zoom</span
+                    >
+                  </div>
+                  <div class="text-lg lg:text-xl font-semibold">
+                    {{ $t("academy.webinar-card1-time") }}
+                    <span class="text-lg lg:text-xl font-semibold text-red-600"
+                      >01/01/2023</span
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="flex flex-col items-start p-5 gap-5 custom-shadow-card max-w-lg"
-        >
-          <img src="/assets/img/Services/academy1.png" alt="w-auto h-auto" />
-          <div class="flex flex-col items-center gap-7">
-            <div class="flex self-start">
-              <h6 class="text-2xl lg:text-3xl">Health Insurance</h6>
-            </div>
+          <div
+            class="flex flex-col items-start p-5 gap-5 custom-shadow-card max-w-lg"
+          >
+            <img src="/assets/img/Services/academy1.png" alt="w-auto h-auto" />
+            <div class="flex flex-col items-center gap-7">
+              <div class="flex self-start">
+                <h6 class="text-2xl lg:text-3xl">
+                  {{ $t("academy.webinar-card2-title") }}
+                </h6>
+              </div>
 
-            <div class="flex flex-col items-center gap-5">
-              <p class="text-lg lg:text-xl text-gray-600">
-                Health insurance training will help you to understand better
-                about the benefits and conditions of health insurance.
-              </p>
-              <hr />
-              <div class="w-full flex justify-between">
-                <div class="text-lg lg:text-xl font-semibold">
-                  Platform: <span class="text-red-600">Zoom</span>
-                </div>
-                <div class="text-lg lg:text-xl font-semibold">
-                  Time: <span class="text-red-600">01/01/2023</span>
+              <div class="flex flex-col items-center gap-5">
+                <p class="text-lg lg:text-xl text-gray-600">
+                  {{ $t("academy.webinar-card2-text") }}
+                </p>
+                <hr />
+                <div class="w-full flex justify-between">
+                  <div class="text-lg lg:text-xl font-semibold">
+                    {{ $t("academy.webinar-card2-platform") }}
+                    <span class="text-red-600">Zoom</span>
+                  </div>
+                  <div class="text-lg lg:text-xl font-semibold">
+                    {{ $t("academy.webinar-card2-time") }}
+                    <span class="text-red-600">01/01/2023</span>
+                  </div>
                 </div>
               </div>
             </div>

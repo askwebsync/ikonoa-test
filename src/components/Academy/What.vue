@@ -7,25 +7,23 @@
         <div class="flex flex-col items-center px-6 py-4 gap-6">
           <div class="flex flex-col items-center gap-5">
             <img src="/assets/img/Services/offline.png" alt="w-auto h-auto" />
-            <h5 class="text-xl md:text-2xl lg:text-3xl">Offline Training</h5>
+            <h5 class="text-xl md:text-2xl lg:text-3xl">
+              {{ $t("academy.card1-header") }}
+            </h5>
           </div>
           <p class="text-center">
-            Training course offline is carried out face to face at a
-            predetermined place, usually in the form of a class or seminar. This
-            training allows participants to interact directly with instructors
-            and other participants.
+            {{ $t("academy.card1-explanation") }}
           </p>
         </div>
         <div class="flex flex-col items-center px-6 py-4 gap-6">
           <div class="flex flex-col items-center gap-5">
             <img src="/assets/img/Services/online.png" alt="w-auto h-auto" />
-            <h5 class="text-xl md:text-2xl lg:text-3xl">Online Training</h5>
+            <h5 class="text-xl md:text-2xl lg:text-3xl">
+              {{ $t("academy.card2-header") }}
+            </h5>
           </div>
           <p class="text-center">
-            This training is conducted via the internet and allows participants
-            to attend training from anywhere and at any time only as long as
-            connected to the internet. Online training can also be done live or
-            on-demand.
+            {{ $t("academy.card2-explanation") }}
           </p>
         </div>
       </div>

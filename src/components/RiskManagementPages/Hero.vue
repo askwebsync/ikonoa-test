@@ -10,14 +10,12 @@
         <h1
           class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl hover:text-red-600 max-w-5xl uppercase md:leading-snug"
         >
-          RISK MANAGEMENT
+          {{ $t("risk-management.banner-header") }}
         </h1>
         <div class="flex flex-col gap-4 items-center">
           <hr />
           <h4 class="text-lg max-w-xxs md:text-xl md:max-w-2xl lg:max-w-6xl">
-            "Assist our customers in identifying, evaluating, and managing the
-            risks associated with their business, thereby reducing potential
-            losses and increasing business success."
+            {{ $t("risk-management.banner-subheader") }}
           </h4>
           <hr />
         </div>

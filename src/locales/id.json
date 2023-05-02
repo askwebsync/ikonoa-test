@@ -156,5 +156,35 @@
     "claim-procces-card3-explanation": "Selama langkah ketiga proses klaim, tim kami akan meninjau dan mengevaluasi klaim Anda untuk memastikan bahwa klaim tersebut diproses secara akurat. Kami memahami bahwa kompensasi yang adil sangat penting, dan kami akan memastikan bahwa Anda menerima kompensasi yang menjadi hak Anda sesuai dengan ketentuan polis Anda.",
     "claim-procces-card4-explanation": "Pada tahap keempat proses klaim, tim kami akan menyesuaikan klaim Anda untuk menentukan apakah kerugian yang dialami dapat ditanggung oleh polis yang Anda beli. Kami akan memberi Anda semua informasi yang diperlukan untuk membantu Anda memahami tanggung jawab polis Anda.",
     "claim-procces-card5-explanation": "Langkah kelima dan terakhir dari proses klaim melibatkan penyelesaian klaim Anda dan memberi Anda kompensasi atas kerugian yang Anda derita. Tim kami akan memastikan bahwa penyelesaian dilakukan dengan cepat dan efisien sesuai dengan ketentuan polis Anda."
+  },
+  "risk-management": {
+    "banner-header": "MANAJEMEN RISIKO",
+    "banner-subheader": "Membantu pelanggan kami dalam mengidentifikasi, mengevaluasi, dan mengelola risiko yang terkait dengan bisnis mereka, sehingga mengurangi potensi kerugian dan meningkatkan kesuksesan bisnis.",
+    "explanation-header": "Apa itu manajemen risiko?",
+    "explanation-text": "Manajemen risiko Ikonoa dibagi menjadi 2 proses yaitu praktik mengidentifikasi dan menganalisis eksposur kerugian dan mengambil langkah-langkah untuk meminimalkan dampak keuangan dari risiko yang akan timbul. manajemen risiko tradisional, kadang-kadang disebut 'manajemen risiko asuransi', berfokus pada 'risiko murni' (yaitu, kemungkinan kerugian insidental atau tidak disengaja) tetapi bukan risiko bisnis (yaitu, risiko yang dapat menimbulkan kemungkinan kerugian atau keuntungan).",
+    "claim-procces-header": "PROSES MANAJEMEN RISIKO",
+    "claim-procces-subheader": "Proses manajemen risiko kami terdiri dari dua komponen utama",
+    "claim-procces-card1-header": "Survei Risiko",
+    "claim-procces-card2-header": "Peningkatan Risiko",
+    "claim-procces-card1-explanation": "Kami dapat melakukan survei risiko sesuai dengan kebutuhan Anda, termasuk risiko yang tidak biasa dan kompleks. Tim kami dapat bekerja dan melakukan survei di mana pun risiko tersebut berada.",
+    "claim-procces-card2-explanation": "Salah satu prinsip manajemen risiko adalah perbaikan terus-menerus. Tentunya selain melakukan survei risiko, kami juga akan membantu Anda untuk mendapatkan rekomendasi terbaik dalam program perbaikan risiko yang akan dilaksanakan."
+  },
+  "academy": {
+    "banner-header": "AKADEMI",
+    "banner-subheader": "Kami memberikan pelatihan asuransi yang sesuai dengan kebutuhan Anda, baik yang diberikan langsung oleh Staff kami yang berpengalaman maupun bekerja sama dengan pihak ketiga. Kami menamakannya Asuransi untuk Staf Asuransi dan Asuransi untuk Staf Non-Asuransi.",
+    "card1-header": "Pelatihan Langsung ",
+    "card2-header": "Pelatihan Online",
+    "card1-explanation": "Training course offline dilakukan secara tatap muka di tempat yang telah ditentukan, biasanya dalam bentuk kelas atau seminar. Pelatihan ini memungkinkan peserta untuk berinteraksi langsung dengan instruktur dan peserta lainnya.",
+    "card2-explanation": "Pelatihan ini dilakukan melalui internet dan memungkinkan peserta mengikuti pelatihan dari mana saja dan kapan saja hanya selama terhubung dengan internet. Pelatihan online juga dapat dilakukan secara langsung atau sesuai permintaan.",
+    "webinar-explanation-header": "WEBINAR",
+    "webinar-explanation-subheader": "Acara webinar mendatang akan ditampilkan di sini",
+    "webinar-card1-title": "Asuransi Kesehatan",
+    "webinar-card2-title": "Asuransi Properti",
+    "webinar-card1-text": "Pelatihan asuransi kesehatan akan membantu Anda untuk lebih memahami tentang manfaat dan ketentuan asuransi kesehatan.",
+    "webinar-card2-text": "Pelatihan asuransi kesehatan akan membantu Anda untuk lebih memahami tentang manfaat dan ketentuan asuransi kesehatan.",
+    "webinar-card1-platform": "Tempat:",
+    "webinar-card2-platform": "Tempat:",
+    "webinar-card1-time": "Waktu:",
+    "webinar-card2-time": "Waktu:"
   }
 }

@@ -4,38 +4,62 @@
       <div class="flex flex-col items-center justify-center gap-12">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
           <button
-            class="flex justify-center items-center w-full h-full bg-red-100 border border-red-600 shadow-md rounded-full px-6 py-2 text-red-600 font-bold hover:bg-red-600 hover:text-white transition duration-300 ease-in-out"
-            @click="showDiv(1)"
+            class="flex justify-center items-center w-full h-full rounded px-6 py-2 font-bold hover:text-red-700 transition duration-300 ease-in-out text-gray-400"
+            :class="{
+              'bg-red-100 border border-red-600 text-red-600':
+                activeButton === 1,
+            }"
+            @click="setActiveButton(1)"
           >
             {{ $t("insurance.button1-header") }}
           </button>
           <button
-            class="flex justify-center items-center w-full h-full bg-red-100 border border-red-600 shadow-md rounded-full px-6 py-2 text-red-600 font-bold hover:bg-red-600 hover:text-white transition duration-300 ease-in-out"
-            @click="showDiv(2)"
+            class="flex justify-center items-center w-full h-full rounded px-6 py-2 font-bold hover:text-red-700 transition duration-300 ease-in-out text-gray-400"
+            :class="{
+              'bg-red-100 border border-red-600 text-red-600':
+                activeButton === 2,
+            }"
+            @click="setActiveButton(2)"
           >
             {{ $t("insurance.button2-header") }}
           </button>
           <button
-            class="flex justify-center items-center w-full h-full bg-red-100 border border-red-600 shadow-md rounded-full px-6 py-2 text-red-600 font-bold hover:bg-red-600 hover:text-white transition duration-300 ease-in-out"
-            @click="showDiv(3)"
+            class="flex justify-center items-center w-full h-full rounded px-6 py-2 font-bold hover:text-red-700 transition duration-300 ease-in-out text-gray-400"
+            :class="{
+              'bg-red-100 border border-red-600 text-red-600':
+                activeButton === 3,
+            }"
+            @click="setActiveButton(3)"
           >
             {{ $t("insurance.button3-header") }}
           </button>
           <button
-            class="flex justify-center items-center w-full h-full bg-red-100 border border-red-600 shadow-md rounded-full px-6 py-2 text-red-600 font-bold hover:bg-red-600 hover:text-white transition duration-300 ease-in-out"
-            @click="showDiv(4)"
+            class="flex justify-center items-center w-full h-full rounded px-6 py-2 font-bold hover:text-red-700 transition duration-300 ease-in-out text-gray-400"
+            :class="{
+              'bg-red-100 border border-red-600 text-red-600':
+                activeButton === 4,
+            }"
+            @click="setActiveButton(4)"
           >
             {{ $t("insurance.button4-header") }}
           </button>
           <button
-            class="md:col-span-2 flex justify-center items-center w-full h-full bg-red-100 border border-red-600 shadow-md rounded-full px-6 py-2 text-red-600 font-bold hover:bg-red-600 hover:text-white transition duration-300 ease-in-out"
-            @click="showDiv(5)"
+            class="md:col-start-2 flex justify-center items-center w-full h-full rounded px-6 py-2 font-bold hover:text-red-700 transition duration-300 ease-in-out text-gray-400"
+            :class="{
+              'bg-red-100 border border-red-600 text-red-600':
+                activeButton === 5,
+            }"
+            @click="setActiveButton(5)"
           >
             {{ $t("insurance.button5-header") }}
           </button>
           <button
-            class="md:col-span-2 flex justify-center items-center w-full h-full bg-red-100 border border-red-600 shadow-md rounded-full px-6 py-2 text-red-600 font-bold hover:bg-red-600 hover:text-white transition duration-300 ease-in-out"
-            @click="showDiv(6)"
+            class="md:col-start-3 flex justify-center items-center w-full h-full rounded px-6 py-2 font-bold hover:text-red-700 transition duration-300 ease-in-out text-gray-400"
+            :class="{
+              'bg-red-100 border border-red-600 text-red-600':
+                activeButton === 6,
+            }"
+            @click="setActiveButton(6)"
           >
             {{ $t("insurance.button6-header") }}
           </button>
@@ -49,16 +73,16 @@
               class="object-cover w-full h-48 md:h-full"
             />
           </div>
-          <div class="p-6 md:p-8">
+          <div class="p-6 md:p-7">
             <div class="flex flex-col gap-6 md:gap-8">
               <h3 class="text-2xl font-bold">
                 {{ $t("insurance.product-card1-header") }}
               </h3>
-              <h2 class="text-lg md:text-xl leading-relaxed md:leading-normal">
+              <h2 class="text-lg md:text-xl leading-normal">
                 {{ $t("insurance.product-card1-subheader") }}
               </h2>
               <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-4"
+                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-8"
               >
                 <li>
                   Public Liability / Comprehensive General Liability: Protects
@@ -99,7 +123,7 @@
               class="object-cover w-full h-48 md:h-full"
             />
           </div>
-          <div class="p-6 md:p-8">
+          <div class="p-6 md:p-7">
             <div class="flex flex-col gap-6 md:gap-8">
               <h3 class="text-2xl font-bold">
                 {{ $t("insurance.product-card2-header") }}
@@ -108,7 +132,7 @@
                 {{ $t("insurance.product-card2-subheader") }}
               </h2>
               <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-4"
+                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-8"
               >
                 <li>
                   Contractor’s All Risk is an insurance cover, which gives full
@@ -145,7 +169,7 @@
               class="object-cover w-full h-48 md:h-full"
             />
           </div>
-          <div class="p-6 md:p-8">
+          <div class="p-6 md:p-7">
             <div class="flex flex-col gap-6 md:gap-8">
               <h3 class="text-2xl font-bold">
                 {{ $t("insurance.product-card3-header") }}
@@ -154,7 +178,7 @@
                 {{ $t("insurance.product-card3-subheader") }}
               </h2>
               <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-4"
+                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-8"
               >
                 <li>
                   Contractor’s All Risk is an insurance cover, which gives full
@@ -191,7 +215,7 @@
               class="object-cover w-full h-48 md:h-full"
             />
           </div>
-          <div class="p-6 md:p-8">
+          <div class="p-6 md:p-7">
             <div class="flex flex-col gap-6 md:gap-8">
               <h3 class="text-2xl font-bold">
                 {{ $t("insurance.product-card4-header") }}
@@ -200,7 +224,7 @@
                 {{ $t("insurance.product-card4-subheader") }}
               </h2>
               <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-4"
+                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-8"
               >
                 <li>
                   Contractor’s All Risk is an insurance cover, which gives full
@@ -237,7 +261,7 @@
               class="object-cover w-full h-48 md:h-full"
             />
           </div>
-          <div class="p-6 md:p-8">
+          <div class="p-6 md:p-7">
             <div class="flex flex-col gap-6 md:gap-8">
               <h3 class="text-2xl font-bold">
                 {{ $t("insurance.product-card5-header") }}
@@ -246,7 +270,7 @@
                 {{ $t("insurance.product-card5-subheader") }}
               </h2>
               <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-4"
+                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-8"
               >
                 <li>
                   Contractor’s All Risk is an insurance cover, which gives full
@@ -283,7 +307,7 @@
               class="object-cover w-full h-48 md:h-full"
             />
           </div>
-          <div class="p-6 md:p-8">
+          <div class="p-6 md:p-7">
             <div class="flex flex-col gap-6 md:gap-8">
               <h3 class="text-2xl font-bold">
                 {{ $t("insurance.product-card6-header") }}
@@ -292,7 +316,7 @@
                 {{ $t("insurance.product-card6-subheader") }}
               </h2>
               <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-4"
+                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-8"
               >
                 <li>
                   Contractor’s All Risk is an insurance cover, which gives full
@@ -338,6 +362,7 @@ export default {
       showDiv4: false,
       showDiv5: false,
       showDiv6: false,
+      activeButton: 1,
     };
   },
   methods: {
@@ -348,6 +373,10 @@ export default {
       this.showDiv4 = num === 4;
       this.showDiv5 = num === 5;
       this.showDiv6 = num === 6;
+    },
+    setActiveButton(buttonIndex) {
+      this.activeButton = buttonIndex;
+      this.showDiv(buttonIndex);
     },
   },
 };
@@ -366,8 +395,8 @@ h2 {
   color: #3b3b3b;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0.5px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
 }
 h1 {
   font-style: normal;
@@ -382,5 +411,6 @@ p {
 }
 li {
   color: #3b3b3b;
+  letter-spacing: 0.1px;
 }
 </style>

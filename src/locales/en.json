@@ -156,5 +156,35 @@
     "claim-procces-card3-explanation": "During the third step of the claim process, our team will review and evaluate your claim to ensure that it is processed accurately. We understand that fair compensation is essential, and we will ensure that you receive the compensation you are entitled to according to the provisions of your policy.",
     "claim-procces-card4-explanation": "During the fourth step of the claim process, our team will adjust your claim to determine whether the losses experienced can be covered by the policy you have purchased. We will provide you with all the necessary information to help you understand your policy liability.",
     "claim-procces-card5-explanation": "The fifth and final step of the claim process involves finalizing your claim and providing you with compensation for the losses you have suffered. Our team will ensure that the settlement is made promptly and efficiently in accordance with the provisions of your policy."
+  },
+  "risk-management": {
+    "banner-header": "RISK MANAGEMENT",
+    "banner-subheader": "Assist our customers in identifying, evaluating, and managing the risks associated with their business, thereby reducing potential losses and increasing business success.",
+    "explanation-header": "What is risk management ?",
+    "explanation-text": "Ikonoa risk management is divided into 2 processes is the practice of identifying and analyzing loss exposures and taking steps to minimize the financial impact of the risks that will arise. traditional risk management, sometimes called 'insurance risk management', focuses on 'pure risk' (that is, the probability of loss incidental or accidental) but are not business risks (that is, risks that could give rise to the possibility loss or gain).",
+    "claim-procces-header": "RISK MANAGEMENT PROCESS",
+    "claim-procces-subheader": "Our risk management process consists of two key components",
+    "claim-procces-card1-header": "Risk Survey",
+    "claim-procces-card2-header": "Risk Improvement",
+    "claim-procces-card1-explanation": "We can carry out a risk survey according to your needs, including unusual and complex risks. Our team can work and conduct surveys wherever these risks are located.",
+    "claim-procces-card2-explanation": "One of the principles of risk management is continuous improvement. Of course apart from conducting a risk survey, we will also help you to get the best recommendations in the risk improvement program that will be implemented."
+  },
+  "academy": {
+    "banner-header": "ACADEMY",
+    "banner-subheader": "We provide insurance training that suits to your needs, either directly provided by our experienced Staff or in collaboration with third parties. We named it Insurance for Insurance Staff and Insurance for Non-Insurance Staff.",
+    "card1-header": "Offline Training",
+    "card2-header": "Online Training",
+    "card1-explanation": "Training course offline is carried out face to face at a predetermined place, usually in the form of a class or seminar. This training allows participants to interact directly with instructors and other participants.",
+    "card2-explanation": "This training is conducted via the internet and allows participants to attend training from anywhere and at any time only as long as connected to the internet. Online training can also be done live or on-demand.",
+    "webinar-explanation-header": "WEBINAR",
+    "webinar-explanation-subheader": "Upcoming webinar event will be showed here",
+    "webinar-card1-title": "Health Insurance",
+    "webinar-card2-title": "Property Insurance",
+    "webinar-card1-text": "Health insurance training will help you to understand better about the benefits and conditions of health insurance.",
+    "webinar-card2-text": "Health insurance training will help you to understand better about the benefits and conditions of health insurance.",
+    "webinar-card1-platform": "Platform:",
+    "webinar-card2-platform": "Platform:",
+    "webinar-card1-time": "Time:",
+    "webinar-card2-time": "Time:"
   }
 }
