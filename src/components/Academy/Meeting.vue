@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="container mx-auto px-4 py-14 md:px-8 lg:px-24">
-      <div class="flex flex-col gap-12">
+      <div class="flex flex-col gap-12 px-5 md:px-0">
         <div class="flex flex-col gap-4 md:gap-2 text-center">
           <h3 class="text-xl md:text-2xl lg:text-3xl">
             {{ $t("academy.webinar-explanation-header") }}
@@ -25,20 +25,20 @@
               </div>
 
               <div class="flex flex-col items-center gap-5">
-                <p class="text-lg lg:text-xl text-gray-600">
+                <p class="lg:text-xl text-gray-600">
                   {{ $t("academy.webinar-card1-text") }}
                 </p>
                 <hr />
                 <div class="w-full flex justify-between">
-                  <div class="text-lg lg:text-xl font-semibold">
+                  <div class="lg:text-xl font-semibold">
                     {{ $t("academy.webinar-card1-platform") }}
-                    <span class="text-lg lg:text-xl font-semibold text-red-600"
+                    <span class="lg:text-xl font-semibold text-red-600"
                       >Zoom</span
                     >
                   </div>
-                  <div class="text-lg lg:text-xl font-semibold">
+                  <div class="lg:text-xl font-semibold">
                     {{ $t("academy.webinar-card1-time") }}
-                    <span class="text-lg lg:text-xl font-semibold text-red-600"
+                    <span class="lg:text-xl font-semibold text-red-600"
                       >01/01/2023</span
                     >
                   </div>
@@ -58,16 +58,16 @@
               </div>
 
               <div class="flex flex-col items-center gap-5">
-                <p class="text-lg lg:text-xl text-gray-600">
+                <p class="lg:text-xl text-gray-600">
                   {{ $t("academy.webinar-card2-text") }}
                 </p>
                 <hr />
                 <div class="w-full flex justify-between">
-                  <div class="text-lg lg:text-xl font-semibold">
+                  <div class="lg:text-xl font-semibold">
                     {{ $t("academy.webinar-card2-platform") }}
                     <span class="text-red-600">Zoom</span>
                   </div>
-                  <div class="text-lg lg:text-xl font-semibold">
+                  <div class="lg:text-xl font-semibold">
                     {{ $t("academy.webinar-card2-time") }}
                     <span class="text-red-600">01/01/2023</span>
                   </div>
