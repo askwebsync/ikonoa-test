@@ -302,7 +302,7 @@
         <div v-if="showDiv6" class="bg-white shadow-lg overflow-hidden">
           <div class="relative">
             <img
-              src="/assets/img/LP_Insurance/automobile.png"
+              src="/assets/img/LP_Insurance/automobi.png"
               alt="auto-mobile"
               class="object-cover w-full h-48 md:h-full"
             />
