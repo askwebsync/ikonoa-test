@@ -118,7 +118,7 @@
         <div v-if="showDiv2" class="bg-white shadow-lg overflow-hidden">
           <div class="relative">
             <img
-              src="../../../public/assets/img/LP_Insurance/engineering.png"
+              src="/assets/img/LP_Insurance/engineer.png"
               alt="engineering"
               class="object-cover w-full h-48 md:h-full"
             />
