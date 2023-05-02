@@ -256,7 +256,7 @@
         <div v-if="showDiv5" class="bg-white shadow-lg overflow-hidden">
           <div class="relative">
             <img
-              src="/assets/img/LP_Insurance/property.png"
+              src="/assets/img/LP_Insurance/proper.png"
               alt="property"
               class="object-cover w-full h-48 md:h-full"
             />
