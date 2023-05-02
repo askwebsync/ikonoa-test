@@ -8,7 +8,7 @@
           <h3 class="text-xl md:text-2xl lg:text-3xl">
             {{ $t("home.service-header") }}
           </h3>
-          <h2 class="text-xl md:text-2xl lg:text-3xl">
+          <h2 class="text-xl md:text-2xl lg:text-3xl max-w-lg md:max-w-xs">
             {{ $t("home.service-subheader") }}
           </h2>
         </div>
