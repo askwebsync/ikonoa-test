@@ -82,34 +82,22 @@
                 {{ $t("insurance.product-card1-subheader") }}
               </h2>
               <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-8"
+                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
               >
                 <li>
-                  Public Liability / Comprehensive General Liability: Protects
-                  businesses from personal injuries, property damage, and legal
-                  expenses.
+                  {{ $t("insurance.product-card1-text1") }}
                 </li>
                 <li>
-                  Product Liability: Protects businesses from third-party claims
-                  of personal injuries, property damage, and legal expenses
-                  caused by products sold or supplied.
+                  {{ $t("insurance.product-card1-text2") }}
                 </li>
                 <li>
-                  Environmental Liability: Covers the cost of restoring damage
-                  from sudden accidental environmental accidents such as
-                  pollution, clean-up costs, third-party liability, and legal
-                  costs.
+                  {{ $t("insurance.product-card1-text3") }}
                 </li>
                 <li>
-                  Management Liability / Directors and Officers Liability:
-                  Protects management against financial loss from litigation for
-                  an alleged wrongful act, negligence, or omission as directors
-                  and officers.
+                  {{ $t("insurance.product-card1-text4") }}
                 </li>
                 <li>
-                  Professional Liability / Errors and Omissions: Protects
-                  insured against errors, omission, or negligence in relation to
-                  advice or services that have been provided.
+                  {{ $t("insurance.product-card1-text5") }}
                 </li>
               </ul>
             </div>
@@ -132,30 +120,19 @@
                 {{ $t("insurance.product-card2-subheader") }}
               </h2>
               <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-8"
+                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
               >
                 <li>
-                  Contractor’s All Risk is an insurance cover, which gives full
-                  protection against loss or damage that might be experienced by
-                  a construction project, including a claim from another party
-                  which experiences loss caused by the project.
+                  {{ $t("insurance.product-card2-text1") }}
                 </li>
                 <li>
-                  Erection All Risk is an insurance cover, which gives full
-                  protection against almost all losses and damages that might be
-                  happened during the installation of machinery, including a
-                  claim from another party which experiences loss caused by the
-                  installation activity.
+                  {{ $t("insurance.product-card2-text2") }}
                 </li>
                 <li>
-                  Machinery Breakdown is an insurance cover, which is full and
-                  effective for industry machinery, either when the machines are
-                  operating during treatment or when they are not.
+                  {{ $t("insurance.product-card2-text3") }}
                 </li>
                 <li>
-                  Electronic Equipment Insurance covers electronic equipment
-                  against loss or damage which might occur suddenly and
-                  unexpectedly.
+                  {{ $t("insurance.product-card2-text4") }}
                 </li>
               </ul>
             </div>
@@ -178,30 +155,13 @@
                 {{ $t("insurance.product-card3-subheader") }}
               </h2>
               <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-8"
+                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
               >
                 <li>
-                  Contractor’s All Risk is an insurance cover, which gives full
-                  protection against loss or damage that might be experienced by
-                  a construction project, including a claim from another party
-                  which experiences loss caused by the project.
+                  {{ $t("insurance.product-card3-text1") }}
                 </li>
                 <li>
-                  Erection All Risk is an insurance cover, which gives full
-                  protection against almost all losses and damages that might be
-                  happened during the installation of machinery, including a
-                  claim from another party which experiences loss caused by the
-                  installation activity.
-                </li>
-                <li>
-                  Machinery Breakdown is an insurance cover, which is full and
-                  effective for industry machinery, either when the machines are
-                  operating during treatment or when they are not.
-                </li>
-                <li>
-                  Electronic Equipment Insurance covers electronic equipment
-                  against loss or damage which might occur suddenly and
-                  unexpectedly.
+                  {{ $t("insurance.product-card3-text2") }}
                 </li>
               </ul>
             </div>
@@ -224,30 +184,16 @@
                 {{ $t("insurance.product-card4-subheader") }}
               </h2>
               <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-8"
+                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
               >
                 <li>
-                  Contractor’s All Risk is an insurance cover, which gives full
-                  protection against loss or damage that might be experienced by
-                  a construction project, including a claim from another party
-                  which experiences loss caused by the project.
+                  {{ $t("insurance.product-card4-text1") }}
                 </li>
                 <li>
-                  Erection All Risk is an insurance cover, which gives full
-                  protection against almost all losses and damages that might be
-                  happened during the installation of machinery, including a
-                  claim from another party which experiences loss caused by the
-                  installation activity.
+                  {{ $t("insurance.product-card4-text2") }}
                 </li>
                 <li>
-                  Machinery Breakdown is an insurance cover, which is full and
-                  effective for industry machinery, either when the machines are
-                  operating during treatment or when they are not.
-                </li>
-                <li>
-                  Electronic Equipment Insurance covers electronic equipment
-                  against loss or damage which might occur suddenly and
-                  unexpectedly.
+                  {{ $t("insurance.product-card4-text3") }}
                 </li>
               </ul>
             </div>
@@ -269,8 +215,8 @@
               <h2 class="text-lg md:text-xl leading-relaxed md:leading-normal">
                 {{ $t("insurance.product-card5-subheader") }}
               </h2>
-              <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-8"
+              <!-- <ul
+                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
               >
                 <li>
                   Contractor’s All Risk is an insurance cover, which gives full
@@ -295,7 +241,7 @@
                   against loss or damage which might occur suddenly and
                   unexpectedly.
                 </li>
-              </ul>
+              </ul> -->
             </div>
           </div>
         </div>
@@ -316,30 +262,13 @@
                 {{ $t("insurance.product-card6-subheader") }}
               </h2>
               <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-8"
+                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
               >
                 <li>
-                  Contractor’s All Risk is an insurance cover, which gives full
-                  protection against loss or damage that might be experienced by
-                  a construction project, including a claim from another party
-                  which experiences loss caused by the project.
+                  {{ $t("insurance.product-card6-text1") }}
                 </li>
                 <li>
-                  Erection All Risk is an insurance cover, which gives full
-                  protection against almost all losses and damages that might be
-                  happened during the installation of machinery, including a
-                  claim from another party which experiences loss caused by the
-                  installation activity.
-                </li>
-                <li>
-                  Machinery Breakdown is an insurance cover, which is full and
-                  effective for industry machinery, either when the machines are
-                  operating during treatment or when they are not.
-                </li>
-                <li>
-                  Electronic Equipment Insurance covers electronic equipment
-                  against loss or damage which might occur suddenly and
-                  unexpectedly.
+                  {{ $t("insurance.product-card6-text2") }}
                 </li>
               </ul>
             </div>
