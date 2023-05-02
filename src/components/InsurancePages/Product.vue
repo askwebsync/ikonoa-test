@@ -68,7 +68,7 @@
         <div v-if="showDiv1" class="bg-white shadow-lg overflow-hidden">
           <div class="relative">
             <img
-              src="/assets/img/LP_Insurance/Liability.png"
+              src="/assets/img/LP_Insurance/liability.png"
               alt="liability"
               class="object-cover w-full h-48 md:h-full"
             />
@@ -118,7 +118,7 @@
         <div v-if="showDiv2" class="bg-white shadow-lg overflow-hidden">
           <div class="relative">
             <img
-              src="/assets/img/LP_Insurance/Engineering.png"
+              src="/assets/img/LP_Insurance/engineering.png"
               alt="engineering"
               class="object-cover w-full h-48 md:h-full"
             />
@@ -164,7 +164,7 @@
         <div v-if="showDiv3" class="bg-white shadow-lg overflow-hidden">
           <div class="relative">
             <img
-              src="/assets/img/LP_Insurance/Health.png"
+              src="/assets/img/LP_Insurance/health.png"
               alt="health"
               class="object-cover w-full h-48 md:h-full"
             />
@@ -210,7 +210,7 @@
         <div v-if="showDiv4" class="bg-white shadow-lg overflow-hidden">
           <div class="relative">
             <img
-              src="/assets/img/LP_Insurance/Marine.png"
+              src="/assets/img/LP_Insurance/marine.png"
               alt="marine"
               class="object-cover w-full h-48 md:h-full"
             />
@@ -256,7 +256,7 @@
         <div v-if="showDiv5" class="bg-white shadow-lg overflow-hidden">
           <div class="relative">
             <img
-              src="/assets/img/LP_Insurance/Property.png"
+              src="/assets/img/LP_Insurance/property.png"
               alt="property"
               class="object-cover w-full h-48 md:h-full"
             />
@@ -302,7 +302,7 @@
         <div v-if="showDiv6" class="bg-white shadow-lg overflow-hidden">
           <div class="relative">
             <img
-              src="/assets/img/LP_Insurance/Automobile.png"
+              src="/assets/img/LP_Insurance/automobile.png"
               alt="auto-mobile"
               class="object-cover w-full h-48 md:h-full"
             />
