@@ -4,7 +4,7 @@
       class="relative overflow-hidden bg-no-repeat bg-cover"
       style="
         background-position: 50%;
-        background-image: url('/assets/img/LP_About/about.png');
+        background-image: url('/assets/img/LP_Claim/claim.png');
         height: 500px;
       "
     >
