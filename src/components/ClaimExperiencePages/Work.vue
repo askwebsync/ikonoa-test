@@ -2,7 +2,7 @@
   <section>
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div
-        class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-content-center px-4 md:px-0"
+        class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-content-center px-4"
       >
         <div class="overflow-hidden rounded-2xl background-product card">
           <div class="relative h-[200px]">
@@ -20,7 +20,7 @@
               >
             </div>
           </div>
-          <div class="p-6">
+          <div class="p-4">
             <div class="flex flex-col text-center">
               <h3 class="text-xl">
                 {{ $t("claim-experience.work-card-header") }}
@@ -47,7 +47,7 @@
               >
             </div>
           </div>
-          <div class="p-6">
+          <div class="p-4">
             <div class="flex flex-col text-center">
               <h3 class="text-xl">
                 {{ $t("claim-experience.work-card-header") }}
@@ -74,7 +74,7 @@
               >
             </div>
           </div>
-          <div class="p-6">
+          <div class="p-4">
             <div class="flex flex-col text-center">
               <h3 class="text-xl">
                 {{ $t("claim-experience.work-card-header") }}
@@ -101,7 +101,7 @@
               >
             </div>
           </div>
-          <div class="p-6">
+          <div class="p-4">
             <div class="flex flex-col text-center">
               <h3 class="text-xl">
                 {{ $t("claim-experience.work-card-header") }}
@@ -128,7 +128,7 @@
               >
             </div>
           </div>
-          <div class="p-6">
+          <div class="p-4">
             <div class="flex flex-col text-center">
               <h3 class="text-xl">
                 {{ $t("claim-experience.work-card-header") }}
@@ -155,7 +155,7 @@
               >
             </div>
           </div>
-          <div class="p-6">
+          <div class="p-4">
             <div class="flex flex-col text-center">
               <h3 class="text-xl">
                 {{ $t("claim-experience.work-card-header") }}
@@ -182,7 +182,7 @@
               >
             </div>
           </div>
-          <div class="p-6">
+          <div class="p-4">
             <div class="flex flex-col text-center">
               <h3 class="text-xl">
                 {{ $t("claim-experience.work-card-header") }}
@@ -209,7 +209,7 @@
               >
             </div>
           </div>
-          <div class="p-6">
+          <div class="p-4">
             <div class="flex flex-col text-center">
               <h3 class="text-xl">
                 {{ $t("claim-experience.work-card-header") }}
@@ -236,7 +236,7 @@
               >
             </div>
           </div>
-          <div class="p-6">
+          <div class="p-4">
             <div class="flex flex-col text-center">
               <h3 class="text-xl">
                 {{ $t("claim-experience.work-card-header") }}
@@ -263,7 +263,7 @@
               >
             </div>
           </div>
-          <div class="p-6">
+          <div class="p-4">
             <div class="flex flex-col text-center">
               <h3 class="text-xl">
                 {{ $t("claim-experience.work-card-header") }}
@@ -290,7 +290,7 @@
               >
             </div>
           </div>
-          <div class="p-6">
+          <div class="p-4">
             <div class="flex flex-col text-center">
               <h3 class="text-xl">
                 {{ $t("claim-experience.work-card-header") }}
@@ -317,7 +317,7 @@
               >
             </div>
           </div>
-          <div class="p-6">
+          <div class="p-4">
             <div class="flex flex-col text-center">
               <h3 class="text-xl">
                 {{ $t("claim-experience.work-card-header") }}
@@ -344,7 +344,7 @@
               >
             </div>
           </div>
-          <div class="p-6">
+          <div class="p-4">
             <div class="flex flex-col text-center">
               <h3 class="text-xl">
                 {{ $t("claim-experience.work-card-header") }}
@@ -371,7 +371,7 @@
               >
             </div>
           </div>
-          <div class="p-6">
+          <div class="p-4">
             <div class="flex flex-col text-center">
               <h3 class="text-xl">
                 {{ $t("claim-experience.work-card-header") }}
@@ -399,7 +399,7 @@ export default {
 
 <style scoped>
 .card {
-  height: 300px;
+  max-height: 300px;
   border-radius: 8px;
 }
 </style>
