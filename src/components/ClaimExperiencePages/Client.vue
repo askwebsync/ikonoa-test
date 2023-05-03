@@ -8,7 +8,7 @@
           </h3>
         </div>
         <div
-          class="grid grid-cols-2 gap-6 md:gap-3 md:grid-cols-3 lg:grid-cols-4"
+          class="grid grid-cols-2 gap-6 md:gap-3 md:grid-cols-3 lg:grid-cols-4 self-center"
         >
           <div class="flex justify-center items-center card">
             <img src="/assets/img/LP_Claim/CAREGUARD_INDO.png" alt="logo 1" />
@@ -101,8 +101,8 @@ img {
   object-fit: contain;
   box-shadow: none;
   background: none;
-  width: 80px;
-  height: 80px;
+  max-width: 80px;
+  max-height: 80px;
 }
 .card {
   width: 170px;
