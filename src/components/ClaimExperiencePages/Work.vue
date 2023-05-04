@@ -2,7 +2,7 @@
   <section>
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div
-        class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-content-center px-4"
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-content-center place-items-center gap-10"
       >
         <div class="overflow-hidden rounded-2xl background-product card">
           <div class="relative h-[200px]">
@@ -400,6 +400,7 @@ export default {
 <style scoped>
 .card {
   max-height: 300px;
+  max-width: 400px;
   border-radius: 8px;
 }
 </style>

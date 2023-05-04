@@ -5,7 +5,7 @@
       style="
         background-position: 50%;
         background-image: url('/assets/img/LP_Insurance/background.png');
-        height: 500px;
+        height: 460px;
       "
     >
       <div
@@ -16,7 +16,7 @@
           class="flex flex-col justify-center items-center h-full text-center gap-6 p-6"
         >
           <h1
-            class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl hover:text-red-600 max-w-5xl uppercase md:leading-snug"
+            class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl hover:text-red-600 md:max-w-3xl lg:max-w-4xl uppercase md:leading-snug"
           >
             {{ $t("insurance.banner-header") }}
           </h1>

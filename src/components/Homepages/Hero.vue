@@ -5,7 +5,7 @@
       style="
         background-position: 50%;
         background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp');
-        height: 500px;
+        height: 460px;
       "
     >
       <div
@@ -13,7 +13,7 @@
         style="background-color: rgba(0, 0, 0, 0.65)"
       >
         <div
-          class="flex flex-col justify-center items-center h-full text-center gap-6 p-6"
+          class="flex flex-col justify-center items-center h-full text-center gap-6 px-4"
         >
           <h1
             class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl hover:text-red-600 md:max-w-3xl lg:max-w-4xl uppercase md:leading-snug"
@@ -22,9 +22,7 @@
               $t("home.banner-header-span")
             }}</span>
           </h1>
-          <h4
-            class="text-lg max-w-xxs md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-5xl"
-          >
+          <h4 class="text-lg md:text-xl lg:text-3xl max-w-xl">
             {{ $t("home.banner-subheader") }}
           </h4>
         </div>
