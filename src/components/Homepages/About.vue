@@ -5,7 +5,7 @@
         <div class="flex md:self-start md:w-1/2">
           <img
             src="/assets/img/Home/about.webp"
-            style="max-height: 600px"
+            style="max-height: 600px; width: 600px"
             alt="about-us"
           />
         </div>

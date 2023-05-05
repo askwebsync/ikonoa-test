@@ -2,23 +2,19 @@
   <section>
     <div
       class="relative overflow-hidden bg-no-repeat bg-cover"
-      style="height: 380px"
+      style="height: 460px"
     >
       <div
-        class="flex flex-col justify-center items-center h-full text-center gap-10 p-12"
+        class="flex flex-col justify-center items-center h-full text-center gap-6 container mx-auto px-4 md:px-8 lg:px-24"
       >
         <h1
-          class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl hover:text-red-600 md:max-w-3xl lg:max-w-4xl uppercase md:leading-snug"
+          class="text-2xl sm:text-3xl lg:text-4xl xl:text-6xl hover:text-red-600 uppercase md:leading-snug"
         >
           {{ $t("academy.banner-header") }}
         </h1>
-        <div class="flex flex-col gap-4 items-center">
-          <hr />
-          <h4 class="text-lg max-w-xxs md:text-xl md:max-w-2xl lg:max-w-6xl">
-            {{ $t("academy.banner-subheader") }}
-          </h4>
-          <hr />
-        </div>
+        <h4 class="text-lg md:text-xl lg:text-2xl xl:text-3xl">
+          {{ $t("academy.banner-subheader") }}
+        </h4>
       </div>
     </div>
   </section>

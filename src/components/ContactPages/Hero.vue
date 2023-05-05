@@ -13,16 +13,14 @@
         style="background-color: rgba(0, 0, 0, 0.65)"
       >
         <div
-          class="flex flex-col justify-center items-center h-full text-center gap-6 p-6"
+          class="flex flex-col justify-center items-center h-full text-center gap-6 container mx-auto px-4 md:px-8 lg:px-24"
         >
           <h1
-            class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl hover:text-red-600 md:max-w-3xl lg:max-w-4xl uppercase md:leading-snug"
+            class="text-2xl sm:text-3xl lg:text-4xl xl:text-6xl hover:text-red-600 uppercase md:leading-snug"
           >
             {{ $t("contact.banner-header") }}
           </h1>
-          <h4
-            class="text-lg md:text-xl md:max-w-2xl lg:text-3xl lg:max-w-5xl max-w-screen-sm"
-          >
+          <h4 class="text-lg md:text-xl lg:text-2xl xl:text-3xl">
             {{ $t("contact.banner-subheader") }}
           </h4>
         </div>
