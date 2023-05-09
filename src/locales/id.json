@@ -74,12 +74,6 @@
     "academy-card1-text": "Kami menyediakan webinar online tentang asuransi untuk Petugas Asuransi dan Petugas Non-Asuransi. Webinar kami mencakup opsi kebijakan, proses klaim, dan strategi manajemen risiko. Instruktur ahli memimpin setiap sesi dan menjawab pertanyaan Anda.",
     "academy-card2-text": "Kami menawarkan pelatihan asuransi in-house yang disesuaikan untuk perusahaan, mengatasi tantangan dan peluang unik mereka. Instruktur ahli kami bekerja sama dengan Anda untuk mengembangkan program yang disesuaikan dengan topik yang relevan, seperti perubahan kebijakan dan manajemen risiko. Hubungi kami untuk mempelajari lebih lanjut tentang opsi pelatihan internal kami."
   },
-  "claim-experience": {
-    "banner-header": "PENGALAMAN KLAIM TIM KAMI",
-    "banner-header-span": "Membantu perusahaan dalam menentukan harga premi yang tepat dan mengelola risiko keuangan mereka.",
-    "work-card-header": "Klaim Dibayar",
-    "client-header": "Klien Kami"
-  },
   "about": {
     "banner-header": "TENTANG IKONOA",
     "banner-subheader": "Kami menyediakan layanan dan solusi yang membantu Anda",
@@ -91,6 +85,12 @@
     "misi-text3": "Memperluas pangsa pasar asuransi dan premi",
     "misi-text4": "Mendidik nasabah melalui literasi asuransi untuk meningkatkan pengetahuan dan kepercayaan",
     "misi-text5": "Memberikan layanan asuransi kepada stack-holder melalui pengembangan sumber daya manusia dan solusi digital"
+  },
+  "claim-experience": {
+    "banner-header": "PENGALAMAN KLAIM TIM KAMI",
+    "banner-header-span": "Membantu perusahaan dalam menentukan harga premi yang tepat dan mengelola risiko keuangan mereka.",
+    "work-card-header": "Klaim Dibayar",
+    "client-header": "Klien Kami"
   },
   "insurance": {
     "banner-header": "POLIS ASURANSI",
