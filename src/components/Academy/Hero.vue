@@ -41,7 +41,6 @@ h1 {
 }
 hr {
   width: 150px;
-  height: 0px;
   border: 1px solid #787878;
 }
 </style>
