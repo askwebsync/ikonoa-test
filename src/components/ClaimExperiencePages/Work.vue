@@ -330,7 +330,7 @@
         <div class="overflow-hidden rounded-2xl background-product card">
           <div class="relative h-[200px]">
             <img
-              src="/assets/img/LP_Claim/Experience/erection-2010.jpg"
+              src="/assets/img/LP_Claim/Experience/erection2010.jpg"
               alt="erection all-risk"
               class="object-cover w-full h-full"
             />
