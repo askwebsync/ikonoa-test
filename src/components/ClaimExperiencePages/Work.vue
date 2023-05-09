@@ -357,7 +357,7 @@
         <div class="overflow-hidden rounded-2xl background-product card">
           <div class="relative h-[200px]">
             <img
-              src="/assets/img/LP_Claim/Experience/fire-2010.jpg"
+              src="/assets/img/LP_Claim/Experience/fire2010.jpg"
               alt="fire insurance"
               class="object-cover w-full h-full"
             />
