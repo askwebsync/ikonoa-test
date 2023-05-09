@@ -84,10 +84,10 @@
             </div>
           </div>
         </div>
-        <!-- <div class="overflow-hidden rounded-2xl background-product card">
+        <div class="overflow-hidden rounded-2xl background-product card">
           <div class="relative h-[200px]">
             <img
-              src="/assets/img/LP_Claim/Experience/propertyaja.jpg"
+              src="/assets/img/LP_Claim/Experience/propertyaja.JPG"
               alt="mining"
               class="object-cover w-full h-full"
             />
@@ -110,7 +110,7 @@
               </h2>
             </div>
           </div>
-        </div> -->
+        </div>
         <div class="overflow-hidden rounded-2xl background-product card">
           <div class="relative h-[200px]">
             <img
@@ -195,7 +195,7 @@
         <div class="overflow-hidden rounded-2xl background-product card">
           <div class="relative h-[200px]">
             <img
-              src="/assets/img/LP_Claim/Experience/machinery.jpg"
+              src="/assets/img/LP_Claim/Experience/machinery-2016.JPG"
               alt="machinery insurance"
               class="object-cover w-full h-full"
             />
