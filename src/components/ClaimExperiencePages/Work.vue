@@ -87,7 +87,7 @@
         <div class="overflow-hidden rounded-2xl background-product card">
           <div class="relative h-[200px]">
             <img
-              src="/assets/img/LP_Claim/Experience/mining_2020.jpg"
+              src="/assets/img/LP_Claim/Experience/mining.jpg"
               alt="mining"
               class="object-cover w-full h-full"
             />
