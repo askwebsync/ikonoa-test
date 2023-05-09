@@ -195,7 +195,7 @@
         <div class="overflow-hidden rounded-2xl background-product card">
           <div class="relative h-[200px]">
             <img
-              src="/assets/img/LP_Claim/Experience/machinery-2016.jpg"
+              src="/assets/img/LP_Claim/Experience/machinery.jpg"
               alt="machinery insurance"
               class="object-cover w-full h-full"
             />
