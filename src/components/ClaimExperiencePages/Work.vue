@@ -7,8 +7,8 @@
         <div class="overflow-hidden rounded-2xl background-product card">
           <div class="relative h-[200px]">
             <img
-              src="https://thumbnails.production.thenounproject.com/c4UZhX8RJFowtAoq8OZlUjIFmBg=/fit-in/1000x1000/photos.production.thenounproject.com/photos/D0EE41F3-3CB3-4F1E-B6E5-4CCE5B1DCB17.jpg"
-              alt="Hamburger"
+              src="/assets/img/LP_Claim/Experience/straded-2021.jpg"
+              alt="Ship Stranded"
               class="object-cover w-full h-full"
             />
             <div
@@ -85,7 +85,7 @@
         <div class="overflow-hidden rounded-2xl background-product card">
           <div class="relative h-[200px]">
             <img
-              src="/assets/img/LP_Claim/Experience/property-2020.jpg"
+              src="/assets/img/LP_Claim/Experience/property-2020.jpeg"
               alt="mining"
               class="object-cover w-full h-full"
             />
@@ -189,7 +189,7 @@
         <div class="overflow-hidden rounded-2xl background-product card">
           <div class="relative h-[200px]">
             <img
-              src="/assets/img/LP_Claim/Experience/machinery.jpg"
+              src="/assets/img/LP_Claim/Experience/machinery.jpeg"
               alt="machinery insurance"
               class="object-cover w-full h-full"
             />
@@ -404,7 +404,37 @@ export default {
   name: "Work",
   components: {},
   data() {
-    return {};
+    return {
+      imageUrls: [
+        "assets/img/LP_Claim/Experience/image1.jpg",
+        "assets/img/LP_Claim/Experience/image2.jpg",
+        "assets/img/LP_Claim/Experience/image3.jpg",
+        "assets/img/LP_Claim/Experience/image4.jpg",
+        "assets/img/LP_Claim/Experience/image5.jpg",
+        "assets/img/LP_Claim/Experience/image6.jpg",
+        "assets/img/LP_Claim/Experience/image7.jpg",
+        "assets/img/LP_Claim/Experience/image8.jpg",
+        "assets/img/LP_Claim/Experience/image9.jpg",
+        "assets/img/LP_Claim/Experience/image10.jpg",
+        "assets/img/LP_Claim/Experience/image11.jpg",
+        "assets/img/LP_Claim/Experience/image12.jpg",
+        "assets/img/LP_Claim/Experience/image13.jpg",
+        "assets/img/LP_Claim/Experience/image14.jpg",
+        "assets/img/LP_Claim/Experience/image15.jpg",
+      ],
+    };
+  },
+  mounted() {
+    this.preloadImages();
+  },
+  methods: {
+    preloadImages() {
+      const images = this.imageUrls;
+      images.forEach((image) => {
+        const img = new Image();
+        img.src = image;
+      });
+    },
   },
 };
 </script>
