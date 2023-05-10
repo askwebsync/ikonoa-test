@@ -23,7 +23,9 @@
           <div class="p-3">
             <div class="flex flex-col text-center">
               <h2 class="text-lg text-black mb-3">2021</h2>
-              <h2 class="text-lg text-gray-700">Ship Stranded</h2>
+              <h2 class="text-lg text-gray-700">
+                {{ $t("claim-experience.card1-header") }}
+              </h2>
               <h3 class="text-lg">IDR 783,097,815.00</h3>
             </div>
           </div>
@@ -47,7 +49,9 @@
           <div class="p-3">
             <div class="flex flex-col text-center">
               <h2 class="text-lg text-black mb-3">2020</h2>
-              <h2 class="text-lg text-gray-700">LPG Manufacture</h2>
+              <h2 class="text-lg text-gray-700">
+                {{ $t("claim-experience.card2-header") }}
+              </h2>
               <h3 class="text-lg">USD 350,000.00</h3>
             </div>
           </div>
@@ -71,7 +75,9 @@
           <div class="p-3">
             <div class="flex flex-col text-center">
               <h2 class="text-lg text-black mb-3">2020</h2>
-              <h2 class="text-lg text-gray-700">Floor Uplift</h2>
+              <h2 class="text-lg text-gray-700">
+                {{ $t("claim-experience.card3-header") }}
+              </h2>
               <h3 class="text-lg">IDR 5,192,801,630.00</h3>
             </div>
           </div>
@@ -95,7 +101,9 @@
           <div class="p-3">
             <div class="flex flex-col text-center">
               <h2 class="text-lg text-black mb-3">2020</h2>
-              <h2 class="text-lg text-gray-700">Mining</h2>
+              <h2 class="text-lg text-gray-700">
+                {{ $t("claim-experience.card4-header") }}
+              </h2>
               <h3 class="text-lg">USD 140,000,000.00</h3>
             </div>
           </div>
@@ -119,7 +127,9 @@
           <div class="p-3">
             <div class="flex flex-col text-center">
               <h2 class="text-lg text-black mb-3">2019</h2>
-              <h2 class="text-lg text-gray-700">Mining</h2>
+              <h2 class="text-lg text-gray-700">
+                {{ $t("claim-experience.card5-header") }}
+              </h2>
               <h3 class="text-lg">USD 164,046,65</h3>
             </div>
           </div>
@@ -143,7 +153,9 @@
           <div class="p-3">
             <div class="flex flex-col text-center">
               <h2 class="text-lg text-black mb-3">2018</h2>
-              <h2 class="text-lg text-gray-700">Floor Uplift</h2>
+              <h2 class="text-lg text-gray-700">
+                {{ $t("claim-experience.card6-header") }}
+              </h2>
               <h3 class="text-lg">IDR 4,872,500,000.00</h3>
             </div>
           </div>
@@ -167,7 +179,9 @@
           <div class="p-3">
             <div class="flex flex-col text-center">
               <h2 class="text-lg text-black mb-3">2017</h2>
-              <h2 class="text-lg text-gray-700">Floating Object</h2>
+              <h2 class="text-lg text-gray-700">
+                {{ $t("claim-experience.card7-header") }}
+              </h2>
               <h3 class="text-lg">IDR 17,250,000,000.00</h3>
             </div>
           </div>
@@ -191,7 +205,9 @@
           <div class="p-3">
             <div class="flex flex-col text-center">
               <h2 class="text-lg text-black mb-3">2016</h2>
-              <h2 class="text-lg text-gray-700">Hydro Power Plant</h2>
+              <h2 class="text-lg text-gray-700">
+                {{ $t("claim-experience.card8-header") }}
+              </h2>
               <h3 class="text-lg">USD 2,400,000.00</h3>
             </div>
           </div>
@@ -215,7 +231,9 @@
           <div class="p-3">
             <div class="flex flex-col text-center">
               <h2 class="text-lg text-black mb-3">2014</h2>
-              <h2 class="text-lg text-gray-700">Luggage Warehouse</h2>
+              <h2 class="text-lg text-gray-700">
+                {{ $t("claim-experience.card9-header") }}
+              </h2>
               <h3 class="text-lg">IDR 4,302,853,704.00</h3>
             </div>
           </div>
@@ -239,7 +257,9 @@
           <div class="p-3">
             <div class="flex flex-col text-center">
               <h2 class="text-lg text-black mb-3">2014</h2>
-              <h2 class="text-lg text-gray-700">Cassava Manufacture</h2>
+              <h2 class="text-lg text-gray-700">
+                {{ $t("claim-experience.card10-header") }}
+              </h2>
               <h3 class="text-lg">IDR 9,145,909,004.00</h3>
             </div>
           </div>
@@ -263,7 +283,9 @@
           <div class="p-3">
             <div class="flex flex-col text-center">
               <h2 class="text-lg text-black mb-3">2011</h2>
-              <h2 class="text-lg text-gray-700">Blockboard & Woodworking</h2>
+              <h2 class="text-lg text-gray-700">
+                {{ $t("claim-experience.card11-header") }}
+              </h2>
               <h3 class="text-lg">USD 941,835.63</h3>
             </div>
           </div>
@@ -287,7 +309,9 @@
           <div class="p-3">
             <div class="flex flex-col text-center">
               <h2 class="text-lg text-black mb-3">2010</h2>
-              <h2 class="text-lg text-gray-700">Sandal Manufacture</h2>
+              <h2 class="text-lg text-gray-700">
+                {{ $t("claim-experience.card12-header") }}
+              </h2>
               <h3 class="text-lg">USD 8,063,353.40</h3>
             </div>
           </div>
@@ -311,7 +335,9 @@
           <div class="p-3">
             <div class="flex flex-col text-center">
               <h2 class="text-lg text-black mb-3">2010</h2>
-              <h2 class="text-lg text-gray-700">Ethanol Manufacture</h2>
+              <h2 class="text-lg text-gray-700">
+                {{ $t("claim-experience.card13-header") }}
+              </h2>
               <h3 class="text-lg">IDR 2,882,294,055.00</h3>
             </div>
           </div>
@@ -335,7 +361,9 @@
           <div class="p-3">
             <div class="flex flex-col text-center">
               <h2 class="text-lg text-black mb-3">2010</h2>
-              <h2 class="text-lg text-gray-700">Palm Oil Plantation</h2>
+              <h2 class="text-lg text-gray-700">
+                {{ $t("claim-experience.card14-header") }}
+              </h2>
               <h3 class="text-lg">IDR 2,048,241,305.00</h3>
             </div>
           </div>
@@ -359,7 +387,9 @@
           <div class="p-3">
             <div class="flex flex-col text-center">
               <h2 class="text-lg text-black mb-3">2009</h2>
-              <h2 class="text-lg text-gray-700">LPG Manufacture</h2>
+              <h2 class="text-lg text-gray-700">
+                {{ $t("claim-experience.card15-header") }}
+              </h2>
               <h3 class="text-lg">USD 985,812.45</h3>
             </div>
           </div>

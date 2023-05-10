@@ -89,7 +89,21 @@
   "claim-experience": {
     "banner-header": "OUR TEAMS CLAIM EXPERIENCE",
     "banner-header-span": "Assists companies in determining the right premium price and managing their financial risk.",
-    "work-card-header": "Claim Paid",
+    "card1-header": "Ship Stranded",
+    "card2-header": "LPG Manufacture",
+    "card3-header": "Floor Uplift",
+    "card4-header": "Mining",
+    "card5-header": "Lombok Earthquake",
+    "card6-header": "Floor Uplift",
+    "card7-header": "Floating Object",
+    "card8-header": "Hydro Power Plant",
+    "card9-header": "Luggage Warehouse",
+    "card10-header": "Cassava Manufacture",
+    "card11-header": "Blockboard & Woodworking",
+    "card12-header": "Sandal Manufacture",
+    "card13-header": "Ethanol Manufacture",
+    "card14-header": "Palm Oil Plantation",
+    "card15-header": "LPG Manufacture",
     "client-header": "Our Client"
   },
   "insurance": {

@@ -89,7 +89,21 @@
   "claim-experience": {
     "banner-header": "PENGALAMAN KLAIM TIM KAMI",
     "banner-header-span": "Membantu perusahaan dalam menentukan harga premi yang tepat dan mengelola risiko keuangan mereka.",
-    "work-card-header": "Klaim Dibayar",
+    "card1-header": "Kapal Terdampar",
+    "card2-header": "Pembuatan LPG",
+    "card3-header": "Pengangkatan Lantai",
+    "card4-header": "Tambang",
+    "card5-header": "Gempa Lombok",
+    "card6-header": "Pengangkatan Lantai",
+    "card7-header": "Objek Mengambang",
+    "card8-header": "Pembangkit Listrik Tenaga Air",
+    "card9-header": "Gudang Bagasi",
+    "card10-header": "Pembuatan Singkong",
+    "card11-header": "Blockboar d & Pengerjaan Kayu",
+    "card12-header": "Pembuatan Sandal",
+    "card13-header": "Pembuatan Etanol",
+    "card14-header": "Perkebunan Kelapa Sawit",
+    "card15-header": "Pembuatan LPG",
     "client-header": "Klien Kami"
   },
   "insurance": {
