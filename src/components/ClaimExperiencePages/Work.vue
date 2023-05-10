@@ -22,16 +22,14 @@
           </div>
           <div class="p-3">
             <div class="flex flex-col text-center">
-              <h2 class="text-lg text-black">2021</h2>
-              <h2 class="text-lg text-gray-700">Stranded</h2>
-              <h2 class="text-lg font-semibold text-gray-800">
-                IDR 783,097,815.00
-              </h2>
+              <h2 class="text-lg text-black mb-2">2021</h2>
+              <h2 class="text-lg text-gray-700">Ship Stranded</h2>
+              <h3 class="text-lg">IDR 783,097,815.00</h3>
             </div>
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
+          <div class="relative h-[180px]">
             <img
               src="/assets/img/LP_Claim/Experience/inland-transit.jpg"
               alt="inlandtransit"
@@ -46,19 +44,16 @@
               >
             </div>
           </div>
-          <div class="p-4">
+          <div class="p-3">
             <div class="flex flex-col text-center">
-              <h3 class="text-lg">
-                {{ $t("claim-experience.work-card-header") }}
-              </h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                USD 350,000.00
-              </h2>
+              <h2 class="text-lg text-black mb-2">2020</h2>
+              <h2 class="text-lg text-gray-700">LPG Manufacture</h2>
+              <h3 class="text-lg">USD 350,000.00</h3>
             </div>
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
+          <div class="relative h-[180px]">
             <img
               src="/assets/img/LP_Claim/Experience/flooruplift-2020.jpg"
               alt="flooruplift"
@@ -73,19 +68,16 @@
               >
             </div>
           </div>
-          <div class="p-4">
+          <div class="p-3">
             <div class="flex flex-col text-center">
-              <h3 class="text-lg">
-                {{ $t("claim-experience.work-card-header") }}
-              </h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                IDR 5,192,801,630.00
-              </h2>
+              <h2 class="text-lg text-black mb-2">2020</h2>
+              <h2 class="text-lg text-gray-700">Floor Uplift</h2>
+              <h3 class="text-lg">IDR 5,192,801,630.00</h3>
             </div>
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
+          <div class="relative h-[180px]">
             <img
               src="/assets/img/LP_Claim/Experience/property-2020.jpg"
               alt="mining"
@@ -100,19 +92,16 @@
               >
             </div>
           </div>
-          <div class="p-4">
+          <div class="p-3">
             <div class="flex flex-col text-center">
-              <h3 class="text-lg">
-                {{ $t("claim-experience.work-card-header") }}
-              </h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                USD 140,000,000.00
-              </h2>
+              <h2 class="text-lg text-black mb-2">2020</h2>
+              <h2 class="text-lg text-gray-700">Mining</h2>
+              <h3 class="text-lg">USD 140,000,000.00</h3>
             </div>
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
+          <div class="relative h-[180px]">
             <img
               src="/assets/img/LP_Claim/Experience/earthquake-2019.jpg"
               alt="earthquake"
@@ -127,19 +116,16 @@
               </span>
             </div>
           </div>
-          <div class="p-4">
+          <div class="p-3">
             <div class="flex flex-col text-center">
-              <h3 class="text-lg">
-                {{ $t("claim-experience.work-card-header") }}
-              </h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                USD 164,046,65
-              </h2>
+              <h2 class="text-lg text-black mb-2">2019</h2>
+              <h2 class="text-lg text-gray-700">Mining</h2>
+              <h3 class="text-lg">USD 164,046,65</h3>
             </div>
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
+          <div class="relative h-[180px]">
             <img
               src="/assets/img/LP_Claim/Experience/flooruplift-2018.jpg"
               alt="flooruplift"
@@ -154,19 +140,16 @@
               >
             </div>
           </div>
-          <div class="p-4">
+          <div class="p-3">
             <div class="flex flex-col text-center">
-              <h3 class="text-lg">
-                {{ $t("claim-experience.work-card-header") }}
-              </h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                IDR 4,872,500,000.00
-              </h2>
+              <h2 class="text-lg text-black mb-2">2018</h2>
+              <h2 class="text-lg text-gray-700">Floor Uplift</h2>
+              <h3 class="text-lg">IDR 4,872,500,000.00</h3>
             </div>
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
+          <div class="relative h-[180px]">
             <img
               src="/assets/img/LP_Claim/Experience/indemnity-2017.jpg"
               alt="protection indemnity"
@@ -181,19 +164,16 @@
               >
             </div>
           </div>
-          <div class="p-4">
+          <div class="p-3">
             <div class="flex flex-col text-center">
-              <h3 class="text-lg">
-                {{ $t("claim-experience.work-card-header") }}
-              </h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                IDR 17,250,000,000.00
-              </h2>
+              <h2 class="text-lg text-black mb-2">2017</h2>
+              <h2 class="text-lg text-gray-700">Floating Object</h2>
+              <h3 class="text-lg">IDR 17,250,000,000.00</h3>
             </div>
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
+          <div class="relative h-[180px]">
             <img
               src="/assets/img/LP_Claim/Experience/machinery.jpg"
               alt="machinery insurance"
@@ -208,19 +188,16 @@
               >
             </div>
           </div>
-          <div class="p-4">
+          <div class="p-3">
             <div class="flex flex-col text-center">
-              <h3 class="text-lg">
-                {{ $t("claim-experience.work-card-header") }}
-              </h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                USD 2,400,000.00
-              </h2>
+              <h2 class="text-lg text-black mb-2">2016</h2>
+              <h2 class="text-lg text-gray-700">Hydro Power Plant</h2>
+              <h3 class="text-lg">USD 2,400,000.00</h3>
             </div>
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
+          <div class="relative h-[180px]">
             <img
               src="/assets/img/LP_Claim/Experience/property-2014.jpeg"
               alt="property all-risk"
@@ -235,19 +212,16 @@
               >
             </div>
           </div>
-          <div class="p-4">
+          <div class="p-3">
             <div class="flex flex-col text-center">
-              <h3 class="text-lg">
-                {{ $t("claim-experience.work-card-header") }}
-              </h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                IDR 4,302,853,704.00
-              </h2>
+              <h2 class="text-lg text-black mb-2">2014</h2>
+              <h2 class="text-lg text-gray-700">Luggage Warehouse</h2>
+              <h3 class="text-lg">IDR 4,302,853,704.00</h3>
             </div>
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
+          <div class="relative h-[180px]">
             <img
               src="/assets/img/LP_Claim/Experience/property-casava-2014.jpeg"
               alt="property all-risk"
@@ -262,19 +236,16 @@
               >
             </div>
           </div>
-          <div class="p-4">
+          <div class="p-3">
             <div class="flex flex-col text-center">
-              <h3 class="text-lg">
-                {{ $t("claim-experience.work-card-header") }}
-              </h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                IDR 9,145,909,004.00
-              </h2>
+              <h2 class="text-lg text-black mb-2">2014</h2>
+              <h2 class="text-lg text-gray-700">Cassava Manufacture</h2>
+              <h3 class="text-lg">IDR 9,145,909,004.00</h3>
             </div>
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
+          <div class="relative h-[180px]">
             <img
               src="/assets/img/LP_Claim/Experience/fire.jpg"
               alt="fire insurance"
@@ -289,19 +260,16 @@
               >
             </div>
           </div>
-          <div class="p-4">
+          <div class="p-3">
             <div class="flex flex-col text-center">
-              <h3 class="text-lg">
-                {{ $t("claim-experience.work-card-header") }}
-              </h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                USD 941,835.63
-              </h2>
+              <h2 class="text-lg text-black mb-2">2011</h2>
+              <h2 class="text-lg text-gray-700">Blockboard & Woodworking</h2>
+              <h3 class="text-lg">USD 941,835.63</h3>
             </div>
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
+          <div class="relative h-[180px]">
             <img
               src="/assets/img/LP_Claim/Experience/property2010.jpg"
               alt="property all-risk"
@@ -316,19 +284,16 @@
               >
             </div>
           </div>
-          <div class="p-4">
+          <div class="p-3">
             <div class="flex flex-col text-center">
-              <h3 class="text-lg">
-                {{ $t("claim-experience.work-card-header") }}
-              </h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                USD 8,063,353.40
-              </h2>
+              <h2 class="text-lg text-black mb-2">2010</h2>
+              <h2 class="text-lg text-gray-700">Sandal Manufacture</h2>
+              <h3 class="text-lg">USD 8,063,353.40</h3>
             </div>
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
+          <div class="relative h-[180px]">
             <img
               src="/assets/img/LP_Claim/Experience/erection2010.jpg"
               alt="erection all-risk"
@@ -343,21 +308,18 @@
               >
             </div>
           </div>
-          <div class="p-4">
+          <div class="p-3">
             <div class="flex flex-col text-center">
-              <h3 class="text-lg">
-                {{ $t("claim-experience.work-card-header") }}
-              </h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                IDR 2,882,294,055.00
-              </h2>
+              <h2 class="text-lg text-black mb-2">2010</h2>
+              <h2 class="text-lg text-gray-700">Ethanol Manufacture</h2>
+              <h3 class="text-lg">IDR 2,882,294,055.00</h3>
             </div>
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
+          <div class="relative h-[180px]">
             <img
-              src="/assets/img/LP_Claim/Experience/fire2010.jpg"
+              src="/assets/img/LP_Claim/Experience/fire-2010.jpg"
               alt="fire insurance"
               class="object-cover w-full h-full"
             />
@@ -370,19 +332,16 @@
               >
             </div>
           </div>
-          <div class="p-4">
+          <div class="p-3">
             <div class="flex flex-col text-center">
-              <h3 class="text-lg">
-                {{ $t("claim-experience.work-card-header") }}
-              </h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                IDR 2,048,241,305.00
-              </h2>
+              <h2 class="text-lg text-black mb-2">2010</h2>
+              <h2 class="text-lg text-gray-700">Palm Oil Plantation</h2>
+              <h3 class="text-lg">IDR 2,048,241,305.00</h3>
             </div>
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
+          <div class="relative h-[180px]">
             <img
               src="/assets/img/LP_Claim/Experience/property-2009.jfif"
               alt="property all-risk"
@@ -397,14 +356,11 @@
               >
             </div>
           </div>
-          <div class="p-4">
+          <div class="p-3">
             <div class="flex flex-col text-center">
-              <h3 class="text-lg">
-                {{ $t("claim-experience.work-card-header") }}
-              </h3>
-              <h2 class="mt-1 text-lg font-semibold text-gray-800">
-                USD 985,812.45
-              </h2>
+              <h2 class="text-lg text-black mb-2">2009</h2>
+              <h2 class="text-lg text-gray-700">LPG Manufacture</h2>
+              <h3 class="text-lg">USD 985,812.45</h3>
             </div>
           </div>
         </div>
@@ -426,7 +382,7 @@ export default {
 <style scoped>
 .card {
   max-height: 300px;
-  width: 300px;
+  width: 310px;
   border-radius: 8px;
 }
 </style>
