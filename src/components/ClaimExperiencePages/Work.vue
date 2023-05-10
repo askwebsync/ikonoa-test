@@ -5,7 +5,7 @@
         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-content-center place-items-center gap-10"
       >
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[180px]">
+          <div class="relative h-[200px]">
             <img
               src="https://thumbnails.production.thenounproject.com/c4UZhX8RJFowtAoq8OZlUjIFmBg=/fit-in/1000x1000/photos.production.thenounproject.com/photos/D0EE41F3-3CB3-4F1E-B6E5-4CCE5B1DCB17.jpg"
               alt="Hamburger"
@@ -31,7 +31,7 @@
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[180px]">
+          <div class="relative h-[200px]">
             <img
               src="/assets/img/LP_Claim/Experience/inland-transit.jpg"
               alt="inlandtransit"
@@ -57,7 +57,7 @@
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[180px]">
+          <div class="relative h-[200px]">
             <img
               src="/assets/img/LP_Claim/Experience/flooruplift-2020.jpg"
               alt="flooruplift"
@@ -83,7 +83,7 @@
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[180px]">
+          <div class="relative h-[200px]">
             <img
               src="/assets/img/LP_Claim/Experience/property-2020.jpg"
               alt="mining"
@@ -109,7 +109,7 @@
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[180px]">
+          <div class="relative h-[200px]">
             <img
               src="/assets/img/LP_Claim/Experience/earthquake-2019.jpg"
               alt="earthquake"
@@ -135,7 +135,7 @@
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[180px]">
+          <div class="relative h-[200px]">
             <img
               src="/assets/img/LP_Claim/Experience/flooruplift-2018.jpg"
               alt="flooruplift"
@@ -161,7 +161,7 @@
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[180px]">
+          <div class="relative h-[200px]">
             <img
               src="/assets/img/LP_Claim/Experience/indemnity-2017.jpg"
               alt="protection indemnity"
@@ -187,7 +187,7 @@
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[180px]">
+          <div class="relative h-[200px]">
             <img
               src="/assets/img/LP_Claim/Experience/machinery.jpg"
               alt="machinery insurance"
@@ -213,7 +213,7 @@
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[180px]">
+          <div class="relative h-[200px]">
             <img
               src="/assets/img/LP_Claim/Experience/property-2014.jpeg"
               alt="property all-risk"
@@ -239,7 +239,7 @@
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[180px]">
+          <div class="relative h-[200px]">
             <img
               src="/assets/img/LP_Claim/Experience/property-casava-2014.jpeg"
               alt="property all-risk"
@@ -265,7 +265,7 @@
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[180px]">
+          <div class="relative h-[200px]">
             <img
               src="/assets/img/LP_Claim/Experience/fire.jpg"
               alt="fire insurance"
@@ -291,7 +291,7 @@
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[180px]">
+          <div class="relative h-[200px]">
             <img
               src="/assets/img/LP_Claim/Experience/property2010.jpg"
               alt="property all-risk"
@@ -317,7 +317,7 @@
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[180px]">
+          <div class="relative h-[200px]">
             <img
               src="/assets/img/LP_Claim/Experience/erection2010.jpg"
               alt="erection all-risk"
@@ -343,7 +343,7 @@
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[180px]">
+          <div class="relative h-[200px]">
             <img
               src="/assets/img/LP_Claim/Experience/fire-2010.jpg"
               alt="fire insurance"
@@ -369,7 +369,7 @@
           </div>
         </div>
         <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[180px]">
+          <div class="relative h-[200px]">
             <img
               src="/assets/img/LP_Claim/Experience/property-2009.jfif"
               alt="property all-risk"
@@ -411,7 +411,7 @@ export default {
 
 <style scoped>
 .card {
-  max-height: 300px;
+  max-height: 320px;
   width: 310px;
   border-radius: 8px;
 }
