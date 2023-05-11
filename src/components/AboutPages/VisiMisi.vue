@@ -15,10 +15,10 @@
           <ul
             class="px-3 py-2 space-y-3 list-disc list-inside marker:text-red-600"
           >
-            <li>{{ $t("about.misi-text1") }}</li>
             <li>
               {{ $t("about.misi-text2") }}
             </li>
+            <li>{{ $t("about.misi-text1") }}</li>
             <li>{{ $t("about.misi-text3") }}</li>
             <li>
               {{ $t("about.misi-text4") }}

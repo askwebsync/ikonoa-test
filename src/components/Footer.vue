@@ -115,7 +115,8 @@
                 <p class="text-lg font-medium">
                   {{ $t("footer.card4-option2") }}
                   <span
-                    >Graha Sentana, Jl. Warung Buncit Raya, Jakarta 12740
+                    >Graha Al Badegel, 2nd Floor, Jl. Tutty Alawiyah No. 7
+                    Jakarta Selatan – 12740
                   </span>
                 </p>
               </li>
@@ -125,7 +126,7 @@
       </div>
     </div>
     <div class="py-8 text-sm text-center text-white border-t">
-      © 1968 PT.Ikonoa Solusindo Asia. All rights reserved.
+      © 2023 PT.Ikonoa Solusindo Asia. All rights reserved.
     </div>
   </footer>
 </template>

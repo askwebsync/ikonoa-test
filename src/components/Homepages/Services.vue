@@ -89,10 +89,10 @@
               </router-link>
               <ul class="list-decimal list-outside space-y-2 md:space-y-1 px-6">
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
-                  {{ $t("home.service-card3-text1") }}
+                  {{ $t("home.service-card3-text2") }}
                 </li>
                 <li class="text-base sm:text-base md:text-lg tracking-tighter">
-                  {{ $t("home.service-card2-text2") }}
+                  {{ $t("home.service-card3-text1") }}
                 </li>
               </ul>
             </div>
