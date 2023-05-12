@@ -56,6 +56,10 @@ p {
 
 }
 
+.text-red {
+  color: red !important;
+}
+
 .button-shadow {
   filter: drop-shadow(0px 4px 4px rgba(50, 50, 71, 0.08)) drop-shadow(0px 4px 8px rgba(50, 50, 71, 0.06));
 }

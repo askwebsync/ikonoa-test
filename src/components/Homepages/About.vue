@@ -32,7 +32,14 @@
                   class="w-6 h-6"
                 />
                 <div class="font-semibold text-lg">
-                  {{ $t("home.about-icon1") }}
+                  <span
+                    v-html="
+                      ($t('home.about-icon1') || '').replace(
+                        /I/g,
+                        '<span class=\'text-red\'>I</span>'
+                      )
+                    "
+                  ></span>
                 </div>
               </li>
               <li class="flex items-center gap-4">
@@ -41,8 +48,15 @@
                   alt="check-mark"
                   class="w-6 h-6"
                 />
-                <div class="flex-1 font-semibold text-lg">
-                  {{ $t("home.about-icon2") }}
+                <div class="font-semibold text-lg">
+                  <span
+                    v-html="
+                      ($t('home.about-icon2') || '').replace(
+                        /K/g,
+                        '<span class=\'text-red\'>K</span>'
+                      )
+                    "
+                  ></span>
                 </div>
               </li>
               <li class="flex items-center gap-4">
@@ -51,8 +65,24 @@
                   alt="check-mark"
                   class="w-6 h-6"
                 />
-                <div class="flex-1 font-semibold text-lg">
-                  {{ $t("home.about-icon3") }}
+                <div class="font-semibold text-lg">
+                  <span
+                    v-html="
+                      (() => {
+                        const text = $t('home.about-icon3') || '';
+                        const firstOIndex = text.indexOf('o');
+                        if (firstOIndex >= 0) {
+                          return (
+                            text.substring(0, firstOIndex) +
+                            '<span class=\'text-red\'>o</span>' +
+                            text.substring(firstOIndex + 1)
+                          );
+                        } else {
+                          return text;
+                        }
+                      })()
+                    "
+                  ></span>
                 </div>
               </li>
               <li class="flex items-center gap-4">
@@ -61,8 +91,15 @@
                   alt="check-mark"
                   class="w-6 h-6"
                 />
-                <div class="flex-1 font-semibold text-lg">
-                  {{ $t("home.about-icon4") }}
+                <div class="font-semibold text-lg">
+                  <span
+                    v-html="
+                      ($t('home.about-icon4') || '').replace(
+                        /n/g,
+                        '<span class=\'text-red\'>n</span>'
+                      )
+                    "
+                  ></span>
                 </div>
               </li>
               <li class="flex items-center gap-4">
@@ -71,8 +108,15 @@
                   alt="check-mark"
                   class="w-6 h-6"
                 />
-                <div class="flex-1 font-semibold text-lg">
-                  {{ $t("home.about-icon5") }}
+                <div class="font-semibold text-lg">
+                  <span
+                    v-html="
+                      ($t('home.about-icon5') || '').replace(
+                        /o/g,
+                        '<span class=\'text-red\'>o</span>'
+                      )
+                    "
+                  ></span>
                 </div>
               </li>
               <li class="flex items-center gap-4">
@@ -81,8 +125,15 @@
                   alt="check-mark"
                   class="w-6 h-6"
                 />
-                <div class="flex-1 font-semibold text-lg">
-                  {{ $t("home.about-icon6") }}
+                <div class="font-semibold text-lg">
+                  <span
+                    v-html="
+                      ($t('home.about-icon6') || '').replace(
+                        /a/g,
+                        '<span class=\'text-red\'>a</span>'
+                      )
+                    "
+                  ></span>
                 </div>
               </li>
             </ul>
@@ -115,7 +166,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 p {
   color: #17171f;
   font-weight: 400;
