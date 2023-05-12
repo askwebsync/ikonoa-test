@@ -2,11 +2,12 @@
   <section class="background-product">
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col md:flex-row gap-12 items-center px-5 md:px-0">
-        <div
-          class="flex md:self-start md:w-1/2"
-          style="max-height: 600px; width: 600px"
-        >
-          <img src="/assets/img/Home/about.webp" alt="about-us" />
+        <div class="flex md:self-start md:w-1/2">
+          <img
+            src="/assets/img/Home/about.webp"
+            alt="about-us"
+            class="object-cover w-full h-full"
+          />
         </div>
         <div
           class="md:w-1/2 flex flex-col gap-12 md:gap-9 self-center md:self-start md:ml-6"
