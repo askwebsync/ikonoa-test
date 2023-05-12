@@ -4,393 +4,30 @@
       <div
         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-content-center place-items-center gap-10"
       >
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="/assets/img/LP_Claim/Experience/straded-2021.jpg"
-              alt="Ship Stranded"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
-                >MARINE HULL</span
+        <div v-for="card in cards" :key="card.header">
+          <div class="overflow-hidden rounded-2xl background-product card">
+            <div class="relative h-[200px]">
+              <img
+                :src="card.img"
+                :alt="card.alt"
+                class="object-cover w-full h-full"
+              />
+              <div
+                class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
               >
+                <span
+                  class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
+                >
+                  {{ card.category }}
+                </span>
+              </div>
             </div>
-          </div>
-          <div class="p-3">
-            <div class="flex flex-col text-center">
-              <h2 class="text-lg text-black mb-3">2021</h2>
-              <h2 class="text-lg text-gray-700">
-                {{ $t("claim-experience.card1-header") }}
-              </h2>
-              <h3 class="text-lg">IDR 783,097,815.00</h3>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="/assets/img/LP_Claim/Experience/inland-transit.jpg"
-              alt="inlandtransit"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
-                >INLAND TRANSIT</span
-              >
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="flex flex-col text-center">
-              <h2 class="text-lg text-black mb-3">2020</h2>
-              <h2 class="text-lg text-gray-700">
-                {{ $t("claim-experience.card2-header") }}
-              </h2>
-              <h3 class="text-lg">USD 350,000.00</h3>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="/assets/img/LP_Claim/Experience/flooruplift-2020.jpg"
-              alt="flooruplift"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
-                >PROPERTY ALL-RISK</span
-              >
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="flex flex-col text-center">
-              <h2 class="text-lg text-black mb-3">2020</h2>
-              <h2 class="text-lg text-gray-700">
-                {{ $t("claim-experience.card3-header") }}
-              </h2>
-              <h3 class="text-lg">IDR 5,192,801,630.00</h3>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="/assets/img/LP_Claim/Experience/property-2020.jpeg"
-              alt="mining"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
-                >PROPERTY ALL-RISK</span
-              >
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="flex flex-col text-center">
-              <h2 class="text-lg text-black mb-3">2020</h2>
-              <h2 class="text-lg text-gray-700">
-                {{ $t("claim-experience.card4-header") }}
-              </h2>
-              <h3 class="text-lg">USD 140,000,000.00</h3>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="/assets/img/LP_Claim/Experience/earthquake-2019.jpg"
-              alt="earthquake"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
-                >Earthquake Insurance
-              </span>
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="flex flex-col text-center">
-              <h2 class="text-lg text-black mb-3">2019</h2>
-              <h2 class="text-lg text-gray-700">
-                {{ $t("claim-experience.card5-header") }}
-              </h2>
-              <h3 class="text-lg">USD 164,046,65</h3>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="/assets/img/LP_Claim/Experience/flooruplift-2018.jpg"
-              alt="flooruplift"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
-                >PROPERTY ALL-RISK</span
-              >
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="flex flex-col text-center">
-              <h2 class="text-lg text-black mb-3">2018</h2>
-              <h2 class="text-lg text-gray-700">
-                {{ $t("claim-experience.card6-header") }}
-              </h2>
-              <h3 class="text-lg">IDR 4,872,500,000.00</h3>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="/assets/img/LP_Claim/Experience/indemnity-2017.jpg"
-              alt="protection indemnity"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
-                >PROTECTION INDEMNITY</span
-              >
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="flex flex-col text-center">
-              <h2 class="text-lg text-black mb-3">2017</h2>
-              <h2 class="text-lg text-gray-700">
-                {{ $t("claim-experience.card7-header") }}
-              </h2>
-              <h3 class="text-lg">IDR 17,250,000,000.00</h3>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="/assets/img/LP_Claim/Experience/machinery.jpeg"
-              alt="machinery insurance"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
-                >MACHINERY INSURANCE</span
-              >
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="flex flex-col text-center">
-              <h2 class="text-lg text-black mb-3">2016</h2>
-              <h2 class="text-lg text-gray-700">
-                {{ $t("claim-experience.card8-header") }}
-              </h2>
-              <h3 class="text-lg">USD 2,400,000.00</h3>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="/assets/img/LP_Claim/Experience/property-2014.jpeg"
-              alt="property all-risk"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
-                >PROPERTY ALL-RISK</span
-              >
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="flex flex-col text-center">
-              <h2 class="text-lg text-black mb-3">2014</h2>
-              <h2 class="text-lg text-gray-700">
-                {{ $t("claim-experience.card9-header") }}
-              </h2>
-              <h3 class="text-lg">IDR 4,302,853,704.00</h3>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="/assets/img/LP_Claim/Experience/property-casava-2014.jpeg"
-              alt="property all-risk"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
-                >PROPERTY ALL-RISK</span
-              >
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="flex flex-col text-center">
-              <h2 class="text-lg text-black mb-3">2014</h2>
-              <h2 class="text-lg text-gray-700">
-                {{ $t("claim-experience.card10-header") }}
-              </h2>
-              <h3 class="text-lg">IDR 9,145,909,004.00</h3>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="/assets/img/LP_Claim/Experience/fire.jpg"
-              alt="fire insurance"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
-                >FIRE INSURANCE</span
-              >
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="flex flex-col text-center">
-              <h2 class="text-lg text-black mb-3">2011</h2>
-              <h2 class="text-lg text-gray-700">
-                {{ $t("claim-experience.card11-header") }}
-              </h2>
-              <h3 class="text-lg">USD 941,835.63</h3>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="/assets/img/LP_Claim/Experience/property2010.jpg"
-              alt="property all-risk"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
-                >PROPERTY ALL-RISK</span
-              >
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="flex flex-col text-center">
-              <h2 class="text-lg text-black mb-3">2010</h2>
-              <h2 class="text-lg text-gray-700">
-                {{ $t("claim-experience.card12-header") }}
-              </h2>
-              <h3 class="text-lg">USD 8,063,353.40</h3>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="/assets/img/LP_Claim/Experience/erection2010.jpg"
-              alt="erection all-risk"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
-                >ERECTION ALL-RISK</span
-              >
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="flex flex-col text-center">
-              <h2 class="text-lg text-black mb-3">2010</h2>
-              <h2 class="text-lg text-gray-700">
-                {{ $t("claim-experience.card13-header") }}
-              </h2>
-              <h3 class="text-lg">IDR 2,882,294,055.00</h3>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="/assets/img/LP_Claim/Experience/fire-2010.jpg"
-              alt="fire insurance"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
-                >FIRE INSURANCE</span
-              >
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="flex flex-col text-center">
-              <h2 class="text-lg text-black mb-3">2010</h2>
-              <h2 class="text-lg text-gray-700">
-                {{ $t("claim-experience.card14-header") }}
-              </h2>
-              <h3 class="text-lg">IDR 2,048,241,305.00</h3>
-            </div>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-2xl background-product card">
-          <div class="relative h-[200px]">
-            <img
-              src="/assets/img/LP_Claim/Experience/property-2009.jfif"
-              alt="property all-risk"
-              class="object-cover w-full h-full"
-            />
-            <div
-              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
-            >
-              <span
-                class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
-                >PROPERTY ALL-RISK</span
-              >
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="flex flex-col text-center">
-              <h2 class="text-lg text-black mb-3">2009</h2>
-              <h2 class="text-lg text-gray-700">
-                {{ $t("claim-experience.card15-header") }}
-              </h2>
-              <h3 class="text-lg">USD 985,812.45</h3>
+            <div class="p-3">
+              <div class="flex flex-col text-center">
+                <h2 class="text-lg text-black mb-3">{{ card.year }}</h2>
+                <h2 class="text-lg text-gray-700">{{ card.header }}</h2>
+                <h3 class="text-lg">{{ card.amount }}</h3>
+              </div>
             </div>
           </div>
         </div>
@@ -405,27 +42,147 @@ export default {
   components: {},
   data() {
     return {
-      imageUrls: [
-        "assets/img/LP_Claim/Experience/image1.jpg",
-        "assets/img/LP_Claim/Experience/image2.jpg",
-        "assets/img/LP_Claim/Experience/image3.jpg",
-        "assets/img/LP_Claim/Experience/image4.jpg",
-        "assets/img/LP_Claim/Experience/image5.jpg",
-        "assets/img/LP_Claim/Experience/image6.jpg",
-        "assets/img/LP_Claim/Experience/image7.jpg",
-        "assets/img/LP_Claim/Experience/image8.jpg",
-        "assets/img/LP_Claim/Experience/image9.jpg",
-        "assets/img/LP_Claim/Experience/image10.jpg",
-        "assets/img/LP_Claim/Experience/image11.jpg",
-        "assets/img/LP_Claim/Experience/image12.jpg",
-        "assets/img/LP_Claim/Experience/image13.jpg",
-        "assets/img/LP_Claim/Experience/image14.jpg",
-        "assets/img/LP_Claim/Experience/image15.jpg",
+      cards: [
+        {
+          img: "/assets/img/LP_Claim/Experience/straded-2021.jpg",
+          alt: "Ship Stranded",
+          category: "MARINE HULL",
+          year: "2021",
+          header: this.$t("claim-experience.card1-header"),
+          amount: "IDR 783,097,815.00",
+        },
+        {
+          img: "/assets/img/LP_Claim/Experience/inland-transit.jpg",
+          alt: "inlandtransit",
+          category: "INLAND TRANSIT",
+          year: "2020",
+          header: this.$t("claim-experience.card2-header"),
+          amount: "USD 350,000.00",
+        },
+        {
+          img: "/assets/img/LP_Claim/Experience/flooruplift-2020.jpg",
+          alt: "flooruplift",
+          category: "PROPERTY ALL-RISK",
+          year: "2020",
+          header: this.$t("claim-experience.card3-header"),
+          amount: "IDR 5,192,801,630.00",
+        },
+        {
+          img: "/assets/img/LP_Claim/Experience/property-2020.jpeg",
+          alt: "mining",
+          category: "PROPERTY ALL-RISK",
+          year: "2020",
+          header: this.$t("claim-experience.card4-header"),
+          amount: "USD 140,000,000.00",
+        },
+        {
+          img: "/assets/img/LP_Claim/Experience/earthquake-2019.jpg",
+          alt: "Earthquake Insurance",
+          category: "Earthquake Insurance",
+          year: "2019",
+          header: this.$t("claim-experience.card5-header"),
+          amount: "USD 164,046,65",
+        },
+        {
+          img: "/assets/img/LP_Claim/Experience/flooruplift-2018.jpg",
+          alt: "flooruplift",
+          category: "PROPERTY ALL-RISK",
+          year: "2018",
+          header: this.$t("claim-experience.card6-header"),
+          amount: "IDR 4,872,500,000.00",
+        },
+        {
+          img: "/assets/img/LP_Claim/Experience/indemnity-2017.jpg",
+          alt: "protection indemnity",
+          category: "PROTECTION INDEMNITY",
+          year: "2017",
+          header: this.$t("claim-experience.card7-header"),
+          amount: "IDR 17,250,000,000.00",
+        },
+        {
+          img: "/assets/img/LP_Claim/Experience/machinery.jpeg",
+          alt: "machinery insurance",
+          category: "MACHINERY INSURANCE",
+          year: "2016",
+          header: this.$t("claim-experience.card8-header"),
+          amount: "USD 2,400,000.00",
+        },
+        {
+          img: "/assets/img/LP_Claim/Experience/property-2014.jpeg",
+          alt: "property all-risk",
+          category: "PROPERTY ALL-RISK",
+          year: "2014",
+          header: this.$t("claim-experience.card9-header"),
+          amount: "IDR 4,302,853,704.00",
+        },
+        {
+          img: "/assets/img/LP_Claim/Experience/property-casava-2014.jpeg",
+          alt: "property all-risk",
+          category: "PROPERTY ALL-RISK",
+          year: "2014",
+          header: this.$t("claim-experience.card10-header"),
+          amount: "IDR 9,145,909,004.00",
+        },
+        {
+          img: "/assets/img/LP_Claim/Experience/fire.jpg",
+          alt: "fire insurance",
+          category: "FIRE INSURANCE",
+          year: "2011",
+          header: this.$t("claim-experience.card11-header"),
+          amount: "USD 941,835.63",
+        },
+        {
+          img: "/assets/img/LP_Claim/Experience/property2010.jpg",
+          alt: "property all-risk",
+          category: "PROPERTY ALL-RISK",
+          year: "2010",
+          header: this.$t("claim-experience.card12-header"),
+          amount: "USD 8,063,353.40",
+        },
+        {
+          img: "/assets/img/LP_Claim/Experience/erection2010.jpg",
+          alt: "erection all-risk",
+          category: "ERECTION ALL-RISK",
+          year: "2010",
+          header: this.$t("claim-experience.card13-header"),
+          amount: "IDR 2,882,294,055.00",
+        },
+        {
+          img: "/assets/img/LP_Claim/Experience/fire-2010.jpg",
+          alt: "fire insurance",
+          category: "FIRE INSURANCE",
+          year: "2010",
+          header: this.$t("claim-experience.card14-header"),
+          amount: "IDR 2,048,241,305.00",
+        },
+        {
+          img: "/assets/img/LP_Claim/Experience/property-2009.jfif",
+          alt: "property all-risk",
+          category: "PROPERTY ALL-RISK",
+          year: "2009",
+          header: this.$t("claim-experience.card15-header"),
+          amount: "USD 985,812.45",
+        },
       ],
     };
   },
   mounted() {
-    this.preloadImages();
+    const images = document.querySelectorAll(".lazy");
+    const options = {
+      rootMargin: "100px", // load images 100px before they come into view
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          img.src = img.dataset.src;
+          observer.unobserve(img);
+        }
+      });
+    }, options);
+
+    images.forEach((img) => observer.observe(img));
   },
   methods: {
     preloadImages() {

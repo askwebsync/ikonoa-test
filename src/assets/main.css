@@ -53,7 +53,16 @@ p {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
+}
 
+.lazy {
+  opacity: 0;
+}
+
+/* reveal images with a fade-in effect on load */
+.lazy.loaded {
+  transition: opacity 300ms;
+  opacity: 1;
 }
 
 .text-red {
