@@ -11,68 +11,13 @@
         <div
           class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 justify-items-center"
         >
-          <div class="flex card">
-            <img src="/assets/img/LP_Claim/CAREGUARD_INDO.png" alt="logo 1" />
-          </div>
-          <div class="flex card">
-            <img src="/assets/img/LP_Claim/Kenso_INDO.jpeg" alt="logo 2" />
-          </div>
-          <div class="flex card">
+          <div v-for="(logo, index) in logos" :key="index" class="flex card">
             <img
-              src="/assets/img/LP_Claim/PT.KUANTAN_GRAHA_INDO.png"
-              alt="logo 3"
+              class="lazy-load-image"
+              :data-src="logo"
+              :src="placeholder"
+              alt="logo {{ index + 1 }}"
             />
-          </div>
-          <div class="flex card">
-            <img
-              src="/assets/img/LP_Claim/PT_ASIASINERGISOLUSINDO_INDO.jpeg"
-              alt="logo 6"
-            />
-          </div>
-          <div class="flex card">
-            <img src="/assets/img/LP_Claim/PT_DNX_INDO.jpeg" alt="logo 8" />
-          </div>
-          <div class="flex card">
-            <img
-              src="/assets/img/LP_Claim/PT_Carefast_INDO.jpeg"
-              alt="logo 7"
-            />
-          </div>
-          <div class="flex card">
-            <img src="/assets/img/LP_Claim/PT_DNX_INDO.jpeg" alt="logo 8" />
-          </div>
-          <div class="flex card">
-            <img src="/assets/img/LP_Claim/PT_Errai_INDO.jpeg" alt="logo 10" />
-          </div>
-          <div class="flex card">
-            <img
-              src="/assets/img/LP_Claim/PT_DUAPUTRA_INDO.jpeg"
-              alt="logo 9"
-            />
-          </div>
-          <div class="flex card">
-            <img
-              src="/assets/img/LP_Claim/PT_8Property_INDO.jpeg"
-              alt="logo 4"
-            />
-          </div>
-          <div class="flex card">
-            <img
-              src="/assets/img/LP_Claim/PT_TIMURTERANG_INDO.jpeg"
-              alt="logo 14"
-            />
-          </div>
-          <div class="flex card">
-            <img
-              src="/assets/img/LP_Claim/PT_TOPGUARD_INDO.jpeg"
-              alt="logo 15"
-            />
-          </div>
-          <div class="flex card">
-            <img src="/assets/img/LP_Claim/PT_SWA_INDO.png" alt="logo 13" />
-          </div>
-          <div class="flex card">
-            <img src="/assets/img/LP_Claim/PT_ARSA_INDO.jpeg" alt="logo 5" />
           </div>
         </div>
       </div>
@@ -85,7 +30,47 @@ export default {
   name: "Client",
   components: {},
   data() {
-    return {};
+    return {
+      logos: [
+        "/assets/img/LP_Claim/CAREGUARD_INDO.png",
+        "/assets/img/LP_Claim/Kenso_INDO.jpeg",
+        "/assets/img/LP_Claim/PT.KUANTAN_GRAHA_INDO.png",
+        "/assets/img/LP_Claim/PT_8Property_INDO.jpeg",
+        "/assets/img/LP_Claim/PT_ARSA_INDO.jpeg",
+        "/assets/img/LP_Claim/PT_Carefast_INDO.jpeg",
+        "/assets/img/LP_Claim/PT_DUAPUTRA_INDO.jpeg",
+        "/assets/img/LP_Claim/PT_DNX_INDO.jpeg",
+        "/assets/img/LP_Claim/PT_Errai_INDO.jpeg",
+        "/assets/img/LP_Claim/PT_SWA_INDO.png",
+        "/assets/img/LP_Claim/PT_TIMURTERANG_INDO.jpeg",
+        "/assets/img/LP_Claim/PT_TOPGUARD_INDO.jpeg",
+        "/assets/img/LP_Claim/PT_ASIASINERGISOLUSINDO_INDO.jpeg",
+        "/assets/img/LP_Claim/PT_DNX_INDO.jpeg",
+      ],
+      placeholder: "data:image/gif;base64,R0lGODlhAQABAAAAACw=",
+    };
+  },
+  mounted() {
+    let lazyImages = [...document.querySelectorAll(".lazy-load-image")];
+    if ("IntersectionObserver" in window) {
+      let lazyImageObserver = new IntersectionObserver(function (
+        entries,
+        // eslint-disable-next-line no-unused-vars
+        observer
+      ) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            let lazyImage = entry.target;
+            lazyImage.src = lazyImage.dataset.src;
+            lazyImage.classList.remove("lazy-load-image");
+            lazyImageObserver.unobserve(lazyImage);
+          }
+        });
+      });
+      lazyImages.forEach(function (lazyImage) {
+        lazyImageObserver.observe(lazyImage);
+      });
+    }
   },
 };
 </script>
