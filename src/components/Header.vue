@@ -1,5 +1,5 @@
 <template>
-  <header class="border-b-2">
+  <header class="bg-white border-b-2 sticky top-0 z-10">
     <nav
       class="container px-4 md:px-8 lg:px-24 py-2 mx-auto md:flex md:justify-between md:items-center"
     >
