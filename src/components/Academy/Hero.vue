@@ -66,7 +66,7 @@
                 </svg>
                 <span
                   class="ml-1 text-md font-medium text-gray-500 md:ml-2 text-red"
-                  >Risk Consulting</span
+                  >Academy</span
                 >
               </div>
             </li>
