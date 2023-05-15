@@ -4,7 +4,7 @@
       class="relative overflow-hidden bg-no-repeat bg-cover"
       style="
         background-position: 50%;
-        background-image: url('/assets/img/Lp_Contact/contact.png');
+        background-image: url('/assets/img/Lp_Contact/herocontact.png');
         height: 460px;
       "
     >
