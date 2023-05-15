@@ -6,7 +6,7 @@
     <div
       class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed container mx-auto px-4 py-12 md:px-8 lg:px-24"
     >
-      <div class="text-left">
+      <div class="text-left mb-3">
         <nav class="flex" aria-label="Breadcrumb">
           <ol class="inline-flex items-center space-x-1 md:space-x-3">
             <li class="inline-flex items-center">
@@ -74,7 +74,7 @@
         </nav>
       </div>
       <div class="flex justify-center items-center h-full">
-        <div class="flex flex-col gap-10 text-center text-white">
+        <div class="flex flex-col gap-6 md:gap-10 text-center">
           <h1
             class="text-2xl sm:text-3xl lg:text-4xl xl:text-6xl hover:text-red-600 uppercase md:leading-snug"
           >
