@@ -93,7 +93,7 @@ export default {
         // 700px and up
         700: {
           itemsToShow: 1,
-          snapAlign: "center",
+          snapAlign: "start",
         },
         // 1024 and up
         1024: {
@@ -153,17 +153,4 @@ p {
   border: 2px solid #17171f;
   border-radius: 100px;
 }
-/* .claim-card {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
-  width: 140px;
-  height: 140px;
-  border: 2px solid #17171f;
-  border-radius: 100px;
-} */
 </style>

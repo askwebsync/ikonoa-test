@@ -63,13 +63,13 @@ export default {
     return {
       slides: [
         {
-          name: "John Doe",
-          title: "CEO",
-          image: "https://via.placeholder.com/150",
+          name: "Jerry",
+          title: "President Director",
+          image: "/assets/img/LP_About/jerry.jpeg",
         },
         {
-          name: "Jane Smith",
-          title: "CTO",
+          name: "Antonius Tobing",
+          title: "Marketing Director",
           image: "https://via.placeholder.com/150",
         },
         {
@@ -84,8 +84,12 @@ export default {
       },
       breakpoints: {
         // 700px and up
+        300: {
+          itemsToShow: 1,
+          snapAlign: "start",
+        },
         700: {
-          itemsToShow: 2,
+          itemsToShow: 1,
           snapAlign: "center",
         },
         // 1024 and up
@@ -112,4 +116,15 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.carousel__item {
+  min-height: 350px !important;
+  width: 75% !important;
+  background-color: #f2f2f2 !important;
+  color: var(--vc-clr-white);
+  border-radius: 8px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>
