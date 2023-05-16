@@ -6,7 +6,7 @@
     <div
       class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed container mx-auto px-4 py-12 md:px-8 lg:px-24"
     >
-      <div class="text-left mb-3">
+      <div class="text-left mb-5">
         <nav class="flex" aria-label="Breadcrumb">
           <ol class="inline-flex items-center space-x-1 md:space-x-3">
             <li class="inline-flex items-center">
@@ -81,11 +81,11 @@
             {{ $t("risk-management.banner-header") }}
           </h1>
           <div class="flex flex-col items-center justify-center">
-            <hr class="border-t-2 border-gray-500 flex-grow m-4" />
+            <hr class="border-t-2 border-gray-500 flex-grow m-3" />
             <h4 class="max-w-4xl text-lg md:text-xl lg:text-2xl xl:text-3xl">
               {{ $t("risk-management.banner-subheader") }}
             </h4>
-            <hr class="border-t-2 border-gray-500 flex-grow m-4" />
+            <hr class="border-t-2 border-gray-500 flex-grow m-3" />
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@ h4 {
   font-style: normal;
   font-weight: 400;
   color: #787878;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.5px;
 }
 h1 {
   color: #3b3b3b;

@@ -20,7 +20,7 @@
               <p class="text-lg">1</p>
             </div>
             <div
-              class="flex flex-col p-7 gap-8 lg:gap-12 background-card-detail rounded-xl border-custom h-64 md:h-96 lg:h-80 xl:h-72"
+              class="flex flex-col p-6 gap-8 lg:gap-12 background-card-detail rounded-xl border-custom h-72 md:h-96 lg:h-80 xl:h-72"
             >
               <h2 class="text-black text-center text-xl md:text-3xl">
                 {{ $t("risk-management.claim-procces-card1-header") }}
@@ -37,7 +37,7 @@
               <p class="text-lg">2</p>
             </div>
             <div
-              class="flex flex-col p-7 gap-8 lg:gap-12 background-card-detail rounded-xl border-custom h-64 md:h-96 lg:h-80 xl:h-72"
+              class="flex flex-col p-6 gap-8 lg:gap-12 background-card-detail rounded-xl border-custom h-72 md:h-96 lg:h-80 xl:h-72"
             >
               <h2 class="text-black text-center text-xl md:text-3xl">
                 {{ $t("risk-management.claim-procces-card2-header") }}
