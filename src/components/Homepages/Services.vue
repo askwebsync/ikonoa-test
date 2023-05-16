@@ -19,7 +19,7 @@
             <div class="self-center md:self-start">
               <img src="/assets/img/Home/analysis.png" alt="Risk Consulting" />
             </div>
-            <div class="flex flex-col gap-6">
+            <div class="flex flex-col gap-8">
               <router-link :to="{ name: 'risk-consulting' }">
                 <h1
                   class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
@@ -52,7 +52,7 @@
                 alt="Insurance Policy"
               />
             </div>
-            <div class="flex flex-col gap-6">
+            <div class="flex flex-col gap-8">
               <router-link :to="{ name: 'insurance-policy' }">
                 <h1 class="text-xl md:text-2xl lg:text-3xl uppercase">
                   {{ $t("home.service-card2-header") }}
@@ -79,7 +79,7 @@
             <div class="self-center md:self-start">
               <img src="/assets/img/Home/risk.png" alt="Risk Management" />
             </div>
-            <div class="flex flex-col gap-6">
+            <div class="flex flex-col gap-8">
               <router-link :to="{ name: 'risk-management' }">
                 <h1
                   class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
@@ -104,7 +104,7 @@
             <div class="self-center md:self-start">
               <img src="/assets/img/Home/academy.png" alt="Academy" />
             </div>
-            <div class="flex flex-col gap-6">
+            <div class="flex flex-col gap-8">
               <router-link :to="{ name: 'academy' }">
                 <h1
                   class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"

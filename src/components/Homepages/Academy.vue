@@ -22,7 +22,7 @@
               />
             </div>
             <div
-              class="flex flex-col gap-8 md:gap-10 p-6 text-center h-96 md:h-80"
+              class="flex flex-col gap-12 md:gap-10 p-5 md:p-6 text-center h-96 md:h-80"
             >
               <h6 class="text-2xl lg:text-3xl">
                 {{ $t("home.academy-card1-header") }}
@@ -43,7 +43,7 @@
               />
             </div>
             <div
-              class="flex flex-col gap-8 md:gap-10 p-6 text-center h-96 md:h-80"
+              class="flex flex-col gap-12 md:gap-10 p-5 md:p-6 text-center h-96 md:h-80"
             >
               <h6 class="text-2xl lg:text-3xl">
                 {{ $t("home.academy-card2-header") }}
