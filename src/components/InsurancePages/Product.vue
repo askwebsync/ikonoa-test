@@ -1,71 +1,46 @@
 <template>
   <section>
     <div class="container mx-auto px-4 py-10 md:px-8 lg:px-24">
-      <div class="flex flex-col items-center justify-center gap-12">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="flex flex-col items-center justify-center gap-6">
+        <div class="flex justify-center mt-4">
           <button
-            class="flex justify-center items-center w-full h-full rounded px-6 py-2 font-bold hover:text-red-700 transition duration-300 ease-in-out text-gray-400"
-            :class="{
-              'bg-red-100 border border-red-600 text-red-600':
-                activeButton === 1,
-            }"
-            @click="setActiveButton(1)"
+            v-if="currentIndex > 0"
+            class="mx-2 text-red-600 hover:text-red-700"
+            @click="prevButton"
           >
-            {{ $t("insurance.button1-header") }}
+            <i class="fas fa-arrow-left"></i>
+            <!-- Replace with the appropriate icon class -->
           </button>
+          <div class="relative">
+            <div class="button-group flex flex-row justify-center">
+              <button
+                v-for="button in visibleButtons"
+                :key="button.id"
+                class="flex justify-center items-center w-full md:w-auto h-full rounded px-6 py-2 font-bold hover:text-red-700 transition duration-300 ease-in-out text-gray-400"
+                :class="{
+                  'bg-red-100 border border-red-600 text-red-600':
+                    activeButton === button.id,
+                }"
+                @click="setActiveButton(button.id)"
+              >
+                {{ button.label }}
+              </button>
+            </div>
+          </div>
           <button
-            class="flex justify-center items-center w-full h-full rounded px-6 py-2 font-bold hover:text-red-700 transition duration-300 ease-in-out text-gray-400"
-            :class="{
-              'bg-red-100 border border-red-600 text-red-600':
-                activeButton === 2,
-            }"
-            @click="setActiveButton(2)"
+            v-if="currentIndex + numVisibleButtons < buttons.length"
+            class="mx-2 text-red-600 hover:text-red-700"
+            @click="nextButton"
           >
-            {{ $t("insurance.button2-header") }}
-          </button>
-          <button
-            class="flex justify-center items-center w-full h-full rounded px-6 py-2 font-bold hover:text-red-700 transition duration-300 ease-in-out text-gray-400"
-            :class="{
-              'bg-red-100 border border-red-600 text-red-600':
-                activeButton === 3,
-            }"
-            @click="setActiveButton(3)"
-          >
-            {{ $t("insurance.button3-header") }}
-          </button>
-          <button
-            class="flex justify-center items-center w-full h-full rounded px-6 py-2 font-bold hover:text-red-700 transition duration-300 ease-in-out text-gray-400"
-            :class="{
-              'bg-red-100 border border-red-600 text-red-600':
-                activeButton === 4,
-            }"
-            @click="setActiveButton(4)"
-          >
-            {{ $t("insurance.button4-header") }}
-          </button>
-          <button
-            class="md:col-start-2 flex justify-center items-center w-full h-full rounded px-6 py-2 font-bold hover:text-red-700 transition duration-300 ease-in-out text-gray-400"
-            :class="{
-              'bg-red-100 border border-red-600 text-red-600':
-                activeButton === 5,
-            }"
-            @click="setActiveButton(5)"
-          >
-            {{ $t("insurance.button5-header") }}
-          </button>
-          <button
-            class="md:col-start-3 flex justify-center items-center w-full h-full rounded px-6 py-2 font-bold hover:text-red-700 transition duration-300 ease-in-out text-gray-400"
-            :class="{
-              'bg-red-100 border border-red-600 text-red-600':
-                activeButton === 6,
-            }"
-            @click="setActiveButton(6)"
-          >
-            {{ $t("insurance.button6-header") }}
+            <i class="fas fa-arrow-right"></i>
+            <!-- Replace with the appropriate icon class -->
           </button>
         </div>
 
-        <div v-if="showDiv1" class="bg-white shadow-lg overflow-hidden">
+        <div
+          v-if="activeButton === 1"
+          class="bg-white shadow-lg overflow-hidden mt-8"
+        >
           <div class="relative">
             <img
               src="/assets/img/LP_Insurance/liability.png"
@@ -84,26 +59,19 @@
               <ul
                 class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
               >
-                <li>
-                  {{ $t("insurance.product-card1-text1") }}
-                </li>
-                <li>
-                  {{ $t("insurance.product-card1-text2") }}
-                </li>
-                <li>
-                  {{ $t("insurance.product-card1-text3") }}
-                </li>
-                <li>
-                  {{ $t("insurance.product-card1-text4") }}
-                </li>
-                <li>
-                  {{ $t("insurance.product-card1-text5") }}
-                </li>
+                <li>{{ $t("insurance.product-card1-text1") }}</li>
+                <li>{{ $t("insurance.product-card1-text2") }}</li>
+                <li>{{ $t("insurance.product-card1-text3") }}</li>
+                <li>{{ $t("insurance.product-card1-text4") }}</li>
+                <li>{{ $t("insurance.product-card1-text5") }}</li>
               </ul>
             </div>
           </div>
         </div>
-        <div v-if="showDiv2" class="bg-white shadow-lg overflow-hidden">
+        <div
+          v-if="activeButton === 2"
+          class="bg-white shadow-lg overflow-hidden mt-8"
+        >
           <div class="relative">
             <img
               src="/assets/img/LP_Insurance/engineer.png"
@@ -116,29 +84,24 @@
               <h3 class="text-2xl font-bold">
                 {{ $t("insurance.product-card2-header") }}
               </h3>
-              <h2 class="text-lg md:text-xl leading-relaxed md:leading-normal">
+              <h2 class="text-lg md:text-xl leading-normal">
                 {{ $t("insurance.product-card2-subheader") }}
               </h2>
               <ul
                 class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
               >
-                <li>
-                  {{ $t("insurance.product-card2-text1") }}
-                </li>
-                <li>
-                  {{ $t("insurance.product-card2-text2") }}
-                </li>
-                <li>
-                  {{ $t("insurance.product-card2-text3") }}
-                </li>
-                <li>
-                  {{ $t("insurance.product-card2-text4") }}
-                </li>
+                <li>{{ $t("insurance.product-card2-text1") }}</li>
+                <li>{{ $t("insurance.product-card2-text2") }}</li>
+                <li>{{ $t("insurance.product-card2-text3") }}</li>
+                <li>{{ $t("insurance.product-card2-text4") }}</li>
               </ul>
             </div>
           </div>
         </div>
-        <div v-if="showDiv3" class="bg-white shadow-lg overflow-hidden">
+        <div
+          v-if="activeButton === 3"
+          class="bg-white shadow-lg overflow-hidden mt-8"
+        >
           <div class="relative">
             <img
               src="/assets/img/LP_Insurance/health.png"
@@ -151,23 +114,23 @@
               <h3 class="text-2xl font-bold">
                 {{ $t("insurance.product-card3-header") }}
               </h3>
-              <h2 class="text-lg md:text-xl leading-relaxed md:leading-normal">
+              <h2 class="text-lg md:text-xl leading-normal">
                 {{ $t("insurance.product-card3-subheader") }}
               </h2>
               <ul
                 class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
               >
-                <li>
-                  {{ $t("insurance.product-card3-text1") }}
-                </li>
-                <li>
-                  {{ $t("insurance.product-card3-text2") }}
-                </li>
+                <li>{{ $t("insurance.product-card3-text1") }}</li>
+                <li>{{ $t("insurance.product-card3-text2") }}</li>
               </ul>
             </div>
           </div>
         </div>
-        <div v-if="showDiv4" class="bg-white shadow-lg overflow-hidden">
+
+        <div
+          v-if="activeButton === 4"
+          class="bg-white shadow-lg overflow-hidden mt-8"
+        >
           <div class="relative">
             <img
               src="/assets/img/LP_Insurance/marine.png"
@@ -180,26 +143,23 @@
               <h3 class="text-2xl font-bold">
                 {{ $t("insurance.product-card4-header") }}
               </h3>
-              <h2 class="text-lg md:text-xl leading-relaxed md:leading-normal">
+              <h2 class="text-lg md:text-xl leading-normal">
                 {{ $t("insurance.product-card4-subheader") }}
               </h2>
               <ul
                 class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
               >
-                <li>
-                  {{ $t("insurance.product-card4-text1") }}
-                </li>
-                <li>
-                  {{ $t("insurance.product-card4-text2") }}
-                </li>
-                <li>
-                  {{ $t("insurance.product-card4-text3") }}
-                </li>
+                <li>{{ $t("insurance.product-card4-text1") }}</li>
+                <li>{{ $t("insurance.product-card4-text2") }}</li>
+                <li>{{ $t("insurance.product-card4-text3") }}</li>
               </ul>
             </div>
           </div>
         </div>
-        <div v-if="showDiv5" class="bg-white shadow-lg overflow-hidden">
+        <div
+          v-if="activeButton === 5"
+          class="bg-white shadow-lg overflow-hidden mt-8"
+        >
           <div class="relative">
             <img
               src="/assets/img/LP_Insurance/proper.png"
@@ -215,37 +175,13 @@
               <h2 class="text-lg md:text-xl leading-relaxed md:leading-normal">
                 {{ $t("insurance.product-card5-subheader") }}
               </h2>
-              <!-- <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
-              >
-                <li>
-                  Contractor’s All Risk is an insurance cover, which gives full
-                  protection against loss or damage that might be experienced by
-                  a construction project, including a claim from another party
-                  which experiences loss caused by the project.
-                </li>
-                <li>
-                  Erection All Risk is an insurance cover, which gives full
-                  protection against almost all losses and damages that might be
-                  happened during the installation of machinery, including a
-                  claim from another party which experiences loss caused by the
-                  installation activity.
-                </li>
-                <li>
-                  Machinery Breakdown is an insurance cover, which is full and
-                  effective for industry machinery, either when the machines are
-                  operating during treatment or when they are not.
-                </li>
-                <li>
-                  Electronic Equipment Insurance covers electronic equipment
-                  against loss or damage which might occur suddenly and
-                  unexpectedly.
-                </li>
-              </ul> -->
             </div>
           </div>
         </div>
-        <div v-if="showDiv6" class="bg-white shadow-lg overflow-hidden">
+        <div
+          v-if="activeButton === 6"
+          class="bg-white shadow-lg overflow-hidden mt-8"
+        >
           <div class="relative">
             <img
               src="/assets/img/LP_Insurance/automobi.png"
@@ -258,18 +194,14 @@
               <h3 class="text-2xl font-bold">
                 {{ $t("insurance.product-card6-header") }}
               </h3>
-              <h2 class="text-lg md:text-xl leading-relaxed md:leading-normal">
+              <h2 class="text-lg md:text-xl leading-normal">
                 {{ $t("insurance.product-card6-subheader") }}
               </h2>
               <ul
                 class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
               >
-                <li>
-                  {{ $t("insurance.product-card6-text1") }}
-                </li>
-                <li>
-                  {{ $t("insurance.product-card6-text2") }}
-                </li>
+                <li>{{ $t("insurance.product-card6-text1") }}</li>
+                <li>{{ $t("insurance.product-card6-text2") }}</li>
               </ul>
             </div>
           </div>
@@ -281,65 +213,63 @@
 
 <script>
 export default {
-  name: "Product",
-  components: {},
   data() {
     return {
-      showDiv1: true,
-      showDiv2: false,
-      showDiv3: false,
-      showDiv4: false,
-      showDiv5: false,
-      showDiv6: false,
+      buttons: [
+        { id: 1, label: this.$t("insurance.button1-header") },
+        { id: 2, label: this.$t("insurance.button2-header") },
+        { id: 3, label: this.$t("insurance.button3-header") },
+        { id: 4, label: this.$t("insurance.button4-header") },
+        { id: 5, label: this.$t("insurance.button5-header") },
+        { id: 6, label: this.$t("insurance.button6-header") },
+      ],
+      currentIndex: 0,
       activeButton: 1,
+      screenWidth: window.innerWidth,
     };
   },
+  computed: {
+    visibleButtons() {
+      return this.buttons.slice(
+        this.currentIndex,
+        this.currentIndex + this.numVisibleButtons
+      );
+    },
+    numVisibleButtons() {
+      if (this.screenWidth >= 1024) {
+        return 4; // Show 3 buttons on laptop or larger screens
+      } else if (this.screenWidth >= 768) {
+        return 3; // Show 2 buttons on tablets
+      } else {
+        return 2; // Show 1 button on mobile
+      }
+    },
+    showDiv() {
+      return this.activeButton === 1;
+    },
+  },
   methods: {
-    showDiv(num) {
-      this.showDiv1 = num === 1;
-      this.showDiv2 = num === 2;
-      this.showDiv3 = num === 3;
-      this.showDiv4 = num === 4;
-      this.showDiv5 = num === 5;
-      this.showDiv6 = num === 6;
+    setActiveButton(buttonId) {
+      this.activeButton = buttonId;
     },
-    setActiveButton(buttonIndex) {
-      this.activeButton = buttonIndex;
-      this.showDiv(buttonIndex);
+    prevButton() {
+      this.currentIndex = Math.max(this.currentIndex - 1, 0);
     },
+    nextButton() {
+      this.currentIndex = Math.min(
+        this.currentIndex + 1,
+        this.buttons.length - this.numVisibleButtons
+      );
+    },
+    handleResize() {
+      this.screenWidth = window.innerWidth;
+    },
+  },
+  mounted() {
+    window.addEventListener("resize", this.handleResize);
+  },
+  beforeUnmount() {
+    window.removeEventListener("resize", this.handleResize);
   },
 };
 </script>
-
-<style scoped>
-h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  color: #3b3b3b;
-  text-transform: capitalize;
-}
-h2 {
-  color: #3b3b3b;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.1px;
-}
-h1 {
-  font-style: normal;
-  font-weight: 700;
-  color: #3b3b3b;
-  letter-spacing: 0.5px;
-}
-p {
-  font-style: normal;
-  font-weight: 400;
-  color: #787878;
-}
-li {
-  color: #3b3b3b;
-  letter-spacing: 0.1px;
-}
-</style>
