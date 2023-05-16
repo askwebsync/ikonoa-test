@@ -58,7 +58,8 @@
             href="https://goo.gl/maps/KrHKqrzFiZTRauon8"
             class="text-base md:text-lg text-red-600 tracking-tight"
           >
-            Graha Sentana - Jl. Warung Buncit Raya No. 2, Jakarta Selatan
+            Graha Al Badegel, 2nd Floor, Jl. Tutty Alawiyah No. 7 Jakarta
+            Selatan – 12740
           </a>
         </div>
       </div>
