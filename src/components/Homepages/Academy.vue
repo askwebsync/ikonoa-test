@@ -21,7 +21,9 @@
                 class="w-full rounded"
               />
             </div>
-            <div class="flex flex-col gap-8 md:gap-10 p-6 text-center h-80">
+            <div
+              class="flex flex-col gap-8 md:gap-10 p-6 text-center h-96 md:h-80"
+            >
               <h6 class="text-2xl lg:text-3xl">
                 {{ $t("home.academy-card1-header") }}
               </h6>
@@ -40,7 +42,9 @@
                 class="w-full rounded"
               />
             </div>
-            <div class="flex flex-col gap-8 md:gap-10 p-6 text-center h-80">
+            <div
+              class="flex flex-col gap-8 md:gap-10 p-6 text-center h-96 md:h-80"
+            >
               <h6 class="text-2xl lg:text-3xl">
                 {{ $t("home.academy-card2-header") }}
               </h6>
