@@ -10,9 +10,7 @@
         <Carousel :settings="settings" :breakpoints="breakpoints">
           <Slide v-for="slide in slides" :key="slide">
             <div class="carousel__item">
-              <div
-                class="flex flex-col gap-5 px-5 py-8 items-center justify-center"
-              >
+              <div class="flex flex-col gap-5 p-4 items-center justify-center">
                 <img
                   :src="slide.image"
                   class="w-60 h-60 rounded-md object-cover transition duration-200 hover:scale-110"
