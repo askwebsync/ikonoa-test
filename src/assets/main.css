@@ -15,6 +15,8 @@ h6 {
   font-style: normal;
   font-weight: 700;
   color: #17171f;
+  letter-spacing: 1.5px;
+  /* Default letter spacing for H6 */
 }
 
 h4 {
@@ -44,9 +46,50 @@ h2 {
 
 h1 {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 800;
   color: #fdfdff;
   letter-spacing: 1.5px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 767px) {
+
+  /* Mobile Styles */
+  h6,
+  h5,
+  h4,
+  h3,
+  h2,
+  h1 {
+    letter-spacing: -0.5px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  /* Tablet Styles */
+  h6,
+  h5,
+  h4,
+  h3,
+  h2,
+  h1 {
+    letter-spacing: 0.5px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  /* Laptop Styles */
+  h6,
+  h5,
+  h4,
+  h3,
+  h2,
+  h1 {
+    letter-spacing: 1.5px;
+  }
 }
 
 p {

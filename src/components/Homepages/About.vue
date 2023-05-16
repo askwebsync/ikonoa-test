@@ -1,7 +1,9 @@
 <template>
   <section class="background-product">
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
-      <div class="flex flex-col md:flex-row gap-12 items-center px-5 md:px-0">
+      <div
+        class="flex flex-col md:flex-row gap-10 md:gap-9 lg:gap-12 items-center px-5 md:px-0"
+      >
         <div class="flex md:self-start md:w-1/2">
           <img
             src="/assets/img/Home/about.webp"

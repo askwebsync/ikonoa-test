@@ -78,12 +78,4 @@ export default {
 };
 </script>
 
-<style scoped>
-p {
-  font-weight: 400;
-  line-height: 1.3em;
-}
-h2 {
-  letter-spacing: -1px;
-}
-</style>
+<style scoped></style>
