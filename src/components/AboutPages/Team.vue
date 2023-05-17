@@ -46,7 +46,7 @@ export default {
         {
           name: "Dr. Yutrizal Jacoub, SE, MM",
           title: "Senior Associate",
-          image: "https://via.placeholder.com/150",
+          image: "/assets/img/LP_About/yutrizal.jpg",
         },
         {
           name: "Bagus. S, SH ",
