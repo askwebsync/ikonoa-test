@@ -3,7 +3,7 @@
     "button1": "About",
     "button2": "Services & Solutions",
     "button3": "Insurance Policy",
-    "button4": "Claim Experience",
+    "button4": "Claims Experience",
     "button5": "Contact"
   },
   "footer": {
@@ -87,8 +87,8 @@
     "misi-text5": "Providing insurance services to stack-holders through human resource development and digital solutions"
   },
   "claim-experience": {
-    "banner-header": "OUR TEAMS CLAIM EXPERIENCE",
-    "banner-header-span": "Assists companies in determining the right premium price and managing their financial risk.",
+    "banner-header": "OUR TEAM CLAIMS EXPERIENCE",
+    "banner-header-span": "Assists you to manage the claim process and settlement more effective and efficient.",
     "card1-header": "Ship Stranded",
     "card2-header": "LPG Manufacture",
     "card3-header": "Floor Uplift",
@@ -108,7 +108,7 @@
   },
   "insurance": {
     "banner-header": "INSURANCE POLICY",
-    "banner-subheader": "We provide insurance solutions that suit your needs",
+    "banner-subheader": "We provide insurance policies and solutions that suit your needs",
     "button1-header": "Liability",
     "button2-header": "Engineering",
     "button3-header": "Health",
@@ -146,7 +146,7 @@
   },
   "contact": {
     "banner-header": "GET IN TOUCH",
-    "banner-subheader": "Let us know how we can help",
+    "banner-subheader": "Let us know how we can help you",
     "card1-header": "Call",
     "card2-header": "E-Mail",
     "card3-header": "Office"
@@ -166,12 +166,12 @@
   "risk-consulting": {
     "banner-header": "RISK CONSULTING",
     "banner-subheader": "Our experienced team offers comprehensive advisory services, including unconventional insurance topics like self-insurance, claims management, loss prevention, and project advisory.",
-    "card1-header": "Life Insurance",
+    "card1-header": "Property Insurance",
     "card2-header": "Car Insurance",
-    "card3-header": "Job Insurance",
+    "card3-header": "Marine Insurance",
     "card4-header": "Home Insurance",
     "card5-header": "Health Insurance",
-    "card6-header": "Wedding Insurance",
+    "card6-header": "Liability Insurance",
     "explanation-header": "Expert Insurance Advice and Support",
     "explanation-text": "When something unexpected damages your assets, filing an insurance claim can help you get compensation. But if you've never done it before, the process can be really tough. That's where an insurance claims consultant comes in. They'll help you get all the right documents, figure out how much you've lost, and submit your claim quickly and accurately. With their help, you can get the money you deserve from your insurance policy without the stress and confusion of doing it all on your own.",
     "claim-procces-header": "HOW TO CLAIM",
