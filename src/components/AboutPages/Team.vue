@@ -21,7 +21,7 @@
             :src="slide.image"
           />
           <p class="text-xl font-semibold leading-tight">{{ slide.name }}</p>
-          <p class="dark:text-gray-400">{{ slide.title }}</p>
+          <p class="mt-1 dark:text-gray-400">{{ slide.title }}</p>
         </div>
       </div>
     </div>
@@ -49,16 +49,8 @@ export default {
           image: "https://via.placeholder.com/150",
         },
       ],
-      activeIndex: 0,
-      itemWidth: 0,
     };
   },
-
-  mounted() {
-    this.carousel = this.$refs.carousel;
-    this.itemWidth = this.carousel.querySelector(".carousel__item").offsetWidth;
-  },
-
   methods: {
     next() {
       this.activeIndex = (this.activeIndex + 1) % this.slides.length;
