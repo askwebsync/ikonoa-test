@@ -7,19 +7,23 @@
           Some of the people you'll be working with
         </h2>
       </div>
-      <div class="flex flex-wrap justify-center gap-3">
+      <div class="flex flex-wrap justify-center gap-4">
         <div
           v-for="(slide, index) in slides"
           :key="index"
-          class="flex flex-col justify-center mx-4 text-center w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"
+          class="flex flex-col justify-center mx-2 text-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6"
         >
-          <img
-            alt="image"
-            class="self-center flex-shrink-0 w-24 h-24 mb-2 bg-center bg-cover rounded-full dark:bg-gray-500"
-            :src="slide.image"
-          />
-          <p class="text-lg font-semibold leading-tight">{{ slide.name }}</p>
-          <p class="mt-1 dark:text-gray-400">{{ slide.title }}</p>
+          <div
+            class="flex items-center justify-center self-center w-24 h-24 mb-2 rounded-full bg-center bg-cover dark:bg-gray-500"
+          >
+            <img
+              alt="image"
+              class="w-full h-full rounded-full"
+              :src="slide.image"
+            />
+          </div>
+          <p class="mt-1 text-base font-semibold">{{ slide.name }}</p>
+          <p class="mt-1 text-gray-500 dark:text-gray-400">{{ slide.title }}</p>
         </div>
       </div>
     </div>
