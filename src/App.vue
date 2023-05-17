@@ -103,4 +103,18 @@ export default {
 .my-float {
   margin-top: 16px;
 }
+
+@media (max-width: 768px) {
+  .float {
+    width: 50px;
+    height: 50px;
+    bottom: 15px;
+    right: 15px;
+    font-size: 24px;
+  }
+
+  .my-float {
+    margin-top: 12px;
+  }
+}
 </style>

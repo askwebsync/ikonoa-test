@@ -8,7 +8,7 @@
       <div class="google-map my-12 rounded">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.025742450736!2d106.82690381452953!3d-6.260339363033278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f22d79f5dec7%3A0x4e7478b43056d766!2sGraha%20Sentana!5e0!3m2!1sen!2sid!4v1679370838375!5m2!1sen!2sid"
-          width="600"
+          width="100%"
           height="450"
           style="border: 0"
           allowfullscreen=""
