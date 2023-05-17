@@ -9,8 +9,8 @@
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
             <img
-              src="/assets/img/Services/life.png"
-              alt="logo life insurance"
+              src="/assets/img/Services/property.png"
+              alt="property"
               class="w-12 h-12"
             />
           </div>
@@ -37,8 +37,8 @@
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
             <img
-              src="/assets/img/Services/job.png"
-              alt="logo job insurance"
+              src="/assets/img/Services/marine.png"
+              alt="marine"
               class="w-12 h-12"
             />
           </div>
@@ -79,8 +79,8 @@
             class="flex justify-center items-center p-6 rounded-full background-category"
           >
             <img
-              src="/assets/img/Services/wedding.png"
-              alt="logo wedding insurance"
+              src="/assets/img/Services/liability.png"
+              alt="liability"
               class="w-12 h-12"
             />
           </div>
