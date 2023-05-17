@@ -1,128 +1,89 @@
-<!-- eslint-disable vue/valid-v-for -->
 <template>
-  <section>
-    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
-      <div class="flex flex-col gap-10">
-        <div class="flex self-center items-center text-center">
-          <h3 class="text-xl md:text-3xl">Our Team</h3>
+  <section class="container mx-auto px-4 py-10 md:px-8 lg:px-24">
+    <div
+      class="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10"
+    >
+      <div class="flex flex-col gap-2 text-center">
+        <h3 class="text-xl md:text-2xl lg:text-3xl">MEET THE TEAM</h3>
+        <h2 class="text-lg md:text-xl lg:text-2xl text-gray-300">
+          Some of the people you'll be working with
+        </h2>
+      </div>
+      <div class="flex flex-row flex-wrap-reverse justify-center">
+        <div
+          v-for="(slide, index) in slides"
+          :key="index"
+          class="flex flex-col justify-center m-8 text-center"
+        >
+          <img
+            alt=""
+            class="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
+            :src="slide.image"
+          />
+          <p class="text-xl font-semibold leading-tight">{{ slide.name }}</p>
+          <p class="dark:text-gray-400">{{ slide.title }}</p>
         </div>
-
-        <Carousel :settings="settings" :breakpoints="breakpoints">
-          <Slide v-for="slide in slides" :key="slide">
-            <div class="carousel__item">
-              <div class="flex flex-col gap-5 p-4 items-center justify-center">
-                <img
-                  :src="slide.image"
-                  class="w-60 h-60 rounded-md object-cover transition duration-200 hover:scale-110"
-                />
-                <div class="flex flex-col gap-6">
-                  <div>
-                    <h2 class="text-xl">
-                      {{ slide.name }}
-                    </h2>
-                    <p class="text-gray-400">{{ slide.title }}</p>
-                  </div>
-                  <div
-                    class="flex items-center justify-center gap-3 w-auto h-5 text-gray-600"
-                  >
-                    <i
-                      class="fab fa-twitter fa-lg cursor-pointer transition duration-200 text-black hover:text-gray-400"
-                    ></i>
-                    <i
-                      class="fab fa-linkedin fa-lg cursor-pointer transition duration-200 text-black hover:text-gray-400"
-                    ></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Slide>
-
-          <template #addons>
-            <Navigation />
-          </template>
-        </Carousel>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import "vue3-carousel/dist/carousel.css";
-import { Carousel, Slide, Navigation } from "vue3-carousel";
-
 export default {
-  components: {
-    Carousel,
-    Slide,
-
-    Navigation,
-  },
   data() {
     return {
       slides: [
         {
-          name: "Jerry",
+          name: "Mr. Jerry",
           title: "President Director",
           image: "/assets/img/LP_About/jerry.jpeg",
         },
         {
-          name: "Antonius Tobing",
+          name: "Mr. Antonius Tobing",
           title: "Marketing Director",
           image: "https://via.placeholder.com/150",
         },
         {
-          name: "Bob Johnson",
-          title: "CFO",
+          name: "Dr. Yutrizal Jacoub",
+          title: "Senior Associate",
           image: "https://via.placeholder.com/150",
         },
       ],
-      settings: {
-        itemsToShow: 1,
-        snapAlign: "center",
-      },
-      breakpoints: {
-        // 700px and up
-        300: {
-          itemsToShow: 1,
-          snapAlign: "start",
-        },
-        700: {
-          itemsToShow: 1,
-          snapAlign: "center",
-        },
-        // 1024 and up
-        1024: {
-          itemsToShow: 2,
-          snapAlign: "start",
-        },
-      },
+      activeIndex: 0,
+      itemWidth: 0,
     };
+  },
+
+  mounted() {
+    this.carousel = this.$refs.carousel;
+    this.itemWidth = this.carousel.querySelector(".carousel__item").offsetWidth;
   },
 
   methods: {
     next() {
-      this.activeIndex = (this.activeIndex + 1) % this.teamMembers.length;
-      this.offset += 300;
+      this.activeIndex = (this.activeIndex + 1) % this.slides.length;
+      this.carousel.style.transform = `translateX(-${
+        this.activeIndex * this.itemWidth
+      }px)`;
     },
+
     prev() {
       this.activeIndex =
-        (this.activeIndex - 1 + this.teamMembers.length) %
-        this.teamMembers.length;
-      this.offset -= 300;
+        (this.activeIndex - 1 + this.slides.length) % this.slides.length;
+      this.carousel.style.transform = `translateX(-${
+        this.activeIndex * this.itemWidth
+      }px)`;
     },
   },
 };
 </script>
 
-<style>
-.carousel__item {
-  min-height: 350px !important;
-  width: 75% !important;
-  background-color: #f2f2f2 !important;
-  color: var(--vc-clr-white);
-  border-radius: 8px !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+<style scoped>
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.25px;
+  color: #3b3b3b;
 }
 </style>
