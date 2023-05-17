@@ -1,7 +1,7 @@
 <template>
-  <section class="container mx-auto px-4 py-10 md:px-8 lg:px-24">
+  <section class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
     <div
-      class="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10"
+      class="flex flex-col items-center justify-center p-4 gap-10 space-y-8 sm:p-10"
     >
       <div class="flex flex-col gap-2 text-center">
         <h3 class="text-xl md:text-2xl lg:text-3xl">MEET THE TEAM</h3>
@@ -9,18 +9,18 @@
           Some of the people you'll be working with
         </h2>
       </div>
-      <div class="flex flex-row flex-wrap-reverse justify-center">
+      <div class="flex flex-wrap justify-center">
         <div
           v-for="(slide, index) in slides"
           :key="index"
-          class="flex flex-col justify-center m-8 text-center"
+          class="flex flex-col justify-center m-4 text-center w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"
         >
           <img
             alt=""
-            class="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
+            class="self-center flex-shrink-0 w-16 h-16 mb-2 bg-center bg-cover rounded-full dark:bg-gray-500"
             :src="slide.image"
           />
-          <p class="text-xl font-semibold leading-tight">{{ slide.name }}</p>
+          <p class="text-lg font-semibold leading-tight">{{ slide.name }}</p>
           <p class="mt-1 dark:text-gray-400">{{ slide.title }}</p>
         </div>
       </div>
@@ -39,15 +39,16 @@ export default {
           image: "/assets/img/LP_About/jerry.jpeg",
         },
         {
-          name: "Antonius Tobing, Sr. Assoc. ANZIIF",
-          title: "Marketing Director",
-          image: "https://via.placeholder.com/150",
-        },
-        {
           name: "Dr. Yutrizal Jacoub, SE, MM",
           title: "Senior Associate",
           image: "/assets/img/LP_About/yutrizal.jpg",
         },
+        {
+          name: "Antonius Tobing, Sr. Assoc. ANZIIF",
+          title: "Marketing Director",
+          image: "https://via.placeholder.com/150",
+        },
+
         {
           name: "Bagus. S, SH ",
           title: "Senior Consultant",
