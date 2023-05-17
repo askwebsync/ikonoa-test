@@ -16,8 +16,8 @@
           class="flex flex-col justify-center m-4 text-center w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"
         >
           <img
-            alt=""
-            class="self-center flex-shrink-0 w-16 h-16 mb-2 bg-center bg-cover rounded-full dark:bg-gray-500"
+            alt="image"
+            class="self-center flex-shrink-0 w-24 h-24 mb-2 bg-center bg-cover rounded-full dark:bg-gray-500"
             :src="slide.image"
           />
           <p class="text-lg font-semibold leading-tight">{{ slide.name }}</p>
@@ -48,14 +48,13 @@ export default {
           title: "Marketing Director",
           image: "https://via.placeholder.com/150",
         },
-
         {
-          name: "Bagus. S, SH ",
+          name: "Dan Sudira, Sr. Assoc. ANZIIF",
           title: "Senior Consultant",
           image: "https://via.placeholder.com/150",
         },
         {
-          name: "Dan Sudira, Sr. Assoc. ANZIIF",
+          name: "Bagus. S, SH ",
           title: "Senior Consultant",
           image: "https://via.placeholder.com/150",
         },
