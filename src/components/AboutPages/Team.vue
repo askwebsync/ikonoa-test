@@ -34,18 +34,28 @@ export default {
     return {
       slides: [
         {
-          name: "Mr. Jerry",
+          name: "Jerry Firsonia, AIIS, CIIB",
           title: "President Director",
           image: "/assets/img/LP_About/jerry.jpeg",
         },
         {
-          name: "Mr. Antonius Tobing",
+          name: "Antonius Tobing, Sr. Assoc. ANZIIF",
           title: "Marketing Director",
           image: "https://via.placeholder.com/150",
         },
         {
-          name: "Dr. Yutrizal Jacoub",
+          name: "Dr. Yutrizal Jacoub, SE, MM",
           title: "Senior Associate",
+          image: "https://via.placeholder.com/150",
+        },
+        {
+          name: "Bagus. S, SH ",
+          title: "Senior Consultant",
+          image: "https://via.placeholder.com/150",
+        },
+        {
+          name: "Dan Sudira, Sr. Assoc. ANZIIF",
+          title: "Senior Consultant",
           image: "https://via.placeholder.com/150",
         },
       ],
