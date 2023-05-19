@@ -26,33 +26,33 @@
               <li class="mb-2">
                 <router-link
                   :to="{ name: 'about' }"
-                  class="text-md md:text-lg font-medium"
+                  class="text-md md:text-lg font-medium block w-full"
                 >
-                  {{ $t("footer.card2-option1") }}</router-link
-                >
+                  {{ $t("footer.card2-option1") }}
+                </router-link>
               </li>
               <li class="mb-2">
-                <a class="text-md md:text-lg font-medium" href="#">
-                  {{ $t("footer.card2-option2") }}</a
-                >
+                <a class="text-md md:text-lg font-medium block w-full" href="#">
+                  {{ $t("footer.card2-option2") }}
+                </a>
               </li>
               <li class="mb-2">
-                <a class="text-md md:text-lg font-medium" href="#">
-                  {{ $t("footer.card2-option3") }}</a
-                >
+                <a class="text-md md:text-lg font-medium block w-full" href="#">
+                  {{ $t("footer.card2-option3") }}
+                </a>
               </li>
               <li class="mb-2">
-                <a class="text-md md:text-lg font-medium" href="#">
-                  {{ $t("footer.card2-option4") }}</a
-                >
+                <a class="text-md md:text-lg font-medium block w-full" href="#">
+                  {{ $t("footer.card2-option4") }}
+                </a>
               </li>
               <li class="">
                 <router-link
                   :to="{ name: 'contact' }"
-                  class="text-md md:text-lg font-medium"
+                  class="text-md md:text-lg font-medium block w-full"
                 >
-                  {{ $t("footer.card2-option5") }}</router-link
-                >
+                  {{ $t("footer.card2-option5") }}
+                </router-link>
               </li>
             </ul>
           </div>
@@ -62,34 +62,34 @@
               <li class="mb-2">
                 <router-link
                   :to="{ name: 'risk-consulting' }"
-                  class="text-md md:text-lg font-medium"
+                  class="text-md md:text-lg font-medium block w-full"
                 >
-                  {{ $t("footer.card3-option1") }}</router-link
-                >
+                  {{ $t("footer.card3-option1") }}
+                </router-link>
               </li>
               <li class="mb-2">
                 <router-link
                   :to="{ name: 'risk-management' }"
-                  class="text-md md:text-lg font-medium"
+                  class="text-md md:text-lg font-medium block w-full"
                 >
-                  {{ $t("footer.card3-option2") }}</router-link
-                >
+                  {{ $t("footer.card3-option2") }}
+                </router-link>
               </li>
               <li class="mb-2">
                 <router-link
                   :to="{ name: 'insurance-policy' }"
-                  class="text-md md:text-lg font-medium"
+                  class="text-md md:text-lg font-medium block w-full"
                 >
-                  {{ $t("footer.card3-option3") }}</router-link
-                >
+                  {{ $t("footer.card3-option3") }}
+                </router-link>
               </li>
               <li class="mb-2">
                 <router-link
                   :to="{ name: 'academy' }"
-                  class="text-md md:text-lg font-medium"
+                  class="text-md md:text-lg font-medium block w-full"
                 >
-                  {{ $t("footer.card3-option4") }}</router-link
-                >
+                  {{ $t("footer.card3-option4") }}
+                </router-link>
               </li>
             </ul>
           </div>
@@ -97,12 +97,12 @@
             <h3 class="text-lg">{{ $t("footer.card4-header") }}</h3>
             <ul class="space-y-3 text-white">
               <li class="mb-2">
-                <a class="text-md md:text-lg font-medium" href="#"
+                <a class="text-md md:text-lg font-medium block w-full" href="#"
                   >(+62) 811-963754</a
                 >
               </li>
               <li class="mb-2">
-                <a class="text-md md:text-lg font-medium" href="#"
+                <a class="text-md md:text-lg font-medium block w-full" href="#"
                   >hallo@ikonoa.com</a
                 >
               </li>
@@ -120,8 +120,8 @@
                   {{ $t("footer.card4-option2") }}
                   <span class="italic text-gray-300"
                     >Graha Al Badegel, 2nd Floor, Jl. Tutty Alawiyah No. 7
-                    Jakarta Selatan – 12740
-                  </span>
+                    Jakarta Selatan – 12740</span
+                  >
                 </p>
               </li>
             </ul>
@@ -135,21 +135,21 @@
   </footer>
 </template>
 
-<script>
-export default {
-  name: "Foot",
-  components: {},
-  data() {
-    return {};
-  },
-};
-</script>
-
 <style scoped>
 li p {
   color: #fdfdff;
 }
+
 h3 {
   color: #ffff00;
+}
+
+footer a {
+  padding: 8px;
+  display: block;
+}
+
+footer a:hover {
+  background-color: #333;
 }
 </style>
