@@ -5,11 +5,13 @@
         class="flex flex-col md:flex-row gap-10 md:gap-9 lg:gap-12 items-center px-5 md:px-0"
       >
         <div class="flex md:self-start md:w-1/2">
-          <img
-            src="/assets/img/Home/about.webp"
-            alt="about-us"
-            class="object-cover w-full h-full"
-          />
+          <div class="aspect-w-16 aspect-h-9">
+            <img
+              src="/assets/img/Home/about.webp"
+              alt="about-us"
+              class="object-cover"
+            />
+          </div>
         </div>
         <div
           class="md:w-1/2 flex flex-col gap-12 md:gap-9 self-center md:self-start md:ml-6"
