@@ -34,19 +34,28 @@
                 </router-link>
               </li>
               <li class="mb-2">
-                <a class="text-md md:text-lg font-medium block w-full" href="#">
+                <router-link
+                  :to="{ name: 'services' }"
+                  class="text-md md:text-lg font-medium block w-full"
+                >
                   {{ $t("footer.card2-option2") }}
-                </a>
+                </router-link>
               </li>
               <li class="mb-2">
-                <a class="text-md md:text-lg font-medium block w-full" href="#">
+                <router-link
+                  :to="{ name: 'insurances' }"
+                  class="text-md md:text-lg font-medium block w-full"
+                >
                   {{ $t("footer.card2-option3") }}
-                </a>
+                </router-link>
               </li>
               <li class="mb-2">
-                <a class="text-md md:text-lg font-medium block w-full" href="#">
+                <router-link
+                  :to="{ name: 'claim-experience' }"
+                  class="text-md md:text-lg font-medium block w-full"
+                >
                   {{ $t("footer.card2-option4") }}
-                </a>
+                </router-link>
               </li>
               <li class="">
                 <router-link
@@ -137,6 +146,16 @@
   </footer>
 </template>
 
+<script>
+export default {
+  name: "AppFooter",
+  components: {},
+  data() {
+    return {};
+  },
+};
+</script>
+
 <style scoped>
 li p {
   color: #fdfdff;
@@ -148,7 +167,12 @@ h3 {
 
 footer a {
   padding: 8px;
-  display: block;
+  display: inline-block;
+  /* Change display to inline-block */
+  width: 100%;
+  /* Add width: 100% */
+  box-sizing: border-box;
+  /* Add box-sizing: border-box */
 }
 
 footer a:hover {
