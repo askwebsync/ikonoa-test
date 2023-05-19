@@ -61,7 +61,7 @@
           >
             <router-link
               :to="{ name: 'academy' }"
-              aria-label="Check our services full explanation"
+              aria-label="Check our academy section"
             >
               {{ $t("home.button") }}</router-link
             >

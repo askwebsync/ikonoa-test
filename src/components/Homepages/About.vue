@@ -21,9 +21,7 @@
             <h2 class="text-xl md:text-2xl lg:text-3xl">
               {{ $t("home.about-subheader") }}
             </h2>
-            <p class="text-sm md:text-lg">
-              {{ $t("home.about-description") }}
-            </p>
+            <p class="text-sm md:text-lg">{{ $t("home.about-description") }}</p>
           </div>
 
           <div class="flex flex-col gap-12 md:gap-10">
@@ -148,8 +146,8 @@
                   :to="{ name: 'about' }"
                   aria-label="Learn More about our company"
                 >
-                  {{ $t("home.button") }}</router-link
-                >
+                  {{ $t("home.button") }}
+                </router-link>
               </button>
             </div>
           </div>

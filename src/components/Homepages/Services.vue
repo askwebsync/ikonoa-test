@@ -20,7 +20,10 @@
               <img src="/assets/img/Home/analysis.png" alt="Risk Consulting" />
             </div>
             <div class="flex flex-col gap-8">
-              <router-link :to="{ name: 'risk-consulting' }">
+              <router-link
+                :to="{ name: 'risk-consulting' }"
+                aria-label="{{ $t('home.service-card1-header') }}"
+              >
                 <h1
                   class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
                 >
@@ -53,7 +56,10 @@
               />
             </div>
             <div class="flex flex-col gap-8">
-              <router-link :to="{ name: 'insurance-policy' }">
+              <router-link
+                :to="{ name: 'insurance-policy' }"
+                aria-label="{{ $t('home.service-card2-header') }}"
+              >
                 <h1 class="text-xl md:text-2xl lg:text-3xl uppercase">
                   {{ $t("home.service-card2-header") }}
                 </h1>
@@ -80,7 +86,10 @@
               <img src="/assets/img/Home/risk.png" alt="Risk Management" />
             </div>
             <div class="flex flex-col gap-8">
-              <router-link :to="{ name: 'risk-management' }">
+              <router-link
+                :to="{ name: 'risk-management' }"
+                aria-label="{{ $t('home.service-card3-header') }}"
+              >
                 <h1
                   class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
                 >
@@ -105,7 +114,10 @@
               <img src="/assets/img/Home/academy.png" alt="Academy" />
             </div>
             <div class="flex flex-col gap-8">
-              <router-link :to="{ name: 'academy' }">
+              <router-link
+                :to="{ name: 'academy' }"
+                aria-label="{{ $t('home.service-card4-header') }}"
+              >
                 <h1
                   class="text-xl md:text-2xl lg:text-3xl uppercase hover:text-red-600"
                 >

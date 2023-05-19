@@ -106,9 +106,9 @@
 export default {
   name: "AppHeader",
   computed: {
-    currentLocale() {
-      return this.$i18n.locale === "fr" ? "French" : "English";
-    },
+    // currentLocale() {
+    //   return this.$i18n.locale === "fr" ? "French" : "English";
+    // },
   },
   data() {
     return {
@@ -140,7 +140,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .menu {
   background-color: transparent;
   border: none;
