@@ -19,7 +19,7 @@
             </p>
           </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:w-2/3 lg:ml-3">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:w-2/3 lg:ml-3 gap-8">
           <div class="space-y-4">
             <h3 class="text-lg">{{ $t("footer.card2-header") }}</h3>
             <ul class="space-y-2 text-white">
@@ -181,6 +181,6 @@ footer a:hover {
 }
 
 footer {
-  height: 450px; /* Adjust the height as needed */
+  height: 100%; /* Adjust the height as needed */
 }
 </style>
