@@ -10,6 +10,8 @@
               src="/assets/img/Icon/logo.png"
               class="w-28 h-12 object-contain"
               alt="logo"
+              width="112"
+              height="48"
             />
 
             <p class="text-md md:text-lg font-medium max-w-xs text-white">
