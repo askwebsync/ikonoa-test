@@ -35,14 +35,7 @@
                   class="w-6 h-6"
                 />
                 <div class="font-semibold text-lg">
-                  <span
-                    v-html="
-                      ($t('home.about-icon1') || '').replace(
-                        /I/g,
-                        '<span class=\'text-red\'>I</span>'
-                      )
-                    "
-                  ></span>
+                  <span class="red-uppercase">I</span>ntegrity
                 </div>
               </li>
               <li class="flex items-center gap-4">
@@ -52,14 +45,7 @@
                   class="w-6 h-6"
                 />
                 <div class="font-semibold text-lg">
-                  <span
-                    v-html="
-                      ($t('home.about-icon2') || '').replace(
-                        /K/g,
-                        '<span class=\'text-red\'>K</span>'
-                      )
-                    "
-                  ></span>
+                  <span class="red-uppercase">K</span>nowledgeable
                 </div>
               </li>
               <li class="flex items-center gap-4">
@@ -69,23 +55,7 @@
                   class="w-6 h-6"
                 />
                 <div class="font-semibold text-lg">
-                  <span
-                    v-html="
-                      (() => {
-                        const text = $t('home.about-icon3') || '';
-                        const firstOIndex = text.indexOf('o');
-                        if (firstOIndex >= 0) {
-                          return (
-                            text.substring(0, firstOIndex) +
-                            '<span class=\'text-red\'>o</span>' +
-                            text.substring(firstOIndex + 1)
-                          );
-                        } else {
-                          return text;
-                        }
-                      })()
-                    "
-                  ></span>
+                  Professi<span class="red-uppercase">O</span>nal
                 </div>
               </li>
               <li class="flex items-center gap-4">
@@ -95,14 +65,7 @@
                   class="w-6 h-6"
                 />
                 <div class="font-semibold text-lg">
-                  <span
-                    v-html="
-                      ($t('home.about-icon4') || '').replace(
-                        /n/g,
-                        '<span class=\'text-red\'>n</span>'
-                      )
-                    "
-                  ></span>
+                  Ho<span class="red-uppercase">N</span>esty
                 </div>
               </li>
               <li class="flex items-center gap-4">
@@ -112,14 +75,7 @@
                   class="w-6 h-6"
                 />
                 <div class="font-semibold text-lg">
-                  <span
-                    v-html="
-                      ($t('home.about-icon5') || '').replace(
-                        /o/g,
-                        '<span class=\'text-red\'>o</span>'
-                      )
-                    "
-                  ></span>
+                  F<span class="red-uppercase">O</span>cus
                 </div>
               </li>
               <li class="flex items-center gap-4">
@@ -129,14 +85,7 @@
                   class="w-6 h-6"
                 />
                 <div class="font-semibold text-lg">
-                  <span
-                    v-html="
-                      ($t('home.about-icon6') || '').replace(
-                        /a/g,
-                        '<span class=\'text-red\'>a</span>'
-                      )
-                    "
-                  ></span>
+                  P<span class="red-uppercase">A</span>rtnership
                 </div>
               </li>
             </ul>
@@ -180,5 +129,9 @@ li {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
+}
+.red-uppercase {
+  color: red;
+  text-transform: uppercase;
 }
 </style>

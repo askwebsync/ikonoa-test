@@ -54,7 +54,7 @@ const router = createRouter({
     if (savedPosition) {
       return savedPosition;
     } else {
-      return { top: 0 };
+      return { x: 0, y: 0 };
     }
   },
 });

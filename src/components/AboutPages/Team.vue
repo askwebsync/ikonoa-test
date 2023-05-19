@@ -56,24 +56,24 @@ export default {
           image: "/assets/img/LP_About/jerry.jpeg",
         },
         {
-          name: "Dr. Yutrizal Jacoub, SE, MM",
-          title: "Senior Associate",
-          image: "/assets/img/LP_About/yutrizal.jpg",
-        },
-        {
           name: "Antonius Tobing, Sr. Assoc. ANZIIF",
           title: "Marketing Director",
-          image: "https://via.placeholder.com/150",
-        },
-        {
-          name: "Dan Sudira, Sr. Assoc. ANZIIF",
-          title: "Senior Consultant",
           image: "https://via.placeholder.com/150",
         },
         {
           name: "Bagus. S, SH ",
           title: "Senior Consultant",
           image: "https://via.placeholder.com/150",
+        },
+        {
+          name: "Dan Sudira, Sr. Assoc. ANZIIF",
+          title: "Senior Consultant",
+          image: "/assets/img/LP_About/dan.jpg",
+        },
+        {
+          name: "Dr. Yutrizal Jacoub, SE, MM",
+          title: "Senior Associate",
+          image: "/assets/img/LP_About/yutrizal.jpg",
         },
       ],
     };
