@@ -2,11 +2,7 @@
   <section>
     <div
       class="relative overflow-hidden bg-no-repeat bg-cover"
-      style="
-        background-position: 50%;
-        background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp');
-        height: 460px;
-      "
+      style="background-position: 50%"
     >
       <div
         class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
@@ -15,6 +11,8 @@
         <div
           class="flex flex-col justify-center items-center h-full text-center gap-6 container mx-auto px-4 md:px-8 lg:px-24"
         >
+          <!-- Placeholder element with fixed aspect ratio -->
+          <div class="aspect-w-16 aspect-h-9"></div>
           <h1
             class="text-2xl sm:text-3xl lg:text-4xl xl:text-6xl hover:text-red-600 uppercase md:leading-snug"
           >

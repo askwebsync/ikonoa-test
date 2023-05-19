@@ -43,7 +43,7 @@
               </li>
               <li class="mb-2">
                 <router-link
-                  :to="{ name: 'insurances' }"
+                  :to="{ name: 'insurance-policy' }"
                   class="text-md md:text-lg font-medium block w-full"
                 >
                   {{ $t("footer.card2-option3") }}
