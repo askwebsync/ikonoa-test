@@ -90,7 +90,7 @@
     "banner-header": "OUR TEAM CLAIMS EXPERIENCE",
     "banner-header-span": "Assists you to manage the claim process and settlement more effective and efficient.",
     "card1-header": "Ship Stranded",
-    "card2-header": "LPG Manufacture",
+    "card2-header": "Hydro Power Plant",
     "card3-header": "Floor Uplift",
     "card4-header": "Mining",
     "card5-header": "Lombok Earthquake",
@@ -158,7 +158,7 @@
     "card2-header": "Risk Management",
     "card3-header": "Insurance Policy",
     "card4-header": "Academy",
-    "card1-subheader": "We can carry out a risk survey according to your needs, including unusual and complex risks. Our team can work and conduct surveys wherever these risks are located.",
+    "card1-subheader": "We can identify potential risks that an organisation may face and come up with strategies to mitigate these risks. Our role is for an organisation's protection and works to prevent the company from facing issues in the future",
     "card2-subheader": "Assist our customers in identifying, evaluating, and managing the risks associated with their business, thereby reducing potential losses and increasing business success.",
     "card3-subheader": "We provide consultative services and work with clients including business owners and benefits decision-makers to develop the right coverage plans for each client's needs.",
     "card4-subheader": "We provide insurance training that suits to your needs, either directly provided by our experienced Staff or in collaboration with third parties. We named it Insurance for Insurance Staff and Insurance for Non-Insurance Staff."
@@ -167,7 +167,7 @@
     "banner-header": "RISK CONSULTING",
     "banner-subheader": "Our experienced team offers comprehensive advisory services, including unconventional insurance topics like self-insurance, claims management, loss prevention, and project advisory.",
     "card1-header": "Property Insurance",
-    "card2-header": "Car Insurance",
+    "card2-header": "Automobile Insurance",
     "card3-header": "Marine Insurance",
     "card4-header": "Home Insurance",
     "card5-header": "Health Insurance",
@@ -184,7 +184,7 @@
     "claim-procces-card1-explanation": "The first step in the claim process is reporting your claim. You can report your claim easily through our website or WhatsApp. Our team will then conduct a survey to assess the damage and provide you with further instructions.",
     "claim-procces-card2-explanation": "During the second step of the claims process, our team will work with you to gather all the necessary documentation to support your claim. From photographs to receipts and other relevant documents, we'll ensure that you have everything you need to file a successful claim.",
     "claim-procces-card3-explanation": "During the third step of the claim process, our team will review and evaluate your claim to ensure that it is processed accurately. We understand that fair compensation is essential, and we will ensure that you receive the compensation you are entitled to according to the provisions of your policy.",
-    "claim-procces-card4-explanation": "During the fourth step of the claim process, our team will adjust your claim to determine whether the losses experienced can be covered by the policy you have purchased. We will provide you with all the necessary information to help you understand your policy liability.",
+    "claim-procces-card4-explanation": "During the fourth step of the claim process, Insurance Officer and/or appointed Loss Adjuster will assess and justify your claim to determine whether the losses experienced can be covered by the policy you have purchased. We will provide you with all the necessary information to help you understand your policy liability.",
     "claim-procces-card5-explanation": "The fifth and final step of the claim process involves finalizing your claim and providing you with compensation for the losses you have suffered. Our team will ensure that the settlement is made promptly and efficiently in accordance with the provisions of your policy."
   },
   "risk-management": {

@@ -71,13 +71,13 @@ export default {
           title: "3. Personalized Coverage Offer",
           image: "step-3.png",
           description:
-            "After completing the risk survey and having your risk placed into an insurance policy, our team will offer you a personalized coverage plan that takes into account your unique needs and characteristics. This plan will include a detailed quotation of premium prices and coverage options, so you can make an informed decision about which policy is right for you.",
+            "After completing the risk survey and having your risk placed into an or some insurance companies, our team will offer you a personalized coverage plan that takes into account your unique needs and characteristics. This plan will include a detailed quotation of premium prices and coverage options, so you can make an informed decision about which policy is right for you.",
         },
         {
           title: "4. Cover Note & Policy Issue",
           image: "step-4.png",
           description:
-            "Once the premium has been paid and the coverage offer has been accepted, the insurance company issues a cover note and insurance policy to the policyholder. The cover note provides temporary coverage until the policy is issued and also serves as proof of insurance. The policy outlines the terms and conditions of the insurance coverage and should be kept in a safe place for future reference.",
+            "The insurance company issues a cover note and insurance policy to the policyholder. The cover note provides temporary coverage until the policy is issued and also serves as proof of insurance. The policy outlines the terms and conditions of the insurance coverage and should be kept in a safe place for future reference.",
         },
         {
           title: "5. Premium Payment",

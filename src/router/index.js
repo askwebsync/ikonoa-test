@@ -50,13 +50,12 @@ const router = createRouter({
       component: () => import("../views/ClaimExperience.vue"),
     },
   ],
+  // eslint-disable-next-line no-unused-vars
   scrollBehavior(to, from, savedPosition) {
-    if (savedPosition) {
-      return savedPosition;
-    } else {
-      return { x: 0, y: 0 };
-    }
+    return { top: 0 };
   },
 });
+
 window.addEventListener("wheel", () => {}, { passive: true });
+window.addEventListener("touchstart", () => {}, { passive: true });
 export default router;

@@ -7,23 +7,20 @@
           Some of the people you'll be working with
         </h2>
       </div>
-      <div class="flex flex-wrap justify-center">
+      <div class="flex flex-wrap justify-center gap-3">
         <!-- Member -->
         <div
           v-for="(slide, index) in slides"
           :key="index"
-          class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-6 px-6 sm:px-6 lg:px-4"
+          class="w-full w-1/2 md:w-1/3 lg:w-1/4 mb-6 px-6 sm:px-6 lg:px-4"
         >
-          <div class="flex flex-col gap-5">
+          <div class="flex flex-col items-center gap-5 h-full">
             <!-- Avatar -->
-
-            <div class="aspect-w-1 aspect-h-1 self-center">
-              <img
-                class="object-fit rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                :src="slide.image"
-                alt="Avatar"
-                style="width: 160px; height: 180px"
-              />
+            <div class="avatar">
+              <div
+                class="avatar-inner"
+                :style="{ backgroundImage: `url(${slide.image})` }"
+              ></div>
             </div>
 
             <!-- Details -->
@@ -58,15 +55,15 @@ export default {
         {
           name: "Antonius Tobing, Sr. Assoc. ANZIIF",
           title: "Marketing Director",
-          image: "https://via.placeholder.com/150",
+          image: "/assets/img/LP_About/placeholder.png",
         },
         {
           name: "Bagus. S, SH ",
           title: "Senior Consultant",
-          image: "https://via.placeholder.com/150",
+          image: "/assets/img/LP_About/placeholder.png",
         },
         {
-          name: "Dan Sudira, Sr. Assoc. ANZIIF",
+          name: "Dan Soedira, Sr. Assoc. ANZIIF",
           title: "Senior Consultant",
           image: "/assets/img/LP_About/dan.jpg",
         },
@@ -104,5 +101,31 @@ h2 {
   font-weight: 700;
   letter-spacing: -0.25px;
   color: #3b3b3b;
+}
+
+.avatar {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%; /* Menyamakan aspek rasio 1:1 */
+  position: relative;
+  overflow: hidden;
+  border-radius: 40%;
+}
+
+.avatar-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 640px) {
+  .avatar {
+    border-radius: 50%; /* Mengubah border-radius menjadi lingkaran pada layar yang lebih besar */
+  }
 }
 </style>

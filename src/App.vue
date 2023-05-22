@@ -1,7 +1,4 @@
 <template>
-  <!-- <div v-if="loading" class="h-screen flex items-center justify-center">
-    <div class="spinner w-12 h-12 mx-auto text-gray-600 animate-spin"></div>
-  </div> -->
   <div class="app-container">
     <app-header />
     <router-view v-slot="{ Component, route }">
@@ -34,18 +31,7 @@ export default {
     AppFooter,
   },
   data() {
-    return {
-      // loading: true,
-    };
+    return {};
   },
-  // created() {
-  //   setTimeout(() => {
-  //     if (this.loading) {
-  //       this.loading = false;
-  //     }
-  //   }, 1000);
-  // },
 };
 </script>
-
-<style></style>

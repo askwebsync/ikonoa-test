@@ -43,43 +43,48 @@
       >
         <li
           @click="showMenu = !showMenu"
+          :class="{ 'text-red-500': $route.name === 'about' }"
           class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
         >
-          <router-link :to="{ name: 'about' }" class="font-medium">
-            {{ $t("navbar.button1") }}</router-link
-          >
+          <router-link :to="{ name: 'about' }" class="font-medium">{{
+            $t("navbar.button1")
+          }}</router-link>
         </li>
         <li
           @click="showMenu = !showMenu"
+          :class="{ 'text-red-500': $route.name === 'services' }"
           class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
         >
-          <router-link :to="{ name: 'services' }" class="font-medium">
-            {{ $t("navbar.button2") }}</router-link
-          >
+          <router-link :to="{ name: 'services' }" class="font-medium">{{
+            $t("navbar.button2")
+          }}</router-link>
         </li>
         <li
           @click="showMenu = !showMenu"
+          :class="{ 'text-red-500': $route.name === 'insurance-policy' }"
           class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
         >
-          <router-link :to="{ name: 'insurance-policy' }" class="font-medium">
-            {{ $t("navbar.button3") }}</router-link
-          >
+          <router-link :to="{ name: 'insurance-policy' }" class="font-medium">{{
+            $t("navbar.button3")
+          }}</router-link>
         </li>
         <li
           @click="showMenu = !showMenu"
+          :class="{ 'text-red-500': $route.name === 'claim-experience' }"
           class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
         >
-          <router-link :to="{ name: 'claim-experience' }" class="font-medium">
-            {{ $t("navbar.button4") }}</router-link
-          >
+          <router-link :to="{ name: 'claim-experience' }" class="font-medium">{{
+            $t("navbar.button4")
+          }}</router-link>
         </li>
         <li
           @click="showMenu = !showMenu"
+          :class="{ 'text-red-500': $route.name === 'contact' }"
           class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
         >
-          <router-link :to="{ name: 'contact' }" class="font-medium">
-            {{ $t("navbar.button5") }}</router-link
-          >
+          <router-link :to="{ name: 'contact' }" class="font-medium">{{
+            $t("navbar.button5")
+          }}</router-link>
         </li>
         <li>
           <div
@@ -102,6 +107,7 @@
     </nav>
   </header>
 </template>
+
 <script>
 export default {
   name: "AppHeader",
@@ -118,10 +124,10 @@ export default {
       flagAltText: "Nation Flag",
     };
   },
-
-  toggleNav: function () {
-    this.showMenu = !this.showMenu;
-    this.showDiv = !this.showDiv;
+  watch: {
+    $route() {
+      this.showMenu = false;
+    },
   },
   methods: {
     changeLanguage() {
@@ -140,6 +146,7 @@ export default {
   },
 };
 </script>
+
 <style scoped>
 .menu {
   background-color: transparent;
@@ -186,7 +193,11 @@ export default {
 li .a {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.5px;
   color: #17171f;
+}
+
+.text-red-500 {
+  color: #d50000;
 }
 </style>
