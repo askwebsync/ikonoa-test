@@ -7,29 +7,24 @@
           Some of the people you'll be working with
         </h2>
       </div>
-      <div class="flex flex-wrap justify-center mt-4 gap-6 lg:gap-10">
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
         <!-- Member -->
         <div
           v-for="(slide, index) in slides"
           :key="index"
-          class="w-full w-1/2 md:w-1/3 lg:w-1/4 mb-6 px-6 sm:px-6 lg:px-4"
+          class="mb-6 px-6 sm:px-6"
         >
           <div class="flex flex-col items-center gap-5 h-full">
             <!-- Avatar -->
             <div class="avatar">
-              <div
-                class="avatar-inner"
-                :style="{ backgroundImage: `url(${slide.image})` }"
-              ></div>
+              <img :src="slide.image" :alt="slide.name" class="avatar-inner" />
             </div>
-
             <!-- Details -->
             <div class="text-center mt-6">
               <!-- Name -->
               <h1 class="text-gray-900 text-xl font-bold mb-1">
                 {{ slide.name }}
               </h1>
-
               <!-- Title -->
               <div class="text-gray-700 font-light mb-2">
                 {{ slide.title }}
@@ -105,32 +100,43 @@ h2 {
 
 .avatar {
   width: 100%;
-  height: 0;
-  padding-bottom: 100%; /* Menyamakan aspek rasio 1:1 */
+  padding-bottom: 100%; /* Maintain 1:1 aspect ratio */
   position: relative;
   overflow: hidden;
-  border-radius: 100%;
+  border-radius: 10%;
 }
 
 .avatar-inner {
   position: absolute;
+  height: -webkit-fill-available;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  object-fit: cover;
 }
 
-@media (min-width: 640px) {
+@media (max-width: 339px) {
   .avatar {
-    /* Mengubah border-radius menjadi lingkaran pada layar yang lebih besar */
+    width: 84%;
   }
 }
-@media (min-width: 1040px) {
+
+@media (min-width: 340px) and (max-width: 599px) {
   .avatar {
-    width: 80%;
+    width: 70%;
+  }
+}
+
+@media (min-width: 600px) {
+  .avatar {
+    width: 78%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .avatar {
+    width: 73%;
   }
 }
 </style>
