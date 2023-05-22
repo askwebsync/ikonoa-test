@@ -103,7 +103,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 p {
   font-family: "Roboto";
   font-style: normal;

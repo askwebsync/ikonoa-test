@@ -2,7 +2,7 @@
   <section>
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 justify-content-center place-items-center gap-10"
+        class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 justify-content-center place-items-center gap-10"
       >
         <div v-for="card in cards" :key="card.header">
           <div class="overflow-hidden rounded-2xl background-product card">
@@ -24,7 +24,9 @@
             </div>
             <div class="p-3">
               <div class="flex flex-col text-center">
-                <h2 class="text-lg text-black mb-4">{{ card.year }}</h2>
+                <h1 class="text-lg text-black mb-4 font-bold">
+                  {{ card.year }}
+                </h1>
                 <h2 class="text-lg text-gray-700">{{ card.header }}</h2>
                 <h3 class="text-lg">{{ card.amount }}</h3>
               </div>
@@ -201,5 +203,20 @@ export default {
   max-height: 320px;
   width: 310px;
   border-radius: 8px;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.25px;
+  color: #3b3b3b;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.25px;
 }
 </style>

@@ -48,16 +48,13 @@
               class="object-cover w-full h-48 md:h-full"
             />
           </div>
-          <div class="p-6 md:p-7">
-            <div class="flex flex-col gap-6 md:gap-8">
-              <h3 class="text-2xl font-bold">
-                {{ $t("insurance.product-card1-header") }}
-              </h3>
+          <div class="px-5 py-6">
+            <div class="flex flex-col gap-8">
               <h2 class="text-lg md:text-xl leading-normal">
                 {{ $t("insurance.product-card1-subheader") }}
               </h2>
               <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
+                class="space-y-3 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
               >
                 <li>{{ $t("insurance.product-card1-text1") }}</li>
                 <li>{{ $t("insurance.product-card1-text2") }}</li>
@@ -79,16 +76,13 @@
               class="object-cover w-full h-48 md:h-full"
             />
           </div>
-          <div class="p-6 md:p-7">
-            <div class="flex flex-col gap-6 md:gap-8">
-              <h3 class="text-2xl font-bold">
-                {{ $t("insurance.product-card2-header") }}
-              </h3>
+          <div class="px-5 py-6">
+            <div class="flex flex-col gap-8">
               <h2 class="text-lg md:text-xl leading-normal">
                 {{ $t("insurance.product-card2-subheader") }}
               </h2>
               <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
+                class="space-y-3 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
               >
                 <li>{{ $t("insurance.product-card2-text1") }}</li>
                 <li>{{ $t("insurance.product-card2-text2") }}</li>
@@ -109,16 +103,13 @@
               class="object-cover w-full h-48 md:h-full"
             />
           </div>
-          <div class="p-6 md:p-7">
-            <div class="flex flex-col gap-6 md:gap-8">
-              <h3 class="text-2xl font-bold">
-                {{ $t("insurance.product-card3-header") }}
-              </h3>
+          <div class="px-5 py-6">
+            <div class="flex flex-col gap-8">
               <h2 class="text-lg md:text-xl leading-normal">
                 {{ $t("insurance.product-card3-subheader") }}
               </h2>
               <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
+                class="space-y-3 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
               >
                 <li>{{ $t("insurance.product-card3-text1") }}</li>
                 <li>{{ $t("insurance.product-card3-text2") }}</li>
@@ -138,16 +129,13 @@
               class="object-cover w-full h-48 md:h-full"
             />
           </div>
-          <div class="p-6 md:p-7">
-            <div class="flex flex-col gap-6 md:gap-8">
-              <h3 class="text-2xl font-bold">
-                {{ $t("insurance.product-card4-header") }}
-              </h3>
+          <div class="px-5 py-6">
+            <div class="flex flex-col gap-8">
               <h2 class="text-lg md:text-xl leading-normal">
                 {{ $t("insurance.product-card4-subheader") }}
               </h2>
               <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
+                class="space-y-3 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
               >
                 <li>{{ $t("insurance.product-card4-text1") }}</li>
                 <li>{{ $t("insurance.product-card4-text2") }}</li>
@@ -167,11 +155,8 @@
               class="object-cover w-full h-48 md:h-full"
             />
           </div>
-          <div class="p-6 md:p-7">
-            <div class="flex flex-col gap-6 md:gap-8">
-              <h3 class="text-2xl font-bold">
-                {{ $t("insurance.product-card5-header") }}
-              </h3>
+          <div class="px-5 py-6">
+            <div class="flex flex-col gap-8">
               <h2 class="text-lg md:text-xl leading-relaxed md:leading-normal">
                 {{ $t("insurance.product-card5-subheader") }}
               </h2>
@@ -189,16 +174,13 @@
               class="object-cover w-full h-48 md:h-full"
             />
           </div>
-          <div class="p-6 md:p-7">
-            <div class="flex flex-col gap-6 md:gap-8">
-              <h3 class="text-2xl font-bold">
-                {{ $t("insurance.product-card6-header") }}
-              </h3>
+          <div class="px-5 py-6">
+            <div class="flex flex-col gap-8">
               <h2 class="text-lg md:text-xl leading-normal">
                 {{ $t("insurance.product-card6-subheader") }}
               </h2>
               <ul
-                class="space-y-3 md:space-y-2 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
+                class="space-y-3 list-disc list-inside text-md lg:text-lg leading-relaxed md:leading-normal my-6"
               >
                 <li>{{ $t("insurance.product-card6-text1") }}</li>
                 <li>{{ $t("insurance.product-card6-text2") }}</li>
@@ -273,3 +255,19 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.25px;
+  color: #3b3b3b;
+}
+li {
+  font-weight: 400;
+  letter-spacing: -0.25px;
+  color: black;
+  line-height: 1.55rem;
+}
+</style>

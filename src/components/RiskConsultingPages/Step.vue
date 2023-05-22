@@ -14,9 +14,9 @@
           <Slide v-for="(slide, index) in slides" :key="index">
             <div class="carousel__item">
               <div
-                class="flex flex-col gap-8 lg:gap-10 xl:gap-12 px-4 items-center justify-center"
+                class="flex flex-col gap-12 lg:gap-10 px-4 items-center justify-center"
               >
-                <h3 class="text-xl md:text-2xl lg:text-3xl">
+                <h3 class="text-xl md:text-2xl">
                   {{ getSlideTitle(index) }}
                 </h3>
                 <div
@@ -97,6 +97,10 @@ export default {
         },
         // 1024 and up
         1024: {
+          itemsToShow: 1,
+          snapAlign: "start",
+        },
+        1382: {
           itemsToShow: 2,
           snapAlign: "start",
         },
@@ -127,15 +131,45 @@ export default {
 
 <style scoped>
 .carousel__item {
-  height: 580px;
-  width: 85% !important;
-  background-color: white;
+  background-color: #f2f2f2 !important;
   color: var(--vc-clr-white);
   border: 1.5px solid #17171f;
-  border-radius: 8px;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.carousel__item {
+  height: 500px;
+  width: 84%;
+}
+
+@media (min-width: 600px) {
+  .carousel__item {
+    width: 78%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .carousel__item {
+    height: 520px;
+    width: 73%;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1400px) {
+  .carousel__item {
+    height: 500px;
+    width: 65%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .carousel__item {
+    height: 550px;
+    width: 73%;
+  }
 }
 
 h2 {
@@ -144,11 +178,13 @@ h2 {
   font-weight: 500;
   color: #3b3b3b;
 }
+
 p {
   color: #4f4f4f;
   letter-spacing: -0.05px;
   line-height: 25px;
 }
+
 .border-step {
   border: 2px solid #17171f;
   border-radius: 100px;

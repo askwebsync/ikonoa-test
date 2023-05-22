@@ -118,7 +118,7 @@ h2 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }

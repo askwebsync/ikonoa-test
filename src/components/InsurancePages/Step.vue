@@ -94,10 +94,14 @@ export default {
         // 700px and up
         700: {
           itemsToShow: 1,
-          snapAlign: "center",
+          snapAlign: "start",
         },
         // 1024 and up
         1024: {
+          itemsToShow: 1,
+          snapAlign: "start",
+        },
+        1382: {
           itemsToShow: 2,
           snapAlign: "start",
         },
@@ -122,15 +126,45 @@ export default {
 
 <style scoped>
 .carousel__item {
-  height: 580px;
-  width: 85% !important;
-  background-color: white;
+  background-color: #f2f2f2 !important;
   color: var(--vc-clr-white);
   border: 1.5px solid #17171f;
-  border-radius: 8px;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.carousel__item {
+  height: 500px;
+  width: 84%;
+}
+
+@media (min-width: 600px) {
+  .carousel__item {
+    width: 78%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .carousel__item {
+    height: 520px;
+    width: 73%;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1400px) {
+  .carousel__item {
+    height: 500px;
+    width: 65%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .carousel__item {
+    height: 550px;
+    width: 73%;
+  }
 }
 
 h2 {
