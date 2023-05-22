@@ -50,7 +50,7 @@ export default {
         {
           name: "Jerry Firsonia, AIIS, CIIB",
           title: "President Director",
-          image: "/assets/img/LP_About/jerry.jpeg",
+          image: "/assets/img/LP_About/jerry.jpg",
         },
         {
           name: "Antonius Tobing, Sr. Assoc. ANZIIF",
