@@ -1,13 +1,13 @@
 <template>
   <section class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
-    <div class="flex flex-col items-center justify-center gap-10 space-y-8">
+    <div class="flex flex-col items-center justify-center gap-12 space-y-8">
       <div class="flex flex-col gap-2 text-center">
         <h3 class="text-xl md:text-2xl lg:text-3xl">OUR TEAM</h3>
         <h2 class="text-lg md:text-xl lg:text-2xl text-gray-300">
           Some of the people you'll be working with
         </h2>
       </div>
-      <div class="flex flex-wrap justify-center gap-3">
+      <div class="flex flex-wrap justify-center mt-4 gap-6 lg:gap-10">
         <!-- Member -->
         <div
           v-for="(slide, index) in slides"
@@ -109,7 +109,7 @@ h2 {
   padding-bottom: 100%; /* Menyamakan aspek rasio 1:1 */
   position: relative;
   overflow: hidden;
-  border-radius: 40%;
+  border-radius: 100%;
 }
 
 .avatar-inner {
@@ -125,7 +125,12 @@ h2 {
 
 @media (min-width: 640px) {
   .avatar {
-    border-radius: 50%; /* Mengubah border-radius menjadi lingkaran pada layar yang lebih besar */
+    /* Mengubah border-radius menjadi lingkaran pada layar yang lebih besar */
+  }
+}
+@media (min-width: 1040px) {
+  .avatar {
+    width: 80%;
   }
 }
 </style>
