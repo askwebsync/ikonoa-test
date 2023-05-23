@@ -19,12 +19,12 @@
                 src="/assets/img/Home/webinar.webp"
                 alt="webinar"
                 class="w-full rounded"
-                width="3008"
-                height="2008"
+                width="1504"
+                height="1004"
               />
             </div>
             <div
-              class="flex flex-col gap-12 md:gap-10 p-5 md:p-6 text-center h-96"
+              class="flex flex-col gap-10 md:gap-10 p-5 md:p-6 text-center h-80 md:h-96"
             >
               <h6 class="text-2xl lg:text-3xl">
                 {{ $t("home.academy-card1-header") }}
@@ -42,12 +42,12 @@
                 src="/assets/img/Home/seminar.webp"
                 alt="seminar"
                 class="w-full rounded"
-                width="2551"
-                height="1701"
+                width="1276"
+                height="851"
               />
             </div>
             <div
-              class="flex flex-col gap-12 md:gap-10 p-5 md:p-6 text-center h-96"
+              class="flex flex-col gap-10 md:gap-10 p-5 md:p-6 text-center h-80 md:h-96"
             >
               <h6 class="text-2xl lg:text-3xl">
                 {{ $t("home.academy-card2-header") }}
@@ -87,6 +87,6 @@ export default {
 
 <style scoped>
 p {
-  letter-spacing: -0.05px;
+  letter-spacing: -0.25px;
 }
 </style>
