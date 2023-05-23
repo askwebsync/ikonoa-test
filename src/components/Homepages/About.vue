@@ -5,20 +5,18 @@
         class="flex flex-col md:flex-row gap-10 md:gap-9 lg:gap-12 items-center px-5 md:px-0"
       >
         <div class="flex md:self-start md:w-1/2">
-          <div class="aspect-w-16 aspect-h-9">
-            <img
-              src="/assets/img/Home/about.webp"
-              alt="about-us"
-              class="object-cover"
-              width="505"
-              height="575"
-            />
-          </div>
+          <img
+            src="/assets/img/Home/about.webp"
+            alt="about-us"
+            class="object-cover"
+            width="505"
+            height="575"
+          />
         </div>
         <div
-          class="md:w-1/2 flex flex-col gap-12 md:gap-9 self-center md:self-start md:ml-6"
+          class="md:w-1/2 flex flex-col gap-12 self-center md:self-start md:ml-6 md:gap-9"
         >
-          <div class="flex flex-col gap-2">
+          <div class="flex flex-col gap-2 max-w-lg">
             <h3 class="text-xl md:text-2xl lg:text-3xl">
               {{ $t("home.about-header") }}
             </h3>
@@ -136,13 +134,14 @@ export default {
 p {
   color: #17171f;
   font-weight: 400;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.25px;
 }
 
-li {
+ul li {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
+  letter-spacing: -0.25px;
 }
 .red-uppercase {
   color: red;

@@ -164,6 +164,6 @@ ul li {
   font-style: normal;
   color: #505050;
   font-weight: 400;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.25px;
 }
 </style>
