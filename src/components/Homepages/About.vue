@@ -35,6 +35,8 @@
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
                   class="w-6 h-6"
+                  width="24"
+                  height="24"
                 />
                 <div class="font-semibold text-lg">
                   <span class="red-uppercase">I</span>ntegrity
@@ -45,6 +47,8 @@
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
                   class="w-6 h-6"
+                  width="24"
+                  height="24"
                 />
                 <div class="font-semibold text-lg">
                   <span class="red-uppercase">K</span>nowledgeable
@@ -55,6 +59,8 @@
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
                   class="w-6 h-6"
+                  width="24"
+                  height="24"
                 />
                 <div class="font-semibold text-lg">
                   Professi<span class="red-uppercase">O</span>nal
@@ -65,6 +71,8 @@
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
                   class="w-6 h-6"
+                  width="24"
+                  height="24"
                 />
                 <div class="font-semibold text-lg">
                   Ho<span class="red-uppercase">N</span>esty
@@ -75,6 +83,8 @@
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
                   class="w-6 h-6"
+                  width="24"
+                  height="24"
                 />
                 <div class="font-semibold text-lg">
                   F<span class="red-uppercase">O</span>cus
@@ -85,6 +95,8 @@
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
                   class="w-6 h-6"
+                  width="24"
+                  height="24"
                 />
                 <div class="font-semibold text-lg">
                   P<span class="red-uppercase">A</span>rtnership
