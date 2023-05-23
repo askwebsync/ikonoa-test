@@ -1,111 +1,109 @@
 <template>
-  <header class="bg-white border-b-2 sticky top-0 z-10">
-    <nav
-      class="container px-4 md:px-8 lg:px-24 py-2 mx-auto md:flex md:justify-between md:items-center"
-    >
-      <div class="flex items-center justify-between focus:outline-none mr-2">
-        <router-link :to="{ name: 'home' }">
-          <img
-            src="/assets/img/Icon/logo.png"
-            class="w-28 h-12 lg:w-32 lg:h-16 object-contain"
-            alt="logo"
-          />
-        </router-link>
-        <!-- Mobile menu button -->
-        <div @click="showMenu = !showMenu" class="flex md:hidden">
-          <button
-            :class="{ opened: showMenu }"
-            type="button"
-            class="menu text-red-500 hover:text-red-600 focus:outline-none"
+  <nav
+    class="container px-4 md:px-8 lg:px-24 py-2 mx-auto md:flex md:justify-between md:items-center"
+  >
+    <div class="flex items-center justify-between focus:outline-none mr-2">
+      <router-link :to="{ name: 'home' }">
+        <img
+          src="/assets/img/Icon/logo.png"
+          class="w-28 h-12 lg:w-32 lg:h-16 object-contain"
+          alt="logo"
+        />
+      </router-link>
+      <!-- Mobile menu button -->
+      <div @click="showMenu = !showMenu" class="flex md:hidden">
+        <button
+          :class="{ opened: showMenu }"
+          type="button"
+          class="menu text-red-500 hover:text-red-600 focus:outline-none"
+        >
+          <svg
+            viewBox="0 0 100 100"
+            class="h-8 w-8 cursor-pointer md:hidden block"
           >
-            <svg
-              viewBox="0 0 100 100"
-              class="h-8 w-8 cursor-pointer md:hidden block"
-            >
-              <path
-                class="line line1"
-                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
-              />
-              <path class="line line2" d="M 20,50 H 80" />
-              <path
-                class="line line3"
-                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
-              />
-              <title>Menu</title>
-            </svg>
-          </button>
-        </div>
-      </div>
-      <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-      <ul
-        :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col mt-8 gap-y-3 items-center text-center md:flex md:gap-y-0 md:flex-row md:gap-x-4 lg:gap-x-4 xl:gap-x-8 md:mt-0 cursor-pointer"
-      >
-        <li
-          @click="showMenu = !showMenu"
-          :class="{ 'text-red-500': $route.name === 'about' }"
-          class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
-        >
-          <router-link :to="{ name: 'about' }" class="font-medium">{{
-            $t("navbar.button1")
-          }}</router-link>
-        </li>
-        <li
-          @click="showMenu = !showMenu"
-          :class="{ 'text-red-500': $route.name === 'services' }"
-          class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
-        >
-          <router-link :to="{ name: 'services' }" class="font-medium">{{
-            $t("navbar.button2")
-          }}</router-link>
-        </li>
-        <li
-          @click="showMenu = !showMenu"
-          :class="{ 'text-red-500': $route.name === 'insurance-policy' }"
-          class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
-        >
-          <router-link :to="{ name: 'insurance-policy' }" class="font-medium">{{
-            $t("navbar.button3")
-          }}</router-link>
-        </li>
-        <li
-          @click="showMenu = !showMenu"
-          :class="{ 'text-red-500': $route.name === 'claim-experience' }"
-          class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
-        >
-          <router-link :to="{ name: 'claim-experience' }" class="font-medium">{{
-            $t("navbar.button4")
-          }}</router-link>
-        </li>
-        <li
-          @click="showMenu = !showMenu"
-          :class="{ 'text-red-500': $route.name === 'contact' }"
-          class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
-        >
-          <router-link :to="{ name: 'contact' }" class="font-medium">{{
-            $t("navbar.button5")
-          }}</router-link>
-        </li>
-        <li>
-          <div
-            @click="changeLanguage"
-            class="flex flex-row items-center place-content-center mt-2 ml-0 md:ml-1 md:mt-0 lg:ml-6 xl:ml-10 focus:outline-none"
-          >
-            <img
-              class="w-6 h-6 mr-1 focus:outline-none"
-              :src="flagImage"
-              :alt="flagAltText"
+            <path
+              class="line line1"
+              d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
             />
-            <a
-              class="md:py-2 py-3 text-sm lg:text-base hover:text-red-600 focus:outline-none font-bold text-gray-600"
-              href="#"
-              >{{ language }}</a
-            >
-          </div>
-        </li>
-      </ul>
-    </nav>
-  </header>
+            <path class="line line2" d="M 20,50 H 80" />
+            <path
+              class="line line3"
+              d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+            />
+            <title>Menu</title>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+    <ul
+      :class="showMenu ? 'flex' : 'hidden'"
+      class="flex-col mt-8 gap-y-3 items-center text-center md:flex md:gap-y-0 md:flex-row md:gap-x-4 lg:gap-x-4 xl:gap-x-8 md:mt-0 cursor-pointer"
+    >
+      <li
+        @click="showMenu = !showMenu"
+        :class="{ 'text-red-500': $route.name === 'about' }"
+        class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
+      >
+        <router-link :to="{ name: 'about' }" class="font-medium">{{
+          $t("navbar.button1")
+        }}</router-link>
+      </li>
+      <li
+        @click="showMenu = !showMenu"
+        :class="{ 'text-red-500': $route.name === 'services' }"
+        class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
+      >
+        <router-link :to="{ name: 'services' }" class="font-medium">{{
+          $t("navbar.button2")
+        }}</router-link>
+      </li>
+      <li
+        @click="showMenu = !showMenu"
+        :class="{ 'text-red-500': $route.name === 'insurance-policy' }"
+        class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
+      >
+        <router-link :to="{ name: 'insurance-policy' }" class="font-medium">{{
+          $t("navbar.button3")
+        }}</router-link>
+      </li>
+      <li
+        @click="showMenu = !showMenu"
+        :class="{ 'text-red-500': $route.name === 'claim-experience' }"
+        class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
+      >
+        <router-link :to="{ name: 'claim-experience' }" class="font-medium">{{
+          $t("navbar.button4")
+        }}</router-link>
+      </li>
+      <li
+        @click="showMenu = !showMenu"
+        :class="{ 'text-red-500': $route.name === 'contact' }"
+        class="text-sm lg:text-base hover:text-red-600 focus:outline-none"
+      >
+        <router-link :to="{ name: 'contact' }" class="font-medium">{{
+          $t("navbar.button5")
+        }}</router-link>
+      </li>
+      <li>
+        <div
+          @click="changeLanguage"
+          class="flex flex-row items-center place-content-center mt-2 ml-0 md:ml-1 md:mt-0 lg:ml-6 xl:ml-10 focus:outline-none"
+        >
+          <img
+            class="w-6 h-6 mr-1 focus:outline-none"
+            :src="flagImage"
+            :alt="flagAltText"
+          />
+          <a
+            class="md:py-2 py-3 text-sm lg:text-base hover:text-red-600 focus:outline-none font-bold text-gray-600"
+            href="#"
+            >{{ language }}</a
+          >
+        </div>
+      </li>
+    </ul>
+  </nav>
 </template>
 
 <script>
@@ -189,14 +187,6 @@ export default {
   stroke-dashoffset: -134;
   stroke-width: 7;
 }
-
-li .a {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.5px;
-  color: #17171f;
-}
-
 .text-red-500 {
   color: #d50000;
 }

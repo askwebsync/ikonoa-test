@@ -1,14 +1,20 @@
 <template>
-  <div class="app-container">
-    <app-header />
-    <router-view v-slot="{ Component, route }">
-      <transition name="fade" mode="out-in">
-        <div :key="route.name">
-          <component :is="Component"></component>
-        </div>
-      </transition>
-    </router-view>
-    <app-footer />
+  <div>
+    <header class="bg-white border-b-2 sticky top-0 z-10">
+      <app-header />
+    </header>
+    <main class="app-main">
+      <router-view v-slot="{ Component, route }">
+        <transition name="fade" mode="out-in">
+          <div :key="route.name">
+            <component :is="Component"></component>
+          </div>
+        </transition>
+      </router-view>
+    </main>
+    <footer class="app-footer">
+      <app-footer />
+    </footer>
     <a
       href="https://wa.me/message/OSIGF5SRDOANJ1"
       class="float"

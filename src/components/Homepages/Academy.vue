@@ -12,7 +12,7 @@
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 self-center">
           <div
-            class="background-product custom-shadow-card flex flex-col rounded-lg max-w-md"
+            class="background-product custom-shadow-card flex flex-col rounded-lg max-w-xs md:max-w-md"
           >
             <div>
               <img
@@ -33,7 +33,7 @@
             </div>
           </div>
           <div
-            class="background-product custom-shadow-card flex flex-col rounded-lg max-w-md"
+            class="background-product custom-shadow-card flex flex-col rounded-lg max-w-xs md:max-w-md"
           >
             <div>
               <img
@@ -54,7 +54,6 @@
             </div>
           </div>
         </div>
-
         <div class="text-center mt-4">
           <button
             class="px-7 py-3 border-button-custom font-medium button-shadow"
@@ -82,4 +81,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+p {
+  letter-spacing: -0.05px;
+}
+</style>

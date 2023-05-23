@@ -1,13 +1,15 @@
 <template>
   <section>
     <div class="container mx-auto px-4 py-12 md:px-8 lg:p-24">
-      <div class="flex flex-col gap-10 md:gap-12">
+      <div class="flex flex-col gap-10 md:gap-12 px-4">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
           <router-link :to="{ name: 'risk-consulting' }" class="cursor-pointer">
             <div
               class="background-card flex flex-col rounded-lg card-hover shadow-md"
             >
-              <div class="flex flex-col gap-10 py-8 px-12 text-center h-72">
+              <div
+                class="flex flex-col gap-7 md:gap-10 p-6 text-center md:h-72"
+              >
                 <h1 class="text-xl md:text-xl lg:text-3xl">
                   {{ $t("services.card1-header") }}
                 </h1>
@@ -29,7 +31,9 @@
             <div
               class="background-card flex flex-col rounded-lg card-hover shadow-md"
             >
-              <div class="flex flex-col gap-10 py-8 px-12 text-center h-72">
+              <div
+                class="flex flex-col gap-7 md:gap-10 p-6 text-center md:h-72"
+              >
                 <h1
                   class="text-xl md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
                 >
@@ -55,7 +59,9 @@
             <div
               class="background-card flex flex-col rounded-lg card-hover shadow-md"
             >
-              <div class="flex flex-col gap-10 py-8 px-12 text-center h-72">
+              <div
+                class="flex flex-col gap-7 md:gap-10 p-6 text-center md:h-72"
+              >
                 <h1
                   class="text-xl md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
                 >
@@ -79,7 +85,9 @@
             <div
               class="background-card flex flex-col rounded-lg card-hover shadow-md"
             >
-              <div class="flex flex-col gap-10 py-8 px-12 text-center h-72">
+              <div
+                class="flex flex-col gap-7 md:gap-10 p-6 text-center md:h-72"
+              >
                 <h1
                   class="text-xl md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
                 >
@@ -127,6 +135,7 @@ p {
   font-style: normal;
   font-weight: 400;
   color: #787878;
+  letter-spacing: -0.05px;
 }
 .card-hover:hover {
   background-color: #ffe5e5;

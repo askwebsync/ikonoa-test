@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
+  <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
     <div class="flex flex-col items-center justify-center gap-12 space-y-8">
       <div class="flex flex-col gap-2 text-center">
         <h3 class="text-xl md:text-2xl lg:text-3xl">OUR TEAM</h3>
@@ -7,34 +7,39 @@
           Some of the people you'll be working with
         </h2>
       </div>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
-        <!-- Member -->
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 justify-center"
+      >
         <div
+          class="our-team self-center max-w-md"
           v-for="(slide, index) in slides"
           :key="index"
-          class="mb-6 px-6 sm:px-6"
         >
-          <div class="flex flex-col items-center gap-5 h-full">
-            <!-- Avatar -->
-            <div class="avatar">
-              <img :src="slide.image" :alt="slide.name" class="avatar-inner" />
-            </div>
-            <!-- Details -->
-            <div class="text-center mt-6">
-              <!-- Name -->
-              <h1 class="text-gray-900 text-xl font-bold mb-1">
-                {{ slide.name }}
-              </h1>
-              <!-- Title -->
-              <div class="text-gray-700 font-light mb-2">
-                {{ slide.title }}
-              </div>
-            </div>
+          <div class="pic aspect-w-1 aspect-h-1 rounded-full overflow-hidden">
+            <img
+              :src="slide.image"
+              :alt="slide.name"
+              class="object-cover object-center"
+            />
+          </div>
+          <div class="team-prof">
+            <h3 class="post-title">
+              {{ slide.name }}
+            </h3>
+            <h2 class="post">{{ slide.title }}</h2>
+            <ul class="team_social">
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -53,7 +58,7 @@ export default {
           image: "/assets/img/LP_About/placeholder.png",
         },
         {
-          name: "Bagus. S, SH ",
+          name: "Bagus. S, SH",
           title: "Senior Consultant",
           image: "/assets/img/LP_About/placeholder.png",
         },
@@ -70,22 +75,6 @@ export default {
       ],
     };
   },
-  methods: {
-    next() {
-      this.activeIndex = (this.activeIndex + 1) % this.slides.length;
-      this.carousel.style.transform = `translateX(-${
-        this.activeIndex * this.itemWidth
-      }px)`;
-    },
-
-    prev() {
-      this.activeIndex =
-        (this.activeIndex - 1 + this.slides.length) % this.slides.length;
-      this.carousel.style.transform = `translateX(-${
-        this.activeIndex * this.itemWidth
-      }px)`;
-    },
-  },
 };
 </script>
 
@@ -98,45 +87,87 @@ h2 {
   color: #3b3b3b;
 }
 
-.avatar {
-  width: 100%;
-  padding-bottom: 100%; /* Maintain 1:1 aspect ratio */
-  position: relative;
-  overflow: hidden;
-  border-radius: 10%;
+.our-team {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
 }
-
-.avatar-inner {
-  position: absolute;
-  height: -webkit-fill-available;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.our-team .pic {
+  position: relative;
+  height: 180px; /* Adjust the height as needed */
+  width: 180px; /* Adjust the width as needed */
+}
+.our-team .pic img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
-@media (max-width: 339px) {
-  .avatar {
-    width: 84%;
-  }
+.our-team .pic-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: all 0.3s ease 0s;
 }
 
-@media (min-width: 340px) and (max-width: 599px) {
-  .avatar {
-    width: 70%;
-  }
+.our-team .post-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  margin-bottom: 5px;
+  letter-spacing: -0.25px;
 }
 
-@media (min-width: 600px) {
-  .avatar {
-    width: 78%;
-  }
+.our-team .post-title a {
+  color: #232a34;
+  transition: all 0.3s ease 0s;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .avatar {
-    width: 73%;
+.our-team .post-title a:hover {
+  color: #727cb6;
+  text-decoration: none;
+}
+
+.our-team .post {
+  margin-bottom: 10px;
+  display: block;
+  color: black;
+  font-size: 16px;
+}
+
+.our-team .team_social {
+  list-style: none;
+  padding: 0;
+}
+
+.our-team .team_social > li {
+  display: inline-block;
+}
+
+.our-team .team_social > li > a {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  display: block;
+  color: #727cb6;
+  background: #efefef;
+  transition: all 0.3s ease 0s;
+}
+
+.our-team .team_social > li > a:hover {
+  background: #727cb6;
+  color: #fff;
+}
+
+@media screen and (max-width: 990px) {
+  .our-team {
+    margin-bottom: 30px;
   }
 }
 </style>

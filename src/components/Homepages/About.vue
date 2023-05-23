@@ -118,7 +118,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 p {
   color: #17171f;
   font-weight: 400;

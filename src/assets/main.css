@@ -16,22 +16,23 @@
   min-height: 100vh;
 }
 
-.router-view {
+.app-main {
   flex: 1;
 }
 
 .app-footer {
   margin-top: auto;
+  background-color: #191919;
 }
 
-.slideFade-enter-active,
-.slideFade-leave-active {
-  transition: opacity 0.5s;
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
 }
 
-.slideFade-enter,
-.slideFade-leave-to {
-  transform: scale(0);
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 
 .float {
@@ -57,20 +58,19 @@
   margin-top: 16px;
 }
 
-h6 {
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  color: #fdfdff;
+  letter-spacing: 1.5px;
+}
+
+h2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   color: #17171f;
-  letter-spacing: 1.5px;
-  /* Default letter spacing for H6 */
-}
-
-h4 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  color: #ffff00;
   letter-spacing: 1.5px;
 }
 
@@ -83,19 +83,19 @@ h3 {
   letter-spacing: 1.5px;
 }
 
-h2 {
+h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  color: #ffff00;
+  letter-spacing: 1.5px;
+}
+
+h6 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   color: #17171f;
-  letter-spacing: 1.5px;
-}
-
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  color: #fdfdff;
   letter-spacing: 1.5px;
 }
 
@@ -151,14 +151,9 @@ a:hover {
   text-decoration: none;
 }
 
-.background-footer {
-  background-color: #191919;
-}
-
 .custom-shadow-card {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
-
 
 .border-button-custom {
   border: 1px solid #D50000;
@@ -286,35 +281,6 @@ a:hover {
   margin: 0 -13px !important;
   top: 50%;
   transform: translateY(-50%);
-}
-
-.carousel__prev:hover,
-.carousel__next:hover {
-  color: var(--vc-nav-color-hover);
-}
-
-.carousel__next--disabled,
-.carousel__prev--disabled {
-  cursor: not-allowed;
-  opacity: 0.5;
-}
-
-.carousel__prev {
-  left: 0;
-}
-
-.carousel__next {
-  right: 0;
-}
-
-.carousel--rtl .carousel__prev {
-  left: auto;
-  right: 0;
-}
-
-.carousel--rtl .carousel__next {
-  right: auto;
-  left: 0;
 }
 
 /* Media Queries */
