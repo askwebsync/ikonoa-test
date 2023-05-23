@@ -19,6 +19,8 @@
                 src="/assets/img/Home/webinar.webp"
                 alt="webinar"
                 class="w-full rounded"
+                width="3008"
+                height="2008"
               />
             </div>
             <div
@@ -40,6 +42,8 @@
                 src="/assets/img/Home/seminar.webp"
                 alt="seminar"
                 class="w-full rounded"
+                width="2551"
+                height="1701"
               />
             </div>
             <div

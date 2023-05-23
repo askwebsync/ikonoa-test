@@ -10,6 +10,8 @@
               src="/assets/img/Home/about.webp"
               alt="about-us"
               class="object-cover"
+              width="505"
+              height="575"
             />
           </div>
         </div>
