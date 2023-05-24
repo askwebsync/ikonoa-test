@@ -1,7 +1,9 @@
 <template>
-  <HeroSection />
-  <VisiMisiSection />
-  <TeamSection />
+  <section>
+    <HeroSection />
+    <VisiMisiSection />
+    <TeamSection />
+  </section>
 </template>
 
 <script>
@@ -10,7 +12,7 @@ import TeamSection from "@/components/AboutPages/Team.vue";
 import VisiMisiSection from "@/components/AboutPages/VisiMisi.vue";
 
 export default {
-  name: "Home",
+  name: "about",
   components: {
     HeroSection,
     TeamSection,

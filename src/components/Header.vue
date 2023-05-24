@@ -109,11 +109,6 @@
 <script>
 export default {
   name: "AppHeader",
-  computed: {
-    // currentLocale() {
-    //   return this.$i18n.locale === "fr" ? "French" : "English";
-    // },
-  },
   data() {
     return {
       showMenu: false,

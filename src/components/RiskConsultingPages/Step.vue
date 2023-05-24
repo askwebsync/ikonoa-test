@@ -1,48 +1,46 @@
 <template>
-  <section>
-    <div class="container mx-auto px-4 py-14 md:px-8 lg:px-24">
-      <div class="flex flex-col gap-10 md:gap-12 lg:gap-12">
-        <div class="flex flex-col gap-2 text-center">
-          <h3 class="text-2xl lg:text-3xl">
-            {{ $t("risk-consulting.claim-procces-header") }}
-          </h3>
-          <h2 class="text-xl md:text-2xl">
-            {{ $t("risk-consulting.claim-procces-subheader") }}
-          </h2>
-        </div>
-        <Carousel :settings="settings" :breakpoints="breakpoints">
-          <Slide v-for="(slide, index) in slides" :key="index">
-            <div class="carousel__item">
+  <div class="container mx-auto px-4 py-14 md:px-8 lg:px-24">
+    <div class="flex flex-col gap-10 md:gap-12 lg:gap-12">
+      <div class="flex flex-col gap-2 text-center">
+        <h3 class="text-2xl lg:text-3xl">
+          {{ $t("risk-consulting.claim-procces-header") }}
+        </h3>
+        <h2 class="text-xl md:text-2xl">
+          {{ $t("risk-consulting.claim-procces-subheader") }}
+        </h2>
+      </div>
+      <Carousel :settings="settings" :breakpoints="breakpoints">
+        <Slide v-for="(slide, index) in slides" :key="index">
+          <div class="carousel__item">
+            <div
+              class="flex flex-col gap-12 lg:gap-10 px-4 items-center justify-center"
+            >
+              <h3 class="text-xl md:text-2xl">
+                {{ getSlideTitle(index) }}
+              </h3>
               <div
-                class="flex flex-col gap-12 lg:gap-10 px-4 items-center justify-center"
+                class="flex items-center justify-center px-6 py-5 border-step"
               >
-                <h3 class="text-xl md:text-2xl">
-                  {{ getSlideTitle(index) }}
-                </h3>
-                <div
-                  class="flex items-center justify-center px-6 py-5 border-step"
-                >
-                  <img
-                    :src="`/assets/img/Services/${slide.image}`"
-                    alt="step-step"
-                    class="w-full h-12 w-12 lg:h-14 lg:w-14 object-cover object-center"
-                  />
-                </div>
-                <div class="md:mt-5 md:h-48">
-                  <p class="text-md md:text-lg xl:text-xl max-w-xs md:max-w-md">
-                    {{ getSlideDescription(index) }}
-                  </p>
-                </div>
+                <img
+                  :src="`/assets/img/Services/${slide.image}`"
+                  alt="step-step"
+                  class="w-full h-12 w-12 lg:h-14 lg:w-14 object-cover object-center"
+                />
+              </div>
+              <div class="md:mt-5 md:h-48">
+                <p class="text-md md:text-lg xl:text-xl max-w-xs md:max-w-md">
+                  {{ getSlideDescription(index) }}
+                </p>
               </div>
             </div>
-          </Slide>
-          <template #addons>
-            <Navigation />
-          </template>
-        </Carousel>
-      </div>
+          </div>
+        </Slide>
+        <template #addons>
+          <Navigation />
+        </template>
+      </Carousel>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -53,7 +51,6 @@ export default {
   components: {
     Carousel,
     Slide,
-
     Navigation,
   },
   data() {
@@ -87,22 +84,15 @@ export default {
       ],
       settings: {
         itemsToShow: 1,
-        snapAlign: "center",
+        snapAlign: "start",
       },
       breakpoints: {
-        // 700px and up
         700: {
           itemsToShow: 1,
-          snapAlign: "start",
         },
-        // 1024 and up
-        1024: {
-          itemsToShow: 1,
-          snapAlign: "start",
-        },
+
         1382: {
           itemsToShow: 2,
-          snapAlign: "start",
         },
       },
     };
@@ -184,7 +174,9 @@ p {
   letter-spacing: -0.05px;
   line-height: 25px;
 }
-
+h3 {
+  letter-spacing: -0.25px;
+}
 .border-step {
   border: 2px solid #17171f;
   border-radius: 100px;

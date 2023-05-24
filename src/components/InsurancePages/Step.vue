@@ -1,5 +1,5 @@
 <template>
-  <section class="background-product">
+  <div class="background-product">
     <div class="container mx-auto px-4 py-14 md:px-8 lg:px-24">
       <div class="flex flex-col gap-10 md:gap-12 lg:gap-14">
         <div class="flex flex-col gap-2 text-center">
@@ -39,7 +39,7 @@
         </Carousel>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -88,15 +88,14 @@ export default {
       ],
       settings: {
         itemsToShow: 1,
-        snapAlign: "center",
+        snapAlign: "start",
       },
       breakpoints: {
-        // 700px and up
         700: {
           itemsToShow: 1,
           snapAlign: "start",
         },
-        // 1024 and up
+
         1024: {
           itemsToShow: 1,
           snapAlign: "start",
@@ -107,19 +106,6 @@ export default {
         },
       },
     };
-  },
-
-  methods: {
-    next() {
-      this.activeIndex = (this.activeIndex + 1) % this.teamMembers.length;
-      this.offset += 300;
-    },
-    prev() {
-      this.activeIndex =
-        (this.activeIndex - 1 + this.teamMembers.length) %
-        this.teamMembers.length;
-      this.offset -= 300;
-    },
   },
 };
 </script>
@@ -174,6 +160,10 @@ h2 {
   letter-spacing: -0.25px;
   color: #3b3b3b;
 }
+h3 {
+  letter-spacing: -0.25px;
+}
+
 p {
   color: #4f4f4f;
   letter-spacing: -0.05px;

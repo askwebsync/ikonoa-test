@@ -1,7 +1,9 @@
 <template>
-  <HeroSection />
-  <WhatSection />
-  <DetailSection />
+  <section>
+    <HeroSection />
+    <WhatSection />
+    <DetailSection />
+  </section>
 </template>
 
 <script>
@@ -10,7 +12,7 @@ import WhatSection from "@/components/RiskManagementPages/What.vue";
 import DetailSection from "@/components/RiskManagementPages/Detail.vue";
 
 export default {
-  name: "Risk Management",
+  name: "risk-management",
   components: {
     HeroSection,
     WhatSection,

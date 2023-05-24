@@ -1,5 +1,5 @@
 <template>
-  <section class="background-product">
+  <div class="background-product">
     <div class="container mx-auto px-4 py-14 md:px-8 lg:px-12">
       <div class="flex flex-col lg:flex-row gap-10 items-center">
         <div class="flex w-full lg:w-1/2 self-start lg:justify-center">
@@ -20,13 +20,13 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
 export default {
   name: "Why",
-  components: {},
+
   data() {
     return {};
   },
@@ -42,7 +42,7 @@ h2 {
 }
 p {
   color: #3b3b3b;
-  letter-spacing: -0.1px;
+  letter-spacing: -0.25px;
 }
 hr {
   width: 120px;

@@ -1,115 +1,105 @@
 <template>
-  <section>
-    <div class="container mx-auto px-4 py-12 md:px-8 lg:p-24">
-      <div class="flex flex-col gap-10 md:gap-12 px-4">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <router-link :to="{ name: 'risk-consulting' }" class="cursor-pointer">
-            <div
-              class="background-card flex flex-col rounded-lg card-hover shadow-md"
-            >
-              <div
-                class="flex flex-col gap-7 md:gap-10 p-6 text-center md:h-72"
-              >
-                <h1 class="text-xl md:text-xl lg:text-3xl">
-                  {{ $t("services.card1-header") }}
-                </h1>
+  <div class="container mx-auto px-4 py-12 md:px-8 lg:p-24">
+    <div class="flex flex-col gap-10 md:gap-12 px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <router-link :to="{ name: 'risk-consulting' }" class="cursor-pointer">
+          <div
+            class="background-card flex flex-col rounded-lg card-hover shadow-md"
+          >
+            <div class="flex flex-col gap-7 md:gap-10 p-6 text-center md:h-72">
+              <h1 class="text-xl md:text-xl lg:text-3xl">
+                {{ $t("services.card1-header") }}
+              </h1>
 
-                <p class="text-sm md:text-base xl:text-lg">
-                  {{ $t("services.card1-subheader") }}
-                </p>
-              </div>
-              <div class="bg-white">
-                <img
-                  src="/assets/img/LP_Service/risk-consulting.png"
-                  alt="risk-consulting"
-                  class="w-full rounded-lg h-full"
-                />
-              </div>
+              <p class="text-sm md:text-base xl:text-lg">
+                {{ $t("services.card1-subheader") }}
+              </p>
             </div>
-          </router-link>
-          <router-link :to="{ name: 'risk-management' }">
-            <div
-              class="background-card flex flex-col rounded-lg card-hover shadow-md"
-            >
-              <div
-                class="flex flex-col gap-7 md:gap-10 p-6 text-center md:h-72"
+            <div class="bg-white">
+              <img
+                src="/assets/img/LP_Service/risk-consulting.png"
+                alt="risk-consulting"
+                class="w-full rounded-lg h-full"
+              />
+            </div>
+          </div>
+        </router-link>
+        <router-link :to="{ name: 'risk-management' }">
+          <div
+            class="background-card flex flex-col rounded-lg card-hover shadow-md"
+          >
+            <div class="flex flex-col gap-7 md:gap-10 p-6 text-center md:h-72">
+              <h1
+                class="text-xl md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
               >
-                <h1
-                  class="text-xl md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
-                >
-                  {{ $t("services.card2-header") }}
-                </h1>
+                {{ $t("services.card2-header") }}
+              </h1>
 
-                <p class="text-sm md:text-base xl:text-lg">
-                  {{ $t("services.card2-subheader") }}
-                </p>
-              </div>
-              <div class="bg-white">
-                <img
-                  src="/assets/img/LP_Service/risk-management.png"
-                  alt="risk-management"
-                  class="w-full rounded-lg"
-                />
-              </div>
+              <p class="text-sm md:text-base xl:text-lg">
+                {{ $t("services.card2-subheader") }}
+              </p>
             </div>
-          </router-link>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <router-link :to="{ name: 'insurance-policy' }">
-            <div
-              class="background-card flex flex-col rounded-lg card-hover shadow-md"
-            >
-              <div
-                class="flex flex-col gap-7 md:gap-10 p-6 text-center md:h-72"
+            <div class="bg-white">
+              <img
+                src="/assets/img/LP_Service/risk-management.png"
+                alt="risk-management"
+                class="w-full rounded-lg"
+              />
+            </div>
+          </div>
+        </router-link>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <router-link :to="{ name: 'insurance-policy' }">
+          <div
+            class="background-card flex flex-col rounded-lg card-hover shadow-md"
+          >
+            <div class="flex flex-col gap-7 md:gap-10 p-6 text-center md:h-72">
+              <h1
+                class="text-xl md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
               >
-                <h1
-                  class="text-xl md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
-                >
-                  {{ $t("services.card3-header") }}
-                </h1>
+                {{ $t("services.card3-header") }}
+              </h1>
 
-                <p class="text-sm md:text-base xl:text-lg">
-                  {{ $t("services.card2-subheader") }}
-                </p>
-              </div>
-              <div class="bg-white">
-                <img
-                  src="/assets/img/LP_Service/insurance-policy.png"
-                  alt="insurance-policy"
-                  class="w-full rounded-lg"
-                />
-              </div>
+              <p class="text-sm md:text-base xl:text-lg">
+                {{ $t("services.card2-subheader") }}
+              </p>
             </div>
-          </router-link>
-          <router-link :to="{ name: 'academy' }">
-            <div
-              class="background-card flex flex-col rounded-lg card-hover shadow-md"
-            >
-              <div
-                class="flex flex-col gap-7 md:gap-10 p-6 text-center md:h-72"
+            <div class="bg-white">
+              <img
+                src="/assets/img/LP_Service/insurance-policy.png"
+                alt="insurance-policy"
+                class="w-full rounded-lg"
+              />
+            </div>
+          </div>
+        </router-link>
+        <router-link :to="{ name: 'academy' }">
+          <div
+            class="background-card flex flex-col rounded-lg card-hover shadow-md"
+          >
+            <div class="flex flex-col gap-7 md:gap-10 p-6 text-center md:h-72">
+              <h1
+                class="text-xl md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
               >
-                <h1
-                  class="text-xl md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
-                >
-                  {{ $t("services.card4-header") }}
-                </h1>
-                <p class="text-sm md:text-base xl:text-lg">
-                  {{ $t("services.card4-subheader") }}
-                </p>
-              </div>
-              <div class="bg-white">
-                <img
-                  src="/assets/img/LP_Service/academy.png"
-                  alt="academy"
-                  class="w-full rounded-lg"
-                />
-              </div>
+                {{ $t("services.card4-header") }}
+              </h1>
+              <p class="text-sm md:text-base xl:text-lg">
+                {{ $t("services.card4-subheader") }}
+              </p>
             </div>
-          </router-link>
-        </div>
+            <div class="bg-white">
+              <img
+                src="/assets/img/LP_Service/academy.png"
+                alt="academy"
+                class="w-full rounded-lg"
+              />
+            </div>
+          </div>
+        </router-link>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>

@@ -78,10 +78,6 @@
 <script>
 export default {
   name: "Academy",
-  components: {},
-  data() {
-    return {};
-  },
 };
 </script>
 

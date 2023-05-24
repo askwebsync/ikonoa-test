@@ -1,7 +1,9 @@
 <template>
-  <HeroSection />
-  <FormSection />
-  <LocationSection />
+  <section>
+    <HeroSection />
+    <FormSection />
+    <LocationSection />
+  </section>
 </template>
 
 <script>
@@ -10,7 +12,7 @@ import FormSection from "@/components/ContactPages/Form.vue";
 import LocationSection from "@/components/ContactPages/Location.vue";
 
 export default {
-  name: "Home",
+  name: "contact",
   components: {
     HeroSection,
     FormSection,

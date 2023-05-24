@@ -1,10 +1,12 @@
 <template>
-  <HeroSection />
-  <AboutSection />
-  <ServiceSection />
-  <ProductSection />
-  <AchievmentSection />
-  <AcademySection />
+  <section>
+    <HeroSection />
+    <AboutSection />
+    <ServiceSection />
+    <ProductSection />
+    <AchievmentSection />
+    <AcademySection />
+  </section>
 </template>
 
 <script>
@@ -16,7 +18,7 @@ import AboutSection from "@/components/Homepages/About.vue";
 import AcademySection from "@/components/Homepages/Academy.vue";
 
 export default {
-  name: "Home",
+  name: "home",
   components: {
     HeroSection,
     ServiceSection,

@@ -1,28 +1,26 @@
 <template>
-  <section>
-    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
-      <div class="flex flex-col gap-10 text-center">
-        <div>
-          <h3 class="text-xl md:text-2xl lg:text-3xl">
-            {{ $t("claim-experience.client-header") }}
-          </h3>
-        </div>
+  <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
+    <div class="flex flex-col gap-10 text-center">
+      <div>
+        <h3 class="text-xl md:text-2xl lg:text-3xl">
+          {{ $t("claim-experience.client-header") }}
+        </h3>
+      </div>
 
-        <div
-          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 justify-items-center"
-        >
-          <div v-for="(logo, index) in logos" :key="index" class="flex card">
-            <img
-              class="lazy-load-image"
-              :data-src="logo"
-              :src="placeholder"
-              alt="logo {{ index + 1 }}"
-            />
-          </div>
+      <div
+        class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 justify-items-center"
+      >
+        <div v-for="(logo, index) in logos" :key="index" class="flex card">
+          <img
+            class="lazy-load-image"
+            :data-src="logo"
+            :src="placeholder"
+            alt="logo {{ index + 1 }}"
+          />
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>

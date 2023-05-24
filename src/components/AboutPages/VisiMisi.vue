@@ -1,5 +1,5 @@
 <template>
-  <section class="background-product">
+  <div class="background-product">
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col gap-8 text-center">
         <div class="flex flex-col gap-4">
@@ -24,13 +24,12 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
 export default {
   name: "VisiMisi",
-  components: {},
   data() {
     return {};
   },
@@ -41,7 +40,6 @@ export default {
 h3 {
   font-weight: 500;
 }
-
 li {
   font-family: "Roboto";
   font-style: normal;
@@ -49,7 +47,6 @@ li {
   letter-spacing: 0.5px;
   color: #17171f;
 }
-
 .background-product {
   font-display: swap; /* Ensures text is user-visible */
 }

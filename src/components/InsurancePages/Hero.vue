@@ -1,40 +1,34 @@
 <template>
-  <section>
+  <div
+    class="relative overflow-hidden bg-no-repeat bg-cover"
+    style="
+      background-position: 50%;
+      background-image: url('/assets/img/LP_Insurance/herobackground.png');
+      height: 460px;
+    "
+  >
     <div
-      class="relative overflow-hidden bg-no-repeat bg-cover"
-      style="
-        background-position: 50%;
-        background-image: url('/assets/img/LP_Insurance/herobackground.png');
-        height: 460px;
-      "
+      class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+      style="background-color: rgba(0, 0, 0, 0.65)"
     >
       <div
-        class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-        style="background-color: rgba(0, 0, 0, 0.65)"
+        class="flex flex-col justify-center items-center h-full text-center gap-6 container mx-auto px-4 md:px-8 lg:px-24"
       >
-        <div
-          class="flex flex-col justify-center items-center h-full text-center gap-6 container mx-auto px-4 md:px-8 lg:px-24"
+        <h1
+          class="text-2xl sm:text-3xl lg:text-4xl xl:text-6xl hover:text-red-600 uppercase md:leading-snug"
         >
-          <h1
-            class="text-2xl sm:text-3xl lg:text-4xl xl:text-6xl hover:text-red-600 uppercase md:leading-snug"
-          >
-            {{ $t("insurance.banner-header") }}
-          </h1>
-          <h4 class="text-lg md:text-xl lg:text-2xl xl:text-3xl">
-            {{ $t("insurance.banner-subheader") }}
-          </h4>
-        </div>
+          {{ $t("insurance.banner-header") }}
+        </h1>
+        <h4 class="text-lg md:text-xl lg:text-2xl xl:text-3xl">
+          {{ $t("insurance.banner-subheader") }}
+        </h4>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
 export default {
   name: "Hero",
-  components: {},
-  data() {
-    return {};
-  },
 };
 </script>

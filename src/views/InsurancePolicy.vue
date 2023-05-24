@@ -1,7 +1,9 @@
 <template>
-  <HeroSection />
-  <ProductSection />
-  <StepSection />
+  <section>
+    <HeroSection />
+    <ProductSection />
+    <StepSection />
+  </section>
 </template>
 
 <script>
@@ -10,7 +12,7 @@ import ProductSection from "@/components/InsurancePages/Product.vue";
 import StepSection from "@/components/InsurancePages/Step.vue";
 
 export default {
-  name: "Insurance Policy",
+  name: "insurance-policy",
   components: {
     HeroSection,
     ProductSection,

@@ -131,8 +131,8 @@
   </div>
 
   <div class="mt-12 border-t border-gray-100 py-4">
-    <p class="text-sm md:text-lg font-medium text-white">
-      {{ $t("footer.card1-header") }}
+    <p class="text-sm md:text-lg font-medium text-white text-center">
+      © 2023 PT.Ikonoa Solusindo Asia. All rights reserved.
     </p>
   </div>
 </template>

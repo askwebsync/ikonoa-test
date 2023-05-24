@@ -1,7 +1,9 @@
 <template>
-  <HeroSection />
-  <WhatSection />
-  <MeetingSection />
+  <section>
+    <HeroSection />
+    <WhatSection />
+    <MeetingSection />
+  </section>
 </template>
 
 <script>
@@ -10,7 +12,7 @@ import WhatSection from "@/components/Academy/What.vue";
 import MeetingSection from "@/components/Academy/Meeting.vue";
 
 export default {
-  name: "Academy",
+  name: "academy",
   components: {
     HeroSection,
     WhatSection,

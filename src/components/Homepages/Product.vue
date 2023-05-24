@@ -1,5 +1,5 @@
 <template>
-  <section class="background-product">
+  <div class="background-product">
     <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
       <div class="flex flex-col gap-10">
         <div class="flex flex-col gap-2 text-center">
@@ -72,16 +72,12 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
 export default {
   name: "Product",
-  components: {},
-  data() {
-    return {};
-  },
 };
 </script>
 

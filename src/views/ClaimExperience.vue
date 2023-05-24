@@ -1,7 +1,9 @@
 <template>
-  <HeroSection />
-  <WorkSection />
-  <ClientSection />
+  <section>
+    <HeroSection />
+    <WorkSection />
+    <ClientSection />
+  </section>
 </template>
 
 <script>
@@ -10,7 +12,7 @@ import WorkSection from "@/components/ClaimExperiencePages/Work.vue";
 import ClientSection from "@/components/ClaimExperiencePages/Client.vue";
 
 export default {
-  name: "Home",
+  name: "claim-experience",
   components: {
     HeroSection,
     WorkSection,

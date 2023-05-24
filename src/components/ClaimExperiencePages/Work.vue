@@ -1,41 +1,39 @@
 <template>
-  <section>
-    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 justify-content-center place-items-center gap-10"
-      >
-        <div v-for="card in cards" :key="card.header">
-          <div class="overflow-hidden rounded-2xl background-product card">
-            <div class="relative h-[200px]">
-              <img
-                :src="card.img"
-                :alt="card.alt"
-                class="object-cover w-full h-full"
-              />
-              <div
-                class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
+  <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 justify-content-center place-items-center gap-10"
+    >
+      <div v-for="card in cards" :key="card.header">
+        <div class="overflow-hidden rounded-2xl background-product card">
+          <div class="relative h-[200px]">
+            <img
+              :src="card.img"
+              :alt="card.alt"
+              class="object-cover w-full h-full"
+            />
+            <div
+              class="absolute top-0 left-0 flex items-center justify-center w-full h-full"
+            >
+              <span
+                class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
               >
-                <span
-                  class="text-white text-xl font-bold uppercase bg-black bg-opacity-50 p-2"
-                >
-                  {{ card.category }}
-                </span>
-              </div>
+                {{ card.category }}
+              </span>
             </div>
-            <div class="p-3">
-              <div class="flex flex-col text-center">
-                <h1 class="text-lg text-black mb-4 font-bold">
-                  {{ card.year }}
-                </h1>
-                <h2 class="text-lg text-gray-700">{{ card.header }}</h2>
-                <h3 class="text-lg">{{ card.amount }}</h3>
-              </div>
+          </div>
+          <div class="p-3">
+            <div class="flex flex-col text-center">
+              <h1 class="text-lg text-black mb-4 font-bold">
+                {{ card.year }}
+              </h1>
+              <h2 class="text-lg text-gray-700">{{ card.header }}</h2>
+              <h3 class="text-lg">{{ card.amount }}</h3>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
