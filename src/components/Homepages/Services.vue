@@ -158,6 +158,7 @@
 <script>
 export default {
   name: "Services",
+  components: {},
 };
 </script>
 

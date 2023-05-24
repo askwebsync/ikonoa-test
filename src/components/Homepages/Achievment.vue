@@ -48,6 +48,7 @@
 <script>
 export default {
   name: "Achievment",
+  components: {},
 };
 </script>
 
