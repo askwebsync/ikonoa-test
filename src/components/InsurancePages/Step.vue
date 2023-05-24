@@ -94,6 +94,7 @@ export default {
         700: {
           itemsToShow: 1,
         },
+
         1024: {
           itemsToShow: 1,
         },
@@ -109,12 +110,8 @@ export default {
 <style scoped>
 .carousel__item {
   background-color: #f2f2f2 !important;
-  color: var(--vc-clr-white);
   border: 1.5px solid #17171f;
   border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .carousel__item {
@@ -154,9 +151,6 @@ h2 {
 
   color: #3b3b3b;
 }
-h3 {
-}
-
 p {
   color: #4f4f4f;
   letter-spacing: -0.05px;
