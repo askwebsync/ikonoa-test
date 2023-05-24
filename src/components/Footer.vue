@@ -154,6 +154,5 @@ li p {
 
 h3 {
   color: #ffff00;
-  letter-spacing: -0.25px;
 }
 </style>

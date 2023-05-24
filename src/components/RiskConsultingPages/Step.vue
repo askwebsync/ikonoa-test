@@ -163,8 +163,6 @@ export default {
 }
 
 h2 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   color: #3b3b3b;
 }
@@ -174,9 +172,7 @@ p {
   letter-spacing: -0.05px;
   line-height: 25px;
 }
-h3 {
-  letter-spacing: -0.25px;
-}
+
 .border-step {
   border: 2px solid #17171f;
   border-radius: 100px;

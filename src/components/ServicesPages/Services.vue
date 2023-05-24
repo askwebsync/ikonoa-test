@@ -116,13 +116,10 @@ export default {
 
 <style scoped>
 h1 {
-  font-style: normal;
   font-weight: 700;
   color: #3b3b3b;
-  letter-spacing: 0.5px;
 }
 p {
-  font-style: normal;
   font-weight: 400;
   color: #787878;
   letter-spacing: -0.05px;

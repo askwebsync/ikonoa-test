@@ -48,10 +48,7 @@ p {
 }
 
 h5 {
-  font-family: "Roboto";
   font-weight: 500;
-  font-style: normal;
-  letter-spacing: 0.5px;
   color: #17171f;
 }
 </style>

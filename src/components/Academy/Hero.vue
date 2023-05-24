@@ -104,16 +104,11 @@ export default {
 
 <style scoped>
 h4 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   color: #787878;
-  letter-spacing: -0.5px;
 }
 h1 {
   color: #3b3b3b;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
 }
 hr {

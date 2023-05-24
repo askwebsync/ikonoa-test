@@ -83,11 +83,8 @@ export default {
 
 <style scoped>
 h6 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   color: #fdfdff;
-  letter-spacing: 0.5px;
 }
 p {
   font-weight: 400;

@@ -88,7 +88,6 @@ export default {
 
 <style scoped>
 h6 {
-  letter-spacing: -0.25px;
   color: #3b3b3b;
 }
 hr {

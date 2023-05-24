@@ -35,8 +35,6 @@ export default {
 
 <style scoped>
 h2 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   color: #3b3b3b;
 }

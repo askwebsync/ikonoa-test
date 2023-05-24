@@ -204,17 +204,11 @@ export default {
 }
 
 h2 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
-  letter-spacing: -0.25px;
   color: #3b3b3b;
 }
 
 h3 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 800;
-  letter-spacing: -0.25px;
 }
 </style>

@@ -93,16 +93,12 @@ export default {
       breakpoints: {
         700: {
           itemsToShow: 1,
-          snapAlign: "start",
         },
-
         1024: {
           itemsToShow: 1,
-          snapAlign: "start",
         },
         1382: {
           itemsToShow: 2,
-          snapAlign: "start",
         },
       },
     };
@@ -154,14 +150,11 @@ export default {
 }
 
 h2 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
-  letter-spacing: -0.25px;
+
   color: #3b3b3b;
 }
 h3 {
-  letter-spacing: -0.25px;
 }
 
 p {

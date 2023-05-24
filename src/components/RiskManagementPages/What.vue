@@ -30,8 +30,6 @@ export default {
 
 <style scoped>
 h2 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
 }
 p {
