@@ -16,7 +16,12 @@
           class="flex flex-col lg:w-72 w-80 xl:w-auto px-5 py-6 gap-6 background-card hover:bg-white hover:shadow-md"
         >
           <div class="self-center md:self-start">
-            <img src="/assets/img/Home/analysis.png" alt="Risk Consulting" />
+            <img
+              src="/assets/img/Home/analysis.webp"
+              alt="Risk Consulting"
+              width="64"
+              height="64"
+            />
           </div>
           <div class="flex flex-col gap-8">
             <router-link
@@ -49,7 +54,12 @@
           class="flex flex-col lg:w-72 w-80 xl:w-auto px-5 py-6 gap-6 background-card hover:bg-white hover:shadow-md"
         >
           <div class="self-center md:self-start">
-            <img src="/assets/img/Home/insurance.png" alt="Insurance Policy" />
+            <img
+              src="/assets/img/Home/insurance.webp"
+              alt="Insurance Policy"
+              width="64"
+              height="64"
+            />
           </div>
           <div class="flex flex-col gap-8">
             <router-link
@@ -79,7 +89,12 @@
           class="flex flex-col lg:w-72 w-80 xl:w-auto px-5 py-6 gap-6 background-card hover:bg-white hover:shadow-md"
         >
           <div class="self-center md:self-start">
-            <img src="/assets/img/Home/risk.png" alt="Risk Management" />
+            <img
+              src="/assets/img/Home/risk.webp"
+              alt="Risk Management"
+              width="64"
+              height="64"
+            />
           </div>
           <div class="flex flex-col gap-8">
             <router-link
@@ -107,7 +122,12 @@
           class="flex flex-col lg:w-72 w-80 xl:w-auto px-5 py-6 gap-6 background-card hover:bg-white hover:shadow-md"
         >
           <div class="self-center md:self-start">
-            <img src="/assets/img/Home/academy.png" alt="Academy" />
+            <img
+              src="/assets/img/Home/academy.webp"
+              alt="Academy"
+              width="64"
+              height="64"
+            />
           </div>
           <div class="flex flex-col gap-8">
             <router-link
