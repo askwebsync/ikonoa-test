@@ -2,13 +2,15 @@
   <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
     <div class="flex flex-col items-center justify-center gap-12 space-y-8">
       <div class="flex flex-col gap-2 text-center">
-        <h3 class="text-xl md:text-2xl lg:text-3xl">OUR TEAM</h3>
+        <h3 class="text-xl md:text-2xl lg:text-3xl">
+          {{ $t("about.team-header") }}
+        </h3>
         <h2 class="text-lg md:text-xl lg:text-2xl text-gray-300">
-          Some of the people you'll be working with
+          {{ $t("about.team-subheader") }}
         </h2>
       </div>
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 justify-center"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 justify-center"
       >
         <div
           class="our-team self-center max-w-md"
@@ -27,14 +29,6 @@
               {{ slide.name }}
             </h3>
             <h2 class="post">{{ slide.title }}</h2>
-            <ul class="team_social">
-              <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
@@ -115,7 +109,7 @@ h2 {
 .our-team .post-title {
   font-size: 18px;
   font-weight: 600;
-  line-height: 27px;
+  line-height: 24px;
   margin-bottom: 5px;
   letter-spacing: -0.25px;
 }
@@ -124,7 +118,6 @@ h2 {
   color: #232a34;
   transition: all 0.3s ease 0s;
 }
-
 .our-team .post-title a:hover {
   color: #727cb6;
   text-decoration: none;
@@ -135,31 +128,6 @@ h2 {
   display: block;
   color: black;
   font-size: 16px;
-}
-
-.our-team .team_social {
-  list-style: none;
-  padding: 0;
-}
-
-.our-team .team_social > li {
-  display: inline-block;
-}
-
-.our-team .team_social > li > a {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  border-radius: 50%;
-  display: block;
-  color: #727cb6;
-  background: #efefef;
-  transition: all 0.3s ease 0s;
-}
-
-.our-team .team_social > li > a:hover {
-  background: #727cb6;
-  color: #fff;
 }
 
 @media screen and (max-width: 990px) {

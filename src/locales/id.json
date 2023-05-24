@@ -19,9 +19,7 @@
     "card3-option1": "Konsultasi Risiko",
     "card3-option2": "Manajemen Risiko",
     "card3-option3": "Polis Asuransi",
-    "card3-option4": "Akademi",
-    "card4-option1": "Kantor Registrasi:",
-    "card4-option2": "Kantor Operasi:"
+    "card3-option4": "Akademi"
   },
   "home": {
     "button": "Lihat Selengkapnya",
@@ -84,7 +82,9 @@
     "misi-text2": "Memberikan solusi pengelolaan klaim yang efektif dan efisien",
     "misi-text3": "Memperluas pangsa pasar asuransi dan premi",
     "misi-text4": "Mendidik nasabah melalui literasi asuransi untuk meningkatkan pengetahuan dan kepercayaan",
-    "misi-text5": "Memberikan layanan asuransi kepada stack-holder melalui pengembangan sumber daya manusia dan solusi digital"
+    "misi-text5": "Memberikan layanan asuransi kepada stack-holder melalui pengembangan sumber daya manusia dan solusi digital",
+    "team-header": "TIM KAMI",
+    "team-subheader": "Beberapa orang yang akan bekerja dengan Anda"
   },
   "claim-experience": {
     "banner-header": "PENGALAMAN KLAIM TIM KAMI",
@@ -142,7 +142,19 @@
     "product-card4-text2": "Asuransi Perlindungan dan Ganti Rugi memberikan perlindungan asuransi akibat dampak yang ditimbulkan oleh pengoperasian kapal, salah satunya adalah pencemaran lingkungan. Asuransi kapal jenis ini mencakup pencemaran lingkungan; kerusakan kapal tanpa sentuhan; dan tabrakan dengan kapal lain. Asuransi Proteksi dan Ganti Rugi umumnya dibutuhkan oleh perusahaan galangan kapal, perusahaan pemesanan kapal, dan perusahaan yang membutuhkan jasa pelayaran laut.",
     "product-card4-text3": "Asuransi Rangka Kapal, Jenis asuransi kapal ini memberikan perlindungan terhadap risiko kehilangan dan kerusakan kapal beserta mesinnya, termasuk perlindungan terhadap pihak ketiga yang dirugikan atas kejadian tersebut. Dengan Marine Hull and Machinery Insurance, Anda akan mendapat perlindungan atas pencemaran lingkungan; kerusakan kapal tanpa sentuhan; tabrakan dengan kapal lain; dan tanggung jawab pihak ketiga. Jika perusahaan Anda adalah perusahaan pembuat kapal, perusahaan pemesanan kapal, or a company that requires sea shipping services, then you might consider using Marine Hull and Machinery",
     "product-card6-text1": "Komprehensif memiliki perlindungan yang lebih beragam, tergantung manfaat asuransi yang dipilih oleh tertanggung.",
-    "product-card6-text2": "Asuransi Total Loss Only (TLO) adalah jenis asuransi kendaraan yang hanya memberikan perlindungan jika kerusakan kendaraan mencapai 75% dari nilai kendaraan atau jika terjadi pencurian."
+    "product-card6-text2": "Asuransi Total Loss Only (TLO) adalah jenis asuransi kendaraan yang hanya memberikan perlindungan jika kerusakan kendaraan mencapai 75% dari nilai kendaraan atau jika terjadi pencurian.",
+    "buy-procces-header": "CARA MEMBELI",
+    "buy-procces-subheader": "Panduan langkah demi langkah untuk membeli asuransi dengan mudah",
+    "buy-procces-card1-header": "1. Survei Risiko",
+    "buy-procces-card2-header": "2. Penempatan Risiko",
+    "buy-procces-card3-header": "3. Penawaran Cakupan yang Dipersonalisasi",
+    "buy-procces-card4-header": "4. Catatan Sampul & Isu Kebijakan",
+    "buy-procces-card5-header": "5. Pembayaran Premi",
+    "buy-procces-card1-explanation": "Survei risiko kami adalah evaluasi menyeluruh atas profil risiko unik Anda. Dengan menjawab serangkaian pertanyaan, kami akan dapat mengidentifikasi risiko spesifik yang Anda hadapi dan menentukan pertanggungan yang Anda perlukan untuk melindungi diri sendiri, keluarga, dan aset Anda.",
+    "buy-procces-card2-explanation": "Penempatan risiko melibatkan pemilihan polis asuransi yang paling tepat untuk calon pemegang polis, berdasarkan profil risiko spesifik dan kebutuhan pertanggungan.",
+    "buy-procces-card3-explanation": "Setelah menyelesaikan survei risiko dan menempatkan risiko Anda di salah satu atau beberapa perusahaan asuransi, tim kami akan menawarkan paket pertanggungan yang disesuaikan dengan kebutuhan dan karakteristik unik Anda. Paket ini akan mencakup penawaran harga premium dan opsi pertanggungan yang mendetail, sehingga Anda dapat membuat keputusan berdasarkan informasi tentang polis mana yang tepat untuk Anda.",
+    "buy-procces-card4-explanation": "Perusahaan asuransi mengeluarkan surat pengantar dan polis asuransi kepada pemegang polis. Cover note memberikan pertanggungan sementara sampai polis diterbitkan dan juga berfungsi sebagai bukti asuransi. Polis menguraikan syarat dan ketentuan pertanggungan asuransi dan harus disimpan di tempat yang aman untuk referensi di masa mendatang.",
+    "buy-procces-card5-explanation": "Pembayaran premi yang disepakati oleh pemegang polis kepada perusahaan asuransi, memungkinkan aktivasi dan kelanjutan pertanggungan mereka."
   },
   "contact": {
     "banner-header": "HUBUNGI KAMI",

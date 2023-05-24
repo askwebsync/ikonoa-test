@@ -19,9 +19,7 @@
     "card3-option1": "Risk Consulting",
     "card3-option2": "Risk Management",
     "card3-option3": "Insurance Policy",
-    "card3-option4": "Academy",
-    "card4-option1": " Registration Office",
-    "card4-option2": "Operational Office"
+    "card3-option4": "Academy"
   },
   "home": {
     "button": "Learn More",
@@ -84,7 +82,9 @@
     "misi-text2": "Providing effective and efficient claim management solutions",
     "misi-text3": "Expanding insurance market share and premium",
     "misi-text4": "Educate customer through insurance literation to increase knowledge and trust",
-    "misi-text5": "Providing insurance services to stack-holders through human resource development and digital solutions"
+    "misi-text5": "Providing insurance services to stack-holders through human resource development and digital solutions",
+    "team-header": "OUR TEAM",
+    "team-subheader": "Some of the people you'll be working with"
   },
   "claim-experience": {
     "banner-header": "OUR TEAM CLAIMS EXPERIENCE",
@@ -142,7 +142,19 @@
     "product-card4-text2": "Protection and Indemnity Insurance provide insurance coverage due to the impacts caused by the operation of a ship, one of which is environmental pollution. This type of ship insurance covers environmental pollution; damage to ships without touch; and collisions with other ships. Protection and Indemnity Insurance is generally needed by shipbuilding companies, ship ordering companies, and companies that require sea shipping services.",
     "product-card4-text3": "Marine Hull Insurance, This type of ship insurance provides insurance coverage against the risk of loss and damage to ships and their engines, including coverage for third parties harmed by the incident. With Marine Hull and Machinery Insurance, you will get coverage for environmental pollution; damage to ships without touch; collision with another ship; and third-party responsibility. If your company is a ship-building company, ship-ordering company, or a company that requires sea shipping services, then you might consider using Marine Hull and Machinery",
     "product-card6-text1": "Comprehensive has more diverse protection, depending on the insurance benefits chosen by the insured.",
-    "product-card6-text2": "Total Loss Only (TLO) insurance is a type of vehicle insurance that only provides protection if the damage to the vehicle reaches 75% of the vehicle's value or in the event of theft."
+    "product-card6-text2": "Total Loss Only (TLO) insurance is a type of vehicle insurance that only provides protection if the damage to the vehicle reaches 75% of the vehicle's value or in the event of theft.",
+    "buy-procces-header": "HOW TO BUY",
+    "buy-procces-subheader": "A step-by-step guide to buy an insurance buy with ease",
+    "buy-procces-card1-header": "1. Risk Survey",
+    "buy-procces-card2-header": "2. Risk Placement",
+    "buy-procces-card3-header": "3. Personalized Coverage Offer",
+    "buy-procces-card4-header": "4. Cover Note & Policy Issue",
+    "buy-procces-card5-header": "5. Premium Payment",
+    "buy-procces-card1-explanation": "Our risk survey is a comprehensive evaluation of your unique risk profile. By answering a series of questions, we'll be able to identify the specific risks you face and determine the coverage you need to protect yourself, your family, and your assets.",
+    "buy-procces-card2-explanation": "Risk placement involves selecting the most appropriate insurance policy for the prospective policyholder, based on their specific risk profile and coverage needs.",
+    "buy-procces-card3-explanation": "After completing the risk survey and having your risk placed into an or some insurance companies, our team will offer you a personalized coverage plan that takes into account your unique needs and characteristics. This plan will include a detailed quotation of premium prices and coverage options, so you can make an informed decision about which policy is right for you.",
+    "buy-procces-card4-explanation": "The insurance company issues a cover note and insurance policy to the policyholder. The cover note provides temporary coverage until the policy is issued and also serves as proof of insurance. The policy outlines the terms and conditions of the insurance coverage and should be kept in a safe place for future reference.",
+    "buy-procces-card5-explanation": "The payment of the agreed-upon premium by the policyholder to the insurance company, allowing for the activation and continuation of their coverage."
   },
   "contact": {
     "banner-header": "GET IN TOUCH",

@@ -99,16 +99,6 @@ export default {
   },
 
   methods: {
-    next() {
-      this.activeIndex = (this.activeIndex + 1) % this.teamMembers.length;
-      this.offset += 300;
-    },
-    prev() {
-      this.activeIndex =
-        (this.activeIndex - 1 + this.teamMembers.length) %
-        this.teamMembers.length;
-      this.offset -= 300;
-    },
     getSlideTitle(index) {
       return this.$t(this.slides[index].title);
     },

@@ -115,7 +115,7 @@
               >hallo@ikonoa.com</a
             >
           </li>
-          <li class="">
+          <!-- <li class="">
             <p class="text-sm md:text-lg font-medium block w-full">
               {{ $t("footer.card4-option1") }}
             </p>
@@ -124,7 +124,7 @@
             <p class="text-sm md:text-lg font-medium block w-full">
               {{ $t("footer.card4-option2") }}
             </p>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>

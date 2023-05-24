@@ -116,7 +116,6 @@
           </div>
         </div>
       </div>
-
       <div
         v-if="activeButton === 4"
         class="bg-white shadow-lg overflow-hidden mt-8"

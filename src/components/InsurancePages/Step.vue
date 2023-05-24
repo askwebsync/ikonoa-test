@@ -3,19 +3,21 @@
     <div class="container mx-auto px-4 py-14 md:px-8 lg:px-24">
       <div class="flex flex-col gap-10 md:gap-12 lg:gap-14">
         <div class="flex flex-col gap-2 text-center">
-          <h3 class="text-xl md:text-2xl lg:text-3xl">HOW TO BUY</h3>
+          <h3 class="text-xl md:text-2xl lg:text-3xl">
+            {{ $t("insurance.buy-procces-header") }}
+          </h3>
           <h2 class="text-lg md:text-xl lg:text-2xl text-gray-300">
-            A step-by-step guide to buy insurance policy product
+            {{ $t("insurance.buy-procces-subheader") }}
           </h2>
         </div>
 
         <Carousel :settings="settings" :breakpoints="breakpoints">
-          <Slide v-for="slide in slides" :key="slide">
+          <Slide v-for="(slide, index) in slides" :key="index">
             <div class="carousel__item">
               <div
-                class="flex flex-col gap-8 lg:gap-10 xl:gap-12 px-4 items-center justify-center"
+                class="flex flex-col gap-8 xl:gap-10 px-4 items-center justify-center"
               >
-                <h3 class="text-xl lg:text-2xl">{{ slide.title }}</h3>
+                <h3 class="text-xl lg:text-2xl">{{ getSlideTitle(index) }}</h3>
                 <div
                   class="flex items-center justify-center px-6 py-5 border-step"
                 >
@@ -27,7 +29,7 @@
                 </div>
                 <div class="md:mt-5 md:h-48">
                   <p class="text-md md:text-lg lg:text-xl max-w-xs md:max-w-md">
-                    {{ slide.description }}
+                    {{ getSlideDescription(index) }}
                   </p>
                 </div>
               </div>
@@ -56,34 +58,29 @@ export default {
     return {
       slides: [
         {
-          title: "1. Risk Survey",
+          title: "insurance.buy-procces-card1-header",
           image: "step-1.png",
-          description:
-            "Our risk survey is a comprehensive evaluation of your unique risk profile. By answering a series of questions, we'll be able to identify the specific risks you face and determine the coverage you need to protect yourself, your family, and your assets.",
+          description: "insurance.buy-procces-card1-explanation",
         },
         {
-          title: "2. Risk Placement",
+          title: "insurance.buy-procces-card2-header",
           image: "step-2.png",
-          description:
-            "Risk placement involves selecting the most appropriate insurance policy for the prospective policyholder, based on their specific risk profile and coverage needs.",
+          description: "insurance.buy-procces-card2-explanation",
         },
         {
-          title: "3. Personalized Coverage Offer",
+          title: "insurance.buy-procces-card3-header",
           image: "step-3.png",
-          description:
-            "After completing the risk survey and having your risk placed into an or some insurance companies, our team will offer you a personalized coverage plan that takes into account your unique needs and characteristics. This plan will include a detailed quotation of premium prices and coverage options, so you can make an informed decision about which policy is right for you.",
+          description: "insurance.buy-procces-card3-explanation",
         },
         {
-          title: "4. Cover Note & Policy Issue",
+          title: "insurance.buy-procces-card4-header",
           image: "step-4.png",
-          description:
-            "The insurance company issues a cover note and insurance policy to the policyholder. The cover note provides temporary coverage until the policy is issued and also serves as proof of insurance. The policy outlines the terms and conditions of the insurance coverage and should be kept in a safe place for future reference.",
+          description: "insurance.buy-procces-card4-explanation",
         },
         {
-          title: "5. Premium Payment",
+          title: "insurance.buy-procces-card5-header",
           image: "step-5.png",
-          description:
-            "The payment of the agreed-upon premium by the policyholder to the insurance company, allowing for the activation and continuation of their coverage.",
+          description: "insurance.buy-procces-card5-explanation",
         },
       ],
       settings: {
@@ -93,16 +90,27 @@ export default {
       breakpoints: {
         700: {
           itemsToShow: 1,
+          snapAlign: "start",
         },
 
         1024: {
           itemsToShow: 1,
+          snapAlign: "start",
         },
         1382: {
           itemsToShow: 2,
+          snapAlign: "start",
         },
       },
     };
+  },
+  methods: {
+    getSlideTitle(index) {
+      return this.$t(this.slides[index].title);
+    },
+    getSlideDescription(index) {
+      return this.$t(this.slides[index].description);
+    },
   },
 };
 </script>
@@ -110,8 +118,12 @@ export default {
 <style scoped>
 .carousel__item {
   background-color: #f2f2f2 !important;
-  border: 1.5px solid #17171f;
+  color: var(--vc-clr-white);
+  border: 2px solid #17171f;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel__item {
@@ -142,15 +154,15 @@ export default {
 @media (min-width: 1400px) {
   .carousel__item {
     height: 550px;
-    width: 73%;
+    width: 78%;
   }
 }
 
 h2 {
   font-weight: 700;
-
   color: #3b3b3b;
 }
+
 p {
   color: #4f4f4f;
   letter-spacing: -0.05px;

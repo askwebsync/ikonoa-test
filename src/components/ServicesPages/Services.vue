@@ -6,7 +6,9 @@
           <div
             class="background-card flex flex-col rounded-lg card-hover shadow-md"
           >
-            <div class="flex flex-col gap-7 md:gap-10 p-6 text-center md:h-72">
+            <div
+              class="flex flex-col gap-7 md:gap-10 p-8 md:p-6 text-center md:h-72 xl:h-64"
+            >
               <h1 class="text-xl md:text-xl lg:text-3xl">
                 {{ $t("services.card1-header") }}
               </h1>
@@ -28,7 +30,9 @@
           <div
             class="background-card flex flex-col rounded-lg card-hover shadow-md"
           >
-            <div class="flex flex-col gap-7 md:gap-10 p-6 text-center md:h-72">
+            <div
+              class="flex flex-col gap-7 md:gap-10 p-8 md:p-6 text-center md:h-72 xl:h-64"
+            >
               <h1
                 class="text-xl md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
               >
@@ -54,7 +58,9 @@
           <div
             class="background-card flex flex-col rounded-lg card-hover shadow-md"
           >
-            <div class="flex flex-col gap-7 md:gap-10 p-6 text-center md:h-72">
+            <div
+              class="flex flex-col gap-7 md:gap-10 p-8 md:p-6 text-center md:h-72 xl:h-64"
+            >
               <h1
                 class="text-xl md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
               >
@@ -78,7 +84,9 @@
           <div
             class="background-card flex flex-col rounded-lg card-hover shadow-md"
           >
-            <div class="flex flex-col gap-7 md:gap-10 p-6 text-center md:h-72">
+            <div
+              class="flex flex-col gap-7 md:gap-10 p-8 md:p-6 text-center md:h-72 xl:h-64"
+            >
               <h1
                 class="text-xl md:text-xl lg:text-3xl hover:text-red-600 focus:outline-none"
               >
@@ -116,7 +124,6 @@ export default {
 
 <style scoped>
 h1 {
-  font-weight: 700;
   color: #3b3b3b;
 }
 p {
