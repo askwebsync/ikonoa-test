@@ -202,13 +202,17 @@ export default {
   width: 310px;
   border-radius: 8px;
 }
-
+h1 {
+  letter-spacing: -0.25px;
+}
 h2 {
   font-weight: 500;
   color: #3b3b3b;
+  letter-spacing: -0.25px;
 }
 
 h3 {
   font-weight: 800;
+  letter-spacing: -0.25px;
 }
 </style>

@@ -36,7 +36,6 @@ export default {
         "/assets/img/LP_Claim/PT_8Property_INDO.jpeg",
         "/assets/img/LP_Claim/PT_ARSA_INDO.jpeg",
         "/assets/img/LP_Claim/PT_Carefast_INDO.jpeg",
-        "/assets/img/LP_Claim/PT_DUAPUTRA_INDO.jpeg",
         "/assets/img/LP_Claim/PT_DNX_INDO.jpeg",
         "/assets/img/LP_Claim/PT_Errai_INDO.jpeg",
         "/assets/img/LP_Claim/PT_SWA_INDO.png",
