@@ -29,7 +29,7 @@ export default {
 .hero-section {
   position: relative;
   width: 100%;
-  height: 40vh;
+  height: 430px;
 }
 
 .hero-background {
