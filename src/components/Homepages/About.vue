@@ -9,6 +9,8 @@
             src="/assets/img/Home/about3.webp"
             alt="about-us"
             class="object-cover w-full"
+            width="1920"
+            height="1280"
           />
         </div>
         <div
