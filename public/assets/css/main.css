@@ -1,58 +1,59 @@
+.fade-enter-active,
+.fade-leave-active,
+.lazy.loaded {
+  transition: opacity .3s
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  /* Roboto-Black */
   font-display: swap;
-  src: url(/assets/fonts/Roboto-Black.ttf) format('truetype');
+  src: url(/assets/fonts/Roboto-Black.ttf) format('truetype')
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
-  /* Roboto-Bold */
   font-display: swap;
-  src: url(/assets/fonts/Roboto-Bold.ttf) format('truetype');
+  src: url(/assets/fonts/Roboto-Bold.ttf) format('truetype')
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: Roboto;
   font-style: normal;
   font-weight: 300;
-  /* Roboto-Light */
   font-display: swap;
-  src: url(/assets/fonts/Roboto-Light.ttf) format('truetype');
+  src: url(/assets/fonts/Roboto-Light.ttf) format('truetype')
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  /* Roboto-Medium */
   font-display: swap;
-  src: url(/assets/fonts/Roboto-Medium.ttf) format('truetype');
+  src: url(/assets/fonts/Roboto-Medium.ttf) format('truetype')
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
-  /* Roboto-Regular */
   font-display: swap;
-  src: url(/assets/fonts/Roboto-Regular.ttf) format('truetype');
+  src: url(/assets/fonts/Roboto-Regular.ttf) format('truetype')
 }
 
 *,
-*:before,
-*:after {
+:after,
+:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 
 h1,
@@ -61,60 +62,60 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.5px
 }
 
 h1 {
   font-weight: 800;
-  color: #fdfdff;
+  color: #fdfdff
 }
 
-h2 {
-  font-weight: 700;
-  color: #17171f;
+h2,
+h3,
+h6 {
+  font-weight: 700
+}
+
+h2,
+h6 {
+  color: #17171f
+}
+
+.navbar-item.active,
+h3 {
+  color: #d50000
 }
 
 h3 {
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #d50000;
+  text-transform: uppercase
 }
 
 h4 {
   font-weight: 400;
-  color: #ffff00;
-}
-
-h6 {
-  font-weight: 700;
-  color: #17171f;
+  color: #ff0
 }
 
 .app-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100vh
 }
 
 .app-main {
-  flex: 1;
+  flex: 1
 }
 
 .app-footer {
   margin-top: auto;
-  background-color: #191919;
-}
-
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.3s;
+  background-color: #191919
 }
 
 .fade-enter,
-.fade-leave-to {
-  opacity: 0;
+.fade-leave-to,
+.lazy {
+  opacity: 0
 }
 
 .float {
@@ -129,104 +130,91 @@ h6 {
   text-align: center;
   font-size: 30px;
   box-shadow: 2px 2px 3px #999;
-  z-index: 100;
-}
-
-.navbar-item.active {
-  color: #d50000;
+  z-index: 100
 }
 
 .my-float {
-  margin-top: 16px;
-}
-
-.lazy {
-  opacity: 0;
+  margin-top: 16px
 }
 
 .lazy.loaded {
-  transition: opacity 300ms;
-  opacity: 1;
+  opacity: 1
 }
 
 .text-red {
-  color: red !important;
+  color: red !important
 }
 
 .button-shadow {
-  filter: drop-shadow(0px 4px 4px rgba(50, 50, 71, 0.08)) drop-shadow(0px 4px 8px rgba(50, 50, 71, 0.06));
+  filter: drop-shadow(0px 4px 4px rgba(50, 50, 71, .08)) drop-shadow(0px 4px 8px rgba(50, 50, 71, .06))
 }
 
 .card-text-color {
-  color: #383B43;
+  color: #383b43
 }
 
 .background-product {
-  background-color: #f2f2f2;
+  background-color: #f2f2f2
 }
 
 .background-card {
-  background-color: #f5f5f5;
+  background-color: #f5f5f5
 }
 
 .background-category {
-  background-color: #FFE5E5;
+  background-color: #ffe5e5
 }
 
 .bg-custom-academy {
-  background: #FDFDFF
+  background: #fdfdff
 }
 
 .center {
-  text-align: -webkit-center;
+  text-align: -webkit-center
 }
 
 a:hover {
   color: red;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .custom-shadow-card {
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 2px 0, rgba(60, 64, 67, .15) 0 1px 3px 1px
 }
 
 .border-button-custom {
-  border: 1px solid #D50000;
-  border-radius: 5px;
+  border: 1px solid #d50000;
+  border-radius: 5px
 }
 
 :root {
-  /* Color */
   --vc-clr-primary: #000;
   --vc-clr-secondary: #090f207f;
   --vc-clr-white: #ffffff;
-  /* Icon */
   --vc-icn-width: 1.2em;
-  /* Navigation */
   --vc-nav-width: 35px;
   --vc-nav-height: 35px;
   --vc-nav-border-radius: 50px !important;
-  --vc-nav-background: #FFE5E5 !important;
+  --vc-nav-background: #FFE5E5 !important
 }
 
 .carousel__icon {
   width: var(--vc-icn-width);
   height: var(--vc-icn-width);
-  fill: #D50000 !important;
+  fill: #D50000 !important
 }
 
-.carousel__prev,
-.carousel__next {
+.carousel__next,
+.carousel__prev {
   width: 30px !important;
   height: 30px !important;
-  margin: 0 -13px !important;
+  margin: 0 -13px !important
 }
 
-/* Media Queries */
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width:650px) {
 
-  .carousel__prev,
-  .carousel__next {
+  .carousel__next,
+  .carousel__prev {
     box-sizing: content-box;
     background: var(--vc-nav-background);
     border-radius: var(--vc-nav-border-radius);
@@ -244,59 +232,56 @@ a:hover {
     cursor: pointer;
     margin: 0 -10px !important;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%)
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width:767px) {
 
-  /* Mobile Styles */
-  h6,
-  h5,
-  h4,
-  h3,
+  h1,
   h2,
-  h1 {
-    letter-spacing: 0.5px;
+  h3,
+  h4,
+  h5,
+  h6 {
+    letter-spacing: .5px
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px) {
   .float {
     width: 50px;
     height: 50px;
     bottom: 15px;
     right: 15px;
-    font-size: 24px;
+    font-size: 24px
   }
 
   .my-float {
-    margin-top: 12px;
+    margin-top: 12px
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width:768px) and (max-width:1023px) {
 
-  /* Tablet Styles */
-  h6,
-  h5,
-  h4,
-  h3,
+  h1,
   h2,
-  h1 {
-    letter-spacing: -0.5px;
+  h3,
+  h4,
+  h5,
+  h6 {
+    letter-spacing: -.5px
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width:1024px) {
 
-  /* Desktop Styles */
-  h6,
-  h5,
-  h4,
-  h3,
+  h1,
   h2,
-  h1 {
-    letter-spacing: 0.5px;
+  h3,
+  h4,
+  h5,
+  h6 {
+    letter-spacing: .5px
   }
 }
