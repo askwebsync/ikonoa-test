@@ -35,7 +35,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/assets/img/LP_Claim/claim.png");
+  background-image: url("/assets/img/LP_Claim/claim.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

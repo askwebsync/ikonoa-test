@@ -6,7 +6,7 @@
       >
         <div class="flex md:self-start lg:w-1/2">
           <img
-            src="/assets/img/Home/about3.jpg"
+            src="/assets/img/Home/about3.webp"
             alt="about-us"
             class="object-cover w-full"
           />

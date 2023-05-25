@@ -36,7 +36,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/assets/img/LP_Insurance/herobackground.png");
+  background-image: url("/assets/img/LP_Insurance/herobackground.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
