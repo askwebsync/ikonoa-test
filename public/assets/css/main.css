@@ -72,6 +72,11 @@ h1 {
   color: #fdfdff
 }
 
+p {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+}
+
 h2,
 h3,
 h6 {
@@ -209,6 +214,19 @@ a:hover {
   width: 30px !important;
   height: 30px !important;
   margin: 0 -13px !important
+}
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
 }
 
 @media only screen and (min-width:650px) {

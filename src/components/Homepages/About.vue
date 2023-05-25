@@ -32,11 +32,11 @@
                   alt="check-mark"
                   class="w-6 h-6"
                 />
-                <div class="font-semibold text-base md:text-lg">
+                <h6 class="font-semibold text-base md:text-lg">
                   <span class="red-uppercase">I</span>ntegrity
-                </div>
+                </h6>
               </div>
-              <div class="flex items-center gap-3 md:gap-4 lg:gap-2">
+              <h6 class="flex items-center gap-3 md:gap-4 lg:gap-2">
                 <img
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
@@ -45,8 +45,8 @@
                 <div class="font-semibold text-lg">
                   <span class="red-uppercase">K</span>nowledgeable
                 </div>
-              </div>
-              <div class="flex items-center gap-3 md:gap-4 lg:gap-2">
+              </h6>
+              <h6 class="flex items-center gap-3 md:gap-4 lg:gap-2">
                 <img
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
@@ -55,8 +55,8 @@
                 <div class="font-semibold text-lg">
                   Professi<span class="red-uppercase">O</span>nal
                 </div>
-              </div>
-              <div class="flex items-center gap-3 md:gap-4 lg:gap-2">
+              </h6>
+              <h6 class="flex items-center gap-3 md:gap-4 lg:gap-2">
                 <img
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
@@ -65,8 +65,8 @@
                 <div class="font-semibold text-lg">
                   Ho<span class="red-uppercase">N</span>esty
                 </div>
-              </div>
-              <div class="flex items-center gap-3 md:gap-4 lg:gap-2">
+              </h6>
+              <h6 class="flex items-center gap-3 md:gap-4 lg:gap-2">
                 <img
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
@@ -75,8 +75,8 @@
                 <div class="font-semibold text-lg">
                   F<span class="red-uppercase">O</span>cus
                 </div>
-              </div>
-              <div class="flex items-center gap-3 md:gap-4 lg:gap-2">
+              </h6>
+              <h6 class="flex items-center gap-3 md:gap-4 lg:gap-2">
                 <img
                   src="/assets/img/Home/check-mark.png"
                   alt="check-mark"
@@ -85,7 +85,7 @@
                 <div class="font-semibold text-lg">
                   P<span class="red-uppercase">A</span>rtnership
                 </div>
-              </div>
+              </h6>
             </div>
           </div>
         </div>
@@ -120,5 +120,9 @@ ul li {
 .red-uppercase {
   color: red;
   text-transform: uppercase;
+}
+
+h6 {
+  font-weight: 500;
 }
 </style>

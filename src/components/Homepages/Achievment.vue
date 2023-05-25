@@ -18,7 +18,7 @@
           <div
             class="flex flex-col justify-center items-center px-10 py-5 mb-3 md:mb-0 h-full w-full"
           >
-            <h1 class="text-3xl lg:text-5xl">98%</h1>
+            <h1 class="text-3xl lg:text-5xl intersecting-number mb-1">98%</h1>
             <p class="text-sm card-text-color">
               {{ $t("home.achievment-card1-text") }}
             </p>
@@ -26,7 +26,9 @@
           <div
             class="flex flex-col justify-center items-center px-10 py-5 mb-3 md:mb-0 h-full w-full"
           >
-            <h1 class="text-3xl lg:text-5xl">USD 250+M</h1>
+            <h1 class="text-3xl lg:text-5xl intersecting-number mb-1">
+              USD 250+M
+            </h1>
             <p class="text-sm card-text-color">
               {{ $t("home.achievment-card2-text") }}
             </p>
@@ -34,7 +36,9 @@
           <div
             class="flex flex-col justify-center items-center px-10 py-5 h-full w-full"
           >
-            <h1 class="text-3xl lg:text-5xl">7,500+</h1>
+            <h1 class="text-3xl lg:text-5xl intersecting-number mb-1">
+              7,500+
+            </h1>
             <p class="text-sm card-text-color">
               {{ $t("home.achievment-card3-text") }}
             </p>
@@ -48,7 +52,33 @@
 <script>
 export default {
   name: "Achievment",
-  components: {},
+  mounted() {
+    const intersectingNumbers = document.querySelectorAll(
+      ".intersecting-number"
+    );
+
+    const observerOptions = {
+      threshold: 0.8, // Percentage of element visibility required to trigger the intersection callback
+    };
+
+    const intersectionCallback = (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("animate-counter"); // Add a CSS class to animate the numbers
+          observer.unobserve(entry.target); // Stop observing once the animation has been triggered
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(
+      intersectionCallback,
+      observerOptions
+    );
+
+    intersectingNumbers.forEach((number) => {
+      observer.observe(number);
+    });
+  },
 };
 </script>
 
@@ -56,5 +86,20 @@ export default {
 h1 {
   font-weight: 700;
   color: #17171f;
+}
+
+.animate-counter {
+  animation: animateCounter 2s ease-in-out forwards;
+}
+
+@keyframes animateCounter {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 </style>

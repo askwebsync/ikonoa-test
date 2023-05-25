@@ -9,39 +9,45 @@
           {{ $t("risk-management.claim-procces-subheader") }}
         </h2>
       </div>
-      <div
-        class="grid grid-cols-1 md:grid-cols-2 items-center gap-11 h-full w-full"
-      >
-        <div class="flex flex-col items-center self-center gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div class="flex flex-col items-center justify-between gap-6">
           <div
-            class="w-12 h-12 rounded-full flex justify-center items-center background-number"
+            class="w-12 h-16 rounded-full flex justify-center items-center background-number"
           >
             <p class="text-lg">1</p>
           </div>
           <div
-            class="flex flex-col p-6 gap-8 lg:gap-12 background-card-detail rounded-xl border-custom h-72 md:h-96 lg:h-80 xl:h-72"
+            class="flex flex-col p-5 xl:p-6 gap-4 lg:gap-6 background-card-detail rounded-xl border-custom h-full"
           >
-            <h2 class="text-black text-center text-xl md:text-3xl">
+            <h2
+              class="text-black text-center text-base md:text-xl lg:text-2xl overflow-hidden"
+            >
               {{ $t("risk-management.claim-procces-card1-header") }}
             </h2>
-            <p class="text-md text-gray-500 md:text-lg">
+            <p
+              class="text-sm text-gray-500 md:text-md lg:text-lg overflow-hidden"
+            >
               {{ $t("risk-management.claim-procces-card1-explanation") }}
             </p>
           </div>
         </div>
-        <div class="flex flex-col items-center self-center gap-6">
+        <div class="flex flex-col items-center justify-between gap-6">
           <div
-            class="w-12 h-12 rounded-full flex justify-center items-center background-number"
+            class="w-12 h-16 rounded-full flex justify-center items-center background-number"
           >
             <p class="text-lg">2</p>
           </div>
           <div
-            class="flex flex-col p-6 gap-8 lg:gap-12 background-card-detail rounded-xl border-custom h-72 md:h-96 lg:h-80 xl:h-72"
+            class="flex flex-col p-5 xl:p-6 gap-4 lg:gap-6 background-card-detail rounded-xl border-custom h-full"
           >
-            <h2 class="text-black text-center text-xl md:text-3xl">
+            <h2
+              class="text-black text-center text-base md:text-xl lg:text-2xl overflow-hidden"
+            >
               {{ $t("risk-management.claim-procces-card2-header") }}
             </h2>
-            <p class="text-md text-gray-500 md:text-lg">
+            <p
+              class="text-sm text-gray-500 md:text-md lg:text-lg overflow-hidden"
+            >
               {{ $t("risk-management.claim-procces-card2-explanation") }}
             </p>
           </div>
@@ -66,14 +72,9 @@ h2 {
   color: #3b3b3b;
 }
 p {
-  font-weight: 400;
-  letter-spacing: -0.1px;
+  letter-spacing: -0.85px;
 }
-hr {
-  width: 120px;
-  height: 0px;
-  border: 2px solid #3b3b3b;
-}
+
 .background-number {
   background-color: #ffe5e5;
   border: 1px solid #d50000;
