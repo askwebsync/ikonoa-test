@@ -4,13 +4,9 @@
       <app-header />
     </header>
     <main class="app-main">
-      <router-view v-slot="{ Component, route }">
-        <transition name="fade" mode="out-in">
-          <div :key="route.name">
-            <component :is="Component"></component>
-          </div>
-        </transition>
-      </router-view>
+      <transition name="fade" mode="out-in">
+        <router-view></router-view>
+      </transition>
     </main>
     <footer class="app-footer">
       <app-footer />
@@ -25,7 +21,6 @@
     </a>
   </div>
 </template>
-
 <script>
 import AppHeader from "@/components/Header.vue";
 import AppFooter from "@/components/Footer.vue";
