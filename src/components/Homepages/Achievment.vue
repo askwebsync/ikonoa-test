@@ -58,7 +58,7 @@ export default {
     );
 
     const observerOptions = {
-      threshold: 0.8, // Percentage of element visibility required to trigger the intersection callback
+      threshold: 0.5, // Percentage of element visibility required to trigger the intersection callback
     };
 
     const intersectionCallback = (entries, observer) => {
@@ -89,7 +89,7 @@ h1 {
 }
 
 .animate-counter {
-  animation: animateCounter 2s ease-in-out forwards;
+  animation: animateCounter 1s ease-in-out forwards;
 }
 
 @keyframes animateCounter {
