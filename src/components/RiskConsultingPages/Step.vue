@@ -13,7 +13,7 @@
         <Slide v-for="(slide, index) in slides" :key="index">
           <div class="carousel__item">
             <div
-              class="flex flex-col gap-12 lg:gap-10 px-4 items-center justify-center"
+              class="flex flex-col gap-8 xl:gap-10 px-4 items-center justify-center"
             >
               <h3 class="text-xl md:text-2xl">
                 {{ getSlideTitle(index) }}
@@ -24,11 +24,13 @@
                 <img
                   :src="`/assets/img/Services/${slide.image}`"
                   alt="step-step"
-                  class="w-full h-12 w-12 lg:h-14 lg:w-14 object-cover object-center"
+                  class="w-6 h-6 md:h-12 md:w-12 lg:h-14 lg:w-14 object-cover object-center"
                 />
               </div>
               <div class="md:mt-5 md:h-48">
-                <p class="text-md md:text-lg xl:text-xl max-w-xs md:max-w-md">
+                <p
+                  class="text-sm sm:text-md md:text-lg lg:text-xl max-w-xs md:max-w-md"
+                >
                   {{ getSlideDescription(index) }}
                 </p>
               </div>
@@ -113,7 +115,7 @@ export default {
 .carousel__item {
   background-color: #f2f2f2 !important;
   color: var(--vc-clr-white);
-  border: 1.5px solid #17171f;
+  border: 2px solid #17171f;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -125,9 +127,33 @@ export default {
   width: 84%;
 }
 
+h2 {
+  font-weight: 700;
+  color: #3b3b3b;
+}
+p {
+  color: #4f4f4f;
+  letter-spacing: -0.25px;
+  line-height: 20px;
+}
+h3 {
+  line-height: 20px;
+}
+.border-step {
+  border: 2px solid #17171f;
+  border-radius: 100px;
+}
+
 @media (min-width: 600px) {
   .carousel__item {
     width: 78%;
+  }
+  h3 {
+    line-height: 40px;
+  }
+  p {
+    letter-spacing: 0.5px;
+    line-height: 23px;
   }
 }
 
@@ -148,23 +174,7 @@ export default {
 @media (min-width: 1400px) {
   .carousel__item {
     height: 550px;
-    width: 73%;
+    width: 78%;
   }
-}
-
-h2 {
-  font-weight: 500;
-  color: #3b3b3b;
-}
-
-p {
-  color: #4f4f4f;
-  letter-spacing: -0.05px;
-  line-height: 25px;
-}
-
-.border-step {
-  border: 2px solid #17171f;
-  border-radius: 100px;
 }
 </style>
