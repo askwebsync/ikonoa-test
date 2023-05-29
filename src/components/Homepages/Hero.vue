@@ -4,10 +4,9 @@
     <div class="hero-content">
       <div class="container mx-auto">
         <div class="max-w-4xl mx-auto text-center px-4">
-          <h3 class="text-2xl md:text-4xl lg:text-5xl leading-tight">
+          <h3 class="text-2xl md:text-4xl leading-tight">
             {{ $t("home.banner-header") }}<br />
-            <span>{{ $t("home.banner-header-span") }}</span
-            >.
+            <span>{{ $t("home.banner-header-span") }}</span>
           </h3>
           <h4 class="max-w-3xl mx-auto mt-4 text-base md:text-lg lg:text-xl">
             {{ $t("home.banner-subheader") }}

@@ -15,12 +15,12 @@
           class="lg:w-1/2 flex flex-col gap-12 xl:gap-14 self-center md:self-start"
         >
           <div class="flex flex-col gap-2 xl:gap-3">
-            <h3 class="text-xl md:text-2xl lg:text-3xl">
+            <!-- <h3 class="text-xl md:text-2xl lg:text-3xl">
               {{ $t("home.about-header") }}
-            </h3>
-            <h2 class="text-xl md:text-2xl lg:text-3xl">
+            </h3> -->
+            <h3 class="text-xl md:text-2xl lg:text-3xl">
               {{ $t("home.about-subheader") }}
-            </h2>
+            </h3>
             <p class="text-sm md:text-lg">{{ $t("home.about-description") }}</p>
           </div>
 

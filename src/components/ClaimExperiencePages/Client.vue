@@ -39,7 +39,7 @@ export default {
         "/assets/img/LP_Claim/PT_DNX_INDO.jpeg",
         "/assets/img/LP_Claim/PT_Errai_INDO.jpeg",
         "/assets/img/LP_Claim/PT_SWA_INDO.png",
-        "/assets/img/LP_Claim/PT_TIMURTERANG_INDO.jpeg",
+        "/assets/img/LP_Claim/PT_TIMURTERANG_INDO.png",
         "/assets/img/LP_Claim/PT_TOPGUARD_INDO.jpeg",
         "/assets/img/LP_Claim/PT_ASIASINERGISOLUSINDO_INDO.jpeg",
         "/assets/img/LP_Claim/Netika.jpeg",

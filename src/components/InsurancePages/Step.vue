@@ -17,18 +17,22 @@
               <div
                 class="flex flex-col gap-8 xl:gap-10 px-4 items-center justify-center"
               >
-                <h3 class="text-xl lg:text-2xl">{{ getSlideTitle(index) }}</h3>
+                <h3 class="text-lg md:text-xl lg:text-2xl">
+                  {{ getSlideTitle(index) }}
+                </h3>
                 <div
                   class="flex items-center justify-center px-6 py-5 border-step"
                 >
                   <img
                     :src="`/assets/img/Services/${slide.image}`"
                     alt="step-step"
-                    class="w-full h-12 w-12 lg:h-14 lg:w-14 object-cover object-center"
+                    class="w-6 h-6 md:h-12 md:w-12 lg:h-14 lg:w-14 object-cover object-center"
                   />
                 </div>
                 <div class="md:mt-5 md:h-48">
-                  <p class="text-md md:text-lg lg:text-xl max-w-xs md:max-w-md">
+                  <p
+                    class="text-sm sm:text-md md:text-lg lg:text-xl max-w-xs md:max-w-md"
+                  >
                     {{ getSlideDescription(index) }}
                   </p>
                 </div>
@@ -165,8 +169,11 @@ h2 {
 
 p {
   color: #4f4f4f;
-  letter-spacing: -0.05px;
-  line-height: 25px;
+  letter-spacing: -0.25px;
+  line-height: 18px;
+}
+h3 {
+  line-height: 20px;
 }
 .border-step {
   border: 2px solid #17171f;
