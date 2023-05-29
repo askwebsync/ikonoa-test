@@ -2,7 +2,7 @@
   <div class="container mx-auto px-4 py-10 md:px-8 lg:px-24">
     <div class="flex flex-col items-center justify-center gap-6">
       <div class="button-group items-center justify-center">
-        <div class="button-item">
+        <div class="div1">
           <button
             :class="[
               'flex justify-center items-center w-full md:w-auto h-full button-class',
@@ -13,7 +13,7 @@
             {{ $t("insurance.button1-header") }}
           </button>
         </div>
-        <div class="button-item">
+        <div class="div2">
           <button
             :class="[
               'flex justify-center items-center w-full md:w-auto h-full button-class',
@@ -24,7 +24,7 @@
             {{ $t("insurance.button2-header") }}
           </button>
         </div>
-        <div class="button-item">
+        <div class="div3">
           <button
             :class="[
               'flex justify-center items-center w-full md:w-auto h-full button-class',
@@ -35,7 +35,7 @@
             {{ $t("insurance.button3-header") }}
           </button>
         </div>
-        <div class="button-item">
+        <div class="div4">
           <button
             :class="[
               'flex justify-center items-center w-full md:w-auto h-full button-class',
@@ -46,7 +46,7 @@
             {{ $t("insurance.button4-header") }}
           </button>
         </div>
-        <div class="button-item">
+        <div class="div5">
           <button
             :class="[
               'flex justify-center items-center w-full md:w-auto h-full button-class',
@@ -57,7 +57,7 @@
             {{ $t("insurance.button5-header") }}
           </button>
         </div>
-        <div class="button-item">
+        <div class="div6">
           <button
             :class="[
               'flex justify-center items-center w-full md:w-auto h-full button-class',

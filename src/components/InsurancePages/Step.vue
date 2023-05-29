@@ -1,5 +1,5 @@
 <template>
-  <div class="background-product">
+  <div class="">
     <div class="container mx-auto px-4 py-14 md:px-8 lg:px-24">
       <div class="flex flex-col gap-10 md:gap-12 lg:gap-14">
         <div class="flex flex-col gap-2 text-center">
@@ -135,9 +135,33 @@ export default {
   width: 84%;
 }
 
+h2 {
+  font-weight: 700;
+  color: #3b3b3b;
+}
+p {
+  color: #4f4f4f;
+  letter-spacing: -0.25px;
+  line-height: 20px;
+}
+h3 {
+  line-height: 20px;
+}
+.border-step {
+  border: 2px solid #17171f;
+  border-radius: 100px;
+}
+
 @media (min-width: 600px) {
   .carousel__item {
     width: 78%;
+  }
+  h3 {
+    line-height: 40px;
+  }
+  p {
+    letter-spacing: 0.5px;
+    line-height: 23px;
   }
 }
 
@@ -160,23 +184,5 @@ export default {
     height: 550px;
     width: 78%;
   }
-}
-
-h2 {
-  font-weight: 700;
-  color: #3b3b3b;
-}
-
-p {
-  color: #4f4f4f;
-  letter-spacing: -0.25px;
-  line-height: 18px;
-}
-h3 {
-  line-height: 20px;
-}
-.border-step {
-  border: 2px solid #17171f;
-  border-radius: 100px;
 }
 </style>
