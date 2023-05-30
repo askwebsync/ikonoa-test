@@ -26,7 +26,7 @@
                   <img
                     :src="`/assets/img/Services/${slide.image}`"
                     alt="step-step"
-                    class="w-6 h-6 md:h-12 md:w-12 lg:h-14 lg:w-14 object-cover object-center"
+                    class="h-12 w-12 lg:h-14 lg:w-14 object-cover object-center"
                   />
                 </div>
                 <div class="md:mt-5 md:h-48">
