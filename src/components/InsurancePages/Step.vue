@@ -178,11 +178,4 @@ h3 {
     width: 65%;
   }
 }
-
-@media (min-width: 1400px) {
-  .carousel__item {
-    height: 550px;
-    width: 78%;
-  }
-}
 </style>

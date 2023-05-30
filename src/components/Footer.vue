@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
     <div
-      class="grid grid-cols-1 gap-12 md:gap-16 lg:gap-24 text-center lg:grid-cols-4 lg:text-left"
+      class="grid grid-cols-1 text-center gap-12 md:gap-18 lg:gap-24 lg:grid-cols-4 lg:text-left"
     >
       <div class="flex flex-col items-center lg:items-start gap-6">
         <img
@@ -12,7 +12,9 @@
           height="48"
         />
 
-        <p class="text-md md:text-lg font-medium text-white">
+        <p
+          class="text-md md:text-lg font-medium text-white max-w-xs md:max-w-xl"
+        >
           {{ $t("footer.card1-header") }}
         </p>
       </div>
@@ -130,8 +132,8 @@
     </div>
   </div>
 
-  <div class="mt-12 border-t border-gray-100 py-4">
-    <p class="text-sm md:text-lg font-medium text-white text-center">
+  <div class="border-t border-gray-100 py-4">
+    <p class="text-sm font-medium text-white text-center md:text-lg">
       © 2023 PT.Ikonoa Solusindo Asia. All rights reserved.
     </p>
   </div>

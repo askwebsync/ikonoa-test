@@ -1,7 +1,7 @@
 <template>
-  <div class="container mx-auto px-4 pt-6 pb-12 md:px-8 lg:px-12">
+  <div class="container mx-auto px-4 py-8 md:px-8 lg:px-12">
     <div
-      class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-6 gap-12 lg:gap-16"
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-12 lg:gap-16"
     >
       <div class="flex flex-col items-center text-center gap-5 p-2">
         <div

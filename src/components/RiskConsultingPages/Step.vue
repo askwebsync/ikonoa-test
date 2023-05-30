@@ -13,7 +13,7 @@
         <Slide v-for="(slide, index) in slides" :key="index">
           <div class="carousel__item">
             <div
-              class="flex flex-col gap-8 xl:gap-10 px-4 items-center justify-center"
+              class="flex flex-col gap-9 lg:gap-10 px-4 items-center justify-center"
             >
               <h3 class="text-xl md:text-2xl">
                 {{ getSlideTitle(index) }}
@@ -92,7 +92,6 @@ export default {
         700: {
           itemsToShow: 1,
         },
-
         1382: {
           itemsToShow: 2,
         },
@@ -123,7 +122,7 @@ export default {
 }
 
 .carousel__item {
-  height: 500px;
+  height: 460px;
   width: 84%;
 }
 
@@ -131,14 +130,17 @@ h2 {
   font-weight: 700;
   color: #3b3b3b;
 }
+
 p {
   color: #4f4f4f;
   letter-spacing: -0.25px;
   line-height: 20px;
 }
+
 h3 {
   line-height: 20px;
 }
+
 .border-step {
   border: 2px solid #17171f;
   border-radius: 100px;
@@ -148,9 +150,11 @@ h3 {
   .carousel__item {
     width: 78%;
   }
+
   h3 {
     line-height: 40px;
   }
+
   p {
     letter-spacing: 0.5px;
     line-height: 23px;

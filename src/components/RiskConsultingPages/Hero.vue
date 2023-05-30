@@ -4,7 +4,7 @@
     style="background-position: 50%; height: 500px"
   >
     <div
-      class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed container mx-auto px-4 py-12 md:px-8 lg:px-24"
+      class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed container mx-auto px-4 py-10 md:px-8 lg:px-24"
     >
       <div class="text-left mb-5">
         <nav class="flex" aria-label="Breadcrumb">

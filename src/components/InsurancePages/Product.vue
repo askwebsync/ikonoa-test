@@ -251,6 +251,7 @@ export default {
 <style scoped>
 h2 {
   font-weight: 700;
+  letter-spacing: -0.5px;
   color: #3b3b3b;
 }
 li {
