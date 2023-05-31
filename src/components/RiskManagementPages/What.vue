@@ -35,7 +35,6 @@ h2 {
 p {
   font-weight: 400;
   color: #3b3b3b;
-  letter-spacing: -0.1px;
 }
 hr {
   width: 120px;
