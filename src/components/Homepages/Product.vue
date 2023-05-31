@@ -62,7 +62,7 @@
               class="px-7 py-3 border-button-custom font-medium button-shadow"
             >
               <router-link
-                :to="{ name: 'about' }"
+                :to="{ name: 'insurance-policy' }"
                 aria-label="Learn More about our company insurance product"
               >
                 {{ $t("home.button") }}</router-link

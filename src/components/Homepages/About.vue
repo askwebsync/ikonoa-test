@@ -24,7 +24,7 @@
             <p class="text-sm md:text-lg">{{ $t("home.about-description") }}</p>
           </div>
 
-          <div class="grid grid-cols-1 gap-4 lg:gap-5">
+          <div class="grid grid-cols-1 gap-4 lg:gap-5 xl:gap-6">
             <div class="flex items-center gap-3 md:gap-4 lg:gap-2">
               <img
                 src="/assets/img/Home/check-mark.png"

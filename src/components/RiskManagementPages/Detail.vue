@@ -71,9 +71,6 @@ h2 {
   font-weight: 500;
   color: #3b3b3b;
 }
-p {
-  letter-spacing: -0.85px;
-}
 
 .background-number {
   background-color: #ffe5e5;

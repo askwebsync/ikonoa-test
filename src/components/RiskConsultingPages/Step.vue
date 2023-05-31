@@ -12,10 +12,8 @@
       <Carousel :settings="settings" :breakpoints="breakpoints">
         <Slide v-for="(slide, index) in slides" :key="index">
           <div class="carousel__item">
-            <div
-              class="flex flex-col gap-9 lg:gap-10 px-4 items-center justify-center"
-            >
-              <h3 class="text-xl md:text-2xl">
+            <div class="flex flex-col gap-10 p-4 items-center justify-center">
+              <h3 class="text-xl lg:text-2xl">
                 {{ getSlideTitle(index) }}
               </h3>
               <div
@@ -92,9 +90,6 @@ export default {
         700: {
           itemsToShow: 1,
         },
-        1382: {
-          itemsToShow: 2,
-        },
       },
     };
   },
@@ -122,63 +117,21 @@ export default {
 }
 
 .carousel__item {
-  height: 460px;
-  width: 84%;
+  height: 530px;
+  width: 83%;
 }
 
 h2 {
   font-weight: 700;
   color: #3b3b3b;
 }
-
 p {
   color: #4f4f4f;
   letter-spacing: -0.25px;
-  line-height: 20px;
+  line-height: 25px;
 }
-
-h3 {
-  line-height: 20px;
-}
-
 .border-step {
   border: 2px solid #17171f;
   border-radius: 100px;
-}
-
-@media (min-width: 600px) {
-  .carousel__item {
-    width: 78%;
-  }
-
-  h3 {
-    line-height: 40px;
-  }
-
-  p {
-    letter-spacing: 0.5px;
-    line-height: 23px;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .carousel__item {
-    height: 520px;
-    width: 73%;
-  }
-}
-
-@media (min-width: 1280px) and (max-width: 1400px) {
-  .carousel__item {
-    height: 500px;
-    width: 65%;
-  }
-}
-
-@media (min-width: 1400px) {
-  .carousel__item {
-    height: 550px;
-    width: 78%;
-  }
 }
 </style>
