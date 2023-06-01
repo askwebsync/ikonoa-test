@@ -2,7 +2,6 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import { resolve } from "path";
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
   resolve: {
@@ -12,12 +11,17 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
+      // Configure tree-shaking options
       treeshake: {
         // Replace feature flag globals with boolean literals
         flags: {
-          __VUE_I18N_FULL_INSTALL__: false,
-          __VUE_I18N_LEGACY_API__: false,
-          __VUE_I18N_PROD_DEVTOOLS__: false,
+          "vue-i18n/dist/vue-i18n.esm-bundler.js": {
+            // Set the feature flags for Vue i18n
+            __INTLIFY_PROD_DEVTOOLS__: false,
+            __VUE_I18N_FULL_INSTALL__: false,
+            __VUE_I18N_LEGACY_API__: false,
+            __VUE_I18N_PROD_DEVTOOLS__: false,
+          },
         },
       },
     },
