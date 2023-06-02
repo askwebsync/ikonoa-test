@@ -38,7 +38,7 @@
     <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
     <ul
       :class="showMenu ? 'flex' : 'hidden'"
-      class="flex-col mt-8 gap-y-3 items-center text-center md:flex md:gap-y-0 md:flex-row md:gap-x-4 lg:gap-x-4 xl:gap-x-8 md:mt-0 cursor-pointer"
+      class="flex-col mt-8 gap-y-3 items-center text-center md:flex md:gap-y-0 md:flex-row md:gap-x-4 lg:gap-x-4 xl:gap-x-5 md:mt-0 cursor-pointer"
     >
       <li
         @click="showMenu = !showMenu"
