@@ -76,14 +76,14 @@
       >
         <div class="relative">
           <img
-            src="/assets/img/LP_Insurance/liability.webp"
+            src="/assets/img/LP_Insurance/liability.png"
             alt="liability"
             class="object-cover w-full h-48 md:h-full"
           />
         </div>
         <div class="px-5 py-6">
-          <div class="flex flex-col gap-8">
-            <h2 class="text-lg md:text-xl leading-normal">
+          <div class="flex flex-col gap-8 mt-2">
+            <h2 class="text-lg md:text-xl lg:text-2xl leading-normal">
               {{ $t("insurance.product-card1-subheader") }}
             </h2>
             <ul
@@ -110,8 +110,8 @@
           />
         </div>
         <div class="px-5 py-6">
-          <div class="flex flex-col gap-8">
-            <h2 class="text-lg md:text-xl leading-normal">
+          <div class="flex flex-col gap-8 mt-2">
+            <h2 class="text-lg md:text-xl lg:text-2xl leading-normal">
               {{ $t("insurance.product-card2-subheader") }}
             </h2>
             <ul
@@ -137,8 +137,8 @@
           />
         </div>
         <div class="px-5 py-6">
-          <div class="flex flex-col gap-8">
-            <h2 class="text-lg md:text-xl leading-normal">
+          <div class="flex flex-col gap-8 mt-2">
+            <h2 class="text-lg md:text-xl lg:text-2xl leading-normal">
               {{ $t("insurance.product-card3-subheader") }}
             </h2>
             <ul
@@ -162,8 +162,8 @@
           />
         </div>
         <div class="px-5 py-6">
-          <div class="flex flex-col gap-8">
-            <h2 class="text-lg md:text-xl leading-normal">
+          <div class="flex flex-col gap-8 mt-2">
+            <h2 class="text-lg md:text-xl lg:text-2xl leading-normal">
               {{ $t("insurance.product-card4-subheader") }}
             </h2>
             <ul
@@ -188,7 +188,7 @@
           />
         </div>
         <div class="px-5 py-6">
-          <div class="flex flex-col gap-8">
+          <div class="flex flex-col gap-8 mt-2">
             <h2 class="text-lg md:text-xl leading-relaxed md:leading-normal">
               {{ $t("insurance.product-card5-subheader") }}
             </h2>
@@ -207,8 +207,8 @@
           />
         </div>
         <div class="px-5 py-6">
-          <div class="flex flex-col gap-8">
-            <h2 class="text-lg md:text-xl leading-normal">
+          <div class="flex flex-col gap-8 mt-2">
+            <h2 class="text-lg md:text-xl lg:text-2xl leading-normal">
               {{ $t("insurance.product-card6-subheader") }}
             </h2>
             <ul

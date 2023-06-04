@@ -114,11 +114,26 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 530px;
+  width: 80%;
 }
 
-.carousel__item {
-  height: 530px;
-  width: 83%;
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .carousel__item {
+    width: 75% !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .carousel__item {
+    width: 70% !important;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .carousel__item {
+    width: 65% !important;
+  }
 }
 
 h2 {
