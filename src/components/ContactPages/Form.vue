@@ -67,7 +67,8 @@
 
 <script>
 export default {
-  data() {},
+  name: "Contact Form",
+  components: {},
 };
 </script>
 

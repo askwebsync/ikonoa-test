@@ -28,10 +28,7 @@
 <script>
 export default {
   name: "Why",
-
-  data() {
-    return {};
-  },
+  component: {},
 };
 </script>
 

@@ -116,11 +116,6 @@
 export default {
   name: "Services",
   components: {},
-  data() {
-    return {};
-  },
-
-  methods: {},
 };
 </script>
 

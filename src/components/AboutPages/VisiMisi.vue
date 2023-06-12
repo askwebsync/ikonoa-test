@@ -30,9 +30,6 @@
 <script>
 export default {
   name: "VisiMisi",
-  data() {
-    return {};
-  },
 };
 </script>
 

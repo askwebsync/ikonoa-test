@@ -1,6 +1,6 @@
 <template>
   <div class="background-product">
-    <div class="container mx-auto px-4 py-12 md:px-8 lg:px-24">
+    <div class="container mx-auto px-4 py-6 md:px-8 lg:px-24">
       <div
         class="flex flex-col gap-9 items-center px-3 md:px-0 lg:flex-row lg:gap-12"
       >
@@ -96,9 +96,6 @@
 export default {
   name: "About",
   components: {},
-  data() {
-    return {};
-  },
 };
 </script>
 

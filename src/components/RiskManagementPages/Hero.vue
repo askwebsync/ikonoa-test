@@ -96,9 +96,7 @@
 <script>
 export default {
   name: "Hero",
-  data() {
-    return {};
-  },
+  component: {},
 };
 </script>
 

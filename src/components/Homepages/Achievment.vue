@@ -52,6 +52,7 @@
 <script>
 export default {
   name: "Achievment",
+  components: {},
   mounted() {
     const intersectingNumbers = document.querySelectorAll(
       ".intersecting-number"

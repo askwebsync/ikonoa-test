@@ -80,9 +80,6 @@
 <script>
 export default {
   name: "Meeting",
-  data() {
-    return {};
-  },
 };
 </script>
 

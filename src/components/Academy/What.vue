@@ -35,9 +35,6 @@
 export default {
   name: "What",
   components: {},
-  data() {
-    return {};
-  },
 };
 </script>
 

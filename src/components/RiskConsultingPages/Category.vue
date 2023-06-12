@@ -95,9 +95,6 @@
 export default {
   name: "Category",
   components: {},
-  data() {
-    return {};
-  },
 };
 </script>
 

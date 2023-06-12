@@ -143,15 +143,19 @@
 export default {
   name: "AppFooter",
   components: {},
-  data() {
-    return {};
-  },
 };
 </script>
 
 <style scoped>
+footer {
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 20px 0;
+  background-color: #f9f9f9;
+}
+
 li p {
-  color: #fdfdff;
+  color: #666;
 }
 
 h3 {

@@ -60,9 +60,7 @@
 <script>
 export default {
   name: "Detail",
-  data() {
-    return {};
-  },
+  component: {},
 };
 </script>
 

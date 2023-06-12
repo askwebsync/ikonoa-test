@@ -96,9 +96,6 @@
 <script>
 export default {
   name: "Hero",
-  data() {
-    return {};
-  },
 };
 </script>
 
