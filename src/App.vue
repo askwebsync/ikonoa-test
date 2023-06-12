@@ -29,13 +29,10 @@ import AppHeader from "@/components/Header.vue";
 import AppFooter from "@/components/Footer.vue";
 
 export default {
-  name: "App",
+  name: "app",
   components: {
-    AppHeader,
-    AppFooter,
-  },
-  data() {
-    return {};
+    "app-header": AppHeader,
+    "app-footer": AppFooter,
   },
 };
 </script>
