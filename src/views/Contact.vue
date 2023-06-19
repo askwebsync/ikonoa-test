@@ -18,8 +18,5 @@ export default {
     FormSection,
     LocationSection,
   },
-  data() {
-    return {};
-  },
 };
 </script>

@@ -21,8 +21,5 @@ export default {
     WhySection,
     StepSection,
   },
-  data() {
-    return {};
-  },
 };
 </script>

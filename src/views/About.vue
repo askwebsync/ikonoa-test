@@ -18,8 +18,5 @@ export default {
     TeamSection,
     VisiMisiSection,
   },
-  data() {
-    return {};
-  },
 };
 </script>

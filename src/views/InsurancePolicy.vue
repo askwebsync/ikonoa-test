@@ -18,8 +18,5 @@ export default {
     ProductSection,
     StepSection,
   },
-  data() {
-    return {};
-  },
 };
 </script>

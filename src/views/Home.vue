@@ -27,8 +27,5 @@ export default {
     AboutSection,
     AcademySection,
   },
-  data() {
-    return {};
-  },
 };
 </script>

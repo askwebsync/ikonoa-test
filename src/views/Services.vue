@@ -1,5 +1,8 @@
 <template>
-  <section><HeroSection /> <ServicesSection /></section>
+  <section>
+    <HeroSection />
+    <ServicesSection />
+  </section>
 </template>
 
 <script>
@@ -11,9 +14,6 @@ export default {
   components: {
     HeroSection,
     ServicesSection,
-  },
-  data() {
-    return {};
   },
 };
 </script>

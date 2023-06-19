@@ -18,8 +18,5 @@ export default {
     WorkSection,
     ClientSection,
   },
-  data() {
-    return {};
-  },
 };
 </script>

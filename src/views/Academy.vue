@@ -18,8 +18,5 @@ export default {
     WhatSection,
     MeetingSection,
   },
-  data() {
-    return {};
-  },
 };
 </script>
