@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
+import NotFound from "../views/404.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -48,6 +49,12 @@ const router = createRouter({
       path: "/claim-experience",
       name: "claim-experience",
       component: () => import("../views/ClaimExperience.vue"),
+    },
+    // 404 Page
+    {
+      path: "/:catchAll(.*)",
+      name: "not-found",
+      component: NotFound,
     },
   ],
   // eslint-disable-next-line no-unused-vars
