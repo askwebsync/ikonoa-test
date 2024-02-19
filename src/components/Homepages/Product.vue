@@ -22,7 +22,7 @@
                       {{ $t("home.product-card1-header") }}
                     </h6>
                   </router-link>
-                  <p class="text-white text-xs lg:text-lg">
+                  <p class="text-white text-sm md:text-base lg:text-lg">
                     {{ $t("home.product-card1-text") }}
                   </p>
                 </div>
@@ -36,7 +36,7 @@
                       {{ $t("home.product-card2-header") }}
                     </h6>
                   </router-link>
-                  <p class="text-white text-xs lg:text-lg">
+                  <p class="text-white text-sm md:text-base lg:text-lg">
                     {{ $t("home.product-card2-text") }}
                   </p>
                 </div>
@@ -50,7 +50,7 @@
                       {{ $t("home.product-card3-header") }}
                     </h6>
                   </router-link>
-                  <p class="text-white text-xs lg:text-lg">
+                  <p class="text-white text-sm md:text-base lg:text-lg">
                     {{ $t("home.product-card3-text") }}
                   </p>
                 </div>
