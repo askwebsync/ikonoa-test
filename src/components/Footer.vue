@@ -19,12 +19,12 @@
         </p>
       </div>
       <div class="space-y-4">
-        <h3 class="text-lg mb-4">{{ $t("footer.card2-header") }}</h3>
+        <h3 class="text-xl mb-4">{{ $t("footer.card2-header") }}</h3>
         <ul class="space-y-3 text-white">
           <li class="">
             <router-link
               :to="{ name: 'about' }"
-              class="text-sm md:text-lg font-medium block w-full"
+              class="text-base md:text-lg lg:text-xl font-medium block w-full"
             >
               {{ $t("footer.card2-option1") }}
             </router-link>
@@ -32,7 +32,7 @@
           <li class="">
             <router-link
               :to="{ name: 'services' }"
-              class="text-sm md:text-lg font-medium block w-full"
+              class="text-base md:text-lg lg:text-xl font-medium block w-full"
             >
               {{ $t("footer.card2-option2") }}
             </router-link>
@@ -40,7 +40,7 @@
           <li class="">
             <router-link
               :to="{ name: 'insurance-policy' }"
-              class="text-sm md:text-lg font-medium block w-full"
+              class="text-base md:text-lg lg:text-xl font-medium block w-full"
             >
               {{ $t("footer.card2-option3") }}
             </router-link>
@@ -48,7 +48,7 @@
           <li class="">
             <router-link
               :to="{ name: 'claim-experience' }"
-              class="text-sm md:text-lg font-medium block w-full"
+              class="text-base md:text-lg lg:text-xl font-medium block w-full"
             >
               {{ $t("footer.card2-option4") }}
             </router-link>
@@ -56,7 +56,7 @@
           <li class="">
             <router-link
               :to="{ name: 'contact' }"
-              class="text-sm md:text-lg font-medium block w-full"
+              class="text-base md:text-lg lg:text-xl font-medium block w-full"
             >
               {{ $t("footer.card2-option5") }}
             </router-link>
@@ -64,12 +64,12 @@
         </ul>
       </div>
       <div class="space-y-4">
-        <h3 class="text-lg mb-4">{{ $t("footer.card3-header") }}</h3>
+        <h3 class="text-xl mb-4">{{ $t("footer.card3-header") }}</h3>
         <ul class="space-y-3 text-white">
           <li class="">
             <router-link
               :to="{ name: 'risk-consulting' }"
-              class="text-sm md:text-lg font-medium block w-full"
+              class="text-base md:text-lg lg:text-xl font-medium block w-full"
             >
               {{ $t("footer.card3-option1") }}
             </router-link>
@@ -77,7 +77,7 @@
           <li class="">
             <router-link
               :to="{ name: 'risk-management' }"
-              class="text-sm md:text-lg font-medium block w-full"
+              class="text-base md:text-lg lg:text-xl  font-medium block w-full"
             >
               {{ $t("footer.card3-option2") }}
             </router-link>
@@ -85,7 +85,7 @@
           <li class="">
             <router-link
               :to="{ name: 'insurance-policy' }"
-              class="text-sm md:text-lg font-medium block w-full"
+              class="text-base md:text-lg lg:text-xl font-medium block w-full"
             >
               {{ $t("footer.card3-option3") }}
             </router-link>
@@ -93,7 +93,7 @@
           <li class="">
             <router-link
               :to="{ name: 'academy' }"
-              class="text-sm md:text-lg font-medium block w-full"
+              class="text-base md:text-lg lg:text-xl font-medium block w-full"
             >
               {{ $t("footer.card3-option4") }}
             </router-link>
@@ -101,18 +101,18 @@
         </ul>
       </div>
       <div class="space-y-4">
-        <h3 class="text-lg mb-4">{{ $t("footer.card4-header") }}</h3>
+        <h3 class="text-xl mb-4">{{ $t("footer.card4-header") }}</h3>
         <ul class="space-y-3 text-white">
           <li class="">
             <a
-              class="text-sm md:text-lg font-medium block w-full"
+              class="text-base md:text-lg lg:text-xl font-medium block w-full"
               href="tel:62811963754"
               >(+62) 811-963754</a
             >
           </li>
           <li class="">
             <a
-              class="text-sm md:text-lg font-medium block w-full"
+              class="text-base md:text-lg lg:text-xl font-medium block w-full"
               href="mailto:hallo@ikonoa.com"
               >hallo@ikonoa.com</a
             >

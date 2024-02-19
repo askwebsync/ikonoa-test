@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="container px-4 md:px-8 lg:px-24 py-2 mx-auto md:flex md:justify-between md:items-center"
+    class="container px-4 xl:px-8 lg:px-24 py-2 mx-auto xl:flex xl:justify-between xl:items-center"
   >
     <div class="flex items-center justify-between focus:outline-none mr-2">
       <router-link :to="{ name: 'home' }">
@@ -10,8 +10,8 @@
           alt="logo"
         />
       </router-link>
-      <!-- Mobile menu button -->
-      <div @click="showMenu = !showMenu" class="flex md:hidden">
+      <!-- Mobile & Tablet menu button -->
+      <div @click="showMenu = !showMenu" class="flex xl:hidden">
         <button
           :class="{ opened: showMenu }"
           type="button"
@@ -19,7 +19,7 @@
         >
           <svg
             viewBox="0 0 100 100"
-            class="h-8 w-8 cursor-pointer md:hidden block"
+            class="h-8 w-8 cursor-pointer xl:hidden block"
           >
             <path
               class="line line1"
@@ -35,10 +35,10 @@
         </button>
       </div>
     </div>
-    <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+    <!-- Mobile & Tablet Menu open: "block", Menu closed: "hidden" -->
     <ul
       :class="showMenu ? 'flex' : 'hidden'"
-      class="flex-col mt-8 gap-y-3 items-center text-center md:flex md:gap-y-0 md:flex-row md:gap-x-4 lg:gap-x-4 xl:gap-x-6 md:mt-0 cursor-pointer"
+      class="flex-col mt-8 gap-y-3 items-center text-center xl:flex xl:gap-y-0 xl:flex-row xl:gap-x-4 lg:gap-x-4 xl:gap-x-6 xl:mt-0 cursor-pointer"
     >
       <li
         @click="showMenu = !showMenu"
@@ -88,7 +88,7 @@
       <li>
         <div
           @click="changeLanguage"
-          class="flex flex-row items-center place-content-center mt-2 ml-0 md:ml-1 md:mt-0 lg:ml-6 xl:ml-10 focus:outline-none"
+          class="flex flex-row items-center place-content-center mt-2 ml-0 xl:ml-1 xl:mt-0 lg:ml-6 xl:ml-10 focus:outline-none"
         >
           <img
             class="w-6 h-6 mr-1 focus:outline-none"
@@ -96,7 +96,7 @@
             :alt="flagAltText"
           />
           <a
-            class="md:py-2 py-3 text-sm lg:text-base hover:text-red-600 focus:outline-none font-bold text-gray-600"
+            class="xl:py-2 py-3 text-sm lg:text-base hover:text-red-600 focus:outline-none font-bold text-gray-600"
             href="#"
             >{{ language }}</a
           >
